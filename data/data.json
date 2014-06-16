@@ -13,8 +13,8 @@
   ],
   "gravatar": "caaaf05cd3770dd82548cf3ada462bf9",
   "members": [
-    {name: "endangeredmassa", gravatar:"DGJWEIFQIEJWEF"}
-    {name: "trek", gravatar:"DGJWEIFQIEJWEF"}
+    {"name": "endangeredmassa", "gravatar":"DGJWEIFQIEJWEF"}
+    {"name": "trek", "gravatar":"DGJWEIFQIEJWEF"}
   ],
   "name": "Groupon",
   "repositories": [
@@ -25,7 +25,7 @@
     },
     {
       "count": 355,
-      "repo": "groupon/testium"
+      "repo": "groupon/testium",
       "activeUsers": ["trek", "endangeredmassa"]
     }
   ],
