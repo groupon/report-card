@@ -1,27 +1,28 @@
 var fs = require('fs');
+var _ = require('underscore');
 var github = require('octonode');
 var client = github.client();
 var org = client.org('groupon');
 
-function writeUsers(err, members) {
-    var data = [];
+var writeUsers = function(error, members) {
+  var data = [];
 
-    if (err) {
-	console.log("Error: " + err);
-	return;
+  if (error) {
+    console.log("Error: " + error);
+    return;
+  }
+
+  _.each(members, function(member) {
+    data.push(member["login"]);
+  });
+
+  fs.writeFile(__dirname + "/../data/users.json", JSON.stringify(data, null, 2), function(error) {
+    if (error) {
+      console.log("Error writing users: " + err);
+    } else {
+      console.log("Saved users to users.json");
     }
-
-    for (var i = 0; i < members.length; i++) {
-	data.push(members[i]["login"]);
-    }
-
-    fs.writeFile("users.json", JSON.stringify(data, null, 2), function(err) {
-	if (err) {
-	    console.log("Error writing users: " + err);
-	} else {
-	    console.log("Saved users to users.json");
-	}
-    });
+  });
 }
 
 org.members(writeUsers);
