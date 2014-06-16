@@ -2,46 +2,72 @@
   "connected_users": [
     {
       "name": "Charlike Mike Reagent",
-      "username": "tunnckocore",
-      "who": ["trek", "endangeredmassa"]
+      "username": "tunnckocore"
     },
     {
       "name": "Michael Ficarra",
-      "username": "michaelficarra",
-      "who": ["trek", "endangeredmassa"]
+      "username": "michaelficarra"
+    },
+    {
+      "name": "jwerle",
+      "username": "jwerle"
+    },
+    {
+      "name": "\u9898\u53f6",
+      "username": "jiyinyiyong"
+    },
+    {
+      "name": "jacobgroundwater",
+      "username": "jacobgroundwater"
     }
   ],
-  "avatarUrl": "https://avatars.githubusercontent.com/u/206233",
-  "members": [
-    {"name": "endangeredmassa", "gravatar":"DGJWEIFQIEJWEF"}
-    {"name": "trek", "gravatar":"DGJWEIFQIEJWEF"}
-  ],
-  "name": "Groupon",
+  "gravatar": "caaaf05cd3770dd82548cf3ada462bf9",
+  "name": "Trek",
   "repositories": [
     {
       "count": 383,
-      "repo": "EndangeredMassa/endangeredmassa.github.com",
-      "activeUsers": ["trek", "endangeredmassa"]
+      "repo": "EndangeredMassa/endangeredmassa.github.com"
     },
     {
       "count": 355,
-      "repo": "groupon/testium",
-      "activeUsers": ["trek", "endangeredmassa"]
+      "repo": "groupon/testium"
+    },
+    {
+      "count": 165,
+      "repo": "EndangeredMassa/bond"
+    },
+    {
+      "count": 141,
+      "repo": "EndangeredMassa/ccg-engine"
+    },
+    {
+      "count": 125,
+      "repo": "groupon-testium/testium"
     }
   ],
   "similar_users": [
     {
       "name": "jhchen",
-      "username": "jhchen",
-      "who": ["trek", "endangeredmassa"]
+      "username": "jhchen"
     },
     {
       "name": "philschatz",
-      "username": "philschatz",
-      "who": ["trek", "endangeredmassa"]
+      "username": "philschatz"
+    },
+    {
+      "name": "mikeumus",
+      "username": "mikeumus"
+    },
+    {
+      "name": "hoverbear",
+      "username": "hoverbear"
+    },
+    {
+      "name": "Jan Krems",
+      "username": "jkrems"
     }
   ],
-  "timezones": {"trek": -6, "endangeredmassa": -6},
+  "timezone": -6,
   "usage": {
     "day": [
       48,
@@ -270,12 +296,32 @@
       {
         "count": 837,
         "language": "CoffeeScript",
-        "top25percent": ["endangeredmassa"]
+        "quantile": 16
       },
       {
         "count": 464,
         "language": "JavaScript",
-        "top25percent": ["trek"]
+        "quantile": 34
+      },
+      {
+        "count": 390,
+        "language": "CSS",
+        "quantile": 9
+      },
+      {
+        "count": 103,
+        "language": "C++",
+        "quantile": 100
+      },
+      {
+        "count": 45,
+        "language": "Shell",
+        "quantile": 100
+      },
+      {
+        "count": 11,
+        "language": "Python",
+        "quantile": 100
       }
     ],
     "total": 1912,
@@ -289,5 +335,5 @@
       37
     ]
   },
-  "username": "groupon"
+  "username": "trek"
 }
