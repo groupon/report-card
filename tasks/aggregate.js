@@ -1,12 +1,12 @@
 var async = require('async');
 var fs = require('fs');
 
-var osrc = require('./osrc.js');
-var users = require('./users.js');
-var repositories = require('./repositories.js');
-var languages = require('./languages.js');
-var usage = require('./usage.js');
-var utils = require('./utils.js');
+var osrc = require('../lib/osrc.js');
+var users = require('../lib/users.js');
+var repositories = require('../lib/repositories.js');
+var languages = require('../lib/languages.js');
+var usage = require('../lib/usage.js');
+var utils = require('../lib/utils.js');
 
 var github = utils.read('data/users.json');
 var organization = github.org;
