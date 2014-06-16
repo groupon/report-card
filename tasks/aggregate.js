@@ -6,57 +6,22 @@ var request = require('request');
 var events = require('./events.js');
 var empty = require('./empty.js');
 var osrc = require('./osrc.js');
+var users = require('./users.js');
 
 var read = function(projectRelativePath){
   var fullPath = __dirname + '/../' + projectRelativePath;
   return JSON.parse(fs.readFileSync(fullPath).toString());
 };
 
-var users = read('data/users.json').users.map(function(user){return user.name;});
-
-var presentSimilarUsers = function(usersData){
-  var similarUsers = [];
-
-  _.each(usersData, function(userData){
-    _.each(userData.similar_users, function(similarUser){
-      var foundUser = _.find(similarUser, function(user){
-        return user.name == similarUser.name;
-      });
-
-      if (!foundUser) {
-        similarUsers.push(similarUser);
-      }
-
-      var targetUser = foundUser || similarUser;
-      targetUser.who = targetUser.who || [];
-      targetUser.who.push(userData.username);
-    });
-  });
-
-  return similarUsers;
+var addArrays = function(source, add){
+  for(var i=0; i<source.length; i++) {
+    source[i] += add[i] || 0;
+  }
 };
 
-var presentConnectedUsers = function(usersData){
-  var connected_users = [];
-
-  _.each(usersData, function(userData){
-    _.each(userData.connected_users, function(connectedUser){
-      var foundConnectedUser = _.find(connected_users, function(user){
-        return user.name == connectedUser.name;
-      });
-
-      if (!foundConnectedUser) {
-        connected_users.push(connectedUser);
-      }
-
-      var targetConnectedUser = foundConnectedUser || connectedUser;
-      targetConnectedUser.who = targetConnectedUser.who || [];
-      targetConnectedUser.who.push(userData.username);
-    });
-  });
-
-  return connected_users;
-};
+var members = read('data/users.json').users.map(function(user) {
+  return user.name;
+});
 
 var presentRepositories = function(usersData){
   var repositories = [];
@@ -83,11 +48,6 @@ var presentRepositories = function(usersData){
   return repositories;
 };
 
-var addArrays = function(source, add){
-  for(var i=0; i<source.length; i++) {
-    source[i] += add[i] || 0;
-  }
-};
 
 var presentLanguages = function(usersData){
   var languages = [];
@@ -165,8 +125,8 @@ var aggregate = function(usersData) {
     connected_users: []
   };
 
-  data.connected_users = presentConnectedUsers(usersData);
-  data.similar_users = presentSimilarUsers(usersData);
+  data.connected_users = users.connectedUsers(usersData);
+  data.similar_users = users.similarUsers(usersData);
   data.repositories = presentRepositories(usersData);
   data.usage = presentUsage(usersData);
 
@@ -181,7 +141,7 @@ var addOrgData = function(data){
   data.members = usersData.users;
 };
 
-async.map(users, osrc.fetch, function(error, results){
+async.map(members, osrc.fetch, function(error, results){
   if (error) {
     return console.log('Error when mapping OSRC: ' + error.stack);
   }
