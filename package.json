@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "handlebars": "^2.0.0-alpha.4",
-    "octonode": "~0.6.3"
+    "octonode": "~0.6.3",
+    "node-static": "~0.7.3"
   }
 }
