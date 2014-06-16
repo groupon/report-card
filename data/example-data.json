@@ -1,0 +1,293 @@
+{
+  "connected_users": [
+    {
+      "name": "Charlike Mike Reagent",
+      "username": "tunnckocore",
+      "who": ["trek", "endangeredmassa"]
+    },
+    {
+      "name": "Michael Ficarra",
+      "username": "michaelficarra",
+      "who": ["trek", "endangeredmassa"]
+    }
+  ],
+  "avatar_url": "https://avatars.githubusercontent.com/u/206233",
+  "members": [
+    {"name": "endangeredmassa", "avatar_url": "https://avatars.githubusercontent.com/u/41545"}
+    {"name": "trek", "avatar_url":"https://avatars.githubusercontent.com/u/9736"}
+  ],
+  "name": "Groupon",
+  "repositories": [
+    {
+      "count": 383,
+      "repo": "EndangeredMassa/endangeredmassa.github.com",
+      "activeUsers": ["trek", "endangeredmassa"]
+    },
+    {
+      "count": 355,
+      "repo": "groupon/testium",
+      "activeUsers": ["trek", "endangeredmassa"]
+    }
+  ],
+  "similar_users": [
+    {
+      "name": "jhchen",
+      "username": "jhchen",
+      "who": ["trek", "endangeredmassa"]
+    },
+    {
+      "name": "philschatz",
+      "username": "philschatz",
+      "who": ["trek", "endangeredmassa"]
+    }
+  ],
+  "timezones": {"trek": -6, "endangeredmassa": -6},
+  "usage": {
+    "day": [
+      48,
+      31,
+      24,
+      33,
+      22,
+      2,
+      0,
+      0,
+      16,
+      86,
+      114,
+      149,
+      176,
+      113,
+      161,
+      182,
+      144,
+      90,
+      48,
+      47,
+      90,
+      155,
+      118,
+      63
+    ],
+    "events": [
+      {
+        "day": [
+          21,
+          17,
+          14,
+          31,
+          16,
+          1,
+          0,
+          0,
+          5,
+          32,
+          42,
+          50,
+          79,
+          35,
+          51,
+          63,
+          57,
+          39,
+          34,
+          21,
+          38,
+          80,
+          71,
+          32
+        ],
+        "total": 829,
+        "type": "PushEvent",
+        "week": [
+          14,
+          119,
+          162,
+          220,
+          239,
+          55,
+          20
+        ]
+      },
+      {
+        "day": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 331,
+        "type": "IssueCommentEvent",
+        "week": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "day": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 257,
+        "type": "PullRequestEvent",
+        "week": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "day": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 191,
+        "type": "CreateEvent",
+        "week": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "day": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 109,
+        "type": "DeleteEvent",
+        "week": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "count": 837,
+        "language": "CoffeeScript",
+        "top25percent": ["endangeredmassa"]
+      },
+      {
+        "count": 464,
+        "language": "JavaScript",
+        "top25percent": ["trek"]
+      }
+    ],
+    "total": 1912,
+    "week": [
+      39,
+      368,
+      416,
+      405,
+      488,
+      159,
+      37
+    ]
+  },
+  "username": "groupon"
+}

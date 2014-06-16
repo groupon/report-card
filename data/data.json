@@ -73,5 +73,83 @@
   ],
   "name": "Groupon, Inc",
   "username": "groupon",
-  "avatar_url": "https://avatars.githubusercontent.com/u/206233?"
+  "avatar_url": "https://avatars.githubusercontent.com/u/206233?",
+  "members": [
+    {
+      "name": "abedra",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2090?"
+    },
+    {
+      "name": "abloom",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3655?"
+    },
+    {
+      "name": "andrewgho",
+      "avatar_url": "https://avatars.githubusercontent.com/u/799431?"
+    },
+    {
+      "name": "brianm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1291?"
+    },
+    {
+      "name": "dbushong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97162?"
+    },
+    {
+      "name": "dvanderb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/873665?"
+    },
+    {
+      "name": "EndangeredMassa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41545?"
+    },
+    {
+      "name": "erikdw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1111441?"
+    },
+    {
+      "name": "ivan3bx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/179345?"
+    },
+    {
+      "name": "jkrems",
+      "avatar_url": "https://avatars.githubusercontent.com/u/567540?"
+    },
+    {
+      "name": "johan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2459?"
+    },
+    {
+      "name": "koppenheim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3502780?"
+    },
+    {
+      "name": "mcculloughsean",
+      "avatar_url": "https://avatars.githubusercontent.com/u/249299?"
+    },
+    {
+      "name": "michaelphines",
+      "avatar_url": "https://avatars.githubusercontent.com/u/281513?"
+    },
+    {
+      "name": "richievos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2414?"
+    },
+    {
+      "name": "shinjikuwayama",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7468?"
+    },
+    {
+      "name": "suryagaddipati",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64078?"
+    },
+    {
+      "name": "trek",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9736?"
+    },
+    {
+      "name": "vvitayau",
+      "avatar_url": "https://avatars.githubusercontent.com/u/566629?"
+    }
+  ]
 }

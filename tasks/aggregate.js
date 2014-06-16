@@ -65,6 +65,7 @@ var addOrgData = function(data){
   data.name = usersData.org.name;
   data.username = usersData.org.username;
   data.avatar_url = usersData.org.avatar_url;
+  data.members = usersData.users;
 };
 
 async.map(users, getOsrc, function(error, results){

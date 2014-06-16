@@ -14,7 +14,11 @@ var getUsers = function(callback){
     var users = [];
 
     _.each(members, function(member) {
-      users.push(member["login"]);
+      var user = {
+        name: member.login,
+        avatar_url: member.avatar_url
+      };
+      users.push(user);
     });
 
     callback(null, users);
