@@ -71,6 +71,78 @@
       ]
     }
   ],
+  "repositories": [
+    {
+      "count": 940,
+      "repo": "emberjs/ember.js",
+      "activeUsers": [
+        "trek"
+      ]
+    },
+    {
+      "count": 544,
+      "repo": "trek/ember.js",
+      "activeUsers": [
+        "trek"
+      ]
+    },
+    {
+      "count": 482,
+      "repo": "emberjs/website",
+      "activeUsers": [
+        "trek"
+      ]
+    },
+    {
+      "count": 202,
+      "repo": "trek/grunt-neuter",
+      "activeUsers": [
+        "trek"
+      ]
+    },
+    {
+      "count": 144,
+      "repo": "trek/website",
+      "activeUsers": [
+        "trek"
+      ]
+    },
+    {
+      "count": 766,
+      "repo": "EndangeredMassa/endangeredmassa.github.com",
+      "activeUsers": [
+        "endangeredmassa"
+      ]
+    },
+    {
+      "count": 710,
+      "repo": "groupon/testium",
+      "activeUsers": [
+        "endangeredmassa"
+      ]
+    },
+    {
+      "count": 330,
+      "repo": "EndangeredMassa/bond",
+      "activeUsers": [
+        "endangeredmassa"
+      ]
+    },
+    {
+      "count": 282,
+      "repo": "EndangeredMassa/ccg-engine",
+      "activeUsers": [
+        "endangeredmassa"
+      ]
+    },
+    {
+      "count": 250,
+      "repo": "groupon-testium/testium",
+      "activeUsers": [
+        "endangeredmassa"
+      ]
+    }
+  ],
   "name": "Groupon, Inc",
   "username": "groupon",
   "avatar_url": "https://avatars.githubusercontent.com/u/206233?",

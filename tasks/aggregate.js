@@ -50,12 +50,37 @@ var presentConnectedUsers = function(usersData){
   return connected_users;
 };
 
+var presentRepositories = function(usersData){
+  var repositories = [];
+
+  _.each(usersData, function(userData){
+    _.each(userData.repositories, function(repo){
+      var foundRepo = _.find(repositories, function(currentRepo){
+        return currentRepo.repo == repo.repo;
+      });
+
+      if (!foundRepo) {
+        repositories.push(repo);
+      }
+
+      var targetRepo = foundRepo || repo;
+      targetRepo.count = targetRepo.count || 0;
+      targetRepo.count += repo.count;
+      targetRepo.activeUsers = targetRepo.activeUsers || [];
+      targetRepo.activeUsers.push(userData.username);
+    });
+  });
+
+  return repositories;
+};
+
 var aggregate = function(usersData) {
   var data = {
     connected_users: []
   };
 
   data.connected_users = presentConnectedUsers(usersData);
+  data.repositories = presentRepositories(usersData);
 
   return data;
 };
