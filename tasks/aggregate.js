@@ -7,6 +7,7 @@ var events = require('./events.js');
 var empty = require('./empty.js');
 var osrc = require('./osrc.js');
 var users = require('./users.js');
+var repositories = require('./repositories.js');
 
 var read = function(projectRelativePath){
   var fullPath = __dirname + '/../' + projectRelativePath;
@@ -22,32 +23,6 @@ var addArrays = function(source, add){
 var members = read('data/users.json').users.map(function(user) {
   return user.name;
 });
-
-var presentRepositories = function(usersData){
-  var repositories = [];
-
-  _.each(usersData, function(userData){
-    _.each(userData.repositories, function(repo){
-      var foundRepo = _.find(repositories, function(currentRepo){
-        return currentRepo.repo == repo.repo;
-      });
-
-      if (!foundRepo) {
-        repositories.push(repo);
-      } else {
-        foundRepo.count = foundRepo.count || 0;
-        foundRepo.count += repo.count;
-      }
-
-      var targetRepo = foundRepo || repo;
-      targetRepo.activeUsers = targetRepo.activeUsers || [];
-      targetRepo.activeUsers.push(userData.username);
-    });
-  });
-
-  return repositories;
-};
-
 
 var presentLanguages = function(usersData){
   var languages = [];
@@ -127,7 +102,7 @@ var aggregate = function(usersData) {
 
   data.connected_users = users.connectedUsers(usersData);
   data.similar_users = users.similarUsers(usersData);
-  data.repositories = presentRepositories(usersData);
+  data.repositories = repositories.all(usersData);
   data.usage = presentUsage(usersData);
 
   return data;
