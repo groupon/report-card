@@ -8,8 +8,7 @@ var read = function(projectRelativePath){
   return JSON.parse(fs.readFileSync(fullPath).toString());
 };
 
-// TODO
-var users = ['trek', 'endangeredmassa'];
+var users = read('data/users.json').users.map(function(user){return user.name;});
 
 var getOsrc = function(username, callback){
   request.get('http://osrc.dfm.io/'+username+'.json', function(error, response){
@@ -149,17 +148,39 @@ var presentUsage = function(usersData) {
     return [0,0,0,0,0,0,0];
   };
 
+  var eventNames = [
+    'CommitCommentEvent',
+    'CreateEvent',
+    'DeleteEvent',
+    'DeploymentEvent',
+    'DeploymentStatusEvent',
+    'DownloadEvent',
+    'FollowEvent',
+    'ForkEvent',
+    'ForkApplyEvent',
+    'GistEvent',
+    'GollumEvent',
+    'IssueCommentEvent',
+    'IssuesEvent',
+    'MemberEvent',
+    'PageBuildEvent',
+    'PublicEvent',
+    'PullRequestEvent',
+    'PullRequestReviewCommentEvent',
+    'PushEvent',
+    'ReleaseEvent',
+    'StatusEvent',
+    'TeamAddEvent',
+    'WatchEvent'
+  ]
+  var events = eventNames.map(function(eventName){
+    return {type: eventName, total:0, day:emptyDay(), week:emptyWeek()}
+  });
+
   var usage = {
     day: emptyDay(),
     week: emptyWeek(),
-    events: [
-      {type: "PushEvent", total:0, day:emptyDay(), week:emptyWeek()},
-      {type: "IssueCommentEvent", total:0, day:emptyDay(), week:emptyWeek()},
-      {type: "IssuesEvent", total:0, day:emptyDay(), week:emptyWeek()},
-      {type: "PullRequestEvent", total:0, day:emptyDay(), week:emptyWeek()},
-      {type: "CreateEvent", total:0, day:emptyDay(), week:emptyWeek()},
-      {type: "DeleteEvent", total:0, day:emptyDay(), week:emptyWeek()},
-    ],
+    events: events,
     languages: [],
     total: 0
   };
@@ -174,6 +195,10 @@ var presentUsage = function(usersData) {
       var foundEvent = _.find(usage.events, function(currentEvent){
         return currentEvent.type == event.type;
       });
+
+      if(!foundEvent) {
+        throw new Error('Could not find event: ' + event.type);
+      }
 
       foundEvent.total += event.total;
       addArrays(foundEvent.day, event.day)
