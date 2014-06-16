@@ -5,6 +5,7 @@ var request = require('request');
 
 var events = require('./events.js');
 var empty = require('./empty.js');
+var osrc = require('./osrc.js');
 
 var read = function(projectRelativePath){
   var fullPath = __dirname + '/../' + projectRelativePath;
@@ -12,23 +13,6 @@ var read = function(projectRelativePath){
 };
 
 var users = read('data/users.json').users.map(function(user){return user.name;});
-
-var getOsrc = function(username, callback){
-  request.get('http://osrc.dfm.io/'+username+'.json', function(error, response){
-    var body = null;
-
-    if (error) {
-      console.log('Error hitting osrc.dfm.io: ' + error.message);
-      console.log('Defaulting to local stub for ' + username);
-      body = read('data/stub/'+username+'.json');
-    } else {
-      body = response.body;
-    }
-
-    var json = JSON.parse(body);
-    callback(null, json);
-  });
-};
 
 var presentSimilarUsers = function(usersData){
   var similarUsers = [];
@@ -98,8 +82,6 @@ var presentRepositories = function(usersData){
 
   return repositories;
 };
-
-
 
 var addArrays = function(source, add){
   for(var i=0; i<source.length; i++) {
@@ -199,7 +181,7 @@ var addOrgData = function(data){
   data.members = usersData.users;
 };
 
-async.map(users, getOsrc, function(error, results){
+async.map(users, osrc.fetch, function(error, results){
   if (error) {
     return console.log('Error when mapping OSRC: ' + error.stack);
   }
