@@ -1,14 +1,29 @@
 var Handlebars = require('handlebars');
+var fs = require('fs');
 
-var template = "<h1>{{hello}}</h1>"; // fs.readSync(thetempalte)
+var template = fs.readFileSync(__dirname + '/../templates/index.hbs').toString();
 var render = Handlebars.compile(template);
 
-var data = {} // fs.readSync(some.json). Maybe manipulate it?
+Handlebars.registerHelper('languageToPerson', function(language, number) {
+  var languageToPersonMapping = {
+    'JavaScript': 'JavaScripter',
+    'CoffeeScript': 'CoffeeScripter',
+    'Ruby': 'Rubyist',
+    'Python': 'Pythonista'
+  }
+
+  person = languageToPersonMapping[language]
+  if(number > 1) {
+    person += 's';
+  }
+
+  return person;
+});
+
+var data = JSON.parse(fs.readFileSync(__dirname + '/../data/stub/example-data.json').toString());
+debugger;
+console.log(data.languages);
 var html = render(data);
 
-console.log(html); // fs.writeSync(filename, html).
-
-
-
-
+fs.writeFileSync(__dirname + '/../public/index.html', html);
 

@@ -3,39 +3,43 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Open Source Report Card | Groupon</title>
+    <title>Open Source Report Card | {{ name }}</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
     <div class="row">
       <div class="large-12 columns">
-        <h1>Open Source Report Card for Groupon</h1>
+        <h1>Open Source Report Card for {{ name }}</h1>
       </div>
     </div>
 
     <div class="row">
       <div class="large-1 columns">
-        <img alt=Groupon class="avatar js-avatar" data-user="206233" height="100" itemprop="image" src=https://avatars.githubusercontent.com/u/206233 width="100">
+        <img alt={{ name }} class="avatar js-avatar" data-user="206233" height="100" itemprop="image" src={{ avatar_url }} width="100">
       </div>
 
       <div class="large-11 columns">
-        <h2>Groupon</h2>
+        <h2>{{ name }}</h2>
       </div>
     </div>
 
     <div class="row">
       <div class="large-12 columns">
-        
+        {{languages}}
         WTF
-        
+        {{#each languages}}
+        <p>
+        {{../name}} has some serious {{languageToPerson language top25percent.length}} (one of the 7% most active JavaScript users). They spend a lot of time commenting on issues between pushes. {{ name }} employees are casual open source contributors who do a bunch in the morning and evening.
+        </p>
+        {{/each}}
 
         <p>
-          Although they don't currently work at Groupon, it looks like the following people would feel right at home: Alex Matchneer,  jdan, Robert Kowalski, joliss, and basarat.
+          Although they don't currently work at {{ name }}, it looks like the following people would feel right at home: Alex Matchneer,  jdan, Robert Kowalski, joliss, and basarat.
         </p>
 
         <p>
-          These days, Groupon engineers are most actively contributing to the following repositories: emberjs/ember.js, trek/ember.js, emberjs/website, trek/grunt-neuter, and trek/website.
+          These days, {{ name }} engineers are most actively contributing to the following repositories: emberjs/ember.js, trek/ember.js, emberjs/website, trek/grunt-neuter, and trek/website.
         </p>
       </div>
     </div>
@@ -44,7 +48,7 @@
       <div class="large-12 columns">
         <h3>Statistics</h3>
         <p>
-          We already know that Groupon engineers love commenting on issues whenever they're not pushing code but the following data sheds some light onto what they do with their open source time. In the full event stream analyzed for this report, there are a total of 1778 events recorded for Groupon, divided by type below:
+          We already know that {{ name }} engineers love commenting on issues whenever they're not pushing code but the following data sheds some light onto what they do with their open source time. In the full event stream analyzed for this report, there are a total of 1778 events recorded for {{ name }}, divided by type below:
         </p>
 
         <table>
@@ -77,7 +81,7 @@
 
         <h3>Languages</h3>
         <p>
-          Groupon engineers have contributed to repositories in 12 languages. In particular, they seems to be pretty serious JavaScript experts. The following chart shows the number of contributions Groupon engineers made to repositories mainly written in JavaScript, Ruby, CSS, Shell, and Clojure.
+          {{ name }} engineers have contributed to repositories in 12 languages. In particular, they seems to be pretty serious JavaScript experts. The following chart shows the number of contributions {{ name }} engineers made to repositories mainly written in JavaScript, Ruby, CSS, Shell, and Clojure.
         </p>
 
         <table>
