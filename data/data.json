@@ -71,6 +71,78 @@
       ]
     }
   ],
+  "similar_users": [
+    {
+      "name": "Alex Matchneer",
+      "username": "machty",
+      "who": [
+        "trek"
+      ]
+    },
+    {
+      "name": "jdan",
+      "username": "jdan",
+      "who": [
+        "trek"
+      ]
+    },
+    {
+      "name": "Robert Kowalski",
+      "username": "robertkowalski",
+      "who": [
+        "trek"
+      ]
+    },
+    {
+      "name": "joliss",
+      "username": "joliss",
+      "who": [
+        "trek"
+      ]
+    },
+    {
+      "name": "basarat",
+      "username": "basarat",
+      "who": [
+        "trek"
+      ]
+    },
+    {
+      "name": "jhchen",
+      "username": "jhchen",
+      "who": [
+        "endangeredmassa"
+      ]
+    },
+    {
+      "name": "philschatz",
+      "username": "philschatz",
+      "who": [
+        "endangeredmassa"
+      ]
+    },
+    {
+      "name": "mikeumus",
+      "username": "mikeumus",
+      "who": [
+        "endangeredmassa"
+      ]
+    },
+    {
+      "name": "hoverbear",
+      "username": "hoverbear",
+      "who": [
+        "endangeredmassa"
+      ]
+    },
+    {
+      "name": "Jan Krems",
+      "username": "jkrems",
+      "who": [
+        "endangeredmassa"
+      ]
+    }
+  ],
   "repositories": [
     {
       "count": 940,

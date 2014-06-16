@@ -28,6 +28,28 @@ var getOsrc = function(username, callback){
   });
 };
 
+var presentSimilarUsers = function(usersData){
+  var similarUsers = [];
+
+  _.each(usersData, function(userData){
+    _.each(userData.similar_users, function(similarUser){
+      var foundUser = _.find(similarUser, function(user){
+        return user.name == similarUser.name;
+      });
+
+      if (!foundUser) {
+        similarUsers.push(similarUser);
+      }
+
+      var targetUser = foundUser || similarUser;
+      targetUser.who = targetUser.who || [];
+      targetUser.who.push(userData.username);
+    });
+  });
+
+  return similarUsers;
+};
+
 var presentConnectedUsers = function(usersData){
   var connected_users = [];
 
@@ -80,6 +102,7 @@ var aggregate = function(usersData) {
   };
 
   data.connected_users = presentConnectedUsers(usersData);
+  data.similar_users = presentSimilarUsers(usersData);
   data.repositories = presentRepositories(usersData);
 
   return data;
