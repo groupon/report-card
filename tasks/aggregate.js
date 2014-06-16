@@ -54,7 +54,6 @@ async.map(users, getOsrc, function(error, results){
   }
 
   var aggregateData = aggregate(results);
-  console.log(JSON.stringify(aggregateData, null, 2));
-  // write it out
+  fs.writeFileSync(__dirname + '/../data/data.json', JSON.stringify(aggregateData, null, 2));
 });
 
