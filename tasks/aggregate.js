@@ -83,11 +83,12 @@ var presentRepositories = function(usersData){
 
       if (!foundRepo) {
         repositories.push(repo);
+      } else {
+        foundRepo.count = foundRepo.count || 0;
+        foundRepo.count += repo.count;
       }
 
       var targetRepo = foundRepo || repo;
-      targetRepo.count = targetRepo.count || 0;
-      targetRepo.count += repo.count;
       targetRepo.activeUsers = targetRepo.activeUsers || [];
       targetRepo.activeUsers.push(userData.username);
     });
@@ -102,6 +103,42 @@ var addArrays = function(source, add){
   for(var i=0; i<source.length; i++) {
     source[i] += add[i] || 0;
   }
+};
+
+var presentLanguages = function(usersData){
+  var languages = [];
+
+  _.each(usersData, function(userData){
+    var userLanguages = userData.usage.languages;
+
+    _.each(userLanguages, function(userLanguage){
+      if (userLanguage.quantile > 25) {
+        return;
+      }
+
+      var foundLanguage = _.find(languages, function(currentLanguage){
+        return currentLanguage.language == userLanguage.language;
+      });
+
+      if (!foundLanguage) {
+        foundLanguage = {
+          count: userLanguage.count,
+          language: userLanguage.language,
+          top25percent: []
+        }
+        languages.push(foundLanguage);
+      } else {
+        foundLanguage.count += userLanguage.count;
+      }
+
+      foundLanguage.top25percent.push({
+        username: userData.username,
+        percent: userLanguage.quantile
+      });
+    });
+  });
+
+  return languages;
 };
 
 var presentUsage = function(usersData) {
@@ -143,6 +180,8 @@ var presentUsage = function(usersData) {
       addArrays(foundEvent.week, event.week)
     });
   });
+
+  usage.languages = presentLanguages(usersData);
 
   return usage;
 };

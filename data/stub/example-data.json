@@ -41,7 +41,6 @@
       "who": ["trek", "endangeredmassa"]
     }
   ],
-  "timezones": {"trek": -6, "endangeredmassa": -6},
   "usage": {
     "day": [
       48,
@@ -270,12 +269,16 @@
       {
         "count": 837,
         "language": "CoffeeScript",
-        "top25percent": ["endangeredmassa"]
+        "top25percent": [
+          {"username": "endangeredmassa", "percent": 16}
+        ]
       },
       {
         "count": 464,
         "language": "JavaScript",
-        "top25percent": ["trek"]
+        "top25percent": [
+          {"username": "trek", "percent": 8}
+        ]
       }
     ],
     "total": 1912,
