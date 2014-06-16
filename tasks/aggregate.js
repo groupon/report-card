@@ -96,6 +96,57 @@ var presentRepositories = function(usersData){
   return repositories;
 };
 
+
+
+var addArrays = function(source, add){
+  for(var i=0; i<source.length; i++) {
+    source[i] += add[i] || 0;
+  }
+};
+
+var presentUsage = function(usersData) {
+  var emptyDay = function(){
+    return [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+  };
+  var emptyWeek = function(){
+    return [0,0,0,0,0,0,0];
+  };
+
+  var usage = {
+    day: emptyDay(),
+    week: emptyWeek(),
+    events: [
+      {type: "PushEvent", total:0, day:emptyDay(), week:emptyWeek()},
+      {type: "IssueCommentEvent", total:0, day:emptyDay(), week:emptyWeek()},
+      {type: "IssuesEvent", total:0, day:emptyDay(), week:emptyWeek()},
+      {type: "PullRequestEvent", total:0, day:emptyDay(), week:emptyWeek()},
+      {type: "CreateEvent", total:0, day:emptyDay(), week:emptyWeek()},
+      {type: "DeleteEvent", total:0, day:emptyDay(), week:emptyWeek()},
+    ],
+    languages: [],
+    total: 0
+  };
+
+  _.each(usersData, function(userData){
+    var userUsage = userData.usage;
+    usage.total += userUsage.total;
+    addArrays(usage.day, userUsage.day);
+    addArrays(usage.week, userUsage.week);
+
+    _.each(userData.usage.events, function(event){
+      var foundEvent = _.find(usage.events, function(currentEvent){
+        return currentEvent.type == event.type;
+      });
+
+      foundEvent.total += event.total;
+      addArrays(foundEvent.day, event.day)
+      addArrays(foundEvent.week, event.week)
+    });
+  });
+
+  return usage;
+};
+
 var aggregate = function(usersData) {
   var data = {
     connected_users: []
@@ -104,6 +155,7 @@ var aggregate = function(usersData) {
   data.connected_users = presentConnectedUsers(usersData);
   data.similar_users = presentSimilarUsers(usersData);
   data.repositories = presentRepositories(usersData);
+  data.usage = presentUsage(usersData);
 
   return data;
 };
