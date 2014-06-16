@@ -3,6 +3,9 @@ var fs = require('fs');
 var _ = require('underscore');
 var request = require('request');
 
+var events = require('./events.js');
+var empty = require('./empty.js');
+
 var read = function(projectRelativePath){
   var fullPath = __dirname + '/../' + projectRelativePath;
   return JSON.parse(fs.readFileSync(fullPath).toString());
@@ -141,45 +144,9 @@ var presentLanguages = function(usersData){
 };
 
 var presentUsage = function(usersData) {
-  var emptyDay = function(){
-    return [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
-  };
-  var emptyWeek = function(){
-    return [0,0,0,0,0,0,0];
-  };
-
-  var eventNames = [
-    'CommitCommentEvent',
-    'CreateEvent',
-    'DeleteEvent',
-    'DeploymentEvent',
-    'DeploymentStatusEvent',
-    'DownloadEvent',
-    'FollowEvent',
-    'ForkEvent',
-    'ForkApplyEvent',
-    'GistEvent',
-    'GollumEvent',
-    'IssueCommentEvent',
-    'IssuesEvent',
-    'MemberEvent',
-    'PageBuildEvent',
-    'PublicEvent',
-    'PullRequestEvent',
-    'PullRequestReviewCommentEvent',
-    'PushEvent',
-    'ReleaseEvent',
-    'StatusEvent',
-    'TeamAddEvent',
-    'WatchEvent'
-  ]
-  var events = eventNames.map(function(eventName){
-    return {type: eventName, total:0, day:emptyDay(), week:emptyWeek()}
-  });
-
   var usage = {
-    day: emptyDay(),
-    week: emptyWeek(),
+    day: empty.day(),
+    week: empty.week(),
     events: events,
     languages: [],
     total: 0
@@ -242,4 +209,3 @@ async.map(users, getOsrc, function(error, results){
   fs.writeFileSync(__dirname + '/../data/data.json', JSON.stringify(aggregateData, null, 2));
   console.log('Wrote data/data.json!');
 });
-
