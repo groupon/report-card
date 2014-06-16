@@ -10,3 +10,5 @@ require('http').createServer(function (request, response) {
         file.serve(request, response);
     }).resume();
 }).listen(8080);
+
+console.log('Started server on localhost:8080');

@@ -58,6 +58,3 @@ async.map(users, getOsrc, function(error, results){
   // write it out
 });
 
-
-
-
