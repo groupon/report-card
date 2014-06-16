@@ -26,20 +26,38 @@
 
     <div class="row">
       <div class="large-12 columns">
-        {{languages}}
-        WTF
-        {{#each languages}}
-        <p>
-        {{../name}} has some serious {{languageToPerson language top25percent.length}} (one of the 7% most active JavaScript users). They spend a lot of time commenting on issues between pushes. {{ name }} employees are casual open source contributors who do a bunch in the morning and evening.
-        </p>
+        {{#each usage.languages}}
+          <p>
+            {{../name}} has
+            {{inflectCountable top25percent.length}}
+            serious {{languageToPerson language top25percent.length}}
+            ({{top25percent.length}}
+            of the {{ceilingPercent top25percent}}% most active {{language}} users).
+          </p>
         {{/each}}
 
         <p>
-          Although they don't currently work at {{ name }}, it looks like the following people would feel right at home: Alex Matchneer,  jdan, Robert Kowalski, joliss, and basarat.
+          They spend a lot of time commenting on issues between pushes. {{ name }} employees are casual open source contributors who do a bunch in the morning and evening.
         </p>
 
         <p>
-          These days, {{ name }} engineers are most actively contributing to the following repositories: emberjs/ember.js, trek/ember.js, emberjs/website, trek/grunt-neuter, and trek/website.
+          {{name}} engineers often collaborate with people outside {{name}}, the most frequnent collaborators are:
+          {{#each connected_users}}
+            <a href="http://github.com/{{username}}">{{name}}</a>
+          {{/each}}
+        </p>
+        <p>
+          Although they don't currently work at {{ name }}, it looks like the following people would feel right at home there:
+          {{#each similar_users}}
+            <a href="http://github.com/{{username}}">{{name}}</a>
+          {{/each}}
+        </p>
+
+        <p>
+          These days, {{ name }} engineers are most actively contributing to the following {{repositories.length}} repositories:
+          {{#each repositories}}
+            <a href="http://github.com/{{repo}}">{{repo}}</a>
+          {{/each}}
         </p>
       </div>
     </div>
@@ -48,7 +66,7 @@
       <div class="large-12 columns">
         <h3>Statistics</h3>
         <p>
-          We already know that {{ name }} engineers love commenting on issues whenever they're not pushing code but the following data sheds some light onto what they do with their open source time. In the full event stream analyzed for this report, there are a total of 1778 events recorded for {{ name }}, divided by type below:
+          We already know that {{ name }} engineers love commenting on issues whenever they're not pushing code but the following data sheds some light onto what they do with their open source time. In the full event stream analyzed for this report, there are a total of {{sumEvents usage.events}} events recorded for {{ name }}, divided by type below:
         </p>
 
         <table>
@@ -56,26 +74,14 @@
             <tr><th>Activitiy</th><th>count</th></tr>
           </thead>
           <tbody>
-            <tr>
-              <td>Comments</td>
-              <td>1201</td>
-            </tr>
-            <tr>
-              <td>Pushes</td>
-              <td>8871</td>
-            </tr>
-            <tr>
-              <td>Pull Requests</td>
-              <td>6</td>
-            </tr>
-            <tr>
-              <td>New Repos</td>
-              <td>12</td>
-            </tr>
-            <tr>
-              <td>New Issues</td>
-              <td>981</td>
-            </tr>
+            {{#each usage.events}}
+              {{#if total}}
+                <tr>
+                  <td>{{eventTypeToName type}}</td>
+                  <td>{{total}}</td>
+                </tr>
+              {{/if}}
+            {{/each}}
           </tbody>
         </table>
 
