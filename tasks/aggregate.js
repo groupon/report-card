@@ -8,6 +8,7 @@ var empty = require('./empty.js');
 var osrc = require('./osrc.js');
 var users = require('./users.js');
 var repositories = require('./repositories.js');
+var languages = require('./languages.js');
 
 var read = function(projectRelativePath){
   var fullPath = __dirname + '/../' + projectRelativePath;
@@ -23,42 +24,6 @@ var addArrays = function(source, add){
 var members = read('data/users.json').users.map(function(user) {
   return user.name;
 });
-
-var presentLanguages = function(usersData){
-  var languages = [];
-
-  _.each(usersData, function(userData){
-    var userLanguages = userData.usage.languages;
-
-    _.each(userLanguages, function(userLanguage){
-      if (userLanguage.quantile > 25) {
-        return;
-      }
-
-      var foundLanguage = _.find(languages, function(currentLanguage){
-        return currentLanguage.language == userLanguage.language;
-      });
-
-      if (!foundLanguage) {
-        foundLanguage = {
-          count: userLanguage.count,
-          language: userLanguage.language,
-          top25percent: []
-        }
-        languages.push(foundLanguage);
-      } else {
-        foundLanguage.count += userLanguage.count;
-      }
-
-      foundLanguage.top25percent.push({
-        username: userData.username,
-        percent: userLanguage.quantile
-      });
-    });
-  });
-
-  return languages;
-};
 
 var presentUsage = function(usersData) {
   var usage = {
@@ -90,7 +55,7 @@ var presentUsage = function(usersData) {
     });
   });
 
-  usage.languages = presentLanguages(usersData);
+  usage.languages = languages.all(usersData);
 
   return usage;
 };
