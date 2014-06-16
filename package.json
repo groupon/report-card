@@ -9,5 +9,8 @@
   "repository": {
     "type": "git",
     "url": "git@github.groupondev.com:smassa/osrc-for-orgs.git"
+  },
+  "dependencies": {
+    "handlebars": "^2.0.0-alpha.4"
   }
 }
