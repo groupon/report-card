@@ -66,7 +66,7 @@
       <div class="large-12 columns">
         <h3>Statistics</h3>
         <p>
-          We already know that {{ name }} engineers love commenting on issues whenever they're not pushing code but the following data sheds some light onto what they do with their open source time. In the full event stream analyzed for this report, there are a total of {{sumEvents usage.events}} events recorded for {{ name }}, divided by type below:
+        We already know that {{ name }} engineers love {{secondTopActivity}} whenever they're not {{topActivity}} but the following data sheds some light onto what they do with their open source time. In the full event stream analyzed for this report, there are a total of {{sumEvents usage.events}} events recorded for {{ name }}, divided by type below:
         </p>
 
         <table>
@@ -87,7 +87,7 @@
 
         <h3>Languages</h3>
         <p>
-          {{ name }} engineers have contributed to repositories in 12 languages. In particular, they seems to be pretty serious JavaScript experts. The following chart shows the number of contributions {{ name }} engineers made to repositories mainly written in JavaScript, Ruby, CSS, Shell, and Clojure.
+        {{ name }} engineers have contributed to repositories in {{usage.languages.length}} languages. In particular, they seems to be pretty serious {{topLanguage}} experts. The following chart shows the number of contributions {{ name }} engineers made to repositories mainly written in JavaScript, Ruby, CSS, Shell, and Clojure.
         </p>
 
         <table>
@@ -95,26 +95,12 @@
             <tr><th>Language</th><th>count</th></tr>
           </thead>
           <tbody>
-            <tr>
-              <td>Ruby</td>
-              <td>1201</td>
-            </tr>
-            <tr>
-              <td>Clojure</td>
-              <td>8871</td>
-            </tr>
-            <tr>
-              <td>JavaScript</td>
-              <td>6</td>
-            </tr>
-            <tr>
-              <td>Shell</td>
-              <td>12</td>
-            </tr>
-            <tr>
-              <td>Brainfuck</td>
-              <td>981</td>
-            </tr>
+            {{#each usage.languages}}
+              <tr>
+                <td>{{language}}</td>
+                <td>{{count}}</td>
+              </tr>
+            {{/each}}
           </tbody>
         </table>
       </div>
