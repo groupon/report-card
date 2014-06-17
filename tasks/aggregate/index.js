@@ -11,8 +11,17 @@ var members = github.users.map(function(user) {
   return user.name;
 });
 
+var sift = function(mapping, keys){
+  return _.compact(
+    _.map(keys, function(key){
+      return mapping[key.toLowerCase()];
+  })).join(';');
+};
+
+var mapping = fs.read('data/user-map.json').githubToStackExchange;
+var stackUserIds = sift(mapping, members);
 var tasks = {
-  stackExchange: _.partial(pollStackExchange, members),
+  stackExchange: _.partial(pollStackExchange, stackUserIds),
   osrc: _.partial(pollOsrc, github, members)
 };
 
