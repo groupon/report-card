@@ -10,6 +10,7 @@ var organization = function() {
   } else {
     console.log('Pulling users from the ' + org + ' organization on Github.')
   }
+  return org;
 }
 
 var github = require('octonode');
