@@ -52,13 +52,8 @@ var getBadges = function(userIds, callback){
   });
 };
 
-var userIds = '106'; // can be semi-colon-delimited, up to 100 userIds
-
-getAnswers(userIds, function(error, answers){
-  console.log('Answers: ', answers);
-});
-
-getBadges(userIds, function(error, badges){
-  console.log('Badges: ', badges);
-});
+module.exports = {
+  getAnswers: getAnswers,
+  getBadges: getBadges
+};
 
