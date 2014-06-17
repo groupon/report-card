@@ -40,7 +40,9 @@ module.exports = {
       });
     });
 
-    usage.languages = languages.all(usersData);
+    var langaugeStatistics = languages.all(usersData);
+    usage.allLanguages = langaugeStatistics.allLanguages;
+    usage.topLanguages = langaugeStatistics.topLanguages
 
     return usage;
   }

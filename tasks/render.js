@@ -22,6 +22,9 @@ var EVENT_TYPE_TO_ACTION_PHRASE = {
   "WatchEvent": "watching repos"
 }
 
+Handlebars.registerHelper('top5Languages', function(languages){
+  return languages.slice(0,3).map(function(l){ return l.language}).join(", ") + ", and " + languages[4].language;
+});
 
 Handlebars.registerHelper('avatar', function(username, size){
   size = size || 30;
@@ -72,28 +75,27 @@ Handlebars.registerHelper('languageToPerson', function(language, number) {
 });
 
 var data = JSON.parse(fs.readFileSync(__dirname + '/../data/data.json').toString());
-data.usage.languages = data.usage.languages.sort(function(a, b) {
-  if (a.count > b.count)
-    return -1;
-  if (a.count < b.count)
-    return 1;
-  return 0;
-});
 
-data.usage.events = data.usage.events.sort(function(a, b) {
-  if (a.total > b.total)
-    return -1;
-  if (a.total < b.total)
-    return 1;
-  return 0;
-});
+function rsortBy(properyName){
+  return  function(a,b){
+    if (a[properyName] > b[properyName])
+      return -1;
+    if (a[properyName] < b[properyName])
+      return 1;
+    return 0;
+  }
+}
 
-data.topLanguage = data.usage.languages[0].language;
+data.usage.topLanguages = data.usage.topLanguages.sort(rsortBy('count'));
+data.usage.allLanguages = data.usage.allLanguages.sort(rsortBy('count'));
+data.usage.events = data.usage.events.sort(rsortBy('total'));
+
+data.topLanguage = data.usage.topLanguages[0].language;
 data.topActivity = EVENT_TYPE_TO_ACTION_PHRASE[data.usage.events[0].type];
 data.secondTopActivity = EVENT_TYPE_TO_ACTION_PHRASE[data.usage.events[1].type];
 
+debugger;
 var html = render(data);
-debugger
 
 // apply charts!
 var d3 = require('d3'),
@@ -103,15 +105,15 @@ jsdom.env({
   features: { QuerySelector : true },
   html: html,
   done : function(errors, window) {
-    var languages = data.usage.languages;
+    var languages = data.usage.allLanguages;
 
     var el = window.document.querySelector('#d3-language-diagram-outlet');
 
     var color = d3.scale.ordinal()
         .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
 
-    var width = 960,
-        height = 500,
+    var width = 500,
+        height = 300,
         radius = Math.min(width, height) / 2;
 
     var arc = d3.svg.arc()

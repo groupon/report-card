@@ -99,7 +99,7 @@
       ]
     },
     {
-      "name": "avivey",
+      "name": "Aviv Eyal",
       "username": "avivey",
       "who": [
         "erikdw"
@@ -617,7 +617,7 @@
       ]
     },
     {
-      "name": "Kumar Harsh",
+      "name": "kumarharsh",
       "username": "kumarharsh",
       "who": [
         "johan"
@@ -1905,11 +1905,433 @@
         ]
       }
     ],
-    "languages": [
+    "languages": [],
+    "total": 8283,
+    "allLanguages": [
       {
-        "count": 24,
         "language": "C",
-        "top25percent": [
+        "count": 45,
+        "who": [
+          {
+            "username": "abedra",
+            "percent": 15
+          },
+          {
+            "username": "erikdw",
+            "percent": 100
+          },
+          {
+            "username": "johan",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 100
+          },
+          {
+            "username": "trek",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "Ruby",
+        "count": 458,
+        "who": [
+          {
+            "username": "abedra",
+            "percent": 100
+          },
+          {
+            "username": "jkrems",
+            "percent": 100
+          },
+          {
+            "username": "johan",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 46
+          },
+          {
+            "username": "trek",
+            "percent": 81
+          }
+        ]
+      },
+      {
+        "language": "Emacs Lisp",
+        "count": 68,
+        "who": [
+          {
+            "username": "abedra",
+            "percent": 100
+          },
+          {
+            "username": "johan",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "CoffeeScript",
+        "count": 457,
+        "who": [
+          {
+            "username": "abloom",
+            "percent": 100
+          },
+          {
+            "username": "jkrems",
+            "percent": 74
+          },
+          {
+            "username": "johan",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 100
+          },
+          {
+            "username": "trek",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "JavaScript",
+        "count": 1855,
+        "who": [
+          {
+            "username": "abloom",
+            "percent": 100
+          },
+          {
+            "username": "jkrems",
+            "percent": 49
+          },
+          {
+            "username": "johan",
+            "percent": 91
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 100
+          },
+          {
+            "username": "trek",
+            "percent": 7
+          }
+        ]
+      },
+      {
+        "language": "VimL",
+        "count": 9,
+        "who": [
+          {
+            "username": "dbushong",
+            "percent": 100
+          },
+          {
+            "username": "johan",
+            "percent": 100
+          },
+          {
+            "username": "mcculloughsean",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 100
+          },
+          {
+            "username": "trek",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "Java",
+        "count": 219,
+        "who": [
+          {
+            "username": "dvanderb",
+            "percent": 100
+          },
+          {
+            "username": "jkrems",
+            "percent": 100
+          },
+          {
+            "username": "johan",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 75
+          },
+          {
+            "username": "vvitayau",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "LiveScript",
+        "count": 27,
+        "who": [
+          {
+            "username": "jkrems",
+            "percent": 100
+          },
+          {
+            "username": "trek",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "CSS",
+        "count": 87,
+        "who": [
+          {
+            "username": "jkrems",
+            "percent": 100
+          },
+          {
+            "username": "johan",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 100
+          },
+          {
+            "username": "trek",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "Python",
+        "count": 11,
+        "who": [
+          {
+            "username": "jkrems",
+            "percent": 100
+          },
+          {
+            "username": "johan",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 100
+          },
+          {
+            "username": "trek",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "Erlang",
+        "count": 3,
+        "who": [
+          {
+            "username": "jkrems",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "Swift",
+        "count": 2,
+        "who": [
+          {
+            "username": "jkrems",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "Go",
+        "count": 8,
+        "who": [
+          {
+            "username": "jkrems",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "Perl",
+        "count": 1,
+        "who": [
+          {
+            "username": "jkrems",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "OCaml",
+        "count": 1,
+        "who": [
+          {
+            "username": "jkrems",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "Lua",
+        "count": 1,
+        "who": [
+          {
+            "username": "jkrems",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "Haskell",
+        "count": 4,
+        "who": [
+          {
+            "username": "jkrems",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "C++",
+        "count": 10,
+        "who": [
+          {
+            "username": "jkrems",
+            "percent": 100
+          },
+          {
+            "username": "johan",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 100
+          },
+          {
+            "username": "trek",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "Shell",
+        "count": 41,
+        "who": [
+          {
+            "username": "johan",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 100
+          },
+          {
+            "username": "trek",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "C#",
+        "count": 2,
+        "who": [
+          {
+            "username": "johan",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "Objective-C",
+        "count": 3,
+        "who": [
+          {
+            "username": "johan",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 100
+          },
+          {
+            "username": "trek",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "Clojure",
+        "count": 4,
+        "who": [
+          {
+            "username": "johan",
+            "percent": 100
+          },
+          {
+            "username": "trek",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "PHP",
+        "count": 2,
+        "who": [
+          {
+            "username": "suryagaddipati",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "Scala",
+        "count": 1,
+        "who": [
+          {
+            "username": "suryagaddipati",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "Groovy",
+        "count": 1,
+        "who": [
+          {
+            "username": "suryagaddipati",
+            "percent": 100
+          }
+        ]
+      }
+    ],
+    "topLanguages": [
+      {
+        "language": "C",
+        "count": 24,
+        "who": [
           {
             "username": "abedra",
             "percent": 15
@@ -1917,17 +2339,16 @@
         ]
       },
       {
-        "count": 1361,
         "language": "JavaScript",
-        "top25percent": [
+        "count": 1361,
+        "who": [
           {
             "username": "trek",
             "percent": 7
           }
         ]
       }
-    ],
-    "total": 8283
+    ]
   },
   "name": "Groupon",
   "username": "groupon",

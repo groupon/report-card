@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Open Source Report Card | {{ name }}</title>
+    <title>Community | {{ name }}</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
     <div class="row">
       <div class="large-12 columns">
-        <h1>Open Source Report Card for {{ name }}</h1>
+        <h1>Community Report Card for {{ name }}</h1>
       </div>
     </div>
 
@@ -26,23 +26,20 @@
 
     <div class="row">
       <div class="large-12 columns">
-        {{#each usage.languages}}
+        {{#each usage.topLanguages}}
           <p>
             {{../name}} has
-            {{inflectCountable top25percent.length}}
-            serious {{languageToPerson language top25percent.length}}
-            ({{top25percent.length}}
-            of the {{ceilingPercent top25percent}}% most active {{language}} users:
-            {{#each top25percent}}
-              <a href="http://osrc.dfm.io/{{username}}">{{username}}</a>
-            {{/each}}
-            ).
+            {{inflectCountable length}}
+            serious {{languageToPerson language length}}
+            ({{who.length}}
+            of the {{ceilingPercent who}}% most active {{language}} users:
+            {{#each who}}<a href="http://osrc.dfm.io/{{username}}">{{username}}</a>{{/each}}).
           </p>
         {{/each}}
 
         <p>
-          They spend a lot of time commenting on issues between pushes.
-          {{ name }} employees are casual open source contributors who do a bunch in the morning and evening.
+          They spend a lot of time {{topActivity}} and {{secondTopActivity}}.
+          {{ name }} employees are serious open source contributors who do a bunch in the morning and evening.
         </p>
 
         <p>
@@ -104,7 +101,7 @@
 
         <h3>Languages</h3>
         <p>
-        {{ name }} engineers have contributed to repositories in {{usage.languages.length}} languages. In particular, they seems to be pretty serious {{topLanguage}} experts. The following chart shows the number of contributions {{ name }} engineers made to repositories mainly written in JavaScript, Ruby, CSS, Shell, and Clojure.
+        {{ name }} engineers have contributed to repositories in {{usage.allLanguages.length}} languages. In particular, they seems to be pretty serious {{topLanguage}} experts. The following chart shows the number of contributions {{ name }} engineers made to repositories mainly written in {{top5Languages usage.allLanguages}}.
         </p>
 
         <div id="d3-language-diagram-outlet"></div>
