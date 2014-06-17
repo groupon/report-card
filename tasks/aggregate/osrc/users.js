@@ -6,7 +6,7 @@ module.exports = {
 
     _.each(usersData, function(userData){
       _.each(userData.similar_users, function(similarUser){
-        var foundUser = _.find(similarUser, function(user){
+        var foundUser = _.find(similarUsers, function(user){
           return user.name == similarUser.name;
         });
 

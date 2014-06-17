@@ -18,6 +18,9 @@
     "node-static": "~0.7.3",
     "octonode": "~0.6.3",
     "request": "^2.36.0",
-    "underscore": "^1.6.0"
+    "underscore": "^1.6.0",
+    "mocha": "~1.20.1",
+    "jsdom": "~0.11.0",
+    "d3": "~3.4.8"
   }
 }

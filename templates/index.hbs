@@ -16,7 +16,7 @@
 
     <div class="row">
       <div class="large-1 columns">
-        <img alt={{ name }} class="avatar js-avatar" data-user="206233" height="100" itemprop="image" src={{ avatar_url }} width="100">
+        <img alt={{ name }} class="avatar js-avatar" height="100" width="100" src="{{avatar name 100}}">
       </div>
 
       <div class="large-11 columns">
@@ -32,25 +32,42 @@
             {{inflectCountable top25percent.length}}
             serious {{languageToPerson language top25percent.length}}
             ({{top25percent.length}}
-            of the {{ceilingPercent top25percent}}% most active {{language}} users).
+            of the {{ceilingPercent top25percent}}% most active {{language}} users:
+            {{#each top25percent}}
+              <a href="http://osrc.dfm.io/{{username}}">{{username}}</a>
+            {{/each}}
+            ).
           </p>
         {{/each}}
 
         <p>
-          They spend a lot of time commenting on issues between pushes. {{ name }} employees are casual open source contributors who do a bunch in the morning and evening.
+          They spend a lot of time commenting on issues between pushes.
+          {{ name }} employees are casual open source contributors who do a bunch in the morning and evening.
         </p>
 
         <p>
           {{name}} engineers often collaborate with people outside {{name}}, the most frequnent collaborators are:
-          {{#each connected_users}}
-            <a href="http://github.com/{{username}}">{{name}}</a>
-          {{/each}}
+          <div>
+            {{#each connected_users}}
+              <span data-tooltip class="has-tip tip-top" title="{{username}}">
+                <a href="http://github.com/{{username}}">
+                  <img src="{{avatar username 45}}" height="45" width="45">
+                </a>
+              </span>
+            {{/each}}
+         </div>
         </p>
         <p>
           Although they don't currently work at {{ name }}, it looks like the following people would feel right at home there:
-          {{#each similar_users}}
-            <a href="http://github.com/{{username}}">{{name}}</a>
-          {{/each}}
+          <div>
+            {{#each similar_users}}
+              <span data-tooltip class="has-tip tip-top" title="{{username}}">
+                <a href="http://github.com/{{username}}">
+                  <img src="{{avatar username 45}}" height="45" width="45">
+                </a>
+              </span>
+            {{/each}}
+          </div>
         </p>
 
         <p>
@@ -90,20 +107,14 @@
         {{ name }} engineers have contributed to repositories in {{usage.languages.length}} languages. In particular, they seems to be pretty serious {{topLanguage}} experts. The following chart shows the number of contributions {{ name }} engineers made to repositories mainly written in JavaScript, Ruby, CSS, Shell, and Clojure.
         </p>
 
-        <table>
-          <thead>
-            <tr><th>Language</th><th>count</th></tr>
-          </thead>
-          <tbody>
-            {{#each usage.languages}}
-              <tr>
-                <td>{{language}}</td>
-                <td>{{count}}</td>
-              </tr>
-            {{/each}}
-          </tbody>
-        </table>
+        <div id="d3-language-diagram-outlet"></div>
       </div>
     </div>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation/foundation.js"></script>
+    <script src="js/foundation/foundation.tooltip.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
   </body>
 </html>
