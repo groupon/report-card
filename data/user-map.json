@@ -1,6 +1,213 @@
 {
-  "githubToStackExchange": {
-    "endangeredmassa": "106",
-    "trek": "1584375"
+  "mapping": {
+    "endangeredmassa": {
+      "groupon": "smassa",
+      "stackexchange": "106",
+      "lanyrd": "endangeredmassa",
+      "speakerdeck": ""
+    },
+    "tundal45": {
+      "groupon": "ashish",
+      "stackexchange": "59968",
+      "lanyrd": "tundal45",
+      "speakerdeck": "tundal45"
+    },
+    "trek": {
+      "groupon": "trek",
+      "stackexchange": "1584375",
+      "lanyrd": "trek",
+      "speakerdeck": "trek"
+    },
+    "banterability": {
+      "groupon": "jlong",
+      "stackexchange": "5319",
+      "lanyrd": "banterability",
+      "speakerdeck": "banterability"
+    },
+    "tsmacdonald": {
+      "groupon": "tmacdonald",
+      "stackexchange": "220529"
+    },
+    "chrisjpowers": {
+      "groupon": "cpowers",
+      "stackexchange": "",
+      "lanyrd": "",
+      "speakerdeck": "chrisjpowers"
+    },
+    "thestevemitchell": {
+      "groupon": "smitchell",
+      "stackexchange": "1486754"
+    },
+    "dlangdon": {
+      "groupon": "dlangdon",
+      "stackexchange": "1766382"
+    },
+    "artman": {
+      "groupon": "tuomas",
+      "stackexchange": "454972"
+    },
+    "carlos": {
+      "groupon": "carlos",
+      "stackexchange": "395925"
+    },
+    "undefined": {
+      "groupon": ""
+    },
+    "satanas": {
+      "groupon": "wilalvarez",
+      "stackexchange": "1172219"
+    },
+    "dennyabraham": {
+      "groupon": "denny",
+      "stackexchange": "77970",
+      "lanyrd": "dennyabraham",
+      "speakerdeck": "dennyabraham"
+    },
+    "shivanathd": {
+      "groupon": "sdevinarayanan",
+      "stackexchange": "582605"
+    },
+    "deivinsontejeda": {
+      "groupon": "deivinsontejeda",
+      "stackexchange": "deivinsontejeda"
+    },
+    "scottrogers": {
+      "groupon": "srogers"
+    },
+    "jpodlech": {
+      "groupon": "jpodlech"
+    },
+    "renatomoya": {
+      "groupon": "renatomoya",
+      "stackexchange": "renatomoya"
+    },
+    "aotarola": {
+      "groupon": "aotarola"
+    },
+    "rmatusiewicz": {
+      "groupon": "rmatusiewicz"
+    },
+    "delpho": {
+      "groupon": "jarayacerda",
+      "stackexchange": "2656934"
+    },
+    "rafaelperez": {
+      "groupon": "rafael.perez"
+    },
+    "abloom": {
+      "groupon": "abloom"
+    },
+    "gfredericks": {
+      "groupon": "garyf"
+    },
+    "antonbas": {
+      "groupon": "abastardosalas",
+      "stackexchange": "antonbas"
+    },
+    "trevorsheridan": {
+      "groupon": "tsheridan",
+      "stackexchange": "3386107"
+    },
+    "daniel-beard": {
+      "groupon": "dbeard",
+      "stackexchange": "1144632"
+    },
+    "ehyche": {
+      "groupon": "ehyche"
+    },
+    "dustyburwell": {
+      "groupon": "dburwell",
+      "stackexchange": "77040",
+      "lanyrd": "dustyburwell",
+      "speakerdeck": "dustyburwell"
+    },
+    "iaman": {
+      "groupon": "iodea",
+      "stackexchange": "",
+      "lanyrd": "",
+      "speakerdeck": "iaman"
+    },
+    "gmassanek": {
+      "groupon": "geoff"
+    },
+    "avivey": {
+      "groupon": "aeyal",
+      "stackexchange": "2253659"
+    },
+    "rykann": {
+      "groupon": "ryank"
+    },
+    "pbergstr": {
+      "groupon": "pbergstrom",
+      "stackexchange": "2065787"
+    },
+    "twebb": {
+      "groupon": "twebb",
+      "stackexchange": "",
+      "lanyrd": "twebb"
+    },
+    "jcfrancisco": {
+      "groupon": "carlo"
+    },
+    "hobodave": {
+      "groupon": "davida",
+      "stackexchange": "105662"
+    },
+    "williamsmatt": {
+      "groupon": "mawilliams",
+      "stackexchange": "1493113"
+    },
+    "jonhoman": {
+      "groupon": "jhoman"
+    },
+    "docondev": {
+      "groupon": "doc",
+      "stackexchange": "1406332",
+      "lanyrd": "docondev",
+      "speakerdeck": "docondev"
+    },
+    "swhitear": {
+      "groupon": "swhitear"
+    },
+    "deanmarano": {
+      "groupon": "dmarano",
+      "stackexchange": "1427403"
+    },
+    "yonpols": {
+      "groupon": "jmarzetti"
+    },
+    "dbushong": {
+      "groupon": "dbushong"
+    },
+    "bkochendorfer": {
+      "groupon": "brettk"
+    },
+    "miccrun": {
+      "groupon": "qzhang"
+    },
+    "hhua": {
+      "groupon": "ahua"
+    },
+    "christopher-gordon": {
+      "groupon": "chrisg"
+    },
+    "emmby": {
+      "groupon": "mburton",
+      "stackexchange": "82156"
+    },
+    "jesstelford": {
+      "groupon": "jtelford",
+      "stackexchange": "473961"
+    },
+    "partriv": {
+      "groupon": "atrivedi",
+      "stackexchange": "555306"
+    },
+    "mooremo": {
+      "groupon": "mmoore"
+    },
+    "ingoclaro": {
+      "groupon": "ingo"
+    }
   }
 }
