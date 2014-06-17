@@ -105,7 +105,27 @@ jsdom.env({
   features: { QuerySelector : true },
   html: html,
   done : function(errors, window) {
-    var languages = data.usage.allLanguages;
+    var languages = [],
+        other = {language: "Other", count: 0},
+        graphedPercent = 0,
+        languageTotal = data.usage.allLanguages.map(function(l){
+          return l.count;
+        }).reduce(function(previousValue, currentValue){
+          return previousValue + currentValue;
+        }, 0);
+
+    data.usage.allLanguages.forEach(function(language){
+      if (graphedPercent > 75.0) {
+        other.count+= language.count;
+      } else {
+        languages.push(language);
+      }
+
+      graphedPercent += (language.count / languageTotal * 100);
+
+    });
+
+    languages.push(other);
 
     var el = window.document.querySelector('#d3-language-diagram-outlet');
 
