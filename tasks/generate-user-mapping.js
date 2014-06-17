@@ -1,6 +1,7 @@
 var fs = require('fs');
 var argv = require('minimist')(process.argv.slice(2));
-var rawUserCsvPath = argv._[0];
+
+var rawUserCsvPath = argv._[0] || (__dirname + '/../data/stub/user-map-raw.csv');
 
 var csv = fs.readFileSync(rawUserCsvPath).toString();
 
@@ -29,5 +30,6 @@ var writePath = __dirname + '/../data/user-map.json'
 var writeData = {
   mapping: userMapping
 }
+console.log('Writing user mapping!');
 fs.writeFileSync(writePath, JSON.stringify(writeData, null, 2));
 

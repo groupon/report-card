@@ -4,7 +4,12 @@ var _ = require('underscore');
 var argv = require('minimist')(process.argv.slice(2));
 
 var organization = function() {
-  return argv["_"][0];
+  var org = argv["_"][0];
+  if(!org){
+    throw new Error("First arg must be an org name.")
+  } else {
+    console.log('Pulling users from the ' + org + ' organization on Github.')
+  }
 }
 
 var github = require('octonode');
@@ -58,6 +63,8 @@ var writeData = function(data){
 };
 
 async.parallel([getUsers, getInfo], function(error, results){
+  if(error) return console.error(error);
+
   var users = results[0];
   var info = results[1];
 
