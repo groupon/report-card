@@ -1,9 +1,15 @@
 var async = require('async');
 var fs = require('fs');
 var _ = require('underscore');
+var argv = require('minimist')(process.argv.slice(2));
+
+var organization = function() {
+  return argv["_"][0];
+}
+
 var github = require('octonode');
 var client = github.client();
-var org = client.org('groupon');
+var org = client.org(organization());
 
 var getUsers = function(callback){
   org.members(function(error, members) {
