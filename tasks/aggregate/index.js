@@ -1,14 +1,13 @@
 var async = require('async');
-var fs = require('fs');
 
-var osrc = require('../lib/osrc.js');
-var users = require('../lib/users.js');
-var repositories = require('../lib/repositories.js');
-var languages = require('../lib/languages.js');
-var usage = require('../lib/usage.js');
-var utils = require('../lib/utils.js');
+var osrc = require('./osrc.js');
+var users = require('./users.js');
+var repositories = require('./repositories.js');
+var languages = require('./languages.js');
+var usage = require('./usage.js');
+var fs = require('./fs-json.js');
 
-var github = utils.read('data/users.json');
+var github = fs.read('data/users.json');
 var organization = github.org;
 var members = github.users.map(function(user) {
   return user.name;
@@ -30,6 +29,6 @@ async.map(members, osrc.fetch, function(error, results) {
   data.avatar_url = organization.avatar_url;
   data.members = github.users;
 
-  fs.writeFileSync(__dirname + '/../data/data.json', JSON.stringify(data, null, 2));
+  fs.write('data/data.json', data);
   console.log('Wrote data/data.json!');
 });

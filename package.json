@@ -4,7 +4,7 @@
   "description": "## resources",
   "main": "index.js",
   "scripts": {
-    "start": "node tasks/users.js && node tasks/aggregate.js && node tasks/render.js && node server.js"
+    "start": "node tasks/github.js && node tasks/aggregate && node tasks/render.js && node server.js"
   },
   "repository": {
     "type": "git",
