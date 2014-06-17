@@ -170,9 +170,6 @@
       "lanyrd": "docondev",
       "speakerdeck": "docondev"
     },
-    "swhitear": {
-      "groupon": "swhitear"
-    },
     "deanmarano": {
       "groupon": "dmarano",
       "stackexchange": "1427403"
@@ -317,13 +314,16 @@
       "groupon": "preethi"
     },
     "matoikar": {
-      "groupon": "moikarinen",
-      "stackexchange": "",
-      "lanyrd": "",
-      "speakerdeck": ""
+      "groupon": "moikarinen"
     },
     "prerna": {
       "groupon": "prerna"
+    },
+    "p1nox": {
+      "groupon": "p1nox",
+      "stackexchange": "1053067",
+      "lanyrd": "",
+      "speakerdeck": ""
     }
   }
 }
