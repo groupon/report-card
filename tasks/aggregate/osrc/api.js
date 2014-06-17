@@ -1,5 +1,4 @@
 var request = require('request');
-var fs = require('./fs-json.js');
 
 module.exports = {
   fetch: function(username, callback) {
@@ -9,6 +8,7 @@ module.exports = {
       if (error) {
         console.log('Error hitting osrc.dfm.io: ' + error.message);
         console.log('Defaulting to local stub for ' + username);
+        var fs = require('../fs-json.js');
         body = fs.read('data/stub/'+username+'.json');
       } else {
         body = response.body;
