@@ -1,6 +1,12 @@
 {
-  "githubToStackExchange": {
-    "endangeredmassa": "106",
-    "trek": "1584375"
+  "mapping": {
+    "endangeredmassa": {
+      "stackexchange": "106",
+      "lanyrd": "endangeredmassa"
+    },
+    "trek": {
+      "stackexchange": "1584375",
+      "lanyrd": "trek"
+    }
   }
 }
