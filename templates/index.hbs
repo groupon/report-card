@@ -73,7 +73,7 @@
         <p>
           These days, {{ name }} engineers are most actively contributing to the following {{repositories.length}} repositories:
           {{#each repositories}}
-            <a href="http://github.com/{{repo}}">{{repo}}</a>
+            <div class="github-card" data-github={{repo}} data-width="400" data-height="50"></div>
           {{/each}}
         </p>
       </div>
@@ -113,6 +113,7 @@
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation/foundation.js"></script>
     <script src="js/foundation/foundation.tooltip.js"></script>
+    <script src="http://lab.lepture.com/github-cards/widget.js"></script>
     <script>
       $(document).foundation();
     </script>
