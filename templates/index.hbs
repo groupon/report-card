@@ -12,7 +12,7 @@
   <body>
     <div class="row">
       <div class="large-12 columns">
-        <h1>Community Report Card for {{ name }}</h1>
+        <h1>Community | {{ name }}</h1>
       </div>
     </div>
 
@@ -44,8 +44,10 @@
           {{ name }} employees are serious open source contributors who do a bunch in the morning and evening.
         </p>
 
+        <h4><span>Collaboration</span></h4>
         <p>
-          {{name}} engineers often collaborate with people outside {{name}}, the most frequnent collaborators are:
+          {{name}} engineers often collaborate with people outside {{name}},
+          the most frequent {{connected_users.length}} collaborators are:
           <div>
             {{#each connected_users}}
               <span data-tooltip class="has-tip tip-top" title="{{username}}">
@@ -56,8 +58,12 @@
             {{/each}}
          </div>
         </p>
+
+        <h4><span>Let's be friends</span></h4>
         <p>
-          Although they don't currently work at {{ name }}, it looks like the following people would feel right at home there:
+          Although they don't currently work at {{ name }},
+          it looks like the following {{similar_users.length}} people are very simlar to {{name}} engineers.
+          We think they'd feel right at home here:
           <div>
             {{#each similar_users}}
               <span data-tooltip class="has-tip tip-top" title="{{username}}">
@@ -80,7 +86,7 @@
 
     <div class="row">
       <div class="large-12 columns">
-        <h3>Statistics</h3>
+        <h4><span>By the numbers</span></h4>
         <p>
         We already know that {{ name }} engineers love {{secondTopActivity}} whenever they're not {{topActivity}} but the following data sheds some light onto what they do with their open source time. In the full event stream analyzed for this report, there are a total of {{sumEvents usage.events}} events recorded for {{ name }}, divided by type below:
         </p>
@@ -101,7 +107,7 @@
           </tbody>
         </table>
 
-        <h3>Languages</h3>
+        <h4><span>Languages</span></h4>
         <p>
         {{ name }} engineers have contributed to repositories in {{usage.allLanguages.length}} languages. In particular, they seems to be pretty serious {{topLanguage}} experts. The following chart shows the number of contributions {{ name }} engineers made to repositories mainly written in {{top5Languages usage.allLanguages}}.
         </p>
