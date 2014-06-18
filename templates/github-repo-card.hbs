@@ -1,20 +1,8 @@
-<div class="github-card repo-card">
-  <div class="header">
-    <a class="avatar" href="https://github.com/{{userOrTeam repo}}" target="_top">
-      <img src="https://avatars.githubusercontent.com/{{userOrTeam repo}}?size=30">
-    </a>
-    <strong class="name">
-      <a href="https://github.com/{{repo}}" target="_top">{{repo}}</a>
-    </strong>
-  </div>
-  <div class="footer">
-    <span>Groupon Committers: </spanp>
-    {{#each activeUsers}}
-      <span data-tooltip class="has-tip tip-top" title="{{this}}">
-        <a class="avatar" href="https://github.com/{{this}}" target="_top">
-          <img src={{avatar this 30}}>
-        </a>
-      </span>
-    {{/each}}
-  </div>
+<div class="github-card">
+  <a class="avatar" href="https://github.com/{{userOrTeam repo}}" target="_top">
+    <img src="https://avatars.githubusercontent.com/{{userOrTeam repo}}?size=30">
+  </a>
+  <strong class="name">
+    <a href="https://github.com/{{repo}}" target="_top">{{repo}}</a>
+  </strong>
 </div>

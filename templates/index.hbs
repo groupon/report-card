@@ -84,10 +84,13 @@
         <h4><span>Projects</span></h4>
         <p>
           These days, {{ name }} engineers are most actively contributing to the following {{repositories.length}} repositories:
+        </p>
+
+        <div class="repositories">
           {{#each repositories}}
             {{> github-repo-card}}
           {{/each}}
-        </p>
+        </div>
       </div>
     </div>
 
