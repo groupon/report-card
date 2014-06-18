@@ -339,36 +339,36 @@
       ]
     },
     {
-      "name": "Charlike Mike Reagent",
-      "username": "tunnckocore",
+      "name": "thiagoghisi",
+      "username": "thiagoghisi",
       "who": [
         "EndangeredMassa"
       ]
     },
     {
-      "name": "Michael Ficarra",
-      "username": "michaelficarra",
+      "name": "objectfoo",
+      "username": "objectfoo",
       "who": [
         "EndangeredMassa"
       ]
     },
     {
-      "name": "jwerle",
-      "username": "jwerle",
+      "name": "marka2g",
+      "username": "marka2g",
       "who": [
         "EndangeredMassa"
       ]
     },
     {
-      "name": "题叶",
-      "username": "jiyinyiyong",
+      "name": "manishchhabra",
+      "username": "manishchhabra",
       "who": [
         "EndangeredMassa"
       ]
     },
     {
-      "name": "jacobgroundwater",
-      "username": "jacobgroundwater",
+      "name": "lukelex",
+      "username": "lukelex",
       "who": [
         "EndangeredMassa"
       ]
@@ -898,6 +898,13 @@
       ]
     },
     {
+      "name": "lunixbochs",
+      "username": "lunixbochs",
+      "who": [
+        "abedra"
+      ]
+    },
+    {
       "name": "hustcalm",
       "username": "hustcalm",
       "who": [
@@ -905,57 +912,49 @@
       ]
     },
     {
-      "name": "elthariel",
-      "username": "elthariel",
-      "who": [
-        "abedra"
-      ]
-    },
-    {
-      "name": "skishore",
-      "username": "skishore",
+      "name": "edtoken",
+      "username": "edtoken",
       "who": [
         "abloom"
       ]
     },
     {
-      "name": "catageek",
-      "username": "catageek",
+      "name": "dsully360",
+      "username": "dsully360",
       "who": [
         "abloom"
       ]
     },
     {
-      "name": "mangochiman",
-      "username": "mangochiman",
+      "name": "tom32i",
+      "username": "tom32i",
       "who": [
         "abloom"
       ]
     },
     {
-      "name": "NovemberFoxtrot",
-      "username": "novemberfoxtrot",
+      "name": "Richard Mai",
+      "username": "hauran",
       "who": [
         "abloom"
       ]
     },
     {
-      "name": "bruceravel",
-      "username": "bruceravel",
+      "name": "Knight Fu",
+      "username": "evilwire",
       "who": [
         "abloom"
       ]
     },
     {
-      "name": "maass-sql",
-      "username": "maass-sql",
+      "name": "bcoulange",
+      "username": "bcoulange",
       "who": [
         "andrewgho",
         "aotarola",
         "betacar",
         "chrisjpowers",
         "daniel-beard",
-        "delpho",
         "DocOnDev",
         "felipebrahm",
         "hobodave",
@@ -968,21 +967,19 @@
         "richievos",
         "rykann",
         "shinjikuwayama",
-        "shivanathd",
         "tundal45",
         "williamsmatt"
       ]
     },
     {
-      "name": "mrqweex",
-      "username": "mrqweex",
+      "name": "leafsoar",
+      "username": "leafsoar",
       "who": [
         "andrewgho",
         "aotarola",
         "betacar",
         "chrisjpowers",
         "daniel-beard",
-        "delpho",
         "DocOnDev",
         "felipebrahm",
         "hobodave",
@@ -995,21 +992,19 @@
         "richievos",
         "rykann",
         "shinjikuwayama",
-        "shivanathd",
         "tundal45",
         "williamsmatt"
       ]
     },
     {
-      "name": "leonardvandriel",
-      "username": "leonardvandriel",
+      "name": "dieschwarzekobra",
+      "username": "dieschwarzekobra",
       "who": [
         "andrewgho",
         "aotarola",
         "betacar",
         "chrisjpowers",
         "daniel-beard",
-        "delpho",
         "DocOnDev",
         "felipebrahm",
         "hobodave",
@@ -1022,21 +1017,19 @@
         "richievos",
         "rykann",
         "shinjikuwayama",
-        "shivanathd",
         "tundal45",
         "williamsmatt"
       ]
     },
     {
-      "name": "Eugene Jen",
-      "username": "eugenejen",
+      "name": "supercocoa",
+      "username": "supercocoa",
       "who": [
         "andrewgho",
         "aotarola",
         "betacar",
         "chrisjpowers",
         "daniel-beard",
-        "delpho",
         "DocOnDev",
         "felipebrahm",
         "hobodave",
@@ -1049,21 +1042,19 @@
         "richievos",
         "rykann",
         "shinjikuwayama",
-        "shivanathd",
         "tundal45",
         "williamsmatt"
       ]
     },
     {
-      "name": "indianhalchal",
-      "username": "indianhalchal",
+      "name": "rpmuller",
+      "username": "rpmuller",
       "who": [
         "andrewgho",
         "aotarola",
         "betacar",
         "chrisjpowers",
         "daniel-beard",
-        "delpho",
         "DocOnDev",
         "felipebrahm",
         "hobodave",
@@ -1076,21 +1067,13 @@
         "richievos",
         "rykann",
         "shinjikuwayama",
-        "shivanathd",
         "tundal45",
         "williamsmatt"
       ]
     },
     {
-      "name": "jaseg",
-      "username": "jaseg",
-      "who": [
-        "avivey"
-      ]
-    },
-    {
-      "name": "neomonkeus",
-      "username": "neomonkeus",
+      "name": "charsyam",
+      "username": "charsyam",
       "who": [
         "avivey"
       ]
@@ -1103,22 +1086,50 @@
       ]
     },
     {
-      "name": "Maik Riechert",
-      "username": "neothemachine",
+      "name": "kostrzewa",
+      "username": "kostrzewa",
       "who": [
         "avivey"
       ]
     },
     {
-      "name": "charsyam",
-      "username": "charsyam",
+      "name": "kolypto",
+      "username": "kolypto",
       "who": [
         "avivey"
+      ]
+    },
+    {
+      "name": "Aaron Bedra",
+      "username": "abedra",
+      "who": [
+        "avivey"
+      ]
+    },
+    {
+      "name": "trabianmatt",
+      "username": "trabianmatt",
+      "who": [
+        "banterability"
+      ]
+    },
+    {
+      "name": "James Cox",
+      "username": "th3james",
+      "who": [
+        "banterability"
       ]
     },
     {
       "name": "hajoeichler",
       "username": "hajoeichler",
+      "who": [
+        "banterability"
+      ]
+    },
+    {
+      "name": "Michael Schmatz",
+      "username": "schmatz",
       "who": [
         "banterability"
       ]
@@ -1131,129 +1142,106 @@
       ]
     },
     {
-      "name": "robey",
-      "username": "robey",
-      "who": [
-        "banterability",
-        "jesstelford"
-      ]
-    },
-    {
-      "name": "doughamil",
-      "username": "doughamil",
-      "who": [
-        "banterability"
-      ]
-    },
-    {
-      "name": "benjie",
-      "username": "benjie",
-      "who": [
-        "banterability",
-        "jesstelford"
-      ]
-    },
-    {
-      "name": "Martin Ellis",
-      "username": "egelmex",
+      "name": "gioman",
+      "username": "gioman",
       "who": [
         "bkochendorfer"
       ]
     },
     {
-      "name": "Chen-Heng Chang",
-      "username": "kidwm",
+      "name": "edgurgel",
+      "username": "edgurgel",
       "who": [
         "bkochendorfer"
       ]
     },
     {
-      "name": "Matthew Knudsen",
-      "username": "mknudsen01",
+      "name": "vito-l",
+      "username": "vito-l",
       "who": [
         "bkochendorfer"
       ]
     },
     {
-      "name": "wkf",
-      "username": "wkf",
+      "name": "andreineculau",
+      "username": "andreineculau",
       "who": [
         "bkochendorfer"
       ]
     },
     {
-      "name": "drwhax",
-      "username": "drwhax",
+      "name": "motyar",
+      "username": "motyar",
       "who": [
         "bkochendorfer"
       ]
     },
     {
-      "name": "yfain",
-      "username": "yfain",
+      "name": "iocx",
+      "username": "iocx",
       "who": [
         "brianm"
       ]
     },
     {
-      "name": "meltingwax",
-      "username": "meltingwax",
+      "name": "mmcgahan",
+      "username": "mmcgahan",
       "who": [
         "brianm"
       ]
     },
     {
-      "name": "rvanlaar",
-      "username": "rvanlaar",
+      "name": "rimora",
+      "username": "rimora",
       "who": [
         "brianm"
       ]
     },
     {
-      "name": "austiniam",
-      "username": "austiniam",
+      "name": "ysulsky",
+      "username": "ysulsky",
       "who": [
         "brianm"
       ]
     },
     {
-      "name": "andybry",
-      "username": "andybry",
+      "name": "sanderblue",
+      "username": "sanderblue",
       "who": [
         "brianm"
       ]
     },
     {
-      "name": "mdb",
-      "username": "mdb",
+      "name": "bensmithett",
+      "username": "bensmithett",
       "who": [
         "carlthuringer"
       ]
     },
     {
-      "name": "csquared",
-      "username": "csquared",
+      "name": "jclem",
+      "username": "jclem",
       "who": [
         "carlthuringer"
       ]
     },
     {
-      "name": "rahult",
-      "username": "rahult",
+      "name": "daytonn",
+      "username": "daytonn",
       "who": [
         "carlthuringer"
       ]
     },
     {
-      "name": "summerspirit",
-      "username": "summerspirit",
+      "name": "hakobera",
+      "username": "hakobera",
       "who": [
         "carlthuringer"
       ]
     },
     {
-      "name": "rhannequin",
-      "username": "rhannequin",
+      "name": "michsch",
+      "username": "michsch",
       "who": [
         "carlthuringer"
       ]
@@ -1266,50 +1254,43 @@
       ]
     },
     {
-      "name": "zachelrath",
-      "username": "zachelrath",
+      "name": "Allen.Dou",
+      "username": "allendou",
       "who": [
         "dbushong"
       ]
     },
     {
-      "name": "yougukepp",
-      "username": "yougukepp",
+      "name": "computerlyrik",
+      "username": "computerlyrik",
       "who": [
         "dbushong"
       ]
     },
     {
-      "name": "Noam Gagliardi Rabinovich",
-      "username": "clusterfoo",
+      "name": "morpog",
+      "username": "morpog",
       "who": [
         "dbushong"
       ]
     },
     {
-      "name": "mustrumr",
-      "username": "mustrumr",
+      "name": "quietlyconfident",
+      "username": "quietlyconfident",
       "who": [
         "dbushong"
       ]
     },
     {
-      "name": "huin",
-      "username": "huin",
+      "name": "Alexander Simmerl",
+      "username": "xla",
       "who": [
         "deivinsontejeda"
       ]
     },
     {
-      "name": "wtangiit",
-      "username": "wtangiit",
-      "who": [
-        "deivinsontejeda"
-      ]
-    },
-    {
-      "name": "Brian Tomlinson",
-      "username": "darthlukan",
+      "name": "mattbittencourt",
+      "username": "mattbittencourt",
       "who": [
         "deivinsontejeda"
       ]
@@ -1322,14 +1303,56 @@
       ]
     },
     {
-      "name": "dlidstrom",
-      "username": "dlidstrom",
+      "name": "elidupuis",
+      "username": "elidupuis",
       "who": [
         "deivinsontejeda"
       ]
     },
     {
-      "name": "mooremo",
+      "name": "askmike",
+      "username": "askmike",
+      "who": [
+        "deivinsontejeda"
+      ]
+    },
+    {
+      "name": "Michael Raskin",
+      "username": "7c6f434c",
+      "who": [
+        "delpho"
+      ]
+    },
+    {
+      "name": "definitly",
+      "username": "definitly",
+      "who": [
+        "delpho"
+      ]
+    },
+    {
+      "name": "samsalisbury",
+      "username": "samsalisbury",
+      "who": [
+        "delpho"
+      ]
+    },
+    {
+      "name": "Rui Miguel P. Bernardo",
+      "username": "rbern",
+      "who": [
+        "delpho"
+      ]
+    },
+    {
+      "name": "veminovici",
+      "username": "veminovici",
+      "who": [
+        "delpho"
+      ]
+    },
+    {
+      "name": "Matthew Moore",
       "username": "mooremo",
       "who": [
         "dennyabraham"
@@ -1352,57 +1375,72 @@
       ]
     },
     {
-      "name": "steveh",
-      "username": "steveh",
+      "name": "rrichards",
+      "username": "rrichards",
+      "who": [
+        "dennyabraham",
+        "mooremo"
+      ]
+    },
+    {
+      "name": "blakejakopovic",
+      "username": "blakejakopovic",
       "who": [
         "dennyabraham"
       ]
     },
     {
-      "name": "heliostatic",
-      "username": "heliostatic",
-      "who": [
-        "dennyabraham"
-      ]
-    },
-    {
-      "name": "Lautaro",
-      "username": "lausuper",
+      "name": "rinde",
+      "username": "rinde",
       "who": [
         "dustyburwell"
       ]
     },
     {
-      "name": "stecd",
-      "username": "stecd",
+      "name": "thorst",
+      "username": "thorst",
       "who": [
         "dustyburwell"
       ]
     },
     {
-      "name": "pthedinger",
-      "username": "pthedinger",
+      "name": "warrenbuckley",
+      "username": "warrenbuckley",
       "who": [
         "dustyburwell"
       ]
     },
     {
-      "name": "blopker",
-      "username": "blopker",
+      "name": "jaybazuzi",
+      "username": "jaybazuzi",
       "who": [
         "dustyburwell"
       ]
     },
     {
-      "name": "1999",
-      "username": "1999",
+      "name": "marocco2",
+      "username": "marocco2",
       "who": [
         "dustyburwell"
+      ]
+    },
+    {
+      "name": "daniellemayne",
+      "username": "daniellemayne",
+      "who": [
+        "dvanderb"
       ]
     },
     {
       "name": "brianhks",
       "username": "brianhks",
+      "who": [
+        "dvanderb"
+      ]
+    },
+    {
+      "name": "clarky158",
+      "username": "clarky158",
       "who": [
         "dvanderb"
       ]
@@ -1415,197 +1453,183 @@
       ]
     },
     {
-      "name": "dmutti",
-      "username": "dmutti",
+      "name": "mkaring",
+      "username": "mkaring",
       "who": [
         "dvanderb"
       ]
     },
     {
-      "name": "airblader",
-      "username": "airblader",
-      "who": [
-        "dvanderb"
-      ]
-    },
-    {
-      "name": "Elbert Bautista",
-      "username": "elbertbautista",
-      "who": [
-        "dvanderb"
-      ]
-    },
-    {
-      "name": "gkiko",
-      "username": "gkiko",
+      "name": "rhsu",
+      "username": "rhsu",
       "who": [
         "emmby"
       ]
     },
     {
-      "name": "dadoonet",
-      "username": "dadoonet",
+      "name": "floralvikings",
+      "username": "floralvikings",
       "who": [
         "emmby"
       ]
     },
     {
-      "name": "lukaseder",
-      "username": "lukaseder",
+      "name": "bolinfest",
+      "username": "bolinfest",
       "who": [
         "emmby"
       ]
     },
     {
-      "name": "sirsengir",
-      "username": "sirsengir",
+      "name": "codjo-sandbox",
+      "username": "codjo-sandbox",
       "who": [
         "emmby"
       ]
     },
     {
-      "name": "markiewb",
-      "username": "markiewb",
+      "name": "Adrian Herzog",
+      "username": "adiherzog",
       "who": [
         "emmby"
       ]
     },
     {
-      "name": "boudewijn-tribler",
-      "username": "boudewijn-tribler",
+      "name": "schuhschuh",
+      "username": "schuhschuh",
       "who": [
         "EndangeredMassa"
       ]
     },
     {
-      "name": "browserswarm-sync",
-      "username": "browserswarm-sync",
+      "name": "weepy",
+      "username": "weepy",
       "who": [
         "EndangeredMassa"
       ]
     },
     {
-      "name": "fezzy102",
-      "username": "fezzy102",
+      "name": "kathi-fletcher",
+      "username": "kathi-fletcher",
       "who": [
         "EndangeredMassa"
       ]
     },
     {
-      "name": "omertron",
-      "username": "omertron",
+      "name": "thomasgohard",
+      "username": "thomasgohard",
       "who": [
         "EndangeredMassa"
       ]
     },
     {
-      "name": "aleshashvaika",
-      "username": "aleshashvaika",
+      "name": "PilzAdam",
+      "username": "pilzadam",
       "who": [
         "EndangeredMassa"
       ]
     },
     {
-      "name": "Kim",
-      "username": "pokoot",
+      "name": "Tuomo Venäläinen",
+      "username": "vendu",
       "who": [
         "erikdw"
       ]
     },
     {
-      "name": "Richard Mai",
-      "username": "hauran",
+      "name": "julianray",
+      "username": "julianray",
       "who": [
         "erikdw"
       ]
     },
     {
-      "name": "Tim Peters",
-      "username": "darksecond",
+      "name": "Ollie Hunt",
+      "username": "ollieh",
       "who": [
         "erikdw"
       ]
     },
     {
-      "name": "abeels",
-      "username": "abeels",
+      "name": "qinjx",
+      "username": "qinjx",
       "who": [
         "erikdw"
       ]
     },
     {
-      "name": "openafs",
-      "username": "openafs",
+      "name": "planetsumo",
+      "username": "planetsumo",
       "who": [
         "erikdw"
       ]
     },
     {
-      "name": "Yannick Scherer",
-      "username": "xsc",
+      "name": "fredericksgary",
+      "username": "fredericksgary",
       "who": [
         "gfredericks"
       ]
     },
     {
-      "name": "zenangst",
-      "username": "zenangst",
+      "name": "jcrossley3",
+      "username": "jcrossley3",
       "who": [
         "gfredericks"
       ]
     },
     {
-      "name": "ibourgeois",
-      "username": "ibourgeois",
+      "name": "alandipert",
+      "username": "alandipert",
       "who": [
         "gfredericks"
       ]
     },
     {
-      "name": "mike2718",
-      "username": "mike2718",
+      "name": "liquidz",
+      "username": "liquidz",
       "who": [
         "gfredericks"
       ]
     },
     {
-      "name": "Tiziano Müller",
-      "username": "dev-zero",
+      "name": "jakemcc",
+      "username": "jakemcc",
       "who": [
         "gfredericks"
       ]
     },
     {
-      "name": "andrewd18",
-      "username": "andrewd18",
+      "name": "sy4mil",
+      "username": "sy4mil",
       "who": [
         "gmassanek"
       ]
     },
     {
-      "name": "Dzikoysk",
-      "username": "dzikoysk",
+      "name": "rstoesser",
+      "username": "rstoesser",
       "who": [
         "gmassanek"
       ]
     },
     {
-      "name": "kareemalirahman",
-      "username": "kareemalirahman",
+      "name": "yilusu",
+      "username": "yilusu",
       "who": [
         "gmassanek"
       ]
     },
     {
-      "name": "flaviozantut",
-      "username": "flaviozantut",
+      "name": "tempire",
+      "username": "tempire",
       "who": [
         "gmassanek"
       ]
     },
     {
-      "name": "augus",
-      "username": "augus",
+      "name": "vtyulb",
+      "username": "vtyulb",
       "who": [
         "gmassanek"
       ]
@@ -1618,8 +1642,15 @@
       ]
     },
     {
-      "name": "arkokoley",
-      "username": "arkokoley",
+      "name": "leylakapi",
+      "username": "leylakapi",
+      "who": [
+        "hhua"
+      ]
+    },
+    {
+      "name": "h2non",
+      "username": "h2non",
       "who": [
         "hhua"
       ]
@@ -1632,31 +1663,10 @@
       ]
     },
     {
-      "name": "pascalduez",
-      "username": "pascalduez",
+      "name": "sorpaas",
+      "username": "sorpaas",
       "who": [
         "hhua"
-      ]
-    },
-    {
-      "name": "Mohnish Thallavajhula",
-      "username": "mohnish",
-      "who": [
-        "hhua"
-      ]
-    },
-    {
-      "name": "shoora",
-      "username": "shoora",
-      "who": [
-        "ingoclaro"
-      ]
-    },
-    {
-      "name": "tjrus",
-      "username": "tjrus",
-      "who": [
-        "ingoclaro"
       ]
     },
     {
@@ -1667,15 +1677,29 @@
       ]
     },
     {
-      "name": "thec0keman",
-      "username": "thec0keman",
+      "name": "Ian Hansen",
+      "username": "supershabam",
       "who": [
         "ingoclaro"
       ]
     },
     {
-      "name": "aadonskoy",
-      "username": "aadonskoy",
+      "name": "bcm",
+      "username": "bcm",
+      "who": [
+        "ingoclaro"
+      ]
+    },
+    {
+      "name": "ipv1337",
+      "username": "ipv1337",
+      "who": [
+        "ingoclaro"
+      ]
+    },
+    {
+      "name": "tanraya",
+      "username": "tanraya",
       "who": [
         "ingoclaro"
       ]
@@ -1688,50 +1712,64 @@
       ]
     },
     {
-      "name": "ladaewoo",
-      "username": "ladaewoo",
+      "name": "Peter O'Shaughnessy",
+      "username": "poshaughnessy",
       "who": [
         "jcfrancisco"
       ]
     },
     {
-      "name": "Brenton Gunning",
-      "username": "brentongunning",
+      "name": "davegall",
+      "username": "davegall",
       "who": [
         "jcfrancisco"
       ]
     },
     {
-      "name": "nelsonomuto",
-      "username": "nelsonomuto",
+      "name": "jlurgo",
+      "username": "jlurgo",
       "who": [
         "jcfrancisco"
       ]
     },
     {
-      "name": "dfahlander",
-      "username": "dfahlander",
+      "name": "benbaker",
+      "username": "benbaker",
       "who": [
         "jcfrancisco"
       ]
     },
     {
-      "name": "ngn",
-      "username": "ngn",
+      "name": "steida",
+      "username": "steida",
       "who": [
         "jesstelford"
       ]
     },
     {
-      "name": "abe33",
-      "username": "abe33",
+      "name": "benjie",
+      "username": "benjie",
       "who": [
         "jesstelford"
       ]
     },
     {
-      "name": "jr0cket",
-      "username": "jr0cket",
+      "name": "Yad Smood",
+      "username": "ysmood",
+      "who": [
+        "jesstelford"
+      ]
+    },
+    {
+      "name": "sweetpi",
+      "username": "sweetpi",
+      "who": [
+        "jesstelford"
+      ]
+    },
+    {
+      "name": "avvs",
+      "username": "avvs",
       "who": [
         "jesstelford"
       ]
@@ -1744,29 +1782,23 @@
       ]
     },
     {
-      "name": "Koutarou Chikuba",
-      "username": "mizchi",
+      "name": "Devon Govett",
+      "username": "devongovett",
+      "who": [
+        "jkrems",
+        "johan"
+      ]
+    },
+    {
+      "name": "Gavin Mogan",
+      "username": "halkeye",
       "who": [
         "jkrems"
       ]
     },
     {
-      "name": "Bryant Williams",
-      "username": "scien",
-      "who": [
-        "jkrems"
-      ]
-    },
-    {
-      "name": "fundon",
-      "username": "fundon",
-      "who": [
-        "jkrems"
-      ]
-    },
-    {
-      "name": "zekenie",
-      "username": "zekenie",
+      "name": "Ruben Vermeersch",
+      "username": "rubenv",
       "who": [
         "jkrems"
       ]
@@ -1775,91 +1807,70 @@
       "name": "kumarharsh",
       "username": "kumarharsh",
       "who": [
-        "johan"
+        "jkrems"
       ]
     },
     {
-      "name": "James Kyle",
-      "username": "thejameskyle",
+      "name": "swang",
+      "username": "swang",
       "who": [
         "johan"
       ]
     },
     {
-      "name": "gordonwritescode",
-      "username": "gordonwritescode",
+      "name": "Mike Skalnik",
+      "username": "skalnik",
       "who": [
         "johan"
       ]
     },
     {
-      "name": "Jonathan Park",
-      "username": "park9140",
+      "name": "Jan Krems",
+      "username": "jkrems",
       "who": [
         "johan"
       ]
     },
     {
-      "name": "slang800",
-      "username": "slang800",
+      "name": "zakkain",
+      "username": "zakkain",
       "who": [
         "johan"
       ]
     },
     {
-      "name": "edtsech",
-      "username": "edtsech",
+      "name": "Simon Brent",
+      "username": "simonbrent",
       "who": [
         "mcculloughsean"
       ]
     },
     {
-      "name": "kevinta893",
-      "username": "kevinta893",
+      "name": "terryma",
+      "username": "terryma",
       "who": [
         "mcculloughsean"
       ]
     },
     {
-      "name": "torbjorn",
-      "username": "torbjorn",
+      "name": "invsblduck",
+      "username": "invsblduck",
       "who": [
         "mcculloughsean"
       ]
     },
     {
-      "name": "acubillos",
-      "username": "acubillos",
+      "name": "kiltnar",
+      "username": "kiltnar",
       "who": [
         "mcculloughsean"
       ]
     },
     {
-      "name": "steffion",
-      "username": "steffion",
+      "name": "azink",
+      "username": "azink",
       "who": [
         "mcculloughsean"
-      ]
-    },
-    {
-      "name": "mathemathiko",
-      "username": "mathemathiko",
-      "who": [
-        "miccrun"
-      ]
-    },
-    {
-      "name": "orlof",
-      "username": "orlof",
-      "who": [
-        "miccrun"
-      ]
-    },
-    {
-      "name": "fbettag",
-      "username": "fbettag",
-      "who": [
-        "miccrun"
       ]
     },
     {
@@ -1870,50 +1881,57 @@
       ]
     },
     {
-      "name": "zeklandia",
-      "username": "zeklandia",
+      "name": "caiknife",
+      "username": "caiknife",
       "who": [
         "miccrun"
       ]
     },
     {
-      "name": "rrichards",
-      "username": "rrichards",
+      "name": "moritanosuke",
+      "username": "moritanosuke",
+      "who": [
+        "miccrun"
+      ]
+    },
+    {
+      "name": "markrivers",
+      "username": "markrivers",
+      "who": [
+        "miccrun"
+      ]
+    },
+    {
+      "name": "mikefullerton",
+      "username": "mikefullerton",
+      "who": [
+        "miccrun"
+      ]
+    },
+    {
+      "name": "johndagostino",
+      "username": "johndagostino",
       "who": [
         "mooremo"
       ]
     },
     {
-      "name": "stephenorr",
-      "username": "stephenorr",
+      "name": "igas",
+      "username": "igas",
       "who": [
         "mooremo"
       ]
     },
     {
-      "name": "govinda-fichtner",
-      "username": "govinda-fichtner",
-      "who": [
-        "mooremo"
-      ]
-    },
-    {
-      "name": "Daniel Hall",
-      "username": "smarthall",
+      "name": "sebdah",
+      "username": "sebdah",
       "who": [
         "satanas"
       ]
     },
     {
-      "name": "Matt Molyneaux",
-      "username": "moggers87",
-      "who": [
-        "satanas"
-      ]
-    },
-    {
-      "name": "crantila",
-      "username": "crantila",
+      "name": "Daniel Greenfeld",
+      "username": "pydanny",
       "who": [
         "satanas"
       ]
@@ -1933,6 +1951,13 @@
       ]
     },
     {
+      "name": "Paul Walsh",
+      "username": "pwalsh",
+      "who": [
+        "satanas"
+      ]
+    },
+    {
       "name": "micahwalter",
       "username": "micahwalter",
       "who": [
@@ -1940,22 +1965,8 @@
       ]
     },
     {
-      "name": "silas",
-      "username": "silas",
-      "who": [
-        "scottrogers"
-      ]
-    },
-    {
-      "name": "jsliang",
-      "username": "jsliang",
-      "who": [
-        "scottrogers"
-      ]
-    },
-    {
-      "name": "naoiwata",
-      "username": "naoiwata",
+      "name": "rishirajsinghjhelumi",
+      "username": "rishirajsinghjhelumi",
       "who": [
         "scottrogers"
       ]
@@ -1965,6 +1976,55 @@
       "username": "bjryan2",
       "who": [
         "scottrogers"
+      ]
+    },
+    {
+      "name": "thecristen",
+      "username": "thecristen",
+      "who": [
+        "scottrogers"
+      ]
+    },
+    {
+      "name": "kevincobain2000",
+      "username": "kevincobain2000",
+      "who": [
+        "scottrogers"
+      ]
+    },
+    {
+      "name": "colloquet",
+      "username": "colloquet",
+      "who": [
+        "shivanathd"
+      ]
+    },
+    {
+      "name": "Balancer",
+      "username": "balancer",
+      "who": [
+        "shivanathd"
+      ]
+    },
+    {
+      "name": "Đĵ ΝιΓΞΗΛψΚ",
+      "username": "dj-nitehawk",
+      "who": [
+        "shivanathd"
+      ]
+    },
+    {
+      "name": "adennie",
+      "username": "adennie",
+      "who": [
+        "shivanathd"
+      ]
+    },
+    {
+      "name": "kevinbongart",
+      "username": "kevinbongart",
+      "who": [
+        "shivanathd"
       ]
     },
     {
@@ -1982,6 +2042,13 @@
       ]
     },
     {
+      "name": "marvinyan",
+      "username": "marvinyan",
+      "who": [
+        "suryagaddipati"
+      ]
+    },
+    {
       "name": "raphaeljlps",
       "username": "raphaeljlps",
       "who": [
@@ -1989,50 +2056,43 @@
       ]
     },
     {
-      "name": "compwron",
-      "username": "compwron",
+      "name": "Justin Kim",
+      "username": "justinkim",
       "who": [
         "suryagaddipati"
       ]
     },
     {
-      "name": "pannous",
-      "username": "pannous",
-      "who": [
-        "suryagaddipati"
-      ]
-    },
-    {
-      "name": "jhanggi",
-      "username": "jhanggi",
+      "name": "andreassteph",
+      "username": "andreassteph",
       "who": [
         "theSteveMitchell"
       ]
     },
     {
-      "name": "m4tu5",
-      "username": "m4tu5",
+      "name": "jokklan",
+      "username": "jokklan",
       "who": [
         "theSteveMitchell"
       ]
     },
     {
-      "name": "Justin",
-      "username": "barberj",
+      "name": "mcarthurgill",
+      "username": "mcarthurgill",
       "who": [
         "theSteveMitchell"
       ]
     },
     {
-      "name": "bwian",
-      "username": "bwian",
+      "name": "sschneid",
+      "username": "sschneid",
       "who": [
         "theSteveMitchell"
       ]
     },
     {
-      "name": "jhtran",
-      "username": "jhtran",
+      "name": "benrmatthews",
+      "username": "benrmatthews",
       "who": [
         "theSteveMitchell"
       ]
@@ -2045,15 +2105,8 @@
       ]
     },
     {
-      "name": "jdan",
-      "username": "jdan",
-      "who": [
-        "trek"
-      ]
-    },
-    {
-      "name": "joliss",
-      "username": "joliss",
+      "name": "Alex Navasardyan",
+      "username": "twokul",
       "who": [
         "trek"
       ]
@@ -2073,6 +2126,13 @@
       ]
     },
     {
+      "name": "foxandxss",
+      "username": "foxandxss",
+      "who": [
+        "trek"
+      ]
+    },
+    {
       "name": "trunalb",
       "username": "trunalb",
       "who": [
@@ -2080,64 +2140,64 @@
       ]
     },
     {
-      "name": "redwerk",
-      "username": "redwerk",
+      "name": "eudaimonious",
+      "username": "eudaimonious",
       "who": [
         "trevorsheridan"
       ]
     },
     {
-      "name": "gdetrez",
-      "username": "gdetrez",
+      "name": "traviswhitaker",
+      "username": "traviswhitaker",
       "who": [
         "trevorsheridan"
       ]
     },
     {
-      "name": "swirepe",
-      "username": "swirepe",
+      "name": "mgp",
+      "username": "mgp",
       "who": [
         "trevorsheridan"
       ]
     },
     {
-      "name": "piousbox",
-      "username": "piousbox",
+      "name": "mikedory",
+      "username": "mikedory",
       "who": [
         "trevorsheridan"
       ]
     },
     {
-      "name": "yous",
-      "username": "yous",
+      "name": "greggawatt",
+      "username": "greggawatt",
       "who": [
         "tsmacdonald"
       ]
     },
     {
-      "name": "Cassandra King",
-      "username": "cassking",
+      "name": "chasballew",
+      "username": "chasballew",
       "who": [
         "tsmacdonald"
       ]
     },
     {
-      "name": "kaushikgopal",
-      "username": "kaushikgopal",
+      "name": "Tim I Hely",
+      "username": "seifertim",
       "who": [
         "tsmacdonald"
       ]
     },
     {
-      "name": "delucas",
-      "username": "delucas",
+      "name": "nickjj",
+      "username": "nickjj",
       "who": [
         "tsmacdonald"
       ]
     },
     {
-      "name": "roberts-sandbox",
-      "username": "roberts-sandbox",
+      "name": "tallevami",
+      "username": "tallevami",
       "who": [
         "tsmacdonald"
       ]
@@ -2150,64 +2210,64 @@
       ]
     },
     {
-      "name": "Michael Rubanov",
-      "username": "micrub",
+      "name": "doppioslash",
+      "username": "doppioslash",
       "who": [
         "twebb"
       ]
     },
     {
-      "name": "uzhne",
-      "username": "uzhne",
+      "name": "cdelorey",
+      "username": "cdelorey",
       "who": [
         "twebb"
       ]
     },
     {
-      "name": "hhutch",
-      "username": "hhutch",
+      "name": "adamhill",
+      "username": "adamhill",
       "who": [
         "twebb"
       ]
     },
     {
-      "name": "Ali Baitam",
-      "username": "abaitam",
+      "name": "peterwang",
+      "username": "peterwang",
       "who": [
         "twebb"
       ]
     },
     {
-      "name": "yilongli",
-      "username": "yilongli",
+      "name": "jtorrente",
+      "username": "jtorrente",
       "who": [
         "vvitayau"
       ]
     },
     {
-      "name": "yyuan1",
-      "username": "yyuan1",
+      "name": "enesakar",
+      "username": "enesakar",
       "who": [
         "vvitayau"
       ]
     },
     {
-      "name": "hildrum",
-      "username": "hildrum",
+      "name": "bstansberry",
+      "username": "bstansberry",
       "who": [
         "vvitayau"
       ]
     },
     {
-      "name": "teichsta",
-      "username": "teichsta",
+      "name": "renanigt",
+      "username": "renanigt",
       "who": [
         "vvitayau"
       ]
     },
     {
-      "name": "mtwestra",
-      "username": "mtwestra",
+      "name": "hhuijser",
+      "username": "hhuijser",
       "who": [
         "vvitayau"
       ]
@@ -2229,7 +2289,7 @@
       ]
     },
     {
-      "count": 12,
+      "count": 21,
       "repo": "abloom/boring.js",
       "activeUsers": [
         "abloom"
@@ -2257,15 +2317,15 @@
       ]
     },
     {
-      "count": 16,
-      "repo": "banterability/slow-zone",
+      "count": 17,
+      "repo": "banterability/quartermaster",
       "activeUsers": [
         "banterability"
       ]
     },
     {
       "count": 16,
-      "repo": "banterability/fulcrum",
+      "repo": "banterability/slow-zone",
       "activeUsers": [
         "banterability"
       ]
@@ -2334,15 +2394,15 @@
       ]
     },
     {
-      "count": 7,
-      "repo": "dustyburwell/dustyburwell.github.com",
+      "count": 8,
+      "repo": "dustyburwell/garlic",
       "activeUsers": [
         "dustyburwell"
       ]
     },
     {
-      "count": 6,
-      "repo": "dustyburwell/garlic",
+      "count": 7,
+      "repo": "dustyburwell/dustyburwell.github.com",
       "activeUsers": [
         "dustyburwell"
       ]
@@ -2397,7 +2457,7 @@
       ]
     },
     {
-      "count": 22,
+      "count": 23,
       "repo": "gfredericks/repl-utils",
       "activeUsers": [
         "gfredericks"
@@ -2446,7 +2506,7 @@
       ]
     },
     {
-      "count": 16,
+      "count": 20,
       "repo": "jcfrancisco/snaps",
       "activeUsers": [
         "jcfrancisco"
@@ -2509,14 +2569,14 @@
       ]
     },
     {
-      "count": 37,
+      "count": 39,
       "repo": "jkrems/quinn2",
       "activeUsers": [
         "jkrems"
       ]
     },
     {
-      "count": 23,
+      "count": 29,
       "repo": "jkrems/quinn",
       "activeUsers": [
         "jkrems"
@@ -2649,6 +2709,13 @@
       ]
     },
     {
+      "count": 12,
+      "repo": "shivanathd/ShivPersonal",
+      "activeUsers": [
+        "shivanathd"
+      ]
+    },
+    {
       "count": 152,
       "repo": "suryagaddipati/cancan",
       "activeUsers": [
@@ -2656,7 +2723,7 @@
       ]
     },
     {
-      "count": 84,
+      "count": 95,
       "repo": "groupon/DotCi",
       "activeUsers": [
         "suryagaddipati",
@@ -2771,35 +2838,35 @@
   ],
   "usage": {
     "day": [
-      159,
-      85,
+      166,
+      86,
       41,
       47,
       55,
       126,
       218,
-      329,
-      578,
-      621,
-      643,
-      748,
-      572,
-      763,
-      622,
-      724,
-      624,
-      605,
-      485,
-      485,
-      396,
-      336,
-      288,
-      242
+      332,
+      583,
+      625,
+      644,
+      751,
+      574,
+      780,
+      623,
+      727,
+      628,
+      607,
+      486,
+      488,
+      401,
+      358,
+      289,
+      246
     ],
     "week": [
       1364,
       1448,
-      1428,
+      1517,
       1408,
       1424,
       1459,
@@ -2807,47 +2874,8 @@
     ],
     "events": [
       {
-        "type": "CommitCommentEvent",
-        "total": 2,
-        "day": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "week": [
-          0,
-          0,
-          0,
-          2,
-          0,
-          0,
-          0
-        ]
-      },
-      {
         "type": "CreateEvent",
-        "total": 785,
+        "total": 800,
         "day": [
           3,
           1,
@@ -2856,13 +2884,13 @@
           0,
           0,
           1,
-          0,
+          2,
           1,
           2,
           5,
           5,
           1,
-          2,
+          3,
           6,
           6,
           4,
@@ -2870,14 +2898,14 @@
           1,
           11,
           1,
-          4,
+          16,
           10,
           2
         ],
         "week": [
           7,
           16,
-          6,
+          21,
           16,
           11,
           7,
@@ -2885,359 +2913,8 @@
         ]
       },
       {
-        "type": "DeleteEvent",
-        "total": 45,
-        "day": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "week": [
-          0,
-          0,
-          0,
-          1,
-          0,
-          1,
-          0
-        ]
-      },
-      {
-        "type": "DeploymentEvent",
-        "total": 0,
-        "day": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "week": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      {
-        "type": "DeploymentStatusEvent",
-        "total": 0,
-        "day": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "week": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      {
-        "type": "DownloadEvent",
-        "total": 0,
-        "day": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "week": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      {
-        "type": "FollowEvent",
-        "total": 15,
-        "day": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "week": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      {
-        "type": "ForkEvent",
-        "total": 173,
-        "day": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          1,
-          5,
-          0,
-          2,
-          5,
-          2,
-          1,
-          2,
-          0,
-          2,
-          0,
-          0,
-          1
-        ],
-        "week": [
-          2,
-          1,
-          6,
-          2,
-          3,
-          2,
-          7
-        ]
-      },
-      {
-        "type": "ForkApplyEvent",
-        "total": 0,
-        "day": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "week": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      {
-        "type": "GistEvent",
-        "total": 0,
-        "day": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "week": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      {
-        "type": "GollumEvent",
-        "total": 3,
-        "day": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          3,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "week": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          3,
-          0
-        ]
-      },
-      {
-        "type": "IssueCommentEvent",
-        "total": 1260,
+        "type": "CommentEvent",
+        "total": 1270,
         "day": [
           2,
           0,
@@ -3250,12 +2927,12 @@
           116,
           86,
           88,
-          77,
-          62,
-          66,
-          51,
+          78,
+          63,
+          72,
+          52,
           42,
-          47,
+          48,
           35,
           52,
           54,
@@ -3267,8 +2944,8 @@
         "week": [
           135,
           151,
-          137,
-          150,
+          145,
+          152,
           115,
           162,
           119
@@ -3276,7 +2953,7 @@
       },
       {
         "type": "IssuesEvent",
-        "total": 1121,
+        "total": 1123,
         "day": [
           1,
           0,
@@ -3294,9 +2971,9 @@
           43,
           36,
           33,
-          27,
+          28,
           30,
-          36,
+          37,
           63,
           54,
           18,
@@ -3306,7 +2983,7 @@
         "week": [
           117,
           83,
-          80,
+          82,
           77,
           58,
           126,
@@ -3314,125 +2991,8 @@
         ]
       },
       {
-        "type": "MemberEvent",
-        "total": 1,
-        "day": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "week": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      {
-        "type": "PageBuildEvent",
-        "total": 0,
-        "day": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "week": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      {
-        "type": "PublicEvent",
-        "total": 0,
-        "day": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "week": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      {
         "type": "PullRequestEvent",
-        "total": 632,
+        "total": 638,
         "day": [
           0,
           0,
@@ -3447,22 +3007,22 @@
           4,
           2,
           3,
-          3,
+          4,
           2,
-          3,
+          4,
           2,
           4,
           6,
-          3,
+          4,
+          2,
           1,
-          0,
-          0,
+          1,
           0
         ],
         "week": [
           4,
           7,
-          9,
+          15,
           5,
           6,
           7,
@@ -3510,206 +3070,50 @@
       },
       {
         "type": "PushEvent",
-        "total": 3564,
+        "total": 3611,
         "day": [
-          67,
-          23,
+          74,
+          24,
           5,
           7,
           11,
           38,
           44,
-          45,
-          89,
-          71,
-          129,
-          128,
+          46,
+          94,
+          75,
+          130,
+          130,
           119,
-          196,
+          202,
           167,
-          167,
-          159,
-          156,
+          168,
+          161,
+          158,
           151,
           176,
-          129,
-          106,
+          132,
+          113,
           96,
-          51
+          53
         ],
         "week": [
           392,
           339,
-          324,
+          368,
           377,
           411,
           249,
           238
         ]
-      },
-      {
-        "type": "ReleaseEvent",
-        "total": 0,
-        "day": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "week": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      {
-        "type": "StatusEvent",
-        "total": 0,
-        "day": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "week": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      {
-        "type": "TeamAddEvent",
-        "total": 0,
-        "day": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "week": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      {
-        "type": "WatchEvent",
-        "total": 1271,
-        "day": [
-          42,
-          28,
-          9,
-          3,
-          2,
-          7,
-          10,
-          36,
-          72,
-          119,
-          72,
-          89,
-          70,
-          53,
-          65,
-          64,
-          93,
-          69,
-          30,
-          21,
-          14,
-          52,
-          46,
-          59
-        ],
-        "week": [
-          113,
-          216,
-          229,
-          154,
-          188,
-          154,
-          71
-        ]
       }
     ],
     "languages": [],
-    "total": 17633,
+    "total": 17722,
     "allLanguages": [
       {
         "language": "C",
-        "count": 102,
+        "count": 107,
         "who": [
           {
             "username": "abedra",
@@ -3767,7 +3171,7 @@
       },
       {
         "language": "Ruby",
-        "count": 1089,
+        "count": 1094,
         "who": [
           {
             "username": "abedra",
@@ -3867,7 +3271,7 @@
       },
       {
         "language": "CoffeeScript",
-        "count": 1033,
+        "count": 1048,
         "who": [
           {
             "username": "abloom",
@@ -3875,7 +3279,7 @@
           },
           {
             "username": "banterability",
-            "percent": 55
+            "percent": 54
           },
           {
             "username": "bkochendorfer",
@@ -3884,6 +3288,10 @@
           {
             "username": "carlthuringer",
             "percent": 100
+          },
+          {
+            "username": "EndangeredMassa",
+            "percent": 16
           },
           {
             "username": "hhua",
@@ -3921,7 +3329,7 @@
       },
       {
         "language": "JavaScript",
-        "count": 2576,
+        "count": 2602,
         "who": [
           {
             "username": "abloom",
@@ -3952,6 +3360,10 @@
             "percent": 100
           },
           {
+            "username": "gfredericks",
+            "percent": 100
+          },
+          {
             "username": "hhua",
             "percent": 100
           },
@@ -3965,7 +3377,7 @@
           },
           {
             "username": "jkrems",
-            "percent": 49
+            "percent": 46
           },
           {
             "username": "johan",
@@ -4107,7 +3519,7 @@
       },
       {
         "language": "CSS",
-        "count": 234,
+        "count": 235,
         "who": [
           {
             "username": "banterability",
@@ -4165,7 +3577,7 @@
       },
       {
         "language": "Shell",
-        "count": 125,
+        "count": 127,
         "who": [
           {
             "username": "banterability",
@@ -4177,6 +3589,10 @@
           },
           {
             "username": "carlthuringer",
+            "percent": 100
+          },
+          {
+            "username": "delpho",
             "percent": 100
           },
           {
@@ -4320,6 +3736,64 @@
         ]
       },
       {
+        "language": "Java",
+        "count": 1047,
+        "who": [
+          {
+            "username": "bkochendorfer",
+            "percent": 100
+          },
+          {
+            "username": "dennyabraham",
+            "percent": 100
+          },
+          {
+            "username": "dvanderb",
+            "percent": 100
+          },
+          {
+            "username": "emmby",
+            "percent": 16
+          },
+          {
+            "username": "hhua",
+            "percent": 100
+          },
+          {
+            "username": "jesstelford",
+            "percent": 100
+          },
+          {
+            "username": "jkrems",
+            "percent": 100
+          },
+          {
+            "username": "johan",
+            "percent": 100
+          },
+          {
+            "username": "mooremo",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 69
+          },
+          {
+            "username": "tsmacdonald",
+            "percent": 100
+          },
+          {
+            "username": "twebb",
+            "percent": 100
+          },
+          {
+            "username": "vvitayau",
+            "percent": 100
+          }
+        ]
+      },
+      {
         "language": "Go",
         "count": 71,
         "who": [
@@ -4439,7 +3913,7 @@
       },
       {
         "language": "Clojure",
-        "count": 234,
+        "count": 235,
         "who": [
           {
             "username": "dennyabraham",
@@ -4471,60 +3945,6 @@
           },
           {
             "username": "twebb",
-            "percent": 100
-          }
-        ]
-      },
-      {
-        "language": "Java",
-        "count": 1032,
-        "who": [
-          {
-            "username": "dennyabraham",
-            "percent": 100
-          },
-          {
-            "username": "dvanderb",
-            "percent": 100
-          },
-          {
-            "username": "emmby",
-            "percent": 16
-          },
-          {
-            "username": "hhua",
-            "percent": 100
-          },
-          {
-            "username": "jesstelford",
-            "percent": 100
-          },
-          {
-            "username": "jkrems",
-            "percent": 100
-          },
-          {
-            "username": "johan",
-            "percent": 100
-          },
-          {
-            "username": "mooremo",
-            "percent": 100
-          },
-          {
-            "username": "suryagaddipati",
-            "percent": 75
-          },
-          {
-            "username": "tsmacdonald",
-            "percent": 100
-          },
-          {
-            "username": "twebb",
-            "percent": 100
-          },
-          {
-            "username": "vvitayau",
             "percent": 100
           }
         ]
@@ -4619,7 +4039,7 @@
       },
       {
         "language": "C#",
-        "count": 22,
+        "count": 24,
         "who": [
           {
             "username": "dustyburwell",
@@ -4790,6 +4210,16 @@
         ]
       },
       {
+        "language": "Apex",
+        "count": 11,
+        "who": [
+          {
+            "username": "shivanathd",
+            "percent": 100
+          }
+        ]
+      },
+      {
         "language": "Groovy",
         "count": 1,
         "who": [
@@ -4851,6 +4281,16 @@
         "who": [
           {
             "username": "emmby",
+            "percent": 16
+          }
+        ]
+      },
+      {
+        "language": "CoffeeScript",
+        "count": 1,
+        "who": [
+          {
+            "username": "EndangeredMassa",
             "percent": 16
           }
         ]
@@ -5521,7 +4961,7 @@
       "user_id": 82156
     },
     {
-      "award_count": 6,
+      "award_count": 7,
       "rank": "bronze",
       "link": "http://stackoverflow.com/badges/20/nice-question",
       "name": "Nice Question",
