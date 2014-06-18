@@ -22,9 +22,9 @@ var EVENT_TYPE_TO_ACTION_PHRASE = {
   "WatchEvent": "watching repos"
 }
 
-Handlebars.registerHelper('top5Languages', function(languages){
-  return languages.slice(0,3).map(function(l){ return l.language}).join(", ") + ", and " + languages[4].language;
-});
+
+
+Handlebars.registerHelper('top5Languages', require('./render/helpers/top-languages'));
 
 Handlebars.registerHelper('avatar', function(username, size){
   size = size || 30;
@@ -99,7 +99,8 @@ var html = render(data);
 
 // apply charts!
 var d3 = require('d3'),
-    jsdom = require('jsdom');
+    jsdom = require('jsdom'),
+    languageColors = require('./constants/language-colors');
 
 jsdom.env({
   features: { QuerySelector : true },
@@ -129,8 +130,8 @@ jsdom.env({
 
     var el = window.document.querySelector('#d3-language-diagram-outlet');
 
-    var color = d3.scale.ordinal()
-        .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+    // var color = d3.scale.ordinal()
+    //     .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
 
     var width = 500,
         height = 300,
@@ -147,6 +148,7 @@ jsdom.env({
     var svg = d3.select(el).append("svg")
           .attr("width", width)
           .attr("height", height)
+          .style("padding-bottom", 20)
             .append("g")
             .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
@@ -154,16 +156,30 @@ jsdom.env({
             .data(pie(languages))
             .enter().append("g")
             .attr("class", "arc");
-
     g.append("path")
           .attr("d", arc)
-          .style("fill", function(d) { return color(d.data.count); });
+          .style("fill", function(d) { return languageColors[d.data.language] || '#fff'; });
+
+    var labelRadius = radius + 10;
 
     g.append("text")
-          .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
+          .attr("transform", function(d) {
+              var c = arc.centroid(d), x = c[0], y = c[1],
+                  // pythagorean theorem for hypotenuse
+                  h = Math.sqrt(x*x + y*y);
+              return "translate(" + (x/h * labelRadius) +  ',' + (y/h * labelRadius) +  ")";
+          })
           .attr("dy", ".35em")
-          .style("text-anchor", "middle")
-          .text(function(d) { return d.data.language + " " + d.data.count; });
+
+          .attr("text-anchor", function(d) {
+            // are we past the center?
+            return (d.endAngle + d.startAngle)/2 > Math.PI ? "end" : "start";
+          })
+          .attr("fill", "#000")
+          .style("font-size",".8em")
+          .text(function(d) { return d.data.language + " (" + d.data.count + ")"; });
+
+
 
     var html = window.document.innerHTML;
 
