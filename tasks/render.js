@@ -1,8 +1,22 @@
 var Handlebars = require('handlebars');
 var fs = require('fs');
+function helper(name){
+ return require('./render/helpers/'+ name);
+}
+
 
 var template = fs.readFileSync(__dirname + '/../templates/index.hbs').toString();
 var repoTemplate = fs.readFileSync(__dirname + '/../templates/github-repo-card.hbs').toString();
+Handlebars.registerPartial('github-repo-card', repoTemplate);
+Handlebars.registerHelper('top5Languages', helper('top-languages'));
+Handlebars.registerHelper('avatar', helper('avatar'));
+Handlebars.registerHelper('ceilingPercent', helper('ceiling-percent'));
+Handlebars.registerHelper('inflectCountable', helper('inflect-countable'));
+Handlebars.registerHelper('sumEvents', helper('sum-events'));
+Handlebars.registerHelper('languageToPerson', helper('language-to-person'));
+Handlebars.registerHelper('userOrTeam', helper('user-or-repo'));
+Handlebars.registerHelper('eventTypeToName', helper('event-to-name'));
+
 var render = Handlebars.compile(template);
 
 var EVENT_TYPE_TO_ACTION_PHRASE = {
@@ -14,57 +28,6 @@ var EVENT_TYPE_TO_ACTION_PHRASE = {
   "PullRequestReviewCommentEvent": "commenting on pull requests",
 }
 
-Handlebars.registerHelper('top5Languages', require('./render/helpers/top-languages'));
-Handlebars.registerPartial('github-repo-card', repoTemplate);
-
-Handlebars.registerHelper('avatar', function(username, size){
-  size = size || 30;
-  return "https://avatars.githubusercontent.com/"+username+"?size="+size;
-});
-
-Handlebars.registerHelper('userOrTeam', function(repo){
-  return repo.split('/')[0];
-});
-
-Handlebars.registerHelper('ceilingPercent', function(users){
-  var percents = users.map(function(u){return u.percent});
-  return Math.max.apply(Math, percents);
-});
-
-Handlebars.registerHelper('inflectCountable', function(n){
-  return n > 1 ? "some" : "one";
-});
-
-Handlebars.registerHelper('sumEvents', function(events) {
-  var totals = events.map(function(e) { return e.total; });
-
-  return totals.reduce(function(previousValue, currentValue) {
-    return previousValue + currentValue;
-  }, 0);
-});
-
-Handlebars.registerHelper('eventTypeToName', function(type) {
-  return type.replace("Event", "");
-});
-
-Handlebars.registerHelper('languageToPerson', function(language, number) {
-  var languageToPersonMapping = {
-    'JavaScript': 'JavaScripter',
-    'CoffeeScript': 'CoffeeScripter',
-    'Ruby': 'Rubyist',
-    'Python': 'Pythonista',
-    'C': 'C programmer',
-    'CSS': 'CSS author'
-  }
-
-  person = languageToPersonMapping[language];
-
-  if (number > 1) {
-    person += 's';
-  }
-
-  return person;
-});
 
 var data = JSON.parse(fs.readFileSync(__dirname + '/../data/data.json').toString());
 

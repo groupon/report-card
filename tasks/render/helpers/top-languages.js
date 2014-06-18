@@ -5,6 +5,7 @@ function span(language){
 }
 
 module.exports = function(languages) {
+  debugger;
   return languages.slice(0,3).map(function(l){
     return span(l.language);
   }).join(", ") + ", and " + span(languages[4].language);
