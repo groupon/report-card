@@ -1,4 +1,6 @@
 var request = require('request');
+var github = require('octonode');
+var client = github.client(process.env.GROUPONTHECAT_TOKEN);
 
 module.exports = {
   fetch: function(username, callback) {
@@ -16,6 +18,19 @@ module.exports = {
 
       var json = JSON.parse(body);
       callback(null, json);
+    });
+  },
+
+  fetchRepoInformation: function(repoName, callback) {
+    ghrepo = client.repo(repoName);
+    ghrepo.info(function(err, repoInfo) {
+      if(err) {
+        console.log("Repo Information Fetch failed for " + repoName + ". Status Code: " + err.statusCode + " Error Message: " + err.message)
+        callback();
+      }
+      else {
+        callback(null, repoInfo);
+      }
     });
   }
 }

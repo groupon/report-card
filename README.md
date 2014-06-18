@@ -21,3 +21,8 @@ Then run: `node tasks/generate-user-mapping.js`
 Now "/data/user-map.json"
 shouldhave the full mapping.
 
+### generating data
+
+1. Make sure you have the user mapping generated from above.
+2. Make sure you have grouponthecat github user's token set as `GROUPONTHECAT_TOKEN` environment variable.
+3. Run `node tasks/aggregate`

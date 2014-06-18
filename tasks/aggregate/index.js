@@ -8,6 +8,8 @@ var lanyrd = require('./lanyrd');
 var fs = require('./fs-json.js');
 var github = fs.read('data/users.json');
 
+var api = require('./osrc/api.js')
+
 var members = github.users.map(function(user) {
   return user.name;
 });
@@ -42,7 +44,29 @@ async.parallel(tasks, function(error, results){
   data.badges = results.stackExchange.badges;
   data.talks = results.lanyrd;
 
-  fs.write('data/data.json', data);
-  console.log('Wrote data/data.json!');
+  var repositories = _.map(data.repositories, function(repo){
+    return repo.repo;
+  });
+
+  var repoInfoFetchTasks = {};
+  _.each(repositories, function(repoName) {
+    repoInfoFetchTasks[repoName] = _.partial(api.fetchRepoInformation, repoName);
+  });
+
+  async.parallel(repoInfoFetchTasks, function(err, repoInfo) {
+    if(error){
+      console.log('There was an error aggregating the data.');
+    }
+    else {
+      _.each(data.repositories, function(repo){
+        specificRepoInfo = repoInfo[repo.repo];
+        if (specificRepoInfo)
+          repo.stargazersCount = specificRepoInfo.stargazers_count;
+      });
+
+      fs.write('data/data.json', data);
+      console.log('Wrote data/data.json!');
+    }
+  });
 });
 
