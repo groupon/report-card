@@ -1,0 +1,12 @@
+.backstretch {
+  left: 0px;
+  top: 0px;
+  margin: 0px;
+  padding: 0px;
+  height: 355px;
+  width: 100%;
+  z-index: -999998;
+  background-image: url(https://jobs.groupon.com/assets/uploads/2013/03/Engineering-NEW5.jpg);
+  background-size: cover;
+  background-position:center;
+}
