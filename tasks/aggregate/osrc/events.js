@@ -1,29 +1,12 @@
 var empty = require('./empty.js');
 
 var eventNames = [
-  'CommitCommentEvent',
   'CreateEvent',
-  'DeleteEvent',
-  'DeploymentEvent',
-  'DeploymentStatusEvent',
-  'DownloadEvent',
-  'FollowEvent',
-  'ForkEvent',
-  'ForkApplyEvent',
-  'GistEvent',
-  'GollumEvent',
-  'IssueCommentEvent',
+  'CommentEvent',
   'IssuesEvent',
-  'MemberEvent',
-  'PageBuildEvent',
-  'PublicEvent',
   'PullRequestEvent',
   'PullRequestReviewCommentEvent',
   'PushEvent',
-  'ReleaseEvent',
-  'StatusEvent',
-  'TeamAddEvent',
-  'WatchEvent'
 ]
 
 var events = eventNames.map(function(eventName){

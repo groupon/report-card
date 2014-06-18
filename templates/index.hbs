@@ -97,7 +97,7 @@
         <p>
           These days, {{ name }} engineers are most actively contributing to the following {{repositories.length}} repositories:
           {{#each repositories}}
-            <div class="github-card" data-github={{repo}} data-width="400" data-height="50"></div>
+            {{> github-repo-card}}
           {{/each}}
         </p>
       </div>

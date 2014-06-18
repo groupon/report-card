@@ -2,25 +2,19 @@ var Handlebars = require('handlebars');
 var fs = require('fs');
 
 var template = fs.readFileSync(__dirname + '/../templates/index.hbs').toString();
+var repoTemplate = fs.readFileSync(__dirname + '/../templates/github-repo-card.hbs').toString();
 var render = Handlebars.compile(template);
 
 var EVENT_TYPE_TO_ACTION_PHRASE = {
   "PushEvent": "pushing code",
-  "CommitCommentEvent": "commenting on pull requests",
+  "CommentEvent": "commenting on issues",
   "CreateEvent": "creating repos",
-  "DeleteEvent": "removing repos",
-  "FollowEvent": "following others",
-  "ForkEvent": "forking repos",
-  "GistEvent": "creating/updating gists",
-  "GollumEvent": "creating/updating wiki docs",
-  "IssueCommentEvent": "commenting on issues",
   "IssuesEvent": "responding to issues",
-  "PageBuildEvent": "building github pages",
   "PullRequestEvent": "opening pull requests",
   "PullRequestReviewCommentEvent": "commenting on pull requests",
-  "ReleaseEvent": "making releases",
-  "WatchEvent": "watching repos"
 }
+
+Handlebars.registerPartial('github-repo-card', repoTemplate);
 
 Handlebars.registerHelper('top5Languages', function(languages){
   return languages.slice(0,3).map(function(l){ return l.language}).join(", ") + ", and " + languages[4].language;
@@ -29,6 +23,10 @@ Handlebars.registerHelper('top5Languages', function(languages){
 Handlebars.registerHelper('avatar', function(username, size){
   size = size || 30;
   return "https://avatars.githubusercontent.com/"+username+"?size="+size;
+});
+
+Handlebars.registerHelper('userOrTeam', function(repo){
+  return repo.split('/')[0];
 });
 
 Handlebars.registerHelper('ceilingPercent', function(users){
@@ -49,10 +47,7 @@ Handlebars.registerHelper('sumEvents', function(events) {
 });
 
 Handlebars.registerHelper('eventTypeToName', function(type) {
-  type = type.replace("Event", "");
-  type = type.replace("IssueComment", "Issue Comment");
-  type = type.replace("CommitComment", "Commit Comment");
-  return type;
+  return type.replace("Event", "");
 });
 
 Handlebars.registerHelper('languageToPerson', function(language, number) {
@@ -171,5 +166,4 @@ jsdom.env({
     fs.writeFileSync(__dirname + '/../public/index.html', html);
   }
 });
-
 

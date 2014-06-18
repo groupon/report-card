@@ -26,17 +26,18 @@ module.exports = {
       addArrays(usage.week, userUsage.week);
 
       _.each(userData.usage.events, function(event){
+        if(event.type === "IssueCommentEvent" || event.type === "CommitCommentEvent")
+          event.type = "CommentEvent"
+
         var foundEvent = _.find(usage.events, function(currentEvent){
           return currentEvent.type == event.type;
         });
 
-        if(!foundEvent) {
-          throw new Error('Could not find event: ' + event.type);
+        if(foundEvent) {
+          foundEvent.total += event.total;
+          addArrays(foundEvent.day, event.day);
+          addArrays(foundEvent.week, event.week);
         }
-
-        foundEvent.total += event.total;
-        addArrays(foundEvent.day, event.day)
-        addArrays(foundEvent.week, event.week)
       });
     });
 
