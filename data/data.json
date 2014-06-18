@@ -637,7 +637,7 @@
       ]
     },
     {
-      "name": "liamdawe",
+      "name": "Liam Dawe",
       "username": "liamdawe",
       "who": [
         "satanas"
@@ -4507,582 +4507,608 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/886891?"
     }
   ],
-  "answers": [
-    {
-      "tags": [
-        "clojure"
-      ],
-      "is_accepted": false,
-      "score": 3,
-      "answer_id": 24254947,
-      "question_id": 24254689,
-      "user_id": 220529
+  "answers": {
+    "clojure": {
+      "scoreTotal": 3,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "220529": 3
+      }
     },
-    {
-      "tags": [
-        "objective-c",
-        "datetime",
-        "nsdate",
-        "nsdateformatter"
-      ],
-      "is_accepted": false,
-      "score": 0,
-      "answer_id": 23898829,
-      "question_id": 23898621,
-      "user_id": 1144632
+    "objective-c": {
+      "scoreTotal": 45,
+      "acceptedCount": 4,
+      "answerTotal": 8,
+      "users": {
+        "1144632": 45
+      }
     },
-    {
-      "tags": [
-        "reactjs"
-      ],
-      "is_accepted": true,
-      "score": 4,
-      "answer_id": 23841059,
-      "question_id": 23840997,
-      "user_id": 916619
+    "datetime": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "1144632": 0
+      }
     },
-    {
-      "tags": [
-        "android",
-        "build",
-        "intellij-idea"
-      ],
-      "is_accepted": false,
-      "score": 0,
-      "answer_id": 23484868,
-      "question_id": 18111435,
-      "user_id": 82156
+    "nsdate": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "1144632": 0
+      }
     },
-    {
-      "tags": [
-        "javascript",
-        "ember.js"
-      ],
-      "is_accepted": false,
-      "score": 0,
-      "answer_id": 23182894,
-      "question_id": 23180909,
-      "user_id": 1584375
+    "nsdateformatter": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "1144632": 0
+      }
     },
-    {
-      "tags": [
-        "ios",
-        "objective-c",
-        "json"
-      ],
-      "is_accepted": false,
-      "score": 0,
-      "answer_id": 23137601,
-      "question_id": 23137493,
-      "user_id": 1144632
+    "reactjs": {
+      "scoreTotal": 4,
+      "acceptedCount": 1,
+      "answerTotal": 1,
+      "users": {
+        "916619": 4
+      }
     },
-    {
-      "tags": [
-        "objective-c",
-        "ios7",
-        "uiwindow"
-      ],
-      "is_accepted": false,
-      "score": 1,
-      "answer_id": 22998967,
-      "question_id": 22998575,
-      "user_id": 1144632
+    "android": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 2,
+      "users": {
+        "82156": 0
+      }
     },
-    {
-      "tags": [
-        "ios",
-        "country-codes",
-        "mobile-country-code"
-      ],
-      "is_accepted": false,
-      "score": 0,
-      "answer_id": 22998821,
-      "question_id": 22998570,
-      "user_id": 1144632
+    "build": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "82156": 0
+      }
     },
-    {
-      "tags": [
-        "javascript",
-        "ember.js",
-        "ember-data"
-      ],
-      "is_accepted": false,
-      "score": 1,
-      "answer_id": 22944889,
-      "question_id": 22944491,
-      "user_id": 1584375
+    "intellij-idea": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "82156": 0
+      }
     },
-    {
-      "tags": [
-        "ember.js",
-        "handlebars.js"
-      ],
-      "is_accepted": true,
-      "score": 2,
-      "answer_id": 21935525,
-      "question_id": 21930324,
-      "user_id": 1584375
+    "javascript": {
+      "scoreTotal": 5,
+      "acceptedCount": 3,
+      "answerTotal": 7,
+      "users": {
+        "473961": 1,
+        "694086": 1,
+        "1584375": 3
+      }
     },
-    {
-      "tags": [
-        "android",
-        "actionbarsherlock",
-        "r.java-file",
-        "roboguice",
-        "android-annotations"
-      ],
-      "is_accepted": false,
-      "score": 0,
-      "answer_id": 21743561,
-      "question_id": 21739350,
-      "user_id": 82156
+    "ember.js": {
+      "scoreTotal": 5,
+      "acceptedCount": 3,
+      "answerTotal": 8,
+      "users": {
+        "1584375": 5
+      }
     },
-    {
-      "tags": [
-        "ios",
-        "objective-c",
-        "autolayout"
-      ],
-      "is_accepted": true,
-      "score": 2,
-      "answer_id": 21687798,
-      "question_id": 21687722,
-      "user_id": 1144632
+    "ios": {
+      "scoreTotal": 7,
+      "acceptedCount": 3,
+      "answerTotal": 7,
+      "users": {
+        "1144632": 7
+      }
     },
-    {
-      "tags": [
-        "flash",
-        "actionscript-3",
-        "box2d",
-        "physics"
-      ],
-      "is_accepted": false,
-      "score": 0,
-      "answer_id": 21357857,
-      "question_id": 8205088,
-      "user_id": 1172219
+    "json": {
+      "scoreTotal": 1,
+      "acceptedCount": 1,
+      "answerTotal": 2,
+      "users": {
+        "1144632": 1
+      }
     },
-    {
-      "tags": [
-        "osx",
-        "command-line",
-        "sfml"
-      ],
-      "is_accepted": false,
-      "score": 0,
-      "answer_id": 21288042,
-      "question_id": 9054987,
-      "user_id": 1172219
+    "ios7": {
+      "scoreTotal": 1,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "1144632": 1
+      }
     },
-    {
-      "tags": [
-        "ios",
-        "mkmapview"
-      ],
-      "is_accepted": true,
-      "score": 2,
-      "answer_id": 21065669,
-      "question_id": 21065646,
-      "user_id": 1144632
+    "uiwindow": {
+      "scoreTotal": 1,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "1144632": 1
+      }
     },
-    {
-      "tags": [
-        "objective-c",
-        "cocoa",
-        "button",
-        "sender"
-      ],
-      "is_accepted": true,
-      "score": 2,
-      "answer_id": 20960975,
-      "question_id": 20960861,
-      "user_id": 1144632
+    "country-codes": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "1144632": 0
+      }
     },
-    {
-      "tags": [
-        "ios",
-        "xcode"
-      ],
-      "is_accepted": false,
-      "score": 0,
-      "answer_id": 20551513,
-      "question_id": 20551452,
-      "user_id": 1144632
+    "mobile-country-code": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "1144632": 0
+      }
     },
-    {
-      "tags": [
-        "java",
-        "string",
-        "palindrome",
-        "char-array"
-      ],
-      "is_accepted": false,
-      "score": 1,
-      "answer_id": 20529425,
-      "question_id": 20529382,
-      "user_id": 220529
+    "ember-data": {
+      "scoreTotal": 1,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "1584375": 1
+      }
     },
-    {
-      "tags": [
-        "ios",
-        "core-location",
-        "cllocationmanager",
-        "geofencing"
-      ],
-      "is_accepted": true,
-      "score": 3,
-      "answer_id": 20508435,
-      "question_id": 20432971,
-      "user_id": 1144632
+    "handlebars.js": {
+      "scoreTotal": 2,
+      "acceptedCount": 1,
+      "answerTotal": 1,
+      "users": {
+        "1584375": 2
+      }
     },
-    {
-      "tags": [
-        "javascript",
-        "ember.js",
-        "model"
-      ],
-      "is_accepted": false,
-      "score": 0,
-      "answer_id": 20499454,
-      "question_id": 20499024,
-      "user_id": 1584375
+    "actionbarsherlock": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "82156": 0
+      }
     },
-    {
-      "tags": [
-        "javascript",
-        "html",
-        "twitter-bootstrap",
-        "ember.js"
-      ],
-      "is_accepted": true,
-      "score": 1,
-      "answer_id": 20403260,
-      "question_id": 20399403,
-      "user_id": 1584375
+    "r.java-file": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "82156": 0
+      }
     },
-    {
-      "tags": [
-        "node.js",
-        "ember.js",
-        "sql-azure"
-      ],
-      "is_accepted": false,
-      "score": 0,
-      "answer_id": 20403048,
-      "question_id": 20387136,
-      "user_id": 1584375
+    "roboguice": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "82156": 0
+      }
     },
-    {
-      "tags": [
-        "ember.js",
-        "qunit"
-      ],
-      "is_accepted": false,
-      "score": 0,
-      "answer_id": 20073474,
-      "question_id": 18543623,
-      "user_id": 1584375
+    "android-annotations": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "82156": 0
+      }
     },
-    {
-      "tags": [
-        "ios",
-        "objective-c",
-        "uitableview",
-        "uitableviewcell",
-        "mpmovieplayercontroller"
-      ],
-      "is_accepted": false,
-      "score": 0,
-      "answer_id": 19870679,
-      "question_id": 19869924,
-      "user_id": 1144632
+    "autolayout": {
+      "scoreTotal": 2,
+      "acceptedCount": 1,
+      "answerTotal": 1,
+      "users": {
+        "1144632": 2
+      }
     },
-    {
-      "tags": [
-        "iphone",
-        "objective-c",
-        "json",
-        "xcode4",
-        "nsdictionary"
-      ],
-      "is_accepted": true,
-      "score": 1,
-      "answer_id": 19870578,
-      "question_id": 19870247,
-      "user_id": 1144632
+    "flash": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "1172219": 0
+      }
     },
-    {
-      "tags": [
-        "javascript",
-        "google-chrome",
-        "memory-leaks",
-        "textures",
-        "webgl"
-      ],
-      "is_accepted": true,
-      "score": 1,
-      "answer_id": 19785067,
-      "question_id": 19188974,
-      "user_id": 694086
+    "actionscript-3": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "1172219": 0
+      }
     },
-    {
-      "tags": [
-        "javascript"
-      ],
-      "is_accepted": false,
-      "score": 1,
-      "answer_id": 19778309,
-      "question_id": 19778028,
-      "user_id": 473961
+    "box2d": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "1172219": 0
+      }
     },
-    {
-      "tags": [
-        "xcode",
-        "osx"
-      ],
-      "is_accepted": false,
-      "score": 0,
-      "answer_id": 19640343,
-      "question_id": 19639914,
-      "user_id": 1144632
+    "physics": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "1172219": 0
+      }
     },
-    {
-      "tags": [
-        "javascript",
-        "ember.js"
-      ],
-      "is_accepted": true,
-      "score": 1,
-      "answer_id": 19068881,
-      "question_id": 19068782,
-      "user_id": 1584375
+    "osx": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 2,
+      "users": {
+        "1144632": 0,
+        "1172219": 0
+      }
     },
-    {
-      "tags": [
-        "objective-c",
-        "xcode",
-        "debugging",
-        "xcode5"
-      ],
-      "is_accepted": true,
-      "score": 39,
-      "answer_id": 19057122,
-      "question_id": 19056943,
-      "user_id": 1144632
+    "command-line": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "1172219": 0
+      }
+    },
+    "sfml": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "1172219": 0
+      }
+    },
+    "mkmapview": {
+      "scoreTotal": 2,
+      "acceptedCount": 1,
+      "answerTotal": 1,
+      "users": {
+        "1144632": 2
+      }
+    },
+    "cocoa": {
+      "scoreTotal": 2,
+      "acceptedCount": 1,
+      "answerTotal": 1,
+      "users": {
+        "1144632": 2
+      }
+    },
+    "button": {
+      "scoreTotal": 2,
+      "acceptedCount": 1,
+      "answerTotal": 1,
+      "users": {
+        "1144632": 2
+      }
+    },
+    "sender": {
+      "scoreTotal": 2,
+      "acceptedCount": 1,
+      "answerTotal": 1,
+      "users": {
+        "1144632": 2
+      }
+    },
+    "xcode": {
+      "scoreTotal": 39,
+      "acceptedCount": 1,
+      "answerTotal": 3,
+      "users": {
+        "1144632": 39
+      }
+    },
+    "java": {
+      "scoreTotal": 1,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "220529": 1
+      }
+    },
+    "string": {
+      "scoreTotal": 1,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "220529": 1
+      }
+    },
+    "palindrome": {
+      "scoreTotal": 1,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "220529": 1
+      }
+    },
+    "char-array": {
+      "scoreTotal": 1,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "220529": 1
+      }
+    },
+    "core-location": {
+      "scoreTotal": 3,
+      "acceptedCount": 1,
+      "answerTotal": 1,
+      "users": {
+        "1144632": 3
+      }
+    },
+    "cllocationmanager": {
+      "scoreTotal": 3,
+      "acceptedCount": 1,
+      "answerTotal": 1,
+      "users": {
+        "1144632": 3
+      }
+    },
+    "geofencing": {
+      "scoreTotal": 3,
+      "acceptedCount": 1,
+      "answerTotal": 1,
+      "users": {
+        "1144632": 3
+      }
+    },
+    "model": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "1584375": 0
+      }
+    },
+    "html": {
+      "scoreTotal": 1,
+      "acceptedCount": 1,
+      "answerTotal": 1,
+      "users": {
+        "1584375": 1
+      }
+    },
+    "twitter-bootstrap": {
+      "scoreTotal": 1,
+      "acceptedCount": 1,
+      "answerTotal": 1,
+      "users": {
+        "1584375": 1
+      }
+    },
+    "node.js": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "1584375": 0
+      }
+    },
+    "sql-azure": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "1584375": 0
+      }
+    },
+    "qunit": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "1584375": 0
+      }
+    },
+    "uitableview": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "1144632": 0
+      }
+    },
+    "uitableviewcell": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "1144632": 0
+      }
+    },
+    "mpmovieplayercontroller": {
+      "scoreTotal": 0,
+      "acceptedCount": 0,
+      "answerTotal": 1,
+      "users": {
+        "1144632": 0
+      }
+    },
+    "iphone": {
+      "scoreTotal": 1,
+      "acceptedCount": 1,
+      "answerTotal": 1,
+      "users": {
+        "1144632": 1
+      }
+    },
+    "xcode4": {
+      "scoreTotal": 1,
+      "acceptedCount": 1,
+      "answerTotal": 1,
+      "users": {
+        "1144632": 1
+      }
+    },
+    "nsdictionary": {
+      "scoreTotal": 1,
+      "acceptedCount": 1,
+      "answerTotal": 1,
+      "users": {
+        "1144632": 1
+      }
+    },
+    "google-chrome": {
+      "scoreTotal": 1,
+      "acceptedCount": 1,
+      "answerTotal": 1,
+      "users": {
+        "694086": 1
+      }
+    },
+    "memory-leaks": {
+      "scoreTotal": 1,
+      "acceptedCount": 1,
+      "answerTotal": 1,
+      "users": {
+        "694086": 1
+      }
+    },
+    "textures": {
+      "scoreTotal": 1,
+      "acceptedCount": 1,
+      "answerTotal": 1,
+      "users": {
+        "694086": 1
+      }
+    },
+    "webgl": {
+      "scoreTotal": 1,
+      "acceptedCount": 1,
+      "answerTotal": 1,
+      "users": {
+        "694086": 1
+      }
+    },
+    "debugging": {
+      "scoreTotal": 39,
+      "acceptedCount": 1,
+      "answerTotal": 1,
+      "users": {
+        "1144632": 39
+      }
+    },
+    "xcode5": {
+      "scoreTotal": 39,
+      "acceptedCount": 1,
+      "answerTotal": 1,
+      "users": {
+        "1144632": 39
+      }
     }
-  ],
-  "badges": [
-    {
-      "award_count": 3,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/23/nice-answer",
-      "name": "Nice Answer",
-      "user_id": 106
+  },
+  "badges": {
+    "Nice Answer": {
+      "total": 30,
+      "users": {
+        "106": 3,
+        "77970": 1,
+        "82156": 8,
+        "105662": 7,
+        "473961": 3,
+        "694086": 3,
+        "1144632": 5
+      },
+      "url": "http://stackoverflow.com/badges/23/nice-answer",
+      "rank": "bronze"
     },
-    {
-      "award_count": 1,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/20/nice-question",
-      "name": "Nice Question",
-      "user_id": 59968
+    "Nice Question": {
+      "total": 10,
+      "users": {
+        "59968": 1,
+        "82156": 7,
+        "315748": 1,
+        "473961": 1
+      },
+      "url": "http://stackoverflow.com/badges/20/nice-question",
+      "rank": "bronze"
     },
-    {
-      "award_count": 3,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/26/popular-question",
-      "name": "Popular Question",
-      "user_id": 59968
+    "Popular Question": {
+      "total": 30,
+      "users": {
+        "106": 2,
+        "59968": 3,
+        "77040": 1,
+        "82156": 14,
+        "220529": 4,
+        "315748": 3,
+        "473961": 1,
+        "694086": 2
+      },
+      "url": "http://stackoverflow.com/badges/26/popular-question",
+      "rank": "bronze"
     },
-    {
-      "award_count": 2,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/26/popular-question",
-      "name": "Popular Question",
-      "user_id": 106
+    "Cleanup": {
+      "total": 1,
+      "users": {
+        "82156": 1
+      },
+      "url": "http://stackoverflow.com/badges/4/cleanup",
+      "rank": "bronze"
     },
-    {
-      "award_count": 1,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/26/popular-question",
-      "name": "Popular Question",
-      "user_id": 77040
+    "Revival": {
+      "total": 2,
+      "users": {
+        "82156": 1,
+        "473961": 1
+      },
+      "url": "http://stackoverflow.com/badges/837/revival",
+      "rank": "bronze"
     },
-    {
-      "award_count": 1,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/23/nice-answer",
-      "name": "Nice Answer",
-      "user_id": 77970
+    "Custodian": {
+      "total": 1,
+      "users": {
+        "220529": 1
+      },
+      "url": "http://stackoverflow.com/badges/2278/custodian",
+      "rank": "bronze"
     },
-    {
-      "award_count": 1,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/4/cleanup",
-      "name": "Cleanup",
-      "user_id": 82156
+    "Promoter": {
+      "total": 1,
+      "users": {
+        "315748": 1
+      },
+      "url": "http://stackoverflow.com/badges/220/promoter",
+      "rank": "bronze"
     },
-    {
-      "award_count": 7,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/20/nice-question",
-      "name": "Nice Question",
-      "user_id": 82156
+    "Announcer": {
+      "total": 3,
+      "users": {
+        "315748": 1,
+        "916619": 1,
+        "1144632": 1
+      },
+      "url": "http://stackoverflow.com/badges/260/announcer",
+      "rank": "bronze"
     },
-    {
-      "award_count": 8,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/23/nice-answer",
-      "name": "Nice Answer",
-      "user_id": 82156
+    "Autobiographer": {
+      "total": 1,
+      "users": {
+        "582605": 1
+      },
+      "url": "http://stackoverflow.com/badges/9/autobiographer",
+      "rank": "bronze"
     },
-    {
-      "award_count": 14,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/26/popular-question",
-      "name": "Popular Question",
-      "user_id": 82156
+    "objective-c": {
+      "total": 1,
+      "users": {
+        "1144632": 1
+      },
+      "url": "http://stackoverflow.com/badges/270/objective-c",
+      "rank": "bronze"
     },
-    {
-      "award_count": 1,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/837/revival",
-      "name": "Revival",
-      "user_id": 82156
-    },
-    {
-      "award_count": 7,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/23/nice-answer",
-      "name": "Nice Answer",
-      "user_id": 105662
-    },
-    {
-      "award_count": 1,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/2278/custodian",
-      "name": "Custodian",
-      "user_id": 220529
-    },
-    {
-      "award_count": 1,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/20/nice-question",
-      "name": "Nice Question",
-      "user_id": 315748
-    },
-    {
-      "award_count": 3,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/26/popular-question",
-      "name": "Popular Question",
-      "user_id": 315748
-    },
-    {
-      "award_count": 4,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/26/popular-question",
-      "name": "Popular Question",
-      "user_id": 220529
-    },
-    {
-      "award_count": 1,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/220/promoter",
-      "name": "Promoter",
-      "user_id": 315748
-    },
-    {
-      "award_count": 1,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/260/announcer",
-      "name": "Announcer",
-      "user_id": 315748
-    },
-    {
-      "award_count": 1,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/20/nice-question",
-      "name": "Nice Question",
-      "user_id": 473961
-    },
-    {
-      "award_count": 3,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/23/nice-answer",
-      "name": "Nice Answer",
-      "user_id": 473961
-    },
-    {
-      "award_count": 1,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/26/popular-question",
-      "name": "Popular Question",
-      "user_id": 473961
-    },
-    {
-      "award_count": 1,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/837/revival",
-      "name": "Revival",
-      "user_id": 473961
-    },
-    {
-      "award_count": 1,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/9/autobiographer",
-      "name": "Autobiographer",
-      "user_id": 582605
-    },
-    {
-      "award_count": 3,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/23/nice-answer",
-      "name": "Nice Answer",
-      "user_id": 694086
-    },
-    {
-      "award_count": 2,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/26/popular-question",
-      "name": "Popular Question",
-      "user_id": 694086
-    },
-    {
-      "award_count": 1,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/260/announcer",
-      "name": "Announcer",
-      "user_id": 916619
-    },
-    {
-      "award_count": 5,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/23/nice-answer",
-      "name": "Nice Answer",
-      "user_id": 1144632
-    },
-    {
-      "award_count": 1,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/260/announcer",
-      "name": "Announcer",
-      "user_id": 1144632
-    },
-    {
-      "award_count": 1,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/270/objective-c",
-      "name": "objective-c",
-      "user_id": 1144632
-    },
-    {
-      "award_count": 1,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/277/iphone",
-      "name": "iphone",
-      "user_id": 1144632
+    "iphone": {
+      "total": 1,
+      "users": {
+        "1144632": 1
+      },
+      "url": "http://stackoverflow.com/badges/277/iphone",
+      "rank": "bronze"
     }
-  ],
+  },
   "talks": {
     "banterability": "",
     "dennyabraham": "",
