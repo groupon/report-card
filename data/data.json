@@ -132,7 +132,9 @@
       "username": "jamiepg1",
       "who": [
         "bkochendorfer",
-        "hhua"
+        "hhua",
+        "mooremo",
+        "suryagaddipati"
       ]
     },
     {
@@ -195,14 +197,16 @@
       "name": "Dimitrios Zorbas",
       "username": "zorbash",
       "who": [
-        "deivinsontejeda"
+        "deivinsontejeda",
+        "trevorsheridan"
       ]
     },
     {
       "name": "Thomas Bilk",
       "username": "zombat",
       "who": [
-        "deivinsontejeda"
+        "deivinsontejeda",
+        "trevorsheridan"
       ]
     },
     {
@@ -216,15 +220,17 @@
       "name": "Benjamin Fleischer",
       "username": "bf4",
       "who": [
-        "dennyabraham"
+        "dennyabraham",
+        "mooremo"
       ]
     },
     {
-      "name": "coveralls",
+      "name": "Coveralls",
       "username": "coveralls",
       "who": [
         "dennyabraham",
-        "hhua"
+        "hhua",
+        "mooremo"
       ]
     },
     {
@@ -471,6 +477,402 @@
       "who": [
         "ingoclaro"
       ]
+    },
+    {
+      "name": "Thomas Boyt",
+      "username": "thomasboyt",
+      "who": [
+        "jcfrancisco"
+      ]
+    },
+    {
+      "name": "techniq",
+      "username": "techniq",
+      "who": [
+        "jcfrancisco"
+      ]
+    },
+    {
+      "name": "Stefan Penner",
+      "username": "stefanpenner",
+      "who": [
+        "jcfrancisco",
+        "trek"
+      ]
+    },
+    {
+      "name": "rwaldron",
+      "username": "rwaldron",
+      "who": [
+        "jcfrancisco"
+      ]
+    },
+    {
+      "name": "Robert Jackson",
+      "username": "rjackson",
+      "who": [
+        "jcfrancisco",
+        "trek"
+      ]
+    },
+    {
+      "name": "Yoshua Wuyts",
+      "username": "yoshuawuyts",
+      "who": [
+        "jesstelford"
+      ]
+    },
+    {
+      "name": "John Szakmeister",
+      "username": "jszakmeister",
+      "who": [
+        "jesstelford"
+      ]
+    },
+    {
+      "name": "Jimmy Yuen Ho Wong",
+      "username": "wyuenho",
+      "who": [
+        "jesstelford"
+      ]
+    },
+    {
+      "name": "svallory",
+      "username": "svallory",
+      "who": [
+        "jesstelford"
+      ]
+    },
+    {
+      "name": "slexaxton",
+      "username": "slexaxton",
+      "who": [
+        "jesstelford"
+      ]
+    },
+    {
+      "name": "Umar Hansa",
+      "username": "umaar",
+      "who": [
+        "jkrems"
+      ]
+    },
+    {
+      "name": "tgriesser",
+      "username": "tgriesser",
+      "who": [
+        "jkrems"
+      ]
+    },
+    {
+      "name": "oliverjash",
+      "username": "oliverjash",
+      "who": [
+        "jkrems"
+      ]
+    },
+    {
+      "name": "zmanian",
+      "username": "zmanian",
+      "who": [
+        "jkrems"
+      ]
+    },
+    {
+      "name": "Tony",
+      "username": "zearin",
+      "who": [
+        "jkrems"
+      ]
+    },
+    {
+      "name": "TJ Holowaychuk",
+      "username": "visionmedia",
+      "who": [
+        "johan"
+      ]
+    },
+    {
+      "name": "Sindre Sorhus",
+      "username": "sindresorhus",
+      "who": [
+        "johan",
+        "trek"
+      ]
+    },
+    {
+      "name": "rlidwka",
+      "username": "rlidwka",
+      "who": [
+        "johan"
+      ]
+    },
+    {
+      "name": "Raynos (Jake Verbaten)",
+      "username": "raynos",
+      "who": [
+        "johan"
+      ]
+    },
+    {
+      "name": "Mike Bostock",
+      "username": "mbostock",
+      "who": [
+        "johan"
+      ]
+    },
+    {
+      "name": "Dmitri Sotnikov",
+      "username": "yogthos",
+      "who": [
+        "mooremo",
+        "twebb"
+      ]
+    },
+    {
+      "name": "shunwang",
+      "username": "shunwang",
+      "who": [
+        "mooremo"
+      ]
+    },
+    {
+      "name": "liamdawe",
+      "username": "liamdawe",
+      "who": [
+        "satanas"
+      ]
+    },
+    {
+      "name": "zxl777",
+      "username": "zxl777",
+      "who": [
+        "satanas"
+      ]
+    },
+    {
+      "name": "zozozoz",
+      "username": "zozozoz",
+      "who": [
+        "satanas"
+      ]
+    },
+    {
+      "name": "zhongxingzhi",
+      "username": "zhongxingzhi",
+      "who": [
+        "satanas"
+      ]
+    },
+    {
+      "name": "zagortenay333",
+      "username": "zagortenay333",
+      "who": [
+        "satanas"
+      ]
+    },
+    {
+      "name": "farfromrefug",
+      "username": "farfromrefug",
+      "who": [
+        "scottrogers"
+      ]
+    },
+    {
+      "name": "zortje",
+      "username": "zortje",
+      "who": [
+        "scottrogers"
+      ]
+    },
+    {
+      "name": "zhangheyin",
+      "username": "zhangheyin",
+      "who": [
+        "scottrogers"
+      ]
+    },
+    {
+      "name": "Zethus Suen",
+      "username": "zethussuen",
+      "who": [
+        "scottrogers"
+      ]
+    },
+    {
+      "name": "zerolab",
+      "username": "zerolab",
+      "who": [
+        "scottrogers"
+      ]
+    },
+    {
+      "name": "kohsuke",
+      "username": "kohsuke",
+      "who": [
+        "suryagaddipati"
+      ]
+    },
+    {
+      "name": "jglick",
+      "username": "jglick",
+      "who": [
+        "suryagaddipati"
+      ]
+    },
+    {
+      "name": "jenkinsadmin",
+      "username": "jenkinsadmin",
+      "who": [
+        "suryagaddipati"
+      ]
+    },
+    {
+      "name": "CloudBees pull request builder plugin",
+      "username": "cloudbees-pull-request-builder",
+      "who": [
+        "suryagaddipati"
+      ]
+    },
+    {
+      "name": "imajes",
+      "username": "imajes",
+      "who": [
+        "theSteveMitchell"
+      ]
+    },
+    {
+      "name": "Yehuda Katz",
+      "username": "wycats",
+      "who": [
+        "trek"
+      ]
+    },
+    {
+      "name": "Peter Wagenet",
+      "username": "wagenet",
+      "who": [
+        "trek"
+      ]
+    },
+    {
+      "name": "zzmxleo",
+      "username": "zzmxleo",
+      "who": [
+        "trevorsheridan"
+      ]
+    },
+    {
+      "name": "zzl0",
+      "username": "zzl0",
+      "who": [
+        "trevorsheridan"
+      ]
+    },
+    {
+      "name": "zxhfirefox",
+      "username": "zxhfirefox",
+      "who": [
+        "trevorsheridan"
+      ]
+    },
+    {
+      "name": "tsib0",
+      "username": "tsib0",
+      "who": [
+        "tsmacdonald"
+      ]
+    },
+    {
+      "name": "tomekw",
+      "username": "tomekw",
+      "who": [
+        "tsmacdonald"
+      ]
+    },
+    {
+      "name": "sija",
+      "username": "sija",
+      "who": [
+        "tsmacdonald"
+      ]
+    },
+    {
+      "name": "rmangino",
+      "username": "rmangino",
+      "who": [
+        "tsmacdonald"
+      ]
+    },
+    {
+      "name": "jteneycke",
+      "username": "jteneycke",
+      "who": [
+        "tsmacdonald"
+      ]
+    },
+    {
+      "name": "Colin Jones",
+      "username": "trptcolin",
+      "who": [
+        "twebb"
+      ]
+    },
+    {
+      "name": "uzhne",
+      "username": "uzhne",
+      "who": [
+        "twebb"
+      ]
+    },
+    {
+      "name": "Trevor Wennblom",
+      "username": "trevor",
+      "who": [
+        "twebb"
+      ]
+    },
+    {
+      "name": "timgluz",
+      "username": "timgluz",
+      "who": [
+        "twebb"
+      ]
+    },
+    {
+      "name": "yzq1979",
+      "username": "yzq1979",
+      "who": [
+        "vvitayau"
+      ]
+    },
+    {
+      "name": "yggdrasil",
+      "username": "yggdrasil",
+      "who": [
+        "vvitayau"
+      ]
+    },
+    {
+      "name": "y2bishop2y",
+      "username": "y2bishop2y",
+      "who": [
+        "vvitayau"
+      ]
+    },
+    {
+      "name": "xianhuawei",
+      "username": "xianhuawei",
+      "who": [
+        "vvitayau"
+      ]
+    },
+    {
+      "name": "xdays",
+      "username": "xdays",
+      "who": [
+        "vvitayau"
+      ]
     }
   ],
   "similar_users": [
@@ -558,7 +960,17 @@
         "felipebrahm",
         "hobodave",
         "iaman",
-        "ivan3bx"
+        "ivan3bx",
+        "jonhoman",
+        "koppenheim",
+        "michaelphines",
+        "nohat",
+        "richievos",
+        "rykann",
+        "shinjikuwayama",
+        "shivanathd",
+        "tundal45",
+        "williamsmatt"
       ]
     },
     {
@@ -575,7 +987,17 @@
         "felipebrahm",
         "hobodave",
         "iaman",
-        "ivan3bx"
+        "ivan3bx",
+        "jonhoman",
+        "koppenheim",
+        "michaelphines",
+        "nohat",
+        "richievos",
+        "rykann",
+        "shinjikuwayama",
+        "shivanathd",
+        "tundal45",
+        "williamsmatt"
       ]
     },
     {
@@ -592,7 +1014,17 @@
         "felipebrahm",
         "hobodave",
         "iaman",
-        "ivan3bx"
+        "ivan3bx",
+        "jonhoman",
+        "koppenheim",
+        "michaelphines",
+        "nohat",
+        "richievos",
+        "rykann",
+        "shinjikuwayama",
+        "shivanathd",
+        "tundal45",
+        "williamsmatt"
       ]
     },
     {
@@ -609,7 +1041,17 @@
         "felipebrahm",
         "hobodave",
         "iaman",
-        "ivan3bx"
+        "ivan3bx",
+        "jonhoman",
+        "koppenheim",
+        "michaelphines",
+        "nohat",
+        "richievos",
+        "rykann",
+        "shinjikuwayama",
+        "shivanathd",
+        "tundal45",
+        "williamsmatt"
       ]
     },
     {
@@ -626,7 +1068,17 @@
         "felipebrahm",
         "hobodave",
         "iaman",
-        "ivan3bx"
+        "ivan3bx",
+        "jonhoman",
+        "koppenheim",
+        "michaelphines",
+        "nohat",
+        "richievos",
+        "rykann",
+        "shinjikuwayama",
+        "shivanathd",
+        "tundal45",
+        "williamsmatt"
       ]
     },
     {
@@ -682,7 +1134,8 @@
       "name": "robey",
       "username": "robey",
       "who": [
-        "banterability"
+        "banterability",
+        "jesstelford"
       ]
     },
     {
@@ -696,7 +1149,8 @@
       "name": "benjie",
       "username": "benjie",
       "who": [
-        "banterability"
+        "banterability",
+        "jesstelford"
       ]
     },
     {
@@ -728,7 +1182,7 @@
       ]
     },
     {
-      "name": "DrWhax",
+      "name": "drwhax",
       "username": "drwhax",
       "who": [
         "bkochendorfer"
@@ -805,7 +1259,7 @@
       ]
     },
     {
-      "name": "jaredculp",
+      "name": "Jared Culp",
       "username": "jaredculp",
       "who": [
         "dbushong"
@@ -826,7 +1280,7 @@
       ]
     },
     {
-      "name": "clusterfoo",
+      "name": "Noam Gagliardi Rabinovich",
       "username": "clusterfoo",
       "who": [
         "dbushong"
@@ -885,14 +1339,16 @@
       "name": "Chun-wei Kuo",
       "username": "domon",
       "who": [
-        "dennyabraham"
+        "dennyabraham",
+        "mooremo"
       ]
     },
     {
       "name": "achied",
       "username": "achied",
       "who": [
-        "dennyabraham"
+        "dennyabraham",
+        "mooremo"
       ]
     },
     {
@@ -1223,6 +1679,538 @@
       "who": [
         "ingoclaro"
       ]
+    },
+    {
+      "name": "KFlash",
+      "username": "kflash",
+      "who": [
+        "jcfrancisco"
+      ]
+    },
+    {
+      "name": "ladaewoo",
+      "username": "ladaewoo",
+      "who": [
+        "jcfrancisco"
+      ]
+    },
+    {
+      "name": "Brenton Gunning",
+      "username": "brentongunning",
+      "who": [
+        "jcfrancisco"
+      ]
+    },
+    {
+      "name": "nelsonomuto",
+      "username": "nelsonomuto",
+      "who": [
+        "jcfrancisco"
+      ]
+    },
+    {
+      "name": "dfahlander",
+      "username": "dfahlander",
+      "who": [
+        "jcfrancisco"
+      ]
+    },
+    {
+      "name": "ngn",
+      "username": "ngn",
+      "who": [
+        "jesstelford"
+      ]
+    },
+    {
+      "name": "abe33",
+      "username": "abe33",
+      "who": [
+        "jesstelford"
+      ]
+    },
+    {
+      "name": "jr0cket",
+      "username": "jr0cket",
+      "who": [
+        "jesstelford"
+      ]
+    },
+    {
+      "name": "hurrymaplelad",
+      "username": "hurrymaplelad",
+      "who": [
+        "jkrems"
+      ]
+    },
+    {
+      "name": "Koutarou Chikuba",
+      "username": "mizchi",
+      "who": [
+        "jkrems"
+      ]
+    },
+    {
+      "name": "Bryant Williams",
+      "username": "scien",
+      "who": [
+        "jkrems"
+      ]
+    },
+    {
+      "name": "fundon",
+      "username": "fundon",
+      "who": [
+        "jkrems"
+      ]
+    },
+    {
+      "name": "zekenie",
+      "username": "zekenie",
+      "who": [
+        "jkrems"
+      ]
+    },
+    {
+      "name": "kumarharsh",
+      "username": "kumarharsh",
+      "who": [
+        "johan"
+      ]
+    },
+    {
+      "name": "James Kyle",
+      "username": "thejameskyle",
+      "who": [
+        "johan"
+      ]
+    },
+    {
+      "name": "gordonwritescode",
+      "username": "gordonwritescode",
+      "who": [
+        "johan"
+      ]
+    },
+    {
+      "name": "Jonathan Park",
+      "username": "park9140",
+      "who": [
+        "johan"
+      ]
+    },
+    {
+      "name": "slang800",
+      "username": "slang800",
+      "who": [
+        "johan"
+      ]
+    },
+    {
+      "name": "edtsech",
+      "username": "edtsech",
+      "who": [
+        "mcculloughsean"
+      ]
+    },
+    {
+      "name": "kevinta893",
+      "username": "kevinta893",
+      "who": [
+        "mcculloughsean"
+      ]
+    },
+    {
+      "name": "torbjorn",
+      "username": "torbjorn",
+      "who": [
+        "mcculloughsean"
+      ]
+    },
+    {
+      "name": "acubillos",
+      "username": "acubillos",
+      "who": [
+        "mcculloughsean"
+      ]
+    },
+    {
+      "name": "steffion",
+      "username": "steffion",
+      "who": [
+        "mcculloughsean"
+      ]
+    },
+    {
+      "name": "mathemathiko",
+      "username": "mathemathiko",
+      "who": [
+        "miccrun"
+      ]
+    },
+    {
+      "name": "orlof",
+      "username": "orlof",
+      "who": [
+        "miccrun"
+      ]
+    },
+    {
+      "name": "fbettag",
+      "username": "fbettag",
+      "who": [
+        "miccrun"
+      ]
+    },
+    {
+      "name": "fenmarel",
+      "username": "fenmarel",
+      "who": [
+        "miccrun"
+      ]
+    },
+    {
+      "name": "zeklandia",
+      "username": "zeklandia",
+      "who": [
+        "miccrun"
+      ]
+    },
+    {
+      "name": "rrichards",
+      "username": "rrichards",
+      "who": [
+        "mooremo"
+      ]
+    },
+    {
+      "name": "stephenorr",
+      "username": "stephenorr",
+      "who": [
+        "mooremo"
+      ]
+    },
+    {
+      "name": "govinda-fichtner",
+      "username": "govinda-fichtner",
+      "who": [
+        "mooremo"
+      ]
+    },
+    {
+      "name": "Daniel Hall",
+      "username": "smarthall",
+      "who": [
+        "satanas"
+      ]
+    },
+    {
+      "name": "Matt Molyneaux",
+      "username": "moggers87",
+      "who": [
+        "satanas"
+      ]
+    },
+    {
+      "name": "crantila",
+      "username": "crantila",
+      "who": [
+        "satanas"
+      ]
+    },
+    {
+      "name": "eads",
+      "username": "eads",
+      "who": [
+        "satanas"
+      ]
+    },
+    {
+      "name": "jreinhardt",
+      "username": "jreinhardt",
+      "who": [
+        "satanas"
+      ]
+    },
+    {
+      "name": "micahwalter",
+      "username": "micahwalter",
+      "who": [
+        "scottrogers"
+      ]
+    },
+    {
+      "name": "silas",
+      "username": "silas",
+      "who": [
+        "scottrogers"
+      ]
+    },
+    {
+      "name": "jsliang",
+      "username": "jsliang",
+      "who": [
+        "scottrogers"
+      ]
+    },
+    {
+      "name": "naoiwata",
+      "username": "naoiwata",
+      "who": [
+        "scottrogers"
+      ]
+    },
+    {
+      "name": "bjryan2",
+      "username": "bjryan2",
+      "who": [
+        "scottrogers"
+      ]
+    },
+    {
+      "name": "Julio Arias",
+      "username": "jarias",
+      "who": [
+        "suryagaddipati"
+      ]
+    },
+    {
+      "name": "Peter Donald",
+      "username": "realityforge",
+      "who": [
+        "suryagaddipati"
+      ]
+    },
+    {
+      "name": "raphaeljlps",
+      "username": "raphaeljlps",
+      "who": [
+        "suryagaddipati"
+      ]
+    },
+    {
+      "name": "compwron",
+      "username": "compwron",
+      "who": [
+        "suryagaddipati"
+      ]
+    },
+    {
+      "name": "pannous",
+      "username": "pannous",
+      "who": [
+        "suryagaddipati"
+      ]
+    },
+    {
+      "name": "jhanggi",
+      "username": "jhanggi",
+      "who": [
+        "theSteveMitchell"
+      ]
+    },
+    {
+      "name": "m4tu5",
+      "username": "m4tu5",
+      "who": [
+        "theSteveMitchell"
+      ]
+    },
+    {
+      "name": "Justin",
+      "username": "barberj",
+      "who": [
+        "theSteveMitchell"
+      ]
+    },
+    {
+      "name": "bwian",
+      "username": "bwian",
+      "who": [
+        "theSteveMitchell"
+      ]
+    },
+    {
+      "name": "jhtran",
+      "username": "jhtran",
+      "who": [
+        "theSteveMitchell"
+      ]
+    },
+    {
+      "name": "Alex Matchneer",
+      "username": "machty",
+      "who": [
+        "trek"
+      ]
+    },
+    {
+      "name": "jdan",
+      "username": "jdan",
+      "who": [
+        "trek"
+      ]
+    },
+    {
+      "name": "joliss",
+      "username": "joliss",
+      "who": [
+        "trek"
+      ]
+    },
+    {
+      "name": "Yehuda Katz",
+      "username": "wycats",
+      "who": [
+        "trek"
+      ]
+    },
+    {
+      "name": "jish",
+      "username": "jish",
+      "who": [
+        "trek"
+      ]
+    },
+    {
+      "name": "trunalb",
+      "username": "trunalb",
+      "who": [
+        "trevorsheridan"
+      ]
+    },
+    {
+      "name": "redwerk",
+      "username": "redwerk",
+      "who": [
+        "trevorsheridan"
+      ]
+    },
+    {
+      "name": "gdetrez",
+      "username": "gdetrez",
+      "who": [
+        "trevorsheridan"
+      ]
+    },
+    {
+      "name": "swirepe",
+      "username": "swirepe",
+      "who": [
+        "trevorsheridan"
+      ]
+    },
+    {
+      "name": "piousbox",
+      "username": "piousbox",
+      "who": [
+        "trevorsheridan"
+      ]
+    },
+    {
+      "name": "yous",
+      "username": "yous",
+      "who": [
+        "tsmacdonald"
+      ]
+    },
+    {
+      "name": "Cassandra King",
+      "username": "cassking",
+      "who": [
+        "tsmacdonald"
+      ]
+    },
+    {
+      "name": "kaushikgopal",
+      "username": "kaushikgopal",
+      "who": [
+        "tsmacdonald"
+      ]
+    },
+    {
+      "name": "delucas",
+      "username": "delucas",
+      "who": [
+        "tsmacdonald"
+      ]
+    },
+    {
+      "name": "roberts-sandbox",
+      "username": "roberts-sandbox",
+      "who": [
+        "tsmacdonald"
+      ]
+    },
+    {
+      "name": "jolby",
+      "username": "jolby",
+      "who": [
+        "twebb"
+      ]
+    },
+    {
+      "name": "Michael Rubanov",
+      "username": "micrub",
+      "who": [
+        "twebb"
+      ]
+    },
+    {
+      "name": "uzhne",
+      "username": "uzhne",
+      "who": [
+        "twebb"
+      ]
+    },
+    {
+      "name": "hhutch",
+      "username": "hhutch",
+      "who": [
+        "twebb"
+      ]
+    },
+    {
+      "name": "Ali Baitam",
+      "username": "abaitam",
+      "who": [
+        "twebb"
+      ]
+    },
+    {
+      "name": "yilongli",
+      "username": "yilongli",
+      "who": [
+        "vvitayau"
+      ]
+    },
+    {
+      "name": "yyuan1",
+      "username": "yyuan1",
+      "who": [
+        "vvitayau"
+      ]
+    },
+    {
+      "name": "hildrum",
+      "username": "hildrum",
+      "who": [
+        "vvitayau"
+      ]
+    },
+    {
+      "name": "teichsta",
+      "username": "teichsta",
+      "who": [
+        "vvitayau"
+      ]
+    },
+    {
+      "name": "mtwestra",
+      "username": "mtwestra",
+      "who": [
+        "vvitayau"
+      ]
     }
   ],
   "repositories": [
@@ -1456,48 +2444,371 @@
       "activeUsers": [
         "hhua"
       ]
+    },
+    {
+      "count": 16,
+      "repo": "jcfrancisco/snaps",
+      "activeUsers": [
+        "jcfrancisco"
+      ]
+    },
+    {
+      "count": 155,
+      "repo": "jesstelford/wallet-sweep",
+      "activeUsers": [
+        "jesstelford"
+      ]
+    },
+    {
+      "count": 37,
+      "repo": "jesstelford/coffee-boilerplate",
+      "activeUsers": [
+        "jesstelford"
+      ]
+    },
+    {
+      "count": 31,
+      "repo": "jesstelford/luareplay",
+      "activeUsers": [
+        "jesstelford"
+      ]
+    },
+    {
+      "count": 20,
+      "repo": "jesstelford/longdistance",
+      "activeUsers": [
+        "jesstelford"
+      ]
+    },
+    {
+      "count": 18,
+      "repo": "jesstelford/coffee-factory",
+      "activeUsers": [
+        "jesstelford"
+      ]
+    },
+    {
+      "count": 243,
+      "repo": "jkrems/bugger",
+      "activeUsers": [
+        "jkrems"
+      ]
+    },
+    {
+      "count": 54,
+      "repo": "buggerjs/bugger-v8-client",
+      "activeUsers": [
+        "jkrems"
+      ]
+    },
+    {
+      "count": 45,
+      "repo": "groupon/node-cached",
+      "activeUsers": [
+        "jkrems"
+      ]
+    },
+    {
+      "count": 37,
+      "repo": "jkrems/quinn2",
+      "activeUsers": [
+        "jkrems"
+      ]
+    },
+    {
+      "count": 23,
+      "repo": "jkrems/quinn",
+      "activeUsers": [
+        "jkrems"
+      ]
+    },
+    {
+      "count": 100,
+      "repo": "johan/kilobyte-svg-challenge",
+      "activeUsers": [
+        "johan"
+      ]
+    },
+    {
+      "count": 63,
+      "repo": "groupon/assertive",
+      "activeUsers": [
+        "johan"
+      ]
+    },
+    {
+      "count": 53,
+      "repo": "editorconfig/editorconfig-emacs",
+      "activeUsers": [
+        "johan"
+      ]
+    },
+    {
+      "count": 44,
+      "repo": "johan/world.geo.json",
+      "activeUsers": [
+        "johan"
+      ]
+    },
+    {
+      "count": 20,
+      "repo": "johan/testium",
+      "activeUsers": [
+        "johan"
+      ]
+    },
+    {
+      "count": 14,
+      "repo": "mooremo/Settlers-of-Catan",
+      "activeUsers": [
+        "mooremo"
+      ]
+    },
+    {
+      "count": 13,
+      "repo": "mooremo/clojure-koans",
+      "activeUsers": [
+        "mooremo"
+      ]
+    },
+    {
+      "count": 12,
+      "repo": "mooremo/tap2connect",
+      "activeUsers": [
+        "mooremo"
+      ]
+    },
+    {
+      "count": 9,
+      "repo": "mooremo/hstore-attributes",
+      "activeUsers": [
+        "mooremo"
+      ]
+    },
+    {
+      "count": 7,
+      "repo": "mooremo/oh-my-zsh",
+      "activeUsers": [
+        "mooremo"
+      ]
+    },
+    {
+      "count": 988,
+      "repo": "satanas/Turpial",
+      "activeUsers": [
+        "satanas"
+      ]
+    },
+    {
+      "count": 405,
+      "repo": "satanas/libturpial",
+      "activeUsers": [
+        "satanas"
+      ]
+    },
+    {
+      "count": 203,
+      "repo": "satanas/dosviajeros",
+      "activeUsers": [
+        "satanas"
+      ]
+    },
+    {
+      "count": 121,
+      "repo": "satanas/wp-turpial-theme",
+      "activeUsers": [
+        "satanas"
+      ]
+    },
+    {
+      "count": 98,
+      "repo": "Turpial/Turpial",
+      "activeUsers": [
+        "satanas"
+      ]
+    },
+    {
+      "count": 8,
+      "repo": "scottrogers/twitfav",
+      "activeUsers": [
+        "scottrogers"
+      ]
+    },
+    {
+      "count": 8,
+      "repo": "scottrogers/boilerplate",
+      "activeUsers": [
+        "scottrogers"
+      ]
+    },
+    {
+      "count": 6,
+      "repo": "scottrogers/letterfy",
+      "activeUsers": [
+        "scottrogers"
+      ]
+    },
+    {
+      "count": 152,
+      "repo": "suryagaddipati/cancan",
+      "activeUsers": [
+        "suryagaddipati"
+      ]
+    },
+    {
+      "count": 84,
+      "repo": "groupon/DotCi",
+      "activeUsers": [
+        "suryagaddipati",
+        "vvitayau"
+      ]
+    },
+    {
+      "count": 28,
+      "repo": "jenkinsci/slave-utilization-plugin",
+      "activeUsers": [
+        "suryagaddipati"
+      ]
+    },
+    {
+      "count": 25,
+      "repo": "suryagaddipati/travistest",
+      "activeUsers": [
+        "suryagaddipati"
+      ]
+    },
+    {
+      "count": 24,
+      "repo": "suryagaddipati/linqr",
+      "activeUsers": [
+        "suryagaddipati"
+      ]
+    },
+    {
+      "count": 10,
+      "repo": "theSteveMitchell/after_party",
+      "activeUsers": [
+        "theSteveMitchell"
+      ]
+    },
+    {
+      "count": 470,
+      "repo": "emberjs/ember.js",
+      "activeUsers": [
+        "trek"
+      ]
+    },
+    {
+      "count": 272,
+      "repo": "trek/ember.js",
+      "activeUsers": [
+        "trek"
+      ]
+    },
+    {
+      "count": 241,
+      "repo": "emberjs/website",
+      "activeUsers": [
+        "trek"
+      ]
+    },
+    {
+      "count": 101,
+      "repo": "trek/grunt-neuter",
+      "activeUsers": [
+        "trek"
+      ]
+    },
+    {
+      "count": 72,
+      "repo": "trek/website",
+      "activeUsers": [
+        "trek"
+      ]
+    },
+    {
+      "count": 28,
+      "repo": "tsmacdonald/cl-abc",
+      "activeUsers": [
+        "tsmacdonald"
+      ]
+    },
+    {
+      "count": 23,
+      "repo": "tsmacdonald/first-collection",
+      "activeUsers": [
+        "tsmacdonald"
+      ]
+    },
+    {
+      "count": 22,
+      "repo": "tsmacdonald/wizard-professor",
+      "activeUsers": [
+        "tsmacdonald"
+      ]
+    },
+    {
+      "count": 22,
+      "repo": "tsmacdonald/simulator",
+      "activeUsers": [
+        "tsmacdonald"
+      ]
+    },
+    {
+      "count": 21,
+      "repo": "tsmacdonald/git-lecture-test",
+      "activeUsers": [
+        "tsmacdonald"
+      ]
+    },
+    {
+      "count": 9,
+      "repo": "twebb/dotfiles",
+      "activeUsers": [
+        "twebb"
+      ]
     }
   ],
   "usage": {
     "day": [
-      80,
-      23,
-      5,
-      2,
-      4,
-      4,
-      7,
-      18,
-      68,
-      84,
-      117,
-      209,
-      122,
-      247,
-      206,
-      316,
-      166,
-      154,
-      76,
-      73,
-      71,
-      113,
-      114,
-      85
+      159,
+      85,
+      41,
+      47,
+      55,
+      126,
+      218,
+      329,
+      578,
+      621,
+      643,
+      748,
+      572,
+      763,
+      622,
+      724,
+      624,
+      605,
+      485,
+      485,
+      396,
+      336,
+      288,
+      242
     ],
     "week": [
-      228,
-      330,
-      336,
-      394,
-      346,
-      531,
-      199
+      1364,
+      1448,
+      1428,
+      1408,
+      1424,
+      1459,
+      1261
     ],
     "events": [
       {
         "type": "CommitCommentEvent",
-        "total": 0,
+        "total": 2,
         "day": [
           0,
           0,
@@ -1512,55 +2823,16 @@
           0,
           0,
           0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "week": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      {
-        "type": "CreateEvent",
-        "total": 148,
-        "day": [
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
           1,
           1,
-          1,
-          1,
-          1,
-          4,
-          1,
-          6,
-          1,
           0,
           0,
           0,
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
           0
         ],
         "week": [
@@ -1568,14 +2840,53 @@
           0,
           0,
           2,
-          7,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "CreateEvent",
+        "total": 785,
+        "day": [
+          3,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          2,
+          5,
+          5,
+          1,
+          2,
+          6,
+          6,
           4,
-          6
+          9,
+          1,
+          11,
+          1,
+          4,
+          10,
+          2
+        ],
+        "week": [
+          7,
+          16,
+          6,
+          16,
+          11,
+          7,
+          12
         ]
       },
       {
         "type": "DeleteEvent",
-        "total": 1,
+        "total": 45,
         "day": [
           0,
           0,
@@ -1593,7 +2904,7 @@
           1,
           0,
           0,
-          0,
+          1,
           0,
           0,
           0,
@@ -1608,7 +2919,7 @@
           0,
           1,
           0,
-          0,
+          1,
           0
         ]
       },
@@ -1731,7 +3042,7 @@
       },
       {
         "type": "FollowEvent",
-        "total": 2,
+        "total": 15,
         "day": [
           0,
           0,
@@ -1770,7 +3081,7 @@
       },
       {
         "type": "ForkEvent",
-        "total": 54,
+        "total": 173,
         "day": [
           1,
           0,
@@ -1782,29 +3093,29 @@
           0,
           0,
           0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          3,
-          0,
-          0,
-          0,
-          0,
           1,
+          1,
+          5,
+          0,
+          2,
+          5,
+          2,
+          1,
+          2,
+          0,
+          2,
           0,
           0,
           1
         ],
         "week": [
+          2,
           1,
-          0,
-          1,
-          1,
-          0,
-          0,
-          3
+          6,
+          2,
+          3,
+          2,
+          7
         ]
       },
       {
@@ -1926,85 +3237,85 @@
       },
       {
         "type": "IssueCommentEvent",
-        "total": 162,
+        "total": 1260,
         "day": [
           2,
           0,
           0,
-          0,
-          0,
-          0,
           1,
-          7,
-          13,
-          17,
-          12,
-          6,
-          13,
-          20,
-          5,
-          10,
-          12,
-          4,
-          8,
-          6,
+          2,
+          16,
+          33,
+          67,
+          116,
+          86,
+          88,
+          77,
+          62,
+          66,
+          51,
+          42,
+          47,
+          35,
+          52,
+          54,
+          50,
           9,
-          1,
-          6,
-          2
+          10,
+          3
         ],
         "week": [
-          22,
-          27,
-          20,
-          27,
-          18,
-          25,
-          15
+          135,
+          151,
+          137,
+          150,
+          115,
+          162,
+          119
         ]
       },
       {
         "type": "IssuesEvent",
-        "total": 346,
+        "total": 1121,
         "day": [
           1,
           0,
           0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
           2,
-          0,
-          0,
-          0,
-          3,
-          0,
-          0,
-          0,
-          0,
-          1,
-          3,
-          1
+          4,
+          13,
+          23,
+          20,
+          37,
+          23,
+          32,
+          54,
+          56,
+          43,
+          36,
+          33,
+          27,
+          30,
+          36,
+          63,
+          54,
+          18,
+          12,
+          7
         ],
         "week": [
-          0,
-          0,
-          5,
-          6,
-          1,
-          0,
-          0
+          117,
+          83,
+          80,
+          77,
+          58,
+          126,
+          83
         ]
       },
       {
         "type": "MemberEvent",
-        "total": 0,
+        "total": 1,
         "day": [
           0,
           0,
@@ -2121,7 +3432,7 @@
       },
       {
         "type": "PullRequestEvent",
-        "total": 94,
+        "total": 632,
         "day": [
           0,
           0,
@@ -2131,31 +3442,31 @@
           0,
           1,
           0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
           2,
-          0,
-          0,
-          0,
+          4,
+          4,
+          2,
+          3,
+          3,
+          2,
+          3,
+          2,
+          4,
+          6,
+          3,
           1,
-          0,
           0,
           0,
           0
         ],
         "week": [
-          1,
-          1,
-          2,
-          1,
-          0,
-          0,
-          0
+          4,
+          7,
+          9,
+          5,
+          6,
+          7,
+          2
         ]
       },
       {
@@ -2199,41 +3510,41 @@
       },
       {
         "type": "PushEvent",
-        "total": 787,
+        "total": 3564,
         "day": [
-          44,
-          12,
-          1,
-          1,
-          1,
-          1,
-          0,
+          67,
+          23,
           5,
-          13,
-          20,
-          27,
-          42,
-          22,
-          40,
-          34,
+          7,
+          11,
+          38,
           44,
           45,
-          34,
-          12,
-          16,
-          14,
-          37,
-          44,
-          25
+          89,
+          71,
+          129,
+          128,
+          119,
+          196,
+          167,
+          167,
+          159,
+          156,
+          151,
+          176,
+          129,
+          106,
+          96,
+          51
         ],
         "week": [
-          78,
-          86,
-          48,
-          100,
-          122,
-          63,
-          37
+          392,
+          339,
+          324,
+          377,
+          411,
+          249,
+          238
         ]
       },
       {
@@ -2355,50 +3666,50 @@
       },
       {
         "type": "WatchEvent",
-        "total": 448,
+        "total": 1271,
         "day": [
-          21,
-          8,
+          42,
+          28,
+          9,
+          3,
           2,
-          1,
-          2,
-          2,
-          2,
-          4,
-          11,
-          11,
-          22,
-          33,
-          36,
-          26,
-          32,
-          38,
-          29,
-          19,
-          8,
-          14,
+          7,
           10,
-          32,
-          27,
-          30
+          36,
+          72,
+          119,
+          72,
+          89,
+          70,
+          53,
+          65,
+          64,
+          93,
+          69,
+          30,
+          21,
+          14,
+          52,
+          46,
+          59
         ],
         "week": [
-          36,
-          93,
-          71,
-          67,
-          65,
-          59,
-          29
+          113,
+          216,
+          229,
+          154,
+          188,
+          154,
+          71
         ]
       }
     ],
     "languages": [],
-    "total": 8551,
+    "total": 17633,
     "allLanguages": [
       {
         "language": "C",
-        "count": 61,
+        "count": 102,
         "who": [
           {
             "username": "abedra",
@@ -2423,12 +3734,40 @@
           {
             "username": "hhua",
             "percent": 100
+          },
+          {
+            "username": "jesstelford",
+            "percent": 100
+          },
+          {
+            "username": "johan",
+            "percent": 100
+          },
+          {
+            "username": "mooremo",
+            "percent": 100
+          },
+          {
+            "username": "satanas",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 100
+          },
+          {
+            "username": "trek",
+            "percent": 100
+          },
+          {
+            "username": "twebb",
+            "percent": 100
           }
         ]
       },
       {
         "language": "Ruby",
-        "count": 227,
+        "count": 1089,
         "who": [
           {
             "username": "abedra",
@@ -2457,12 +3796,56 @@
           {
             "username": "hhua",
             "percent": 100
+          },
+          {
+            "username": "jesstelford",
+            "percent": 100
+          },
+          {
+            "username": "jkrems",
+            "percent": 100
+          },
+          {
+            "username": "johan",
+            "percent": 100
+          },
+          {
+            "username": "mooremo",
+            "percent": 100
+          },
+          {
+            "username": "satanas",
+            "percent": 100
+          },
+          {
+            "username": "scottrogers",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 46
+          },
+          {
+            "username": "theSteveMitchell",
+            "percent": 100
+          },
+          {
+            "username": "trek",
+            "percent": 81
+          },
+          {
+            "username": "tsmacdonald",
+            "percent": 100
+          },
+          {
+            "username": "twebb",
+            "percent": 100
           }
         ]
       },
       {
         "language": "Emacs Lisp",
-        "count": 3,
+        "count": 78,
         "who": [
           {
             "username": "abedra",
@@ -2471,12 +3854,20 @@
           {
             "username": "hhua",
             "percent": 100
+          },
+          {
+            "username": "johan",
+            "percent": 100
+          },
+          {
+            "username": "twebb",
+            "percent": 100
           }
         ]
       },
       {
         "language": "CoffeeScript",
-        "count": 273,
+        "count": 1033,
         "who": [
           {
             "username": "abloom",
@@ -2497,12 +3888,40 @@
           {
             "username": "hhua",
             "percent": 100
+          },
+          {
+            "username": "jesstelford",
+            "percent": 41
+          },
+          {
+            "username": "jkrems",
+            "percent": 74
+          },
+          {
+            "username": "johan",
+            "percent": 100
+          },
+          {
+            "username": "mooremo",
+            "percent": 100
+          },
+          {
+            "username": "scottrogers",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 100
+          },
+          {
+            "username": "trek",
+            "percent": 100
           }
         ]
       },
       {
         "language": "JavaScript",
-        "count": 283,
+        "count": 2576,
         "who": [
           {
             "username": "abloom",
@@ -2535,12 +3954,56 @@
           {
             "username": "hhua",
             "percent": 100
+          },
+          {
+            "username": "jcfrancisco",
+            "percent": 100
+          },
+          {
+            "username": "jesstelford",
+            "percent": 100
+          },
+          {
+            "username": "jkrems",
+            "percent": 49
+          },
+          {
+            "username": "johan",
+            "percent": 91
+          },
+          {
+            "username": "mooremo",
+            "percent": 100
+          },
+          {
+            "username": "satanas",
+            "percent": 30
+          },
+          {
+            "username": "scottrogers",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 100
+          },
+          {
+            "username": "trek",
+            "percent": 7
+          },
+          {
+            "username": "tsmacdonald",
+            "percent": 100
+          },
+          {
+            "username": "twebb",
+            "percent": 100
           }
         ]
       },
       {
         "language": "Python",
-        "count": 25,
+        "count": 1651,
         "who": [
           {
             "username": "avivey",
@@ -2565,12 +4028,56 @@
           {
             "username": "hhua",
             "percent": 100
+          },
+          {
+            "username": "jesstelford",
+            "percent": 100
+          },
+          {
+            "username": "jkrems",
+            "percent": 100
+          },
+          {
+            "username": "johan",
+            "percent": 100
+          },
+          {
+            "username": "mooremo",
+            "percent": 100
+          },
+          {
+            "username": "satanas",
+            "percent": 4
+          },
+          {
+            "username": "scottrogers",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 100
+          },
+          {
+            "username": "trek",
+            "percent": 100
+          },
+          {
+            "username": "trevorsheridan",
+            "percent": 100
+          },
+          {
+            "username": "tsmacdonald",
+            "percent": 100
+          },
+          {
+            "username": "twebb",
+            "percent": 100
           }
         ]
       },
       {
         "language": "PHP",
-        "count": 3,
+        "count": 74,
         "who": [
           {
             "username": "avivey",
@@ -2579,12 +4086,28 @@
           {
             "username": "hhua",
             "percent": 100
+          },
+          {
+            "username": "jesstelford",
+            "percent": 100
+          },
+          {
+            "username": "mooremo",
+            "percent": 100
+          },
+          {
+            "username": "satanas",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 100
           }
         ]
       },
       {
         "language": "CSS",
-        "count": 104,
+        "count": 234,
         "who": [
           {
             "username": "banterability",
@@ -2605,12 +4128,44 @@
           {
             "username": "hhua",
             "percent": 100
+          },
+          {
+            "username": "jesstelford",
+            "percent": 100
+          },
+          {
+            "username": "jkrems",
+            "percent": 100
+          },
+          {
+            "username": "johan",
+            "percent": 100
+          },
+          {
+            "username": "mooremo",
+            "percent": 100
+          },
+          {
+            "username": "scottrogers",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 100
+          },
+          {
+            "username": "trek",
+            "percent": 100
+          },
+          {
+            "username": "tsmacdonald",
+            "percent": 100
           }
         ]
       },
       {
         "language": "Shell",
-        "count": 34,
+        "count": 125,
         "who": [
           {
             "username": "banterability",
@@ -2635,12 +4190,44 @@
           {
             "username": "hhua",
             "percent": 100
+          },
+          {
+            "username": "jesstelford",
+            "percent": 100
+          },
+          {
+            "username": "johan",
+            "percent": 100
+          },
+          {
+            "username": "mooremo",
+            "percent": 100
+          },
+          {
+            "username": "satanas",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 100
+          },
+          {
+            "username": "trek",
+            "percent": 100
+          },
+          {
+            "username": "tsmacdonald",
+            "percent": 100
+          },
+          {
+            "username": "twebb",
+            "percent": 100
           }
         ]
       },
       {
         "language": "C++",
-        "count": 20,
+        "count": 67,
         "who": [
           {
             "username": "banterability",
@@ -2657,12 +4244,40 @@
           {
             "username": "hhua",
             "percent": 100
+          },
+          {
+            "username": "jesstelford",
+            "percent": 100
+          },
+          {
+            "username": "jkrems",
+            "percent": 100
+          },
+          {
+            "username": "johan",
+            "percent": 100
+          },
+          {
+            "username": "mooremo",
+            "percent": 100
+          },
+          {
+            "username": "satanas",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 100
+          },
+          {
+            "username": "trek",
+            "percent": 100
           }
         ]
       },
       {
         "language": "Elixir",
-        "count": 51,
+        "count": 53,
         "who": [
           {
             "username": "bkochendorfer",
@@ -2671,12 +4286,16 @@
           {
             "username": "dennyabraham",
             "percent": 100
+          },
+          {
+            "username": "mooremo",
+            "percent": 100
           }
         ]
       },
       {
         "language": "Erlang",
-        "count": 11,
+        "count": 16,
         "who": [
           {
             "username": "bkochendorfer",
@@ -2689,12 +4308,20 @@
           {
             "username": "hhua",
             "percent": 100
+          },
+          {
+            "username": "jkrems",
+            "percent": 100
+          },
+          {
+            "username": "mooremo",
+            "percent": 100
           }
         ]
       },
       {
         "language": "Go",
-        "count": 21,
+        "count": 71,
         "who": [
           {
             "username": "bkochendorfer",
@@ -2715,12 +4342,24 @@
           {
             "username": "ingoclaro",
             "percent": 100
+          },
+          {
+            "username": "jkrems",
+            "percent": 100
+          },
+          {
+            "username": "mooremo",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 100
           }
         ]
       },
       {
         "language": "VimL",
-        "count": 23,
+        "count": 84,
         "who": [
           {
             "username": "carlthuringer",
@@ -2737,12 +4376,48 @@
           {
             "username": "hhua",
             "percent": 100
+          },
+          {
+            "username": "jesstelford",
+            "percent": 100
+          },
+          {
+            "username": "johan",
+            "percent": 100
+          },
+          {
+            "username": "mcculloughsean",
+            "percent": 100
+          },
+          {
+            "username": "miccrun",
+            "percent": 100
+          },
+          {
+            "username": "mooremo",
+            "percent": 100
+          },
+          {
+            "username": "satanas",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 100
+          },
+          {
+            "username": "trek",
+            "percent": 100
+          },
+          {
+            "username": "tsmacdonald",
+            "percent": 100
           }
         ]
       },
       {
         "language": "Haskell",
-        "count": 4,
+        "count": 8,
         "who": [
           {
             "username": "carlthuringer",
@@ -2751,12 +4426,20 @@
           {
             "username": "dennyabraham",
             "percent": 100
+          },
+          {
+            "username": "jkrems",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 100
           }
         ]
       },
       {
         "language": "Clojure",
-        "count": 53,
+        "count": 234,
         "who": [
           {
             "username": "dennyabraham",
@@ -2769,12 +4452,32 @@
           {
             "username": "hhua",
             "percent": 100
+          },
+          {
+            "username": "johan",
+            "percent": 100
+          },
+          {
+            "username": "mooremo",
+            "percent": 100
+          },
+          {
+            "username": "trek",
+            "percent": 100
+          },
+          {
+            "username": "tsmacdonald",
+            "percent": 100
+          },
+          {
+            "username": "twebb",
+            "percent": 100
           }
         ]
       },
       {
         "language": "Java",
-        "count": 760,
+        "count": 1032,
         "who": [
           {
             "username": "dennyabraham",
@@ -2791,12 +4494,44 @@
           {
             "username": "hhua",
             "percent": 100
+          },
+          {
+            "username": "jesstelford",
+            "percent": 100
+          },
+          {
+            "username": "jkrems",
+            "percent": 100
+          },
+          {
+            "username": "johan",
+            "percent": 100
+          },
+          {
+            "username": "mooremo",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 75
+          },
+          {
+            "username": "tsmacdonald",
+            "percent": 100
+          },
+          {
+            "username": "twebb",
+            "percent": 100
+          },
+          {
+            "username": "vvitayau",
+            "percent": 100
           }
         ]
       },
       {
         "language": "Scala",
-        "count": 9,
+        "count": 16,
         "who": [
           {
             "username": "dennyabraham",
@@ -2804,6 +4539,14 @@
           },
           {
             "username": "hhua",
+            "percent": 100
+          },
+          {
+            "username": "mooremo",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
             "percent": 100
           }
         ]
@@ -2820,7 +4563,7 @@
       },
       {
         "language": "Objective-C",
-        "count": 10,
+        "count": 24,
         "who": [
           {
             "username": "dennyabraham",
@@ -2829,45 +4572,101 @@
           {
             "username": "hhua",
             "percent": 100
+          },
+          {
+            "username": "johan",
+            "percent": 100
+          },
+          {
+            "username": "mooremo",
+            "percent": 100
+          },
+          {
+            "username": "scottrogers",
+            "percent": 100
+          },
+          {
+            "username": "suryagaddipati",
+            "percent": 100
+          },
+          {
+            "username": "trek",
+            "percent": 100
+          },
+          {
+            "username": "tsmacdonald",
+            "percent": 100
           }
         ]
       },
       {
         "language": "Lua",
-        "count": 1,
+        "count": 38,
         "who": [
           {
             "username": "dennyabraham",
+            "percent": 100
+          },
+          {
+            "username": "jesstelford",
+            "percent": 100
+          },
+          {
+            "username": "jkrems",
             "percent": 100
           }
         ]
       },
       {
         "language": "C#",
-        "count": 6,
+        "count": 22,
         "who": [
           {
             "username": "dustyburwell",
+            "percent": 100
+          },
+          {
+            "username": "johan",
+            "percent": 100
+          },
+          {
+            "username": "mooremo",
             "percent": 100
           }
         ]
       },
       {
         "language": "Swift",
-        "count": 3,
+        "count": 5,
         "who": [
           {
             "username": "hhua",
+            "percent": 100
+          },
+          {
+            "username": "jkrems",
             "percent": 100
           }
         ]
       },
       {
         "language": "Perl",
-        "count": 3,
+        "count": 11,
         "who": [
           {
             "username": "hhua",
+            "percent": 100
+          },
+          {
+            "username": "jkrems",
+            "percent": 100
+          },
+          {
+            "username": "scottrogers",
+            "percent": 100
+          },
+          {
+            "username": "twebb",
             "percent": 100
           }
         ]
@@ -2884,10 +4683,14 @@
       },
       {
         "language": "TypeScript",
-        "count": 1,
+        "count": 2,
         "who": [
           {
             "username": "hhua",
+            "percent": 100
+          },
+          {
+            "username": "jesstelford",
             "percent": 100
           }
         ]
@@ -2911,6 +4714,124 @@
             "percent": 100
           }
         ]
+      },
+      {
+        "language": "LiveScript",
+        "count": 27,
+        "who": [
+          {
+            "username": "jkrems",
+            "percent": 100
+          },
+          {
+            "username": "trek",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "OCaml",
+        "count": 1,
+        "who": [
+          {
+            "username": "jkrems",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "TeX",
+        "count": 2,
+        "who": [
+          {
+            "username": "mooremo",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "R",
+        "count": 2,
+        "who": [
+          {
+            "username": "mooremo",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "Vala",
+        "count": 1,
+        "who": [
+          {
+            "username": "mooremo",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "Rust",
+        "count": 1,
+        "who": [
+          {
+            "username": "mooremo",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "Dart",
+        "count": 1,
+        "who": [
+          {
+            "username": "mooremo",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "Groovy",
+        "count": 1,
+        "who": [
+          {
+            "username": "suryagaddipati",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "Common Lisp",
+        "count": 87,
+        "who": [
+          {
+            "username": "tsmacdonald",
+            "percent": 100
+          },
+          {
+            "username": "twebb",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "Tcl",
+        "count": 22,
+        "who": [
+          {
+            "username": "tsmacdonald",
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "language": "XML",
+        "count": 1,
+        "who": [
+          {
+            "username": "twebb",
+            "percent": 100
+          }
+        ]
       }
     ],
     "topLanguages": [
@@ -2931,6 +4852,26 @@
           {
             "username": "emmby",
             "percent": 16
+          }
+        ]
+      },
+      {
+        "language": "Python",
+        "count": 1564,
+        "who": [
+          {
+            "username": "satanas",
+            "percent": 4
+          }
+        ]
+      },
+      {
+        "language": "JavaScript",
+        "count": 1361,
+        "who": [
+          {
+            "username": "trek",
+            "percent": 7
           }
         ]
       }
@@ -3059,9 +5000,123 @@
     {
       "name": "ivan3bx",
       "avatar_url": "https://avatars.githubusercontent.com/u/179345?"
+    },
+    {
+      "name": "jcfrancisco",
+      "avatar_url": "https://avatars.githubusercontent.com/u/217960?"
+    },
+    {
+      "name": "jesstelford",
+      "avatar_url": "https://avatars.githubusercontent.com/u/612020?"
+    },
+    {
+      "name": "jkrems",
+      "avatar_url": "https://avatars.githubusercontent.com/u/567540?"
+    },
+    {
+      "name": "johan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2459?"
+    },
+    {
+      "name": "jonhoman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62606?"
+    },
+    {
+      "name": "koppenheim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3502780?"
+    },
+    {
+      "name": "mcculloughsean",
+      "avatar_url": "https://avatars.githubusercontent.com/u/249299?"
+    },
+    {
+      "name": "miccrun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1203661?"
+    },
+    {
+      "name": "michaelphines",
+      "avatar_url": "https://avatars.githubusercontent.com/u/281513?"
+    },
+    {
+      "name": "mooremo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/547815?"
+    },
+    {
+      "name": "nohat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/838027?"
+    },
+    {
+      "name": "richievos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2414?"
+    },
+    {
+      "name": "rykann",
+      "avatar_url": "https://avatars.githubusercontent.com/u/372800?"
+    },
+    {
+      "name": "satanas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29679?"
+    },
+    {
+      "name": "scottrogers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1859538?"
+    },
+    {
+      "name": "shinjikuwayama",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7468?"
+    },
+    {
+      "name": "shivanathd",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1937549?"
+    },
+    {
+      "name": "suryagaddipati",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64078?"
+    },
+    {
+      "name": "theSteveMitchell",
+      "avatar_url": "https://avatars.githubusercontent.com/u/950669?"
+    },
+    {
+      "name": "trek",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9736?"
+    },
+    {
+      "name": "trevorsheridan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/102299?"
+    },
+    {
+      "name": "tsmacdonald",
+      "avatar_url": "https://avatars.githubusercontent.com/u/784417?"
+    },
+    {
+      "name": "tundal45",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59220?"
+    },
+    {
+      "name": "twebb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23175?"
+    },
+    {
+      "name": "vvitayau",
+      "avatar_url": "https://avatars.githubusercontent.com/u/566629?"
+    },
+    {
+      "name": "williamsmatt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/886891?"
     }
   ],
   "answers": [
+    {
+      "tags": [
+        "clojure"
+      ],
+      "is_accepted": false,
+      "score": 3,
+      "answer_id": 24254947,
+      "question_id": 24254689,
+      "user_id": 220529
+    },
     {
       "tags": [
         "objective-c",
@@ -3077,6 +5132,16 @@
     },
     {
       "tags": [
+        "reactjs"
+      ],
+      "is_accepted": true,
+      "score": 4,
+      "answer_id": 23841059,
+      "question_id": 23840997,
+      "user_id": 916619
+    },
+    {
+      "tags": [
         "android",
         "build",
         "intellij-idea"
@@ -3086,6 +5151,17 @@
       "answer_id": 23484868,
       "question_id": 18111435,
       "user_id": 82156
+    },
+    {
+      "tags": [
+        "javascript",
+        "ember.js"
+      ],
+      "is_accepted": false,
+      "score": 0,
+      "answer_id": 23182894,
+      "question_id": 23180909,
+      "user_id": 1584375
     },
     {
       "tags": [
@@ -3125,6 +5201,29 @@
     },
     {
       "tags": [
+        "javascript",
+        "ember.js",
+        "ember-data"
+      ],
+      "is_accepted": false,
+      "score": 1,
+      "answer_id": 22944889,
+      "question_id": 22944491,
+      "user_id": 1584375
+    },
+    {
+      "tags": [
+        "ember.js",
+        "handlebars.js"
+      ],
+      "is_accepted": true,
+      "score": 2,
+      "answer_id": 21935525,
+      "question_id": 21930324,
+      "user_id": 1584375
+    },
+    {
+      "tags": [
         "android",
         "actionbarsherlock",
         "r.java-file",
@@ -3148,6 +5247,31 @@
       "answer_id": 21687798,
       "question_id": 21687722,
       "user_id": 1144632
+    },
+    {
+      "tags": [
+        "flash",
+        "actionscript-3",
+        "box2d",
+        "physics"
+      ],
+      "is_accepted": false,
+      "score": 0,
+      "answer_id": 21357857,
+      "question_id": 8205088,
+      "user_id": 1172219
+    },
+    {
+      "tags": [
+        "osx",
+        "command-line",
+        "sfml"
+      ],
+      "is_accepted": false,
+      "score": 0,
+      "answer_id": 21288042,
+      "question_id": 9054987,
+      "user_id": 1172219
     },
     {
       "tags": [
@@ -3186,6 +5310,19 @@
     },
     {
       "tags": [
+        "java",
+        "string",
+        "palindrome",
+        "char-array"
+      ],
+      "is_accepted": false,
+      "score": 1,
+      "answer_id": 20529425,
+      "question_id": 20529382,
+      "user_id": 220529
+    },
+    {
+      "tags": [
         "ios",
         "core-location",
         "cllocationmanager",
@@ -3196,6 +5333,54 @@
       "answer_id": 20508435,
       "question_id": 20432971,
       "user_id": 1144632
+    },
+    {
+      "tags": [
+        "javascript",
+        "ember.js",
+        "model"
+      ],
+      "is_accepted": false,
+      "score": 0,
+      "answer_id": 20499454,
+      "question_id": 20499024,
+      "user_id": 1584375
+    },
+    {
+      "tags": [
+        "javascript",
+        "html",
+        "twitter-bootstrap",
+        "ember.js"
+      ],
+      "is_accepted": true,
+      "score": 1,
+      "answer_id": 20403260,
+      "question_id": 20399403,
+      "user_id": 1584375
+    },
+    {
+      "tags": [
+        "node.js",
+        "ember.js",
+        "sql-azure"
+      ],
+      "is_accepted": false,
+      "score": 0,
+      "answer_id": 20403048,
+      "question_id": 20387136,
+      "user_id": 1584375
+    },
+    {
+      "tags": [
+        "ember.js",
+        "qunit"
+      ],
+      "is_accepted": false,
+      "score": 0,
+      "answer_id": 20073474,
+      "question_id": 18543623,
+      "user_id": 1584375
     },
     {
       "tags": [
@@ -3241,6 +5426,16 @@
     },
     {
       "tags": [
+        "javascript"
+      ],
+      "is_accepted": false,
+      "score": 1,
+      "answer_id": 19778309,
+      "question_id": 19778028,
+      "user_id": 473961
+    },
+    {
+      "tags": [
         "xcode",
         "osx"
       ],
@@ -3249,6 +5444,17 @@
       "answer_id": 19640343,
       "question_id": 19639914,
       "user_id": 1144632
+    },
+    {
+      "tags": [
+        "javascript",
+        "ember.js"
+      ],
+      "is_accepted": true,
+      "score": 1,
+      "answer_id": 19068881,
+      "question_id": 19068782,
+      "user_id": 1584375
     },
     {
       "tags": [
@@ -3262,167 +5468,6 @@
       "answer_id": 19057122,
       "question_id": 19056943,
       "user_id": 1144632
-    },
-    {
-      "tags": [
-        "ios",
-        "apple-push-notifications",
-        "uilocalnotification"
-      ],
-      "is_accepted": true,
-      "score": 2,
-      "answer_id": 18324711,
-      "question_id": 18324473,
-      "user_id": 1144632
-    },
-    {
-      "tags": [
-        "ios",
-        "ipad",
-        "ios-simulator"
-      ],
-      "is_accepted": false,
-      "score": 2,
-      "answer_id": 18320563,
-      "question_id": 18320461,
-      "user_id": 1144632
-    },
-    {
-      "tags": [
-        "ios",
-        "xcode"
-      ],
-      "is_accepted": true,
-      "score": 0,
-      "answer_id": 18280052,
-      "question_id": 18279728,
-      "user_id": 1144632
-    },
-    {
-      "tags": [
-        "objective-c",
-        "uitextfield",
-        "uidatepicker"
-      ],
-      "is_accepted": false,
-      "score": 2,
-      "answer_id": 18061032,
-      "question_id": 18060884,
-      "user_id": 1144632
-    },
-    {
-      "tags": [
-        "ios",
-        "xcode",
-        "xcode4.5",
-        "provisioning-profile"
-      ],
-      "is_accepted": true,
-      "score": 3,
-      "answer_id": 17979102,
-      "question_id": 17978667,
-      "user_id": 1144632
-    },
-    {
-      "tags": [
-        "nsnumberformatter"
-      ],
-      "is_accepted": true,
-      "score": 1,
-      "answer_id": 17974195,
-      "question_id": 17958290,
-      "user_id": 1144632
-    },
-    {
-      "tags": [
-        "github",
-        "google-code"
-      ],
-      "is_accepted": false,
-      "score": 1,
-      "answer_id": 17891342,
-      "question_id": 17824401,
-      "user_id": 82156
-    },
-    {
-      "tags": [
-        "arrays",
-        "nsmutablearray"
-      ],
-      "is_accepted": true,
-      "score": 1,
-      "answer_id": 17764726,
-      "question_id": 17764664,
-      "user_id": 1144632
-    },
-    {
-      "tags": [
-        "ruby",
-        "heroku"
-      ],
-      "is_accepted": false,
-      "score": 0,
-      "answer_id": 17679864,
-      "question_id": 17666080,
-      "user_id": 315748
-    },
-    {
-      "tags": [
-        "ios",
-        "uibutton"
-      ],
-      "is_accepted": true,
-      "score": 0,
-      "answer_id": 17645199,
-      "question_id": 17645091,
-      "user_id": 1144632
-    },
-    {
-      "tags": [
-        "ios",
-        "objective-c",
-        "uiview",
-        "uilabel",
-        "nstimer"
-      ],
-      "is_accepted": false,
-      "score": 2,
-      "answer_id": 17645079,
-      "question_id": 17644464,
-      "user_id": 1144632
-    },
-    {
-      "tags": [
-        "android",
-        "roboguice"
-      ],
-      "is_accepted": false,
-      "score": 0,
-      "answer_id": 17553511,
-      "question_id": 17529985,
-      "user_id": 82156
-    },
-    {
-      "tags": [
-        "iphone",
-        "ios"
-      ],
-      "is_accepted": false,
-      "score": 3,
-      "answer_id": 16332557,
-      "question_id": 16332473,
-      "user_id": 1144632
-    },
-    {
-      "tags": [
-        "xcode",
-        "lldb"
-      ],
-      "is_accepted": false,
-      "score": 0,
-      "answer_id": 16313138,
-      "question_id": 16312877,
-      "user_id": 1144632
     }
   ],
   "badges": [
@@ -3434,11 +5479,32 @@
       "user_id": 106
     },
     {
+      "award_count": 1,
+      "rank": "bronze",
+      "link": "http://stackoverflow.com/badges/20/nice-question",
+      "name": "Nice Question",
+      "user_id": 59968
+    },
+    {
+      "award_count": 3,
+      "rank": "bronze",
+      "link": "http://stackoverflow.com/badges/26/popular-question",
+      "name": "Popular Question",
+      "user_id": 59968
+    },
+    {
       "award_count": 2,
       "rank": "bronze",
       "link": "http://stackoverflow.com/badges/26/popular-question",
       "name": "Popular Question",
       "user_id": 106
+    },
+    {
+      "award_count": 1,
+      "rank": "bronze",
+      "link": "http://stackoverflow.com/badges/26/popular-question",
+      "name": "Popular Question",
+      "user_id": 77040
     },
     {
       "award_count": 1,
@@ -3453,13 +5519,6 @@
       "link": "http://stackoverflow.com/badges/4/cleanup",
       "name": "Cleanup",
       "user_id": 82156
-    },
-    {
-      "award_count": 1,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/26/popular-question",
-      "name": "Popular Question",
-      "user_id": 77040
     },
     {
       "award_count": 6,
@@ -3499,16 +5558,9 @@
     {
       "award_count": 1,
       "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/220/promoter",
-      "name": "Promoter",
-      "user_id": 315748
-    },
-    {
-      "award_count": 1,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/260/announcer",
-      "name": "Announcer",
-      "user_id": 315748
+      "link": "http://stackoverflow.com/badges/2278/custodian",
+      "name": "Custodian",
+      "user_id": 220529
     },
     {
       "award_count": 1,
@@ -3525,6 +5577,62 @@
       "user_id": 315748
     },
     {
+      "award_count": 4,
+      "rank": "bronze",
+      "link": "http://stackoverflow.com/badges/26/popular-question",
+      "name": "Popular Question",
+      "user_id": 220529
+    },
+    {
+      "award_count": 1,
+      "rank": "bronze",
+      "link": "http://stackoverflow.com/badges/220/promoter",
+      "name": "Promoter",
+      "user_id": 315748
+    },
+    {
+      "award_count": 1,
+      "rank": "bronze",
+      "link": "http://stackoverflow.com/badges/260/announcer",
+      "name": "Announcer",
+      "user_id": 315748
+    },
+    {
+      "award_count": 1,
+      "rank": "bronze",
+      "link": "http://stackoverflow.com/badges/20/nice-question",
+      "name": "Nice Question",
+      "user_id": 473961
+    },
+    {
+      "award_count": 3,
+      "rank": "bronze",
+      "link": "http://stackoverflow.com/badges/23/nice-answer",
+      "name": "Nice Answer",
+      "user_id": 473961
+    },
+    {
+      "award_count": 1,
+      "rank": "bronze",
+      "link": "http://stackoverflow.com/badges/26/popular-question",
+      "name": "Popular Question",
+      "user_id": 473961
+    },
+    {
+      "award_count": 1,
+      "rank": "bronze",
+      "link": "http://stackoverflow.com/badges/837/revival",
+      "name": "Revival",
+      "user_id": 473961
+    },
+    {
+      "award_count": 1,
+      "rank": "bronze",
+      "link": "http://stackoverflow.com/badges/9/autobiographer",
+      "name": "Autobiographer",
+      "user_id": 582605
+    },
+    {
       "award_count": 3,
       "rank": "bronze",
       "link": "http://stackoverflow.com/badges/23/nice-answer",
@@ -3539,17 +5647,17 @@
       "user_id": 694086
     },
     {
+      "award_count": 1,
+      "rank": "bronze",
+      "link": "http://stackoverflow.com/badges/260/announcer",
+      "name": "Announcer",
+      "user_id": 916619
+    },
+    {
       "award_count": 5,
       "rank": "bronze",
       "link": "http://stackoverflow.com/badges/23/nice-answer",
       "name": "Nice Answer",
-      "user_id": 1144632
-    },
-    {
-      "award_count": 3,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/26/popular-question",
-      "name": "Popular Question",
       "user_id": 1144632
     },
     {
@@ -3572,69 +5680,6 @@
       "link": "http://stackoverflow.com/badges/277/iphone",
       "name": "iphone",
       "user_id": 1144632
-    },
-    {
-      "award_count": 1,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/1973/caucus",
-      "name": "Caucus",
-      "user_id": 1144632
-    },
-    {
-      "award_count": 1,
-      "rank": "bronze",
-      "link": "http://stackoverflow.com/badges/6/supporter",
-      "name": "Supporter",
-      "user_id": 2253659
-    },
-    {
-      "award_count": 1,
-      "rank": "silver",
-      "link": "http://stackoverflow.com/badges/1974/constituent",
-      "name": "Constituent",
-      "user_id": 1144632
-    },
-    {
-      "award_count": 1,
-      "rank": "silver",
-      "link": "http://stackoverflow.com/badges/1478/reviewer",
-      "name": "Reviewer",
-      "user_id": 1144632
-    },
-    {
-      "award_count": 2,
-      "rank": "silver",
-      "link": "http://stackoverflow.com/badges/24/good-answer",
-      "name": "Good Answer",
-      "user_id": 1144632
-    },
-    {
-      "award_count": 3,
-      "rank": "silver",
-      "link": "http://stackoverflow.com/badges/27/notable-question",
-      "name": "Notable Question",
-      "user_id": 694086
-    },
-    {
-      "award_count": 1,
-      "rank": "silver",
-      "link": "http://stackoverflow.com/badges/13/yearling",
-      "name": "Yearling",
-      "user_id": 1144632
-    },
-    {
-      "award_count": 4,
-      "rank": "silver",
-      "link": "http://stackoverflow.com/badges/19/enlightened",
-      "name": "Enlightened",
-      "user_id": 1144632
-    },
-    {
-      "award_count": 1,
-      "rank": "silver",
-      "link": "http://stackoverflow.com/badges/24/good-answer",
-      "name": "Good Answer",
-      "user_id": 694086
     }
   ],
   "talks": {
@@ -3642,6 +5687,9 @@
     "dennyabraham": "",
     "docondev": "10",
     "dustyburwell": "5",
-    "endangeredmassa": "1"
+    "endangeredmassa": "1",
+    "trek": "5",
+    "tundal45": "3",
+    "twebb": ""
   }
 }

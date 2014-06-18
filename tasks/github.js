@@ -18,7 +18,7 @@ var client = github.client();
 var org = client.org(organization());
 
 var getUsers = function(callback){
-  org.members(function(error, members) {
+  org.members(1, 300, function(error, members) {
     if (error) {
       return callback(error);
     }
