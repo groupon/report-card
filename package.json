@@ -16,7 +16,7 @@
     "handlebars": "^2.0.0-alpha.4",
     "minimist": "^0.1.0",
     "node-static": "~0.7.3",
-    "octonode": "~0.6.3",
+    "octonode": "trek/octonode",
     "request": "^2.36.0",
     "underscore": "^1.6.0",
     "mocha": "~1.20.1",
