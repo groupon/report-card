@@ -38,17 +38,27 @@
     <div class="row">
       <div class="large-12 columns">
         <h4><span>The Heavy Hitters</span></h4>
+        <p>
+          Among our open source contributors, we have some of the most active contributors
+          out there in {{usage.topLanguages.length}} languages. That's pretty awesome.
 
-        {{#each usage.topLanguages}}
-          <p>
-            {{../name}} has
-            {{inflectCountable length}}
-            serious {{languageToPerson language length}}
-            ({{who.length}}
-            of the {{ceilingPercent who}}% most active {{language}} users:
-            {{#each who}}<a href="http://osrc.dfm.io/{{username}}">{{username}}</a>{{/each}}).
-          </p>
-        {{/each}}
+        </p>
+
+        <ul class="small-block-grid-3 heavy-hitter-by-language">
+          {{#each usage.topLanguages}}
+            <li>
+              <h3>Top <strong>{{ceilingPercent who}}%</strong> of active {{languageToPerson language}}s</h3>
+              <p>
+                {{#each who}}
+                  <a href="http://osrc.dfm.io/{{username}}">
+                    <img src="{{avatar username 80}}" height="80" width="80">
+                    <span class="heavy-hitter">{{username}}</span>
+                  </a>
+                {{/each}}
+              </p>
+            </li>
+          {{/each}}
+        </ul>
 
         <h4><span>Collaboration</span></h4>
         <p>
@@ -101,28 +111,14 @@
         We already know that {{ name }} engineers love {{secondTopActivity}} whenever they're not {{topActivity}} but the following data sheds some light onto what they do with their open source time. In the full event stream analyzed for this report, there are a total of {{sumEvents usage.events}} events recorded for {{ name }}, divided by type below:
         </p>
 
-        <table>
-          <thead>
-            <tr><th>Activitiy</th><th>count</th></tr>
-          </thead>
-          <tbody>
-            {{#each usage.events}}
-              {{#if total}}
-                <tr>
-                  <td>{{eventTypeToName type}}</td>
-                  <td>{{total}}</td>
-                </tr>
-              {{/if}}
-            {{/each}}
-          </tbody>
-        </table>
+        <div id="d3-activity-diagram-outlet" class="chart-outlet"></div>
 
         <h4><span>Languages</span></h4>
         <p>
-        {{ name }} engineers have contributed to repositories in {{usage.allLanguages.length}} languages. In particular, they seems to be pretty serious {{topLanguage}} experts. The following chart shows the number of contributions {{ name }} engineers made to repositories mainly written in {{{top5Languages usage.allLanguages}}}.
+        {{ name }} engineers have contributed to repositories in {{usage.allLanguages.length}} languages. In particular, we are pretty serious {{topLanguage}} experts. The following chart shows the number of contributions {{ name }} engineers made to repositories mainly written in {{{languagesToSentence mostUsedLanguages}}}.
         </p>
 
-        <div id="d3-language-diagram-outlet"></div>
+        <div id="d3-language-diagram-outlet" class="chart-outlet"></div>
       </div>
     </div>
 
@@ -135,7 +131,11 @@
 
     <div class="row">
       <div class="large-12 columns">
-        handcrafted with <span class="heart">&#x2764;</span> by trek, aaron, sean, and ashish.
+        handcrafted with <span class="heart">&#x2764;</span> by
+          <a href="http://twitter.com/trek">trek</a>,
+          <a href="http://twitter.com/abedra">aaron</a>,
+          <a href="http://twitter.com/EndangeredMassa">sean</a>,
+          and <a href="http://twitter.com/tundal45">ashish</a>.
       </div>
     </div>
 

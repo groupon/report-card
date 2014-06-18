@@ -4,11 +4,11 @@ module.exports = function(language, number) {
     'CoffeeScript': 'CoffeeScripter',
     'Ruby': 'Rubyist',
     'Python': 'Pythonista',
-    'C': 'C programmer',
-    'CSS': 'CSS author'
+    'C': 'C hacker',
+    'CSS': 'CSS author',
   }
 
-  person = languageToPersonMapping[language];
+  person = languageToPersonMapping[language] || language + " Developer";
 
   if (number > 1) {
     person += 's';
