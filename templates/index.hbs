@@ -28,6 +28,29 @@
 
     <div class="row">
       <div class="large-12 columns">
+        <h4><span>Open Sourcerers</span></h4>
+        <p>
+          {{name}} has {{members.length}} active contributors to open source.
+          They spend a lot of time {{topActivity}} and {{secondTopActivity}}.
+          {{ name }} employees are serious open source contributors who do a bunch in the morning and evening.
+
+          We're pretty geeked about that! Here they are:
+        </p>
+
+        {{#each members}}
+          <span data-tooltip class="has-tip tip-top" title="{{name}}">
+            <a href="http://github.com/{{name}}">
+              <img src="{{avatar name 45}}" height="45" width="45">
+            </a>
+          </span>
+        {{/each}}
+      <div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <h4><span>The Heavy Hitters</span></h4>
+
         {{#each usage.topLanguages}}
           <p>
             {{../name}} has
@@ -38,11 +61,6 @@
             {{#each who}}<a href="http://osrc.dfm.io/{{username}}">{{username}}</a>{{/each}}).
           </p>
         {{/each}}
-
-        <p>
-          They spend a lot of time {{topActivity}} and {{secondTopActivity}}.
-          {{ name }} employees are serious open source contributors who do a bunch in the morning and evening.
-        </p>
 
         <h4><span>Collaboration</span></h4>
         <p>
@@ -75,6 +93,7 @@
           </div>
         </p>
 
+        <h4><span>Projects</span></h4>
         <p>
           These days, {{ name }} engineers are most actively contributing to the following {{repositories.length}} repositories:
           {{#each repositories}}
@@ -115,6 +134,20 @@
         <div id="d3-language-diagram-outlet"></div>
       </div>
     </div>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <h4><span>A helping hand</span></h4>
+        <p>Stack</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">
+        handcrafted with <span class="heart">&#x2764;</span> by trek, aaron, sean, and ashish.
+      </div>
+    </div>
+
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation/foundation.js"></script>
     <script src="js/foundation/foundation.tooltip.js"></script>
