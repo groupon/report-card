@@ -5,7 +5,6 @@ var eventNames = [
   'CommentEvent',
   'IssuesEvent',
   'PullRequestEvent',
-  'PullRequestReviewCommentEvent',
   'PushEvent',
 ]
 

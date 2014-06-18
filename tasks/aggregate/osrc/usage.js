@@ -26,7 +26,7 @@ module.exports = {
       addArrays(usage.week, userUsage.week);
 
       _.each(userData.usage.events, function(event){
-        if(event.type === "IssueCommentEvent" || event.type === "CommitCommentEvent")
+        if(event.type === "IssueCommentEvent" || event.type === "CommitCommentEvent" || event.type === "PullRequestReviewCommentEvent")
           event.type = "CommentEvent"
 
         var foundEvent = _.find(usage.events, function(currentEvent){
