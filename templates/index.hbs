@@ -93,14 +93,14 @@
 
         <h4><span>Projects</span></h4>
         <p>
-          These days, {{ name }} engineers are most actively contributing to the following {{repositories.length}} repositories:
+          These days, {{ name }} engineers are most actively contributing to  {{repositories.length}} repositories. Following are some of the popular ones:
         </p>
 
-        <div class="repositories">
-          {{#each repositories}}
+        <ul class="small-block-grid-4">
+          {{#each topRepositories}}
             {{> github-repo-card}}
           {{/each}}
-        </div>
+        </ul>
       </div>
     </div>
 
@@ -122,12 +122,12 @@
       </div>
     </div>
 
-    <div class="row">
+    <!--div class="row">
       <div class="large-12 columns">
         <h4><span>A helping hand</span></h4>
         <p>Stack</p>
       </div>
-    </div>
+    </div-->
 
     <div class="row">
       <div class="large-12 columns">

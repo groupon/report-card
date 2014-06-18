@@ -48,6 +48,12 @@ function compact (argument) {
 data.usage.topLanguages = data.usage.topLanguages.sort(rsortBy('count'));
 data.usage.allLanguages = data.usage.allLanguages.sort(rsortBy('count'));
 data.usage.events = data.usage.events.sort(rsortBy('total'));
+data.repositories = data.repositories.sort(rsortBy('stargazersCount'));
+
+data.topRepositories = data.repositories.filter(function(repo) {
+  org = repo.repo.split('/')[0];
+  return (org === 'groupon' || repo.stargazersCount >= 20);
+});
 
 data.topLanguage = data.usage.allLanguages[0].language;
 data.mostUsedLanguages = data.usage.allLanguages.slice(0,4);
