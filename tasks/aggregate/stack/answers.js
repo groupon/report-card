@@ -32,31 +32,6 @@ module.exports = function(callback){
       return result;
     }, {});
 
-    /*
-    var example = {
-      "tags": [
-        "clojure"
-      ],
-      "is_accepted": false,
-      "score": 3,
-      "answer_id": 24254947,
-      "question_id": 24254689,
-      "user_id": 220529
-    };
-
-    var result = {
-      "clojure": {
-        scoreTotal: 10,
-        acceptedCount: 3,
-        answerTotal: 10,
-        users: {
-          106: 1,
-          2345: 2
-        }
-      }
-    };
-    */
-
     callback(null, result);
   };
 };
