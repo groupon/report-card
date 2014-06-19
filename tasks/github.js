@@ -14,7 +14,7 @@ var organization = function() {
 }
 
 var github = require('octonode');
-var client = github.client();
+var client = github.client(process.env.GROUPONTHECAT_TOKEN);
 var org = client.org(organization());
 
 var getUsers = function(callback){

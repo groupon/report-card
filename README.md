@@ -8,6 +8,11 @@
 
 ## tasks
 
+* Generate user mappings: node tasks/generate-user-mapping
+* Get list of users from github: node tasks/github Groupon
+* Aggregate data into a data file: node tasks/aggregate
+* Render data into a nice page: node tasks/render
+
 ### generate user mapping
 
 To update the user mapping,
