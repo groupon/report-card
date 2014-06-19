@@ -76,43 +76,6 @@
           {{/each}}
         </ul>
 
-
-        <h4><span>Support Group</span></h4>
-        <p>
-          Some open source contributors go beyond the repositories
-          to answer {{answerCount}} questions
-          in over {{tagCount}} different tags
-          on <a href="http://stackoverflow.com">Stack Overflow</a>!
-        </p>
-
-        <ul class="small-block-grid-2">
-          {{#each topTags}}
-          <li>
-            <span class="tag">{{tag}}</span>
-            {{answerTotal}} answered (with {{scoreTotal}} points and {{acceptedPercent}}% accepted)
-          </li>
-          {{/each}}
-        </ul>
-
-        <p>
-          Many have been rewarded for their efforts with {{badgeCount}} badges!
-          Here are some of the top badge earners.
-        </p>
-
-        <ul class="small-block-grid-3">
-          {{#each topBadgesEarners}}
-          <li>
-            <a href="http://stackoverflow.com/users/{{userId}}">
-              <img src="{{profileImage}}" height="45" width="45">
-              {{name}}
-            </a>
-            <span class="badge1"></span><span class="badgecount">{{badge_counts.gold}}</span>
-            <span class="badge2"></span><span class="badgecount">{{badge_counts.silver}}</span>
-            <span class="badge3"></span><span class="badgecount">{{badge_counts.bronze}}</span>
-          </li>
-          {{/each}}
-        </ul>
-
         <h4><span>Collaboration</span></h4>
         <p>
           {{name}} engineers often collaborate with people outside {{name}},
@@ -213,6 +176,45 @@
       </div>
     </div>
 
+    <div class="row">
+      <div class="large-12 columns">
+        <h4><span>Support Group</span></h4>
+        <p>
+          Some open source contributors go beyond the repositories
+          to answer {{answerCount}} questions
+          in over {{tagCount}} different tags
+          on <a href="http://stackoverflow.com">Stack Overflow</a>!
+        </p>
+
+        <ul class="small-block-grid-2">
+          {{#each topTags}}
+          <li>
+            <span class="tag">{{tag}}</span>
+            {{answerTotal}} answered (with {{scoreTotal}} points and {{acceptedPercent}}% accepted)
+          </li>
+          {{/each}}
+        </ul>
+
+        <p>
+          Many have been rewarded for their efforts with {{badgeCount}} badges!
+          Here are some of the top badge earners.
+        </p>
+
+        <ul class="small-block-grid-3">
+          {{#each topBadgesEarners}}
+          <li>
+            <a href="http://stackoverflow.com/users/{{userId}}">
+              <img src="{{profileImage}}" height="45" width="45">
+              {{name}}
+            </a>
+            <span class="badge1"></span><span class="badgecount">{{badge_counts.gold}}</span>
+            <span class="badge2"></span><span class="badgecount">{{badge_counts.silver}}</span>
+            <span class="badge3"></span><span class="badgecount">{{badge_counts.bronze}}</span>
+          </li>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
     <div class="row">
       <div class="large-12 columns">
         <h4><span>Talks</span></h4>
