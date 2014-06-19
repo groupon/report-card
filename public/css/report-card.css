@@ -207,3 +207,13 @@ h4 span {
   color: gray;
   padding-left: 20px;
 }
+
+.footer {
+  padding: 20px;
+  background-color: #7aaa43;
+  color: white;
+}
+
+.footer a {
+  color: #c75c4f;
+}
