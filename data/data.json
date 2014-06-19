@@ -138,7 +138,7 @@
       ]
     },
     {
-      "name": "W. Trevor King",
+      "name": "wking",
       "username": "wking",
       "who": [
         "bkochendorfer"
@@ -587,20 +587,6 @@
       ]
     },
     {
-      "name": "Michael Klishin",
-      "username": "michaelklishin",
-      "who": [
-        "gfredericks"
-      ]
-    },
-    {
-      "name": "joelittlejohn",
-      "username": "joelittlejohn",
-      "who": [
-        "gfredericks"
-      ]
-    },
-    {
       "name": "xpe",
       "username": "xpe",
       "who": [
@@ -608,15 +594,29 @@
       ]
     },
     {
-      "name": "xeqi",
-      "username": "xeqi",
+      "name": "tutysara",
+      "username": "tutysara",
       "who": [
         "gfredericks"
       ]
     },
     {
-      "name": "waynr",
-      "username": "waynr",
+      "name": "Michael Klishin",
+      "username": "michaelklishin",
+      "who": [
+        "gfredericks"
+      ]
+    },
+    {
+      "name": "kenrestivo",
+      "username": "kenrestivo",
+      "who": [
+        "gfredericks"
+      ]
+    },
+    {
+      "name": "joelittlejohn",
+      "username": "joelittlejohn",
       "who": [
         "gfredericks"
       ]
@@ -2155,7 +2155,7 @@
       ]
     },
     {
-      "name": "David Nolen",
+      "name": "swannodette",
       "username": "swannodette",
       "who": [
         "gfredericks"
@@ -2435,7 +2435,7 @@
       ]
     },
     {
-      "name": "Jed Mao",
+      "name": "jedmao",
       "username": "jedmao",
       "who": [
         "johan"
@@ -3654,7 +3654,7 @@
         "suryagaddipati",
         "vvitayau"
       ],
-      "stargazersCount": 188
+      "stargazersCount": 191
     },
     {
       "count": 28,
@@ -3709,7 +3709,7 @@
       "activeUsers": [
         "trek"
       ],
-      "stargazersCount": 10506
+      "stargazersCount": 10507
     },
     {
       "count": 272,
@@ -5686,7 +5686,7 @@
     "abedra": "30",
     "banterability": "",
     "dennyabraham": "",
-    "docondev": "10",
+    "docondev": "15",
     "dustyburwell": "5",
     "endangeredmassa": "1",
     "malloc47": "2",
