@@ -7,8 +7,8 @@ module.exports = function(callback){
     var badgeCount = 0;
 
     var results = _.map(profiles, function(profile){
-      var profileBadgeCount = profile.badge_counts.gold
-        + profile.badge_counts.silver
+      var profileBadgeCount = (profile.badge_counts.gold * 4)
+        + (profile.badge_counts.silver * 2)
         + profile.badge_counts.bronze;
 
       badgeCount += profileBadgeCount;
