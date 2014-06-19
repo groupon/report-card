@@ -2,13 +2,12 @@ var async = require('async');
 var _ = require('underscore');
 
 var pollOsrc = require('./osrc');
+var pollGithub = require('./github');
 var pollStackExchange = require('./stack');
 var lanyrd = require('./lanyrd');
 
 var fs = require('./fs-json.js');
 var github = fs.read('data/users.json');
-
-var api = require('./osrc/api.js')
 
 var members = github.users.map(function(user) {
   return user.name;
@@ -39,34 +38,33 @@ var tasks = {
 async.parallel(tasks, function(error, results){
   if(error) throw error;
 
-  var data = results.osrc || {};
-  data.answers = results.stackExchange.answers;
-  data.badges = results.stackExchange.badges;
-  data.talks = results.lanyrd;
+  var data = fs.read('data/data.json');
 
-  var repositories = _.map(data.repositories, function(repo){
-    return repo.repo;
-  });
+  if (results.osrc.connected_users.length > 0)
+    data.connected_users = results.osrc.connected_users;
+  if (results.osrc.similar_users.length > 0)
+    data.similar_users = results.osrc.similar_users;
+  if (results.osrc.repositories.length > 0)
+    data.repositories = results.osrc.repositories;
+  if (results.osrc.members.length > 0)
+    data.members = results.osrc.members;
 
-  var repoInfoFetchTasks = {};
-  _.each(repositories, function(repoName) {
-    repoInfoFetchTasks[repoName] = _.partial(api.fetchRepoInformation, repoName);
-  });
+  data.usage = results.osrc.usage;
+  data.username = results.osrc.username;
+  data.avatar_url = results.osrc.avatar_url;
 
-  async.parallel(repoInfoFetchTasks, function(err, repoInfo) {
-    if(error){
-      console.log('There was an error aggregating the data.');
-    }
-    else {
-      _.each(data.repositories, function(repo){
-        specificRepoInfo = repoInfo[repo.repo];
-        if (specificRepoInfo)
-          repo.stargazersCount = specificRepoInfo.stargazers_count;
-      });
+  if (results.stackExchange.answers.length > 0)
+    data.answers = results.stackExchange.answers;
+  if (results.stackExchange.badges.length > 0)
+    data.badges = results.stackExchange.badges;
+  if (results.lanyrd.length > 0)
+    data.talks = results.lanyrd;
 
-      fs.write('data/data.json', data);
-      console.log('Wrote data/data.json!');
-    }
+  pollGithub(data, function(error, data){
+    if (error) throw error;
+
+    fs.write('data/data.json', data);
+    console.log('Wrote data/data.json!');
   });
 });
 
