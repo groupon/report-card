@@ -63,7 +63,7 @@ data.similar_users = data.similar_users.sort(rsortByLength('who'));
 
 data.topRepositories = data.repositories.filter(function(repo) {
   org = repo.repo.split('/')[0];
-  return (org === 'groupon' || repo.stargazersCount >= 20);
+  return ((org === 'groupon' && repo.stargazersCount > 0) || repo.stargazersCount >= 20);
 });
 
 data.topLanguage = data.usage.allLanguages[0].language;
