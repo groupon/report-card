@@ -15,7 +15,7 @@ module.exports = function(github, members, callback){
     var data = {};
 
     data.connected_users = users.connectedUsers(results);
-    data.similar_users = users.similarUsers(results);
+    data.similar_users = users.similarUsers(results, members);
     data.repositories = repositories.all(results);
     data.usage = usage.gather(results);
     data.name = organization.name;

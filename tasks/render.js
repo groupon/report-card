@@ -41,6 +41,16 @@ function rsortBy(properyName){
   }
 }
 
+function rsortByLength(propertyName){
+  return function(a,b){
+    if(a[propertyName].length > b[propertyName].length)
+      return -1;
+    if(a[propertyName].length < b[propertyName].length)
+      return 1;
+    return 0;
+  }
+}
+
 function compact (argument) {
   // body...
 }
@@ -49,6 +59,7 @@ data.usage.topLanguages = data.usage.topLanguages.sort(rsortBy('count'));
 data.usage.allLanguages = data.usage.allLanguages.sort(rsortBy('count'));
 data.usage.events = data.usage.events.sort(rsortBy('total'));
 data.repositories = data.repositories.sort(rsortBy('stargazersCount'));
+data.similar_users = data.similar_users.sort(rsortByLength('who'));
 
 data.topRepositories = data.repositories.filter(function(repo) {
   org = repo.repo.split('/')[0];

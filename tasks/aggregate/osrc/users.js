@@ -1,8 +1,11 @@
 var _ = require('underscore');
 
 module.exports = {
-  similarUsers: function(usersData) {
+  similarUsers: function(usersData, grouponUsers) {
     var similarUsers = [];
+    var grouponUserNames = _.map(grouponUsers, function(user) {
+      return user.name;
+    });
 
     _.each(usersData, function(userData){
       _.each(userData.similar_users, function(similarUser){
@@ -10,8 +13,8 @@ module.exports = {
           return user.name == similarUser.name;
         });
 
-        if (!foundUser) {
-          similarUsers.push(similarUser);
+        if(!(foundUser || (_.contains(grouponUserNames, similarUser.username)))) {
+            similarUsers.push(similarUser);
         }
 
         var targetUser = foundUser || similarUser;
