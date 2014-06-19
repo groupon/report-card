@@ -73,6 +73,9 @@ h4 span {
   font-size: 1.4375rem; /* same as foundation h3 */
 }
 
+.repo-name {
+  font-size: 1.2rem;
+}
 
 .chart-outlet {
   text-align: center;
@@ -99,11 +102,6 @@ h4 span {
     width: 100%;
   }
 
-}
-
-.repo-name {
-  text-overflow: ellipsis;
-  display: inline;
 }
 
 .tag {
@@ -137,7 +135,7 @@ h4 span {
   position: absolute;
   top: -12px;
   left: 46%;
-  color: #eee;
+  color: #eded3b;
   background-color: #fff;
 }
 
@@ -196,3 +194,7 @@ h4 span {
   color: #808185;
 }
 
+.stargazer {
+  color: gray;
+  padding-left: 20px;
+}

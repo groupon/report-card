@@ -152,7 +152,7 @@
           Following are some of the popular ones:
         </p>
 
-        <ul class="large-block-grid-2 heavy-hitter-by-percentage">
+        <ul class="large-block-grid-3 heavy-hitter-by-percentage">
           {{#each topRepositories}}
             {{> github-repo-card}}
           {{/each}}
@@ -228,11 +228,13 @@
         <ul class="small-block-grid-3">
           {{#each talks}}
             <li>
-              <h3>{{count}} Talks</h3>
-              <a href="http://lanyrd.com/{{username}}">
-                <img src="{{avatar username 80}}" height="80" width="80">
-                <div>{{username}}</div>
-              </a>
+              <div class="heavy-hitter">
+                <h3>{{count}} Talks</h3>
+                <a href="http://lanyrd.com/{{username}}">
+                  <img src="{{avatar username 80}}" height="80" width="80">
+                  <div>{{username}}</div>
+                </a>
+            </div>
             </li>
           {{/each}}
         </ul>
