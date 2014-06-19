@@ -44,8 +44,6 @@ var getAnswers = function(userIds, callback){
   // Try It: http://api.stackexchange.com/docs/answers-on-users#order=desc&sort=creation&ids=105&filter=!bJDus)chijNCh3&site=stackoverflow&run=true
   var path = '/users/'+userIds+'/answers'
   var qs = {
-    order:'desc',
-    sort:'creation',
     page: 1,
     pagesize: 100,
     site: 'stackoverflow',
@@ -65,8 +63,6 @@ var getBadges = function(userIds, callback){
   // Try It: http://api.stackexchange.com/docs/users-by-ids#order=desc&sort=reputation&ids=106%3B999&filter=!Ln3laVm*nneRQDAXXp0nfS&site=stackoverflow
   var path = '/users/'+userIds+'/badges';
   var qs = {
-    order:'desc',
-    sort:'reputation',
     page: 1,
     pagesize: 100,
     site: 'stackoverflow',
