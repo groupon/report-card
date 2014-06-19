@@ -49,9 +49,6 @@
       "groupon": "carlos",
       "stackexchange": "395925"
     },
-    "undefined": {
-      "groupon": ""
-    },
     "satanas": {
       "groupon": "wilalvarez",
       "stackexchange": "1172219"
@@ -329,9 +326,6 @@
     "hbarney": {
       "groupon": "hbarney"
     },
-    "abhishekpillai": {
-      "groupon": ""
-    },
     "ledwards": {
       "groupon": "leedwards",
       "stackexchange": "360999",
@@ -370,6 +364,9 @@
       "stackexchange": "",
       "lanyrd": "",
       "speakerdeck": ""
+    },
+    "undefined": {
+      "groupon": ""
     }
   }
 }

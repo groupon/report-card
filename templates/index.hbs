@@ -66,10 +66,12 @@
         <h4><span>Support Group</span></h4>
         <p>
           Some open source contributors go beyond the repositories
-          to answer questions in over {{tagCount}} different tags on Stack Overflow!
+          to answer {{answerCount}} questions
+          in over {{tagCount}} different tags
+          on <a href="http://stackoverflow.com">Stack Overflow</a>!
         </p>
 
-        <ul>
+        <ul class="small-block-grid-2">
           {{#each topTags}}
           <li>
             <span class="tag">{{tag}}</span>

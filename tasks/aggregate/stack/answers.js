@@ -11,25 +11,30 @@ module.exports = function(callback){
     });
 
 
-    var result = _.reduce(processedAnswers, function(result, answer){
+    var result = _.reduce(processedAnswers, function(memo, answer){
       _.each(answer.tags, function(tag){
-        result[tag] = result[tag] || {
+        if(typeof memo[tag] === 'function'){
+          console.log('Ignoring tag: ' + tag);
+          return;
+        }
+
+        memo[tag] = memo[tag] || {
           scoreTotal: 0,
           acceptedCount: 0,
           answerTotal:0,
           users:{}
-        }
+        };
 
         if (answer.is_accepted)
-          result[tag].acceptedCount++;
+          memo[tag].acceptedCount++;
 
-        result[tag].scoreTotal += answer.score;
-        result[tag].answerTotal++;
-        result[tag].users[answer.user_id] = result[tag].users[answer.user_id] || 0;
-        result[tag].users[answer.user_id] += answer.score;
+        memo[tag].scoreTotal += answer.score;
+        memo[tag].answerTotal++;
+        memo[tag].users[answer.user_id] = memo[tag].users[answer.user_id] || 0;
+        memo[tag].users[answer.user_id] += answer.score;
       });
 
-      return result;
+      return memo;
     }, {});
 
     var resultArray = [];
@@ -39,6 +44,9 @@ module.exports = function(callback){
       resultArray.push(value);
     });
 
-    callback(null, resultArray);
+    callback(null, {
+      total: answers.length,
+      inTags: resultArray
+    });
   };
 };

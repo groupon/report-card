@@ -39,7 +39,7 @@ var tasks = {
 async.parallel(tasks, function(error, results){
   if(error) throw error;
 
-  var data = results.osrc;
+  var data = results.osrc || {};
   data.answers = results.stackExchange.answers;
   data.badges = results.stackExchange.badges;
   data.talks = results.lanyrd;
