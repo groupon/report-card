@@ -11,7 +11,9 @@ module.exports = function(callback){
         + (profile.badge_counts.silver * 2)
         + profile.badge_counts.bronze;
 
-      badgeCount += profileBadgeCount;
+      badgeCount += profile.badge_counts.gold
+        + profile.badge_counts.silver
+        + profile.badge_counts.bronze;
 
       return {
         profileImage: profile.profile_image,
