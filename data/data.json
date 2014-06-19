@@ -2659,7 +2659,7 @@
       ]
     },
     {
-      "name": "Daniel Greenfeld",
+      "name": "pydanny",
       "username": "pydanny",
       "who": [
         "satanas"
@@ -3502,7 +3502,7 @@
       "activeUsers": [
         "johan"
       ],
-      "stargazersCount": 392
+      "stargazersCount": 393
     },
     {
       "count": 20,
@@ -3709,7 +3709,7 @@
       "activeUsers": [
         "trek"
       ],
-      "stargazersCount": 10507
+      "stargazersCount": 10510
     },
     {
       "count": 272,
@@ -6235,113 +6235,339 @@
     ]
   },
   "badges": {
-    "Nice Answer": {
-      "total": 30,
-      "users": {
-        "106": 3,
-        "77970": 1,
-        "82156": 8,
-        "105662": 7,
-        "473961": 3,
-        "694086": 3,
-        "1144632": 5
+    "badgeCount": 897,
+    "profiles": [
+      {
+        "profileImage": "https://www.gravatar.com/avatar/5b800d2444930f6f465fb284647b5204?s=128&d=identicon&r=PG",
+        "userId": 82156,
+        "name": "emmby",
+        "badge_counts": {
+          "bronze": 160,
+          "silver": 103,
+          "gold": 30
+        },
+        "badgeCount": 293
       },
-      "url": "http://stackoverflow.com/badges/23/nice-answer",
-      "rank": "bronze"
-    },
-    "Nice Question": {
-      "total": 10,
-      "users": {
-        "59968": 1,
-        "82156": 7,
-        "315748": 1,
-        "473961": 1
+      {
+        "profileImage": "https://www.gravatar.com/avatar/f0965aae8a531d1f3599ac46d13f8f66?s=128&d=identicon&r=PG",
+        "userId": 105662,
+        "name": "hobodave",
+        "badge_counts": {
+          "bronze": 60,
+          "silver": 39,
+          "gold": 0
+        },
+        "badgeCount": 99
       },
-      "url": "http://stackoverflow.com/badges/20/nice-question",
-      "rank": "bronze"
-    },
-    "Popular Question": {
-      "total": 30,
-      "users": {
-        "106": 2,
-        "59968": 3,
-        "77040": 1,
-        "82156": 14,
-        "220529": 4,
-        "315748": 3,
-        "473961": 1,
-        "694086": 2
+      {
+        "profileImage": "https://www.gravatar.com/avatar/caaaf05cd3770dd82548cf3ada462bf9?s=128&d=identicon&r=PG",
+        "userId": 106,
+        "name": "EndangeredMassa",
+        "badge_counts": {
+          "bronze": 55,
+          "silver": 31,
+          "gold": 4
+        },
+        "badgeCount": 90
       },
-      "url": "http://stackoverflow.com/badges/26/popular-question",
-      "rank": "bronze"
-    },
-    "Cleanup": {
-      "total": 1,
-      "users": {
-        "82156": 1
+      {
+        "profileImage": "https://www.gravatar.com/avatar/008380b8eab5df4a15de69741d59a825?s=128&d=identicon&r=PG",
+        "userId": 1144632,
+        "name": "danielbeard",
+        "badge_counts": {
+          "bronze": 38,
+          "silver": 16,
+          "gold": 1
+        },
+        "badgeCount": 55
       },
-      "url": "http://stackoverflow.com/badges/4/cleanup",
-      "rank": "bronze"
-    },
-    "Revival": {
-      "total": 2,
-      "users": {
-        "82156": 1,
-        "473961": 1
+      {
+        "profileImage": "https://www.gravatar.com/avatar/53e986c091662c5647f64c82b46cc60e?s=128&d=identicon&r=PG",
+        "userId": 77040,
+        "name": "dustyburwell",
+        "badge_counts": {
+          "bronze": 26,
+          "silver": 12,
+          "gold": 1
+        },
+        "badgeCount": 39
       },
-      "url": "http://stackoverflow.com/badges/837/revival",
-      "rank": "bronze"
-    },
-    "Custodian": {
-      "total": 1,
-      "users": {
-        "220529": 1
+      {
+        "profileImage": "https://www.gravatar.com/avatar/1764a8db261a619b1a8e35c9498c0edf?s=128&d=identicon&r=PG",
+        "userId": 1584375,
+        "name": "Trek Glowacki",
+        "badge_counts": {
+          "bronze": 14,
+          "silver": 5,
+          "gold": 1
+        },
+        "badgeCount": 20
       },
-      "url": "http://stackoverflow.com/badges/2278/custodian",
-      "rank": "bronze"
-    },
-    "Promoter": {
-      "total": 1,
-      "users": {
-        "315748": 1
+      {
+        "profileImage": "https://www.gravatar.com/avatar/d15e367e606a0c9221c6cad5d9ac8ecc?s=128&d=identicon&r=PG",
+        "userId": 3831,
+        "name": "Steven Oxley",
+        "badge_counts": {
+          "bronze": 41,
+          "silver": 18,
+          "gold": 2
+        },
+        "badgeCount": 61
       },
-      "url": "http://stackoverflow.com/badges/220/promoter",
-      "rank": "bronze"
-    },
-    "Announcer": {
-      "total": 3,
-      "users": {
-        "315748": 1,
-        "916619": 1,
-        "1144632": 1
+      {
+        "profileImage": "https://www.gravatar.com/avatar/9e51b8453c9de386bd29d87890affcb1?s=128&d=identicon&r=PG",
+        "userId": 220529,
+        "name": "tsm",
+        "badge_counts": {
+          "bronze": 18,
+          "silver": 6,
+          "gold": 0
+        },
+        "badgeCount": 24
       },
-      "url": "http://stackoverflow.com/badges/260/announcer",
-      "rank": "bronze"
-    },
-    "Autobiographer": {
-      "total": 1,
-      "users": {
-        "582605": 1
+      {
+        "profileImage": "https://www.gravatar.com/avatar/28da63e58ce7fa428494292973747c84?s=128&d=identicon&r=PG",
+        "userId": 473961,
+        "name": "Jess Telford",
+        "badge_counts": {
+          "bronze": 26,
+          "silver": 10,
+          "gold": 1
+        },
+        "badgeCount": 37
       },
-      "url": "http://stackoverflow.com/badges/9/autobiographer",
-      "rank": "bronze"
-    },
-    "objective-c": {
-      "total": 1,
-      "users": {
-        "1144632": 1
+      {
+        "profileImage": "https://www.gravatar.com/avatar/0a8cb1216c18f8c6f4c0e8aee4e4dc0f?s=128&d=identicon&r=PG",
+        "userId": 694086,
+        "name": "Felipe Brahm",
+        "badge_counts": {
+          "bronze": 27,
+          "silver": 11,
+          "gold": 0
+        },
+        "badgeCount": 38
       },
-      "url": "http://stackoverflow.com/badges/270/objective-c",
-      "rank": "bronze"
-    },
-    "iphone": {
-      "total": 1,
-      "users": {
-        "1144632": 1
+      {
+        "profileImage": "https://www.gravatar.com/avatar/7b3dcb64e4afba78b964fb45b93e6af7?s=128&d=identicon&r=PG",
+        "userId": 499395,
+        "name": "brianm",
+        "badge_counts": {
+          "bronze": 9,
+          "silver": 5,
+          "gold": 0
+        },
+        "badgeCount": 14
       },
-      "url": "http://stackoverflow.com/badges/277/iphone",
-      "rank": "bronze"
-    }
+      {
+        "profileImage": "http://graph.facebook.com/1045511061/picture?type=large",
+        "userId": 916619,
+        "name": "Jan Olaf Krems",
+        "badge_counts": {
+          "bronze": 10,
+          "silver": 2,
+          "gold": 0
+        },
+        "badgeCount": 12
+      },
+      {
+        "profileImage": "https://www.gravatar.com/avatar/b988f05edd27e18eb63b0c5abfdc113c?s=128&d=identicon&r=PG",
+        "userId": 676025,
+        "name": "abedra",
+        "badge_counts": {
+          "bronze": 4,
+          "silver": 1,
+          "gold": 0
+        },
+        "badgeCount": 5
+      },
+      {
+        "profileImage": "https://www.gravatar.com/avatar/c33c182ca0010d1cde7e9243de38f8a1?s=128&d=identicon&r=PG",
+        "userId": 77970,
+        "name": "Denny Abraham",
+        "badge_counts": {
+          "bronze": 6,
+          "silver": 2,
+          "gold": 0
+        },
+        "badgeCount": 8
+      },
+      {
+        "profileImage": "https://www.gravatar.com/avatar/7e64d8d65fd05b35cba2694cb9bd6286?s=128&d=identicon&r=PG",
+        "userId": 59968,
+        "name": "tundal45",
+        "badge_counts": {
+          "bronze": 29,
+          "silver": 6,
+          "gold": 2
+        },
+        "badgeCount": 37
+      },
+      {
+        "profileImage": "https://www.gravatar.com/avatar/5d26d0be47f45e9b8507a1007914d3b5?s=128&d=identicon&r=PG",
+        "userId": 722320,
+        "name": "Carl Thuringer",
+        "badge_counts": {
+          "bronze": 6,
+          "silver": 0,
+          "gold": 0
+        },
+        "badgeCount": 6
+      },
+      {
+        "profileImage": "https://www.gravatar.com/avatar/c7f12aedb2a5551dae04cf66921723ae?s=128&d=identicon&r=PG",
+        "userId": 2253659,
+        "name": "aviv",
+        "badge_counts": {
+          "bronze": 1,
+          "silver": 0,
+          "gold": 0
+        },
+        "badgeCount": 1
+      },
+      {
+        "profileImage": "https://www.gravatar.com/avatar/27fe5be2e3eb466e4f6c2ea52a2efe1b?s=128&d=identicon&r=PG",
+        "userId": 5319,
+        "name": "banterability",
+        "badge_counts": {
+          "bronze": 6,
+          "silver": 2,
+          "gold": 0
+        },
+        "badgeCount": 8
+      },
+      {
+        "profileImage": "https://www.gravatar.com/avatar/6a7b0e1b87d65af27bf27ba86c982415?s=128&d=identicon&r=PG",
+        "userId": 315748,
+        "name": "betacar",
+        "badge_counts": {
+          "bronze": 18,
+          "silver": 4,
+          "gold": 1
+        },
+        "badgeCount": 23
+      },
+      {
+        "profileImage": "https://www.gravatar.com/avatar/3b311b01a3eab79a08ad035fc457012a?s=128&d=identicon&r=PG",
+        "userId": 1172219,
+        "name": "satanas",
+        "badge_counts": {
+          "bronze": 4,
+          "silver": 0,
+          "gold": 0
+        },
+        "badgeCount": 4
+      },
+      {
+        "profileImage": "https://www.gravatar.com/avatar/1783cbd6b7fcc462bdfc0073e5e2372d?s=128&d=identicon&r=PG",
+        "userId": 1486754,
+        "name": "theSteveMitchell",
+        "badge_counts": {
+          "bronze": 2,
+          "silver": 0,
+          "gold": 0
+        },
+        "badgeCount": 2
+      },
+      {
+        "profileImage": "https://www.gravatar.com/avatar/5d32374cc273be521f764a7538a5d58a?s=128&d=identicon&r=PG",
+        "userId": 582605,
+        "name": "Shivanath D",
+        "badge_counts": {
+          "bronze": 4,
+          "silver": 0,
+          "gold": 0
+        },
+        "badgeCount": 4
+      },
+      {
+        "profileImage": "https://www.gravatar.com/avatar/b0136e4273ba247b33e5e7abd10c870b?s=128&d=identicon&r=PG",
+        "userId": 1454739,
+        "name": "emdagon",
+        "badge_counts": {
+          "bronze": 5,
+          "silver": 1,
+          "gold": 0
+        },
+        "badgeCount": 6
+      },
+      {
+        "profileImage": "https://www.gravatar.com/avatar/bec3e044acfbcf10b1ce44af33ca2424?s=128&d=identicon&r=PG",
+        "userId": 360999,
+        "name": "terronk",
+        "badge_counts": {
+          "bronze": 4,
+          "silver": 0,
+          "gold": 0
+        },
+        "badgeCount": 4
+      },
+      {
+        "profileImage": "https://www.gravatar.com/avatar/52407d5ce7076a608dd1028b0c933c1a?s=128&d=identicon&r=PG",
+        "userId": 1563374,
+        "name": "renatomoya",
+        "badge_counts": {
+          "bronze": 2,
+          "silver": 0,
+          "gold": 0
+        },
+        "badgeCount": 2
+      },
+      {
+        "profileImage": "https://www.gravatar.com/avatar/c4dee35e1803fdf35d9ee8e87153dc36?s=128&d=identicon&r=PG",
+        "userId": 1593474,
+        "name": "Erik",
+        "badge_counts": {
+          "bronze": 1,
+          "silver": 0,
+          "gold": 0
+        },
+        "badgeCount": 1
+      },
+      {
+        "profileImage": "https://www.gravatar.com/avatar/1d97958bf7c1bf35956ab225f5f4827a?s=128&d=identicon&r=PG",
+        "userId": 244397,
+        "name": "Trevor Mack",
+        "badge_counts": {
+          "bronze": 2,
+          "silver": 0,
+          "gold": 0
+        },
+        "badgeCount": 2
+      },
+      {
+        "profileImage": "https://www.gravatar.com/avatar/3c3887b1db529c83229af9f76611fa18?s=128&d=identicon&r=PG",
+        "userId": 1135241,
+        "name": "DeivinsonTejeda",
+        "badge_counts": {
+          "bronze": 1,
+          "silver": 1,
+          "gold": 0
+        },
+        "badgeCount": 2
+      },
+      {
+        "profileImage": "https://www.gravatar.com/avatar/9be1e590b938710955baa1c2b3650342?s=128&d=identicon&r=PG",
+        "userId": 1406332,
+        "name": "Doc Norton",
+        "badge_counts": {
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0
+        },
+        "badgeCount": 0
+      },
+      {
+        "profileImage": "https://www.gravatar.com/avatar/321c8f04bf5a8f425aa9c8d527416766?s=128&d=identicon&r=PG",
+        "userId": 1427403,
+        "name": "user1427403",
+        "badge_counts": {
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0
+        },
+        "badgeCount": 0
+      }
+    ]
   },
   "talks": {
     "abedra": "30",

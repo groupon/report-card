@@ -58,15 +58,15 @@ var getBadges = function(userIds, callback){
   // 'fromdate='+yearAgoMs
   */
 
-  // Try It: http://api.stackexchange.com/docs/badges-on-users#fromdate=2013-06-02&order=desc&sort=rank&ids=106&filter=!9b2JK-v*G&site=stackoverflow
+  // Try It: http://api.stackexchange.com/docs/users-by-ids#order=desc&sort=reputation&ids=106%3B999&filter=!Ln3laVm*nneRQDAXXp0nfS&site=stackoverflow
   var path = '/users/'+userIds+'/badges';
   var qs = {
     order:'desc',
-    sort:'rank',
+    sort:'reputation',
     page: 1,
     pagesize: 100,
     site: 'stackoverflow',
-    filter: '!9b2JK-v*G'
+    filter: '!Ln3laVm*nneRQDAXXp0nfS'
   };
   stackRequest(path, qs, [], processBadges(callback));
 };

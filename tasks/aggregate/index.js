@@ -55,7 +55,7 @@ async.parallel(tasks, function(error, results){
 
   if (results.stackExchange.answers.length > 0)
     data.answers = results.stackExchange.answers;
-  if (results.stackExchange.badges.length > 0)
+  if (results.stackExchange.badges.profiles.length > 0)
     data.badges = results.stackExchange.badges;
   if (results.lanyrd.length > 0)
     data.talks = results.lanyrd;

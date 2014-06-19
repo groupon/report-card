@@ -1,24 +1,30 @@
 var _ = require('underscore');
 
 module.exports = function(callback){
-  return function(error, badges){
+  return function(error, profiles){
     if (error) return callback(error);
 
-    var processedBadges = _.map(badges, function(badge){
-      badge.user_id = badge.user.user_id;
-      delete badge.user;
-      return badge;
+    var badgeCount = 0;
+
+    var results = _.map(profiles, function(profile){
+      var profileBadgeCount = profile.badge_counts.gold
+        + profile.badge_counts.silver
+        + profile.badge_counts.bronze;
+
+      badgeCount += profileBadgeCount;
+
+      return {
+        profileImage: profile.profile_image,
+        userId: profile.user_id,
+        name: profile.display_name,
+        badge_counts: profile.badge_counts,
+        badgeCount: profileBadgeCount
+      };
     });
 
-    var result = _.reduce(processedBadges, function(result, badge){
-      result[badge.name] = result[badge.name] || {total: 0, users:{}}
-      result[badge.name].total += badge.award_count;
-      result[badge.name].url = badge.link;
-      result[badge.name].rank = badge.rank;
-      result[badge.name].users[badge.user_id] = badge.award_count;
-      return result;
-    }, {});
-
-    callback(null, result);
+    callback(null, {
+      badgeCount: badgeCount,
+      profiles: results
+    });
   };
 };
