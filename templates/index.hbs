@@ -20,7 +20,8 @@
         <p>
           {{name}} has {{members.length}} active contributors to open source.
           They spend a lot of time {{topActivity}} and {{secondTopActivity}}.
-          {{ name }} employees are serious open source contributors who do a bunch in the morning and evening.
+          {{ name }} employees are serious open source contributors
+          who do a bunch in the morning and evening.
 
           We're pretty geeked about that! Here they are:
         </p>
@@ -37,11 +38,12 @@
 
     <div class="row">
       <div class="large-12 columns">
-        <h4><span>The Heavy Hitters</span></h4>
+        <h4><span>Heavy Hitters</span></h4>
         <p>
-          Among our open source contributors, we have some of the most active contributors
-          out there in {{usage.topLanguages.length}} languages. That's pretty awesome.
-
+          Among our open source contributors,
+          we have some of the most active contributors
+          out there in {{usage.topLanguages.length}} languages.
+          That's pretty awesome.
         </p>
 
         <ul class="small-block-grid-3 heavy-hitter-by-language">
@@ -61,7 +63,7 @@
         </ul>
 
 
-        <h4><span>The Support Group</span></h4>
+        <h4><span>Support Group</span></h4>
         <p>
           Some open source contributors go beyond the repositories
           to answer questions in over {{tagCount}} different tags on Stack Overflow!
@@ -91,10 +93,11 @@
          </div>
         </p>
 
-        <h4><span>Let's be friends</span></h4>
+        <h4><span>Let's be Friends</span></h4>
         <p>
           Although they don't currently work at {{ name }},
-          it looks like the following {{similar_users.length}} people are very simlar to {{name}} engineers.
+          it looks like the following {{similar_users.length}} people
+          are very simlar to {{name}} engineers.
           We think they'd feel right at home here:
           <div>
             {{#each similar_users}}
@@ -109,7 +112,9 @@
 
         <h4><span>Projects</span></h4>
         <p>
-          These days, {{ name }} engineers are most actively contributing to  {{repositories.length}} repositories. Following are some of the popular ones:
+          These days, {{ name }} engineers are most actively contributing to
+          {{repositories.length}} repositories.
+          Following are some of the popular ones:
         </p>
 
         <ul class="small-block-grid-4">
@@ -122,35 +127,41 @@
 
     <div class="row">
       <div class="large-12 columns">
-        <h4><span>By the numbers</span></h4>
+        <h4><span>By the Numbers</span></h4>
         <p>
-        We already know that {{ name }} engineers love {{secondTopActivity}} whenever we're not {{topActivity}} but the following data sheds some light onto what we do with our open source time. In the full event stream analyzed for this report, there are a total of {{sumProperty usage.events 'total'}} events recorded for {{ name }}, divided by type below:
+        We already know that {{ name }} engineers love {{secondTopActivity}}
+        whenever we're not {{topActivity}}
+        but the following data sheds some light onto
+        what we do with our open source time.
+        In the full event stream analyzed for this report,
+        there are a total of {{sumProperty usage.events 'total'}}
+        events recorded for {{ name }}, divided by type below:
         </p>
 
         <div id="d3-activity-diagram-outlet" class="chart-outlet"></div>
 
         <h4><span>Languages</span></h4>
         <p>
-        {{ name }} engineers have contributed to repositories in {{usage.allLanguages.length}} languages. In particular, we are pretty serious {{topLanguage}} experts. The following chart shows the number of contributions {{ name }} engineers made to repositories mainly written in {{{languagesToSentence mostUsedLanguages}}}.
+        {{ name }} engineers have contributed to repositories
+        in {{usage.allLanguages.length}} languages.
+        In particular, we are pretty serious {{topLanguage}} experts.
+        The following chart shows the number of contributions
+        {{ name }} engineers made to repositories
+        mainly written in {{{languagesToSentence mostUsedLanguages}}}.
         </p>
 
         <div id="d3-language-diagram-outlet" class="chart-outlet"></div>
       </div>
     </div>
 
-    <!--div class="row">
-      <div class="large-12 columns">
-        <h4><span>A helping hand</span></h4>
-        <p>Stack</p>
-      </div>
-    </div-->
-
     <div class="row">
       <div class="large-12 columns">
         <h4><span>Talks</span></h4>
         <p>
-          {{name}} engineers love sharing their knowledge and sparkling wit with the larger world. You can find many of us
-          at your favorite conferences and meetups. The {{talks.length}} speakers from Groupon have delivered
+          {{name}} engineers love sharing their knowledge
+          and sparkling with the larger world.
+          You can find many of us at your favorite conferences and meetups.
+          These {{talks.length}} speakers from Groupon have delivered
           {{sumProperty talks 'count'}} talks recently:
         </p>
 
