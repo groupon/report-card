@@ -73,8 +73,28 @@ h4 span {
   font-size: 1.4375rem; /* same as foundation h3 */
 }
 
+
 .chart-outlet {
   text-align: center;
+}
+
+.chart-table {
+  display: none;
+}
+
+@media only screen and (max-width: 40em) {
+  .chart-outlet {
+    display: none;
+  }
+
+  .chart-table {
+    display: block;
+  }
+
+  .chart-table table {
+    width: 100%;
+  }
+
 }
 
 .repo-name {

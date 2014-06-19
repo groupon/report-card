@@ -27,7 +27,7 @@
         </p>
 
         {{#each members}}
-          <span data-tooltip class="has-tip tip-top" title="{{name}}">
+          <span data-tooltip data-options="disable_for_touch:true" class="has-tip tip-top" title="{{name}}">
             <a href="http://github.com/{{name}}">
               <img src="{{avatar name 45}}" height="45" width="45">
             </a>
@@ -84,7 +84,7 @@
           the most frequent {{connected_users.length}} collaborators are:
           <div>
             {{#each connected_users}}
-              <span data-tooltip class="has-tip tip-top" title="{{username}}">
+              <span data-tooltip data-options="disable_for_touch:true" class="has-tip tip-top" title="{{username}}">
                 <a href="http://github.com/{{username}}">
                   <img src="{{avatar username 45}}" height="45" width="45">
                 </a>
@@ -101,7 +101,7 @@
           We think they'd feel right at home here:
           <div>
             {{#each similar_users}}
-              <span data-tooltip class="has-tip tip-top" title="{{username}}">
+              <span data-tooltip data-options="disable_for_touch:true" class="has-tip tip-top" title="{{username}}">
                 <a href="http://github.com/{{username}}">
                   <img src="{{avatar username 45}}" height="45" width="45">
                 </a>
@@ -139,6 +139,18 @@
         </p>
 
         <div id="d3-activity-diagram-outlet" class="chart-outlet"></div>
+        <div class="chart-table">
+          <table>
+            <thead>
+              <tr><th>Languages</th><th>Count</th></tr>
+            </thead>
+            <tbody>
+              {{#each usage.events}}
+                <tr><td>{{type}}</td><td>{{total}}</td></tr>
+              {{/each}}
+            </tbody>
+          </table>
+        </div>
 
         <h4><span>Languages</span></h4>
         <p>
@@ -151,6 +163,18 @@
         </p>
 
         <div id="d3-language-diagram-outlet" class="chart-outlet"></div>
+        <div class="chart-table">
+          <table>
+            <thead>
+              <tr><th>Languages</th><th>Count</th></tr>
+            </thead>
+            <tbody>
+              {{#each mostUsedLanguages}}
+                <tr><td>{{language}}</td><td>{{count}}</td></tr>
+              {{/each}}
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
 
