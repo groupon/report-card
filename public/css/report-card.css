@@ -120,6 +120,7 @@ h4 span {
   display: inline-block;
 }
 
+<<<<<<< HEAD
 .heavy-hitter {
   border: 1px solid #eee;
   border-radius: 5px;
@@ -141,7 +142,6 @@ h4 span {
   background-color: #fff;
 }
 
-
 .heavy-hitter .language-to-person {
   font-size: 1.2rem;
 }
@@ -150,3 +150,50 @@ h4 span {
   font-size: 0.85rem;
   margin-bottom:16px;
 }
+
+.badge1 {
+  display: inline-block;
+  width: 6px;
+  height: 11px;
+  overflow: hidden;
+  line-height: inherit;
+  background-position: -40px -1034px;
+  vertical-align: text-bottom;
+  margin: 0 1px 1px 3px;
+  background-image: url('/img/sprites.png');
+  background-repeat: no-repeat;
+}
+
+.badge2 {
+  display: inline-block;
+  width: 6px;
+  height: 11px;
+  overflow: hidden;
+  line-height: inherit;
+  vertical-align: text-bottom;
+  margin: 0 1px 1px 3px;
+  background-image: url('/img/sprites.png');
+  background-repeat: no-repeat;
+
+  background-position: -20px -1034px;
+}
+
+.badge3 {
+  display: inline-block;
+  width: 6px;
+  height: 11px;
+  overflow: hidden;
+  line-height: inherit;
+  vertical-align: text-bottom;
+  margin: 0 1px 1px 3px;
+  background-image: url('/img/sprites.png');
+  background-repeat: no-repeat;
+
+  background-position: 0 -1034px;
+}
+
+.badgecount {
+  padding-left: 1px;
+  color: #808185;
+}
+

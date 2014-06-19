@@ -94,6 +94,25 @@
           {{/each}}
         </ul>
 
+        <p>
+          Many have been rewarded for their efforts with {{badgeCount}} badges!
+          Here are some of the top badge earners.
+        </p>
+
+        <ul class="small-block-grid-3">
+          {{#each topBadgesEarners}}
+          <li>
+            <a href="http://stackoverflow.com/users/{{userId}}">
+              <img src="{{avatar username 45}}" height="45" width="45">
+              {{name}}
+            </a>
+            <span class="badge1"></span><span class="badgecount">{{badge1}}</span>
+            <span class="badge2"></span><span class="badgecount">{{badge2}}</span>
+            <span class="badge3"></span><span class="badgecount">{{badge3}}</span>
+          </li>
+          {{/each}}
+        </ul>
+
         <h4><span>Collaboration</span></h4>
         <p>
           {{name}} engineers often collaborate with people outside {{name}},

@@ -75,6 +75,14 @@ data.topTags = data.answers.inTags.sort(rsortBy('scoreTotal')).slice(0,20);
 data.tagCount = data.answers.inTags.length;
 data.answerCount = data.answers.total;
 
+data.badgeCount = 1235;
+data.topBadgesEarners = [
+  {avatar: 'https://avatars.githubusercontent.com/miyako?size=45', userId: 106, name: 'Some Dev', badge1: 5, badge2: 10, badge3: 1},
+  {avatar: 'https://avatars.githubusercontent.com/miyako?size=45', userId: 106, name: 'Some Dev', badge1: 5, badge2: 10, badge3: 1},
+  {avatar: 'https://avatars.githubusercontent.com/miyako?size=45', userId: 106, name: 'Some Dev', badge1: 5, badge2: 10, badge3: 1},
+  {avatar: 'https://avatars.githubusercontent.com/miyako?size=45', userId: 106, name: 'Some Dev', badge1: 5, badge2: 10, badge3: 1}
+];
+
 // remove lanyrders who didn't give talks, turn it into an array
 var _talks = data.talks;
 data.talks = [];
