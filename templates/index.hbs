@@ -60,6 +60,22 @@
           {{/each}}
         </ul>
 
+
+        <h4><span>The Support Group</span></h4>
+        <p>
+          Some open source contributors go beyond the repositories
+          to answer questions in over {{tagCount}} different tags on Stack Overflow!
+        </p>
+
+        <ul>
+          {{#each topTags}}
+          <li>
+            <span class="tag">{{tag}}</span>
+            {{answerTotal}} answered (with {{scoreTotal}} points and {{acceptedPercent}}% accepted)
+          </li>
+          {{/each}}
+        </ul>
+
         <h4><span>Collaboration</span></h4>
         <p>
           {{name}} engineers often collaborate with people outside {{name}},

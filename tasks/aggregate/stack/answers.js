@@ -32,6 +32,13 @@ module.exports = function(callback){
       return result;
     }, {});
 
-    callback(null, result);
+    var resultArray = [];
+    _.each(result, function(value, key){
+      value.tag = key;
+      value.acceptedPercent = Math.round(100*(value.acceptedCount / value.answerTotal));
+      resultArray.push(value);
+    });
+
+    callback(null, resultArray);
   };
 };

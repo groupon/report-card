@@ -2279,112 +2279,98 @@
       "repo": "repsheet/repsheet-nginx",
       "activeUsers": [
         "abedra"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 8,
       "repo": "repsheet/repsheet-apache",
       "activeUsers": [
         "abedra"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 21,
       "repo": "abloom/boring.js",
       "activeUsers": [
         "abloom"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 102,
       "repo": "banterability/busted",
       "activeUsers": [
         "banterability"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 20,
       "repo": "banterability/deadline",
       "activeUsers": [
         "banterability"
-      ],
-      "stargazersCount": 1
+      ]
     },
     {
       "count": 18,
       "repo": "banterability/ballpark",
       "activeUsers": [
         "banterability"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 17,
       "repo": "banterability/quartermaster",
       "activeUsers": [
         "banterability"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 16,
       "repo": "banterability/slow-zone",
       "activeUsers": [
         "banterability"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 19,
       "repo": "bkochendorfer/BuddyTube",
       "activeUsers": [
         "bkochendorfer"
-      ],
-      "stargazersCount": 1
+      ]
     },
     {
       "count": 15,
       "repo": "bkochendorfer/elixir-euler",
       "activeUsers": [
         "bkochendorfer"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 10,
       "repo": "bkochendorfer/bencode-elixir",
       "activeUsers": [
         "bkochendorfer"
-      ],
-      "stargazersCount": 1
+      ]
     },
     {
       "count": 7,
       "repo": "bkochendorfer/router",
       "activeUsers": [
         "bkochendorfer"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 7,
       "repo": "bkochendorfer/roll",
       "activeUsers": [
         "bkochendorfer"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 31,
       "repo": "carlthuringer/iapshame",
       "activeUsers": [
         "carlthuringer"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 17,
@@ -2398,48 +2384,42 @@
       "repo": "carlthuringer/frontend_test",
       "activeUsers": [
         "carlthuringer"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 6,
       "repo": "carlthuringer/slide_stories",
       "activeUsers": [
         "carlthuringer"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 8,
       "repo": "dustyburwell/garlic",
       "activeUsers": [
         "dustyburwell"
-      ],
-      "stargazersCount": 1
+      ]
     },
     {
       "count": 7,
       "repo": "dustyburwell/dustyburwell.github.com",
       "activeUsers": [
         "dustyburwell"
-      ],
-      "stargazersCount": 2
+      ]
     },
     {
       "count": 7,
       "repo": "groupon/robo-remote",
       "activeUsers": [
         "dvanderb"
-      ],
-      "stargazersCount": 22
+      ]
     },
     {
       "count": 507,
       "repo": "roboguice/roboguice",
       "activeUsers": [
         "emmby"
-      ],
-      "stargazersCount": 1885
+      ]
     },
     {
       "count": 159,
@@ -2453,160 +2433,140 @@
       "repo": "SuitAndThai/shopping-list",
       "activeUsers": [
         "emmby"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 34,
       "repo": "emmby/ActionBarSherlock",
       "activeUsers": [
         "emmby"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 21,
       "repo": "emmby/Android-ViewPagerIndicator",
       "activeUsers": [
         "emmby"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 8,
       "repo": "erikdw/tips-and-tricks",
       "activeUsers": [
         "erikdw"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 23,
       "repo": "gfredericks/repl-utils",
       "activeUsers": [
         "gfredericks"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 7,
       "repo": "gfredericks/dotfiles",
       "activeUsers": [
         "gfredericks"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 84,
       "repo": "hhua/hhua.github.com",
       "activeUsers": [
         "hhua"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 32,
       "repo": "hhua/PM2.5",
       "activeUsers": [
         "hhua"
-      ],
-      "stargazersCount": 6
+      ]
     },
     {
       "count": 26,
       "repo": "hhua/bustrac",
       "activeUsers": [
         "hhua"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 21,
       "repo": "hhua/node-base",
       "activeUsers": [
         "hhua"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 16,
       "repo": "hhua/SEOProject",
       "activeUsers": [
         "hhua"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 20,
       "repo": "jcfrancisco/snaps",
       "activeUsers": [
         "jcfrancisco"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 155,
       "repo": "jesstelford/wallet-sweep",
       "activeUsers": [
         "jesstelford"
-      ],
-      "stargazersCount": 2
+      ]
     },
     {
       "count": 37,
       "repo": "jesstelford/coffee-boilerplate",
       "activeUsers": [
         "jesstelford"
-      ],
-      "stargazersCount": 1
+      ]
     },
     {
       "count": 31,
       "repo": "jesstelford/luareplay",
       "activeUsers": [
         "jesstelford"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 20,
       "repo": "jesstelford/longdistance",
       "activeUsers": [
         "jesstelford"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 18,
       "repo": "jesstelford/coffee-factory",
       "activeUsers": [
         "jesstelford"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 243,
       "repo": "jkrems/bugger",
       "activeUsers": [
         "jkrems"
-      ],
-      "stargazersCount": 72
+      ]
     },
     {
       "count": 54,
       "repo": "buggerjs/bugger-v8-client",
       "activeUsers": [
         "jkrems"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 45,
       "repo": "groupon/node-cached",
       "activeUsers": [
         "jkrems"
-      ],
-      "stargazersCount": 4
+      ]
     },
     {
       "count": 39,
@@ -2627,56 +2587,49 @@
       "repo": "johan/kilobyte-svg-challenge",
       "activeUsers": [
         "johan"
-      ],
-      "stargazersCount": 26
+      ]
     },
     {
       "count": 63,
       "repo": "groupon/assertive",
       "activeUsers": [
         "johan"
-      ],
-      "stargazersCount": 8
+      ]
     },
     {
       "count": 53,
       "repo": "editorconfig/editorconfig-emacs",
       "activeUsers": [
         "johan"
-      ],
-      "stargazersCount": 65
+      ]
     },
     {
       "count": 44,
       "repo": "johan/world.geo.json",
       "activeUsers": [
         "johan"
-      ],
-      "stargazersCount": 392
+      ]
     },
     {
       "count": 20,
       "repo": "johan/testium",
       "activeUsers": [
         "johan"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 14,
       "repo": "mooremo/Settlers-of-Catan",
       "activeUsers": [
         "mooremo"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 13,
       "repo": "mooremo/clojure-koans",
       "activeUsers": [
         "mooremo"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 12,
@@ -2690,96 +2643,84 @@
       "repo": "mooremo/hstore-attributes",
       "activeUsers": [
         "mooremo"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 7,
       "repo": "mooremo/oh-my-zsh",
       "activeUsers": [
         "mooremo"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 988,
       "repo": "satanas/Turpial",
       "activeUsers": [
         "satanas"
-      ],
-      "stargazersCount": 159
+      ]
     },
     {
       "count": 405,
       "repo": "satanas/libturpial",
       "activeUsers": [
         "satanas"
-      ],
-      "stargazersCount": 24
+      ]
     },
     {
       "count": 203,
       "repo": "satanas/dosviajeros",
       "activeUsers": [
         "satanas"
-      ],
-      "stargazersCount": 1
+      ]
     },
     {
       "count": 121,
       "repo": "satanas/wp-turpial-theme",
       "activeUsers": [
         "satanas"
-      ],
-      "stargazersCount": 3
+      ]
     },
     {
       "count": 98,
       "repo": "Turpial/Turpial",
       "activeUsers": [
         "satanas"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 8,
       "repo": "scottrogers/twitfav",
       "activeUsers": [
         "scottrogers"
-      ],
-      "stargazersCount": 7
+      ]
     },
     {
       "count": 8,
       "repo": "scottrogers/boilerplate",
       "activeUsers": [
         "scottrogers"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 6,
       "repo": "scottrogers/letterfy",
       "activeUsers": [
         "scottrogers"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 12,
       "repo": "shivanathd/ShivPersonal",
       "activeUsers": [
         "shivanathd"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 152,
       "repo": "suryagaddipati/cancan",
       "activeUsers": [
         "suryagaddipati"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 95,
@@ -2787,8 +2728,7 @@
       "activeUsers": [
         "suryagaddipati",
         "vvitayau"
-      ],
-      "stargazersCount": 179
+      ]
     },
     {
       "count": 28,
@@ -2802,112 +2742,98 @@
       "repo": "suryagaddipati/travistest",
       "activeUsers": [
         "suryagaddipati"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 24,
       "repo": "suryagaddipati/linqr",
       "activeUsers": [
         "suryagaddipati"
-      ],
-      "stargazersCount": 13
+      ]
     },
     {
       "count": 10,
       "repo": "theSteveMitchell/after_party",
       "activeUsers": [
         "theSteveMitchell"
-      ],
-      "stargazersCount": 5
+      ]
     },
     {
       "count": 470,
       "repo": "emberjs/ember.js",
       "activeUsers": [
         "trek"
-      ],
-      "stargazersCount": 10495
+      ]
     },
     {
       "count": 272,
       "repo": "trek/ember.js",
       "activeUsers": [
         "trek"
-      ],
-      "stargazersCount": 7
+      ]
     },
     {
       "count": 241,
       "repo": "emberjs/website",
       "activeUsers": [
         "trek"
-      ],
-      "stargazersCount": 370
+      ]
     },
     {
       "count": 101,
       "repo": "trek/grunt-neuter",
       "activeUsers": [
         "trek"
-      ],
-      "stargazersCount": 64
+      ]
     },
     {
       "count": 72,
       "repo": "trek/website",
       "activeUsers": [
         "trek"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 28,
       "repo": "tsmacdonald/cl-abc",
       "activeUsers": [
         "tsmacdonald"
-      ],
-      "stargazersCount": 1
+      ]
     },
     {
       "count": 23,
       "repo": "tsmacdonald/first-collection",
       "activeUsers": [
         "tsmacdonald"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 22,
       "repo": "tsmacdonald/wizard-professor",
       "activeUsers": [
         "tsmacdonald"
-      ],
-      "stargazersCount": 1
+      ]
     },
     {
       "count": 22,
       "repo": "tsmacdonald/simulator",
       "activeUsers": [
         "tsmacdonald"
-      ],
-      "stargazersCount": 1
+      ]
     },
     {
       "count": 21,
       "repo": "tsmacdonald/git-lecture-test",
       "activeUsers": [
         "tsmacdonald"
-      ],
-      "stargazersCount": 0
+      ]
     },
     {
       "count": 9,
       "repo": "twebb/dotfiles",
       "activeUsers": [
         "twebb"
-      ],
-      "stargazersCount": 0
+      ]
     }
   ],
   "usage": {
@@ -4581,80 +4507,98 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/886891?"
     }
   ],
-  "answers": {
-    "clojure": {
+  "answers": [
+    {
       "scoreTotal": 3,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "220529": 3
-      }
+      },
+      "tag": "clojure",
+      "acceptedPercent": 0
     },
-    "objective-c": {
+    {
       "scoreTotal": 45,
       "acceptedCount": 4,
       "answerTotal": 8,
       "users": {
         "1144632": 45
-      }
+      },
+      "tag": "objective-c",
+      "acceptedPercent": 50
     },
-    "datetime": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "1144632": 0
-      }
+      },
+      "tag": "datetime",
+      "acceptedPercent": 0
     },
-    "nsdate": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "1144632": 0
-      }
+      },
+      "tag": "nsdate",
+      "acceptedPercent": 0
     },
-    "nsdateformatter": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "1144632": 0
-      }
+      },
+      "tag": "nsdateformatter",
+      "acceptedPercent": 0
     },
-    "reactjs": {
+    {
       "scoreTotal": 4,
       "acceptedCount": 1,
       "answerTotal": 1,
       "users": {
         "916619": 4
-      }
+      },
+      "tag": "reactjs",
+      "acceptedPercent": 100
     },
-    "android": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 2,
       "users": {
         "82156": 0
-      }
+      },
+      "tag": "android",
+      "acceptedPercent": 0
     },
-    "build": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "82156": 0
-      }
+      },
+      "tag": "build",
+      "acceptedPercent": 0
     },
-    "intellij-idea": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "82156": 0
-      }
+      },
+      "tag": "intellij-idea",
+      "acceptedPercent": 0
     },
-    "javascript": {
+    {
       "scoreTotal": 5,
       "acceptedCount": 3,
       "answerTotal": 7,
@@ -4662,418 +4606,522 @@
         "473961": 1,
         "694086": 1,
         "1584375": 3
-      }
+      },
+      "tag": "javascript",
+      "acceptedPercent": 43
     },
-    "ember.js": {
+    {
       "scoreTotal": 5,
       "acceptedCount": 3,
       "answerTotal": 8,
       "users": {
         "1584375": 5
-      }
+      },
+      "tag": "ember.js",
+      "acceptedPercent": 38
     },
-    "ios": {
+    {
       "scoreTotal": 7,
       "acceptedCount": 3,
       "answerTotal": 7,
       "users": {
         "1144632": 7
-      }
+      },
+      "tag": "ios",
+      "acceptedPercent": 43
     },
-    "json": {
+    {
       "scoreTotal": 1,
       "acceptedCount": 1,
       "answerTotal": 2,
       "users": {
         "1144632": 1
-      }
+      },
+      "tag": "json",
+      "acceptedPercent": 50
     },
-    "ios7": {
+    {
       "scoreTotal": 1,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "1144632": 1
-      }
+      },
+      "tag": "ios7",
+      "acceptedPercent": 0
     },
-    "uiwindow": {
+    {
       "scoreTotal": 1,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "1144632": 1
-      }
+      },
+      "tag": "uiwindow",
+      "acceptedPercent": 0
     },
-    "country-codes": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "1144632": 0
-      }
+      },
+      "tag": "country-codes",
+      "acceptedPercent": 0
     },
-    "mobile-country-code": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "1144632": 0
-      }
+      },
+      "tag": "mobile-country-code",
+      "acceptedPercent": 0
     },
-    "ember-data": {
+    {
       "scoreTotal": 1,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "1584375": 1
-      }
+      },
+      "tag": "ember-data",
+      "acceptedPercent": 0
     },
-    "handlebars.js": {
+    {
       "scoreTotal": 2,
       "acceptedCount": 1,
       "answerTotal": 1,
       "users": {
         "1584375": 2
-      }
+      },
+      "tag": "handlebars.js",
+      "acceptedPercent": 100
     },
-    "actionbarsherlock": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "82156": 0
-      }
+      },
+      "tag": "actionbarsherlock",
+      "acceptedPercent": 0
     },
-    "r.java-file": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "82156": 0
-      }
+      },
+      "tag": "r.java-file",
+      "acceptedPercent": 0
     },
-    "roboguice": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "82156": 0
-      }
+      },
+      "tag": "roboguice",
+      "acceptedPercent": 0
     },
-    "android-annotations": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "82156": 0
-      }
+      },
+      "tag": "android-annotations",
+      "acceptedPercent": 0
     },
-    "autolayout": {
+    {
       "scoreTotal": 2,
       "acceptedCount": 1,
       "answerTotal": 1,
       "users": {
         "1144632": 2
-      }
+      },
+      "tag": "autolayout",
+      "acceptedPercent": 100
     },
-    "flash": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "1172219": 0
-      }
+      },
+      "tag": "flash",
+      "acceptedPercent": 0
     },
-    "actionscript-3": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "1172219": 0
-      }
+      },
+      "tag": "actionscript-3",
+      "acceptedPercent": 0
     },
-    "box2d": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "1172219": 0
-      }
+      },
+      "tag": "box2d",
+      "acceptedPercent": 0
     },
-    "physics": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "1172219": 0
-      }
+      },
+      "tag": "physics",
+      "acceptedPercent": 0
     },
-    "osx": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 2,
       "users": {
         "1144632": 0,
         "1172219": 0
-      }
+      },
+      "tag": "osx",
+      "acceptedPercent": 0
     },
-    "command-line": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "1172219": 0
-      }
+      },
+      "tag": "command-line",
+      "acceptedPercent": 0
     },
-    "sfml": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "1172219": 0
-      }
+      },
+      "tag": "sfml",
+      "acceptedPercent": 0
     },
-    "mkmapview": {
+    {
       "scoreTotal": 2,
       "acceptedCount": 1,
       "answerTotal": 1,
       "users": {
         "1144632": 2
-      }
+      },
+      "tag": "mkmapview",
+      "acceptedPercent": 100
     },
-    "cocoa": {
+    {
       "scoreTotal": 2,
       "acceptedCount": 1,
       "answerTotal": 1,
       "users": {
         "1144632": 2
-      }
+      },
+      "tag": "cocoa",
+      "acceptedPercent": 100
     },
-    "button": {
+    {
       "scoreTotal": 2,
       "acceptedCount": 1,
       "answerTotal": 1,
       "users": {
         "1144632": 2
-      }
+      },
+      "tag": "button",
+      "acceptedPercent": 100
     },
-    "sender": {
+    {
       "scoreTotal": 2,
       "acceptedCount": 1,
       "answerTotal": 1,
       "users": {
         "1144632": 2
-      }
+      },
+      "tag": "sender",
+      "acceptedPercent": 100
     },
-    "xcode": {
+    {
       "scoreTotal": 39,
       "acceptedCount": 1,
       "answerTotal": 3,
       "users": {
         "1144632": 39
-      }
+      },
+      "tag": "xcode",
+      "acceptedPercent": 33
     },
-    "java": {
+    {
       "scoreTotal": 1,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "220529": 1
-      }
+      },
+      "tag": "java",
+      "acceptedPercent": 0
     },
-    "string": {
+    {
       "scoreTotal": 1,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "220529": 1
-      }
+      },
+      "tag": "string",
+      "acceptedPercent": 0
     },
-    "palindrome": {
+    {
       "scoreTotal": 1,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "220529": 1
-      }
+      },
+      "tag": "palindrome",
+      "acceptedPercent": 0
     },
-    "char-array": {
+    {
       "scoreTotal": 1,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "220529": 1
-      }
+      },
+      "tag": "char-array",
+      "acceptedPercent": 0
     },
-    "core-location": {
+    {
       "scoreTotal": 3,
       "acceptedCount": 1,
       "answerTotal": 1,
       "users": {
         "1144632": 3
-      }
+      },
+      "tag": "core-location",
+      "acceptedPercent": 100
     },
-    "cllocationmanager": {
+    {
       "scoreTotal": 3,
       "acceptedCount": 1,
       "answerTotal": 1,
       "users": {
         "1144632": 3
-      }
+      },
+      "tag": "cllocationmanager",
+      "acceptedPercent": 100
     },
-    "geofencing": {
+    {
       "scoreTotal": 3,
       "acceptedCount": 1,
       "answerTotal": 1,
       "users": {
         "1144632": 3
-      }
+      },
+      "tag": "geofencing",
+      "acceptedPercent": 100
     },
-    "model": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "1584375": 0
-      }
+      },
+      "tag": "model",
+      "acceptedPercent": 0
     },
-    "html": {
+    {
       "scoreTotal": 1,
       "acceptedCount": 1,
       "answerTotal": 1,
       "users": {
         "1584375": 1
-      }
+      },
+      "tag": "html",
+      "acceptedPercent": 100
     },
-    "twitter-bootstrap": {
+    {
       "scoreTotal": 1,
       "acceptedCount": 1,
       "answerTotal": 1,
       "users": {
         "1584375": 1
-      }
+      },
+      "tag": "twitter-bootstrap",
+      "acceptedPercent": 100
     },
-    "node.js": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "1584375": 0
-      }
+      },
+      "tag": "node.js",
+      "acceptedPercent": 0
     },
-    "sql-azure": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "1584375": 0
-      }
+      },
+      "tag": "sql-azure",
+      "acceptedPercent": 0
     },
-    "qunit": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "1584375": 0
-      }
+      },
+      "tag": "qunit",
+      "acceptedPercent": 0
     },
-    "uitableview": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "1144632": 0
-      }
+      },
+      "tag": "uitableview",
+      "acceptedPercent": 0
     },
-    "uitableviewcell": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "1144632": 0
-      }
+      },
+      "tag": "uitableviewcell",
+      "acceptedPercent": 0
     },
-    "mpmovieplayercontroller": {
+    {
       "scoreTotal": 0,
       "acceptedCount": 0,
       "answerTotal": 1,
       "users": {
         "1144632": 0
-      }
+      },
+      "tag": "mpmovieplayercontroller",
+      "acceptedPercent": 0
     },
-    "iphone": {
+    {
       "scoreTotal": 1,
       "acceptedCount": 1,
       "answerTotal": 1,
       "users": {
         "1144632": 1
-      }
+      },
+      "tag": "iphone",
+      "acceptedPercent": 100
     },
-    "xcode4": {
+    {
       "scoreTotal": 1,
       "acceptedCount": 1,
       "answerTotal": 1,
       "users": {
         "1144632": 1
-      }
+      },
+      "tag": "xcode4",
+      "acceptedPercent": 100
     },
-    "nsdictionary": {
+    {
       "scoreTotal": 1,
       "acceptedCount": 1,
       "answerTotal": 1,
       "users": {
         "1144632": 1
-      }
+      },
+      "tag": "nsdictionary",
+      "acceptedPercent": 100
     },
-    "google-chrome": {
+    {
       "scoreTotal": 1,
       "acceptedCount": 1,
       "answerTotal": 1,
       "users": {
         "694086": 1
-      }
+      },
+      "tag": "google-chrome",
+      "acceptedPercent": 100
     },
-    "memory-leaks": {
+    {
       "scoreTotal": 1,
       "acceptedCount": 1,
       "answerTotal": 1,
       "users": {
         "694086": 1
-      }
+      },
+      "tag": "memory-leaks",
+      "acceptedPercent": 100
     },
-    "textures": {
+    {
       "scoreTotal": 1,
       "acceptedCount": 1,
       "answerTotal": 1,
       "users": {
         "694086": 1
-      }
+      },
+      "tag": "textures",
+      "acceptedPercent": 100
     },
-    "webgl": {
+    {
       "scoreTotal": 1,
       "acceptedCount": 1,
       "answerTotal": 1,
       "users": {
         "694086": 1
-      }
+      },
+      "tag": "webgl",
+      "acceptedPercent": 100
     },
-    "debugging": {
+    {
       "scoreTotal": 39,
       "acceptedCount": 1,
       "answerTotal": 1,
       "users": {
         "1144632": 39
-      }
+      },
+      "tag": "debugging",
+      "acceptedPercent": 100
     },
-    "xcode5": {
+    {
       "scoreTotal": 39,
       "acceptedCount": 1,
       "answerTotal": 1,
       "users": {
         "1144632": 39
-      }
+      },
+      "tag": "xcode5",
+      "acceptedPercent": 100
     }
-  },
+  ],
   "badges": {
     "Nice Answer": {
       "total": 30,

@@ -60,6 +60,9 @@ data.mostUsedLanguages = data.usage.allLanguages.slice(0,4);
 data.topActivity = EVENT_TYPE_TO_ACTION_PHRASE[data.usage.events[0].type];
 data.secondTopActivity = EVENT_TYPE_TO_ACTION_PHRASE[data.usage.events[1].type];
 
+data.topTags = data.answers.sort(rsortBy('scoreTotal')).slice(0,4);
+data.tagCount = data.answers.length;
+
 // remove lanyrders who didn't give talks, turn it into an array
 var _talks = data.talks;
 data.talks = [];
