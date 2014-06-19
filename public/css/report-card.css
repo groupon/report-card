@@ -148,6 +148,15 @@ h4 span {
   margin-bottom:16px;
 }
 
+.badges div {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  border-color: #eee #ddd #bbb;
+  box-shadow: rgba(0,0,0,.14) 0 1px 3px;
+  border-radius: 5px;
+  padding: 8px;
+}
+
 .badge1 {
   display: inline-block;
   width: 6px;
