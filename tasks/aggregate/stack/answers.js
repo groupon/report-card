@@ -10,7 +10,6 @@ module.exports = function(callback){
       return answer;
     });
 
-
     var result = _.reduce(processedAnswers, function(memo, answer){
       _.each(answer.tags, function(tag){
         if(typeof memo[tag] === 'function'){

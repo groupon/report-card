@@ -26,9 +26,10 @@ var stackRequest = function(path, qs, items, callback){
       console.log('Stack Exchange Request Error: ', response.error_message);
     }
 
+    items = items.concat(response.items);
+
     if (response.has_more) {
       qs.page++;
-      items = items.concat(response.items);
       return stackRequest(path, qs, items, callback);
     }
     callback(null, items);
@@ -61,8 +62,11 @@ var getBadges = function(userIds, callback){
   */
 
   // Try It: http://api.stackexchange.com/docs/users-by-ids#order=desc&sort=reputation&ids=106%3B999&filter=!Ln3laVm*nneRQDAXXp0nfS&site=stackoverflow
-  var path = '/users/'+userIds+'/badges';
+  // /users/106%3B999?order=desc&sort=reputation&site=stackoverflow&filter=!Ln3laVm*nneRQDAXXp0nfS
+  var path = '/users/'+userIds;
   var qs = {
+    order: 'desc',
+    sort: 'reputation',
     page: 1,
     pagesize: 100,
     site: 'stackoverflow',

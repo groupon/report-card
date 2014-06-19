@@ -53,8 +53,8 @@ async.parallel(tasks, function(error, results){
   data.username = results.osrc.username;
   data.avatar_url = results.osrc.avatar_url;
 
-  if (results.stackExchange.answers.length > 0)
-    data.answers = results.stackExchange.answers;
+  data.answers = results.stackExchange.answers;
+
   if (results.stackExchange.badges.profiles.length > 0)
     data.badges = results.stackExchange.badges;
   if (results.lanyrd.length > 0)
