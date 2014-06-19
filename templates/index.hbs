@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Community | {{ name }}</title>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/report-card.css" />
@@ -46,18 +47,31 @@
           That's pretty awesome.
         </p>
 
-        <ul class="small-block-grid-3 heavy-hitter-by-language">
+        <ul class="large-block-grid-4 heavy-hitter-by-language">
           {{#each usage.topLanguages}}
             <li>
-              <h3>Top <strong>{{ceilingPercent who}}%</strong> of active {{languageToPerson language}}s</h3>
-              <p>
-                {{#each who}}
-                  <a href="http://osrc.dfm.io/{{username}}">
-                    <img src="{{avatar username 80}}" height="80" width="80">
-                    <span class="heavy-hitter">{{username}}</span>
-                  </a>
-                {{/each}}
-              </p>
+              <div class="heavy-hitter">
+                <i class="fa fa-star-o"></i>
+                <div class="language-to-person">
+                  {{language}}
+                </div>
+                <div class="grouponers">
+                  {{#each who}}
+                    <div class="avatar">
+                      <img src="{{avatar username 80}}" height="80" width="80">
+                    </div>
+                    <div class="username">
+                      <a href="http://osrc.dfm.io/{{username}}">
+                        {{username}}
+                      </a>
+                    </div>
+                  {{/each}}
+                </div>
+                <div class="language-percentage">
+                  Top <strong>{{ceilingPercent who}}%</strong> of active developers
+                <div>
+                </div>
+              </div>
             </li>
           {{/each}}
         </ul>

@@ -119,3 +119,34 @@ h4 span {
   white-space: nowrap;
   display: inline-block;
 }
+
+.heavy-hitter {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  border-color: #eee #ddd #bbb;
+  box-shadow: rgba(0,0,0,.14) 0 1px 3px;
+  border-radius: 5px;
+  padding: 8px 8px;
+  background: #fff;
+  color: #555;
+  position: relative;
+  text-align: center;
+}
+
+.heavy-hitter .fa-star-o {
+  position: absolute;
+  top: -12px;
+  left: 46%;
+  color: #eee;
+  background-color: #fff;
+}
+
+
+.heavy-hitter .language-to-person {
+  font-size: 1.2rem;
+}
+
+.heavy-hitter .language-percentage {
+  font-size: 0.85rem;
+  margin-bottom:16px;
+}
