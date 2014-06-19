@@ -5,11 +5,6 @@
       "stackexchange": "106",
       "lanyrd": "endangeredmassa"
     },
-    "abedra": {
-      "groupon": "abedra",
-      "stackexchange": "",
-      "lanyrd": "abedra"
-    },
     "tundal45": {
       "groupon": "ashish",
       "stackexchange": "59968",
@@ -326,7 +321,53 @@
     },
     "p1nox": {
       "groupon": "p1nox",
-      "stackexchange": "1053067",
+      "stackexchange": "1053067"
+    },
+    "jiaqi": {
+      "groupon": "jguo"
+    },
+    "hbarney": {
+      "groupon": "hbarney"
+    },
+    "abhishekpillai": {
+      "groupon": ""
+    },
+    "ledwards": {
+      "groupon": "leedwards",
+      "stackexchange": "360999",
+      "lanyrd": "",
+      "speakerdeck": "ledwards"
+    },
+    "emdagon": {
+      "groupon": "egonzalez",
+      "stackexchange": "1454739"
+    },
+    "brianm": {
+      "groupon": "bmccallister",
+      "stackexchange": "499395"
+    },
+    "vivinjoy": {
+      "groupon": "vjoy",
+      "stackexchange": "1002588"
+    },
+    "grahammkelly": {
+      "groupon": "graham-kelly",
+      "stackexchange": "18744"
+    },
+    "rahimsiz": {
+      "groupon": "ramil"
+    },
+    "whatstin": {
+      "groupon": "danderson"
+    },
+    "abedra": {
+      "groupon": "abedra",
+      "stackexchange": "676025",
+      "lanyrd": "abedra"
+    },
+    "tjennings": {
+      "groupon": "tyler",
+      "stackexchange": "",
       "lanyrd": "",
       "speakerdeck": ""
     }
