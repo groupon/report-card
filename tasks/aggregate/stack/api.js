@@ -22,6 +22,10 @@ var stackRequest = function(path, qs, items, callback){
 
   var report = concat(function(response){
     var response = JSON.parse(response.toString());
+    if (response.error_message) {
+      console.log('Stack Exchange Request Error: ', response.error_message);
+    }
+
     if (response.has_more) {
       qs.page++;
       items = items.concat(response.items);
