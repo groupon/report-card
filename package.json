@@ -11,17 +11,17 @@
     "url": "git@github.groupondev.com:smassa/osrc-for-orgs.git"
   },
   "dependencies": {
-    "async": "^0.9.0",
-    "concat-stream": "^1.4.6",
-    "handlebars": "^2.0.0-alpha.4",
-    "minimist": "^0.1.0",
-    "node-static": "~0.7.3",
-    "octonode": "trek/octonode",
-    "request": "^2.36.0",
-    "underscore": "^1.6.0",
-    "mocha": "~1.20.1",
-    "jsdom": "~0.11.0",
-    "d3": "~3.4.8",
-    "cheerio": "^0.17.0"
+    "async": "^0.9.0",               // MIT
+    "concat-stream": "^1.4.6",       // MIT
+    "handlebars": "^2.0.0-alpha.4",  // MIT
+    "minimist": "^0.1.0",            // MIT
+    "node-static": "~0.7.3",         // MIT
+    "octonode": "trek/octonode",     // MIT
+    "request": "^2.36.0",            // APLv2
+    "underscore": "^1.6.0",          // MIT
+    "mocha": "~1.20.1",              // MIT
+    "jsdom": "~0.11.0",              // MIT
+    "d3": "~3.4.8",                  // BSD
+    "cheerio": "^0.17.0"             // MIT
   }
 }
