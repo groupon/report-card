@@ -1,33 +1,57 @@
-# osrc-for-orgs
+# Report Card
 
-## resources
+This project serves as a way to aggregate information about how the
+members of an organization interact with the open source community. It
+currently examines information from Github, Open Source Report Card,
+Lanyrd, and Stack Overflow. An example of what the project can offer
+is at http://groupon.github.io.
 
-- [Planning Document](https://docs.google.com/a/groupon.com/document/d/1B5kyv6f597gW-NvOLWdxha24z8CuA7YTTqYRUSFROm8/edit?usp=sharing)
-- [Github API](https://developer.github.com/v3)
+## Setup
 
+This project is written in Javascript and backed by nodejs. To get it
+runnning you need to have node and npm installed. Once you do you can
+fetch the dependencies using npm.
 
-## tasks
+You may run into API limiting if your organization is large. If you do
+you can supply a Github access token via the `GITHUB_TOKEN`
+environment variable.
 
-* Generate user mappings: node tasks/generate-user-mapping
-* Get list of users from github: node tasks/github Groupon
-* Aggregate data into a data file: node tasks/aggregate
-* Render data into a nice page: node tasks/render
+```
+npm install
+```
 
-### generate user mapping
+## Tasks
 
-To update the user mapping,
-first update the raw information
-from the
-[google doc](https://docs.google.com/a/groupon.com/spreadsheets/d/1eo82T6zl2ObtouyhG6cdBaDcw3bGhHT77x9cUW6HFSY/edit?usp=sharing)
-by pasting it over "/data/stub/user-map-raw.csv".
+#### User Mapping
 
-Then run: `node tasks/generate-user-mapping.js`
+In order to collect data about the members of an organization, the
+user mapping needs to be generated. This can be done using the
+following example:
 
-Now "/data/user-map.json"
-shouldhave the full mapping.
+```
+$ node tasks/generate-user-mapping
+```
 
-### generating data
+#### Retrieve users from Github
 
-1. Make sure you have the user mapping generated from above.
-2. Make sure you have grouponthecat github user's token set as `GROUPONTHECAT_TOKEN` environment variable.
-3. Run `node tasks/aggregate`
+You can pull the members of an organization straight from Github to make user population a little easier.
+
+```
+$ node tasks/github
+```
+
+#### Aggregating the data
+
+You will need to aggregate all of the data available so that the render task can complete properly.
+
+```
+$ node tasks/aggregate
+```
+
+#### Rendering the html
+
+Finally, in order to render the html you can use the render task:
+
+```
+$ node tasks/render
+```
