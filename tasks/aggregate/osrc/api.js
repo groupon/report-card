@@ -34,6 +34,14 @@ var request = require('request');
 var github = require('octonode');
 var client = github.client(process.env.GROUPONTHECAT_TOKEN);
 
+var parse = function(string){
+  try {
+    return JSON.parse(string);
+  } catch(error) {
+    console.error('Error parsing: ', string, error.stack);
+  }
+};
+
 module.exports = {
   fetch: function(username, callback) {
     request.get('http://osrc.dfm.io/'+username+'.json', function(error, response) {
@@ -48,7 +56,7 @@ module.exports = {
         body = response.body;
       }
 
-      var json = JSON.parse(body);
+      var json = parse(body);
       callback(null, json);
     });
   },

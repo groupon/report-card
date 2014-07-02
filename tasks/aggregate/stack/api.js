@@ -53,7 +53,7 @@ var stackRequest = function(path, qs, items, callback){
   var fullPath = path + '?' + serializeQuerystring(qs);
 
   var report = concat(function(response){
-    var response = JSON.parse(response.toString());
+    var response = JSON.parse(response.toString().trim());
     if (response.error_message) {
       console.log('Stack Exchange Request Error: ', response.error_message);
     }
