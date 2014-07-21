@@ -1,372 +1,372 @@
 {
   "mapping": {
     "endangeredmassa": {
-      "groupon": "smassa",
+      "organization": "smassa",
       "stackexchange": "106",
       "lanyrd": "endangeredmassa"
     },
     "tundal45": {
-      "groupon": "ashish",
+      "organization": "ashish",
       "stackexchange": "59968",
       "lanyrd": "tundal45",
       "speakerdeck": "tundal45"
     },
     "trek": {
-      "groupon": "trek",
+      "organization": "trek",
       "stackexchange": "1584375",
       "lanyrd": "trek",
       "speakerdeck": "trek"
     },
     "banterability": {
-      "groupon": "jlong",
+      "organization": "jlong",
       "stackexchange": "5319",
       "lanyrd": "banterability",
       "speakerdeck": "banterability"
     },
     "tsmacdonald": {
-      "groupon": "tmacdonald",
+      "organization": "tmacdonald",
       "stackexchange": "220529"
     },
     "chrisjpowers": {
-      "groupon": "cpowers",
+      "organization": "cpowers",
       "stackexchange": "",
       "lanyrd": "",
       "speakerdeck": "chrisjpowers"
     },
     "thestevemitchell": {
-      "groupon": "smitchell",
+      "organization": "smitchell",
       "stackexchange": "1486754"
     },
     "dlangdon": {
-      "groupon": "dlangdon",
+      "organization": "dlangdon",
       "stackexchange": "1766382"
     },
     "artman": {
-      "groupon": "tuomas",
+      "organization": "tuomas",
       "stackexchange": "454972"
     },
     "crandrad": {
-      "groupon": "carlos",
+      "organization": "carlos",
       "stackexchange": "395925"
     },
     "satanas": {
-      "groupon": "wilalvarez",
+      "organization": "wilalvarez",
       "stackexchange": "1172219"
     },
     "betacar": {
-      "groupon": "betacar",
+      "organization": "betacar",
       "stackexchange": "315748",
       "lanyrd": "",
       "speakerdeck": "betacar"
     },
     "dennyabraham": {
-      "groupon": "denny",
+      "organization": "denny",
       "stackexchange": "77970",
       "lanyrd": "dennyabraham",
       "speakerdeck": "dennyabraham"
     },
     "shivanathd": {
-      "groupon": "sdevinarayanan",
+      "organization": "sdevinarayanan",
       "stackexchange": "582605"
     },
     "deivinsontejeda": {
-      "groupon": "deivinsontejeda",
+      "organization": "deivinsontejeda",
       "stackexchange": "1135241"
     },
     "scottrogers": {
-      "groupon": "srogers"
+      "organization": "srogers"
     },
     "jpodlech": {
-      "groupon": "jpodlech"
+      "organization": "jpodlech"
     },
     "renatomoya": {
-      "groupon": "renatomoya",
+      "organization": "renatomoya",
       "stackexchange": "1563374"
     },
     "aotarola": {
-      "groupon": "aotarola"
+      "organization": "aotarola"
     },
     "rmatusiewicz": {
-      "groupon": "rmatusiewicz"
+      "organization": "rmatusiewicz"
     },
     "delpho": {
-      "groupon": "jarayacerda",
+      "organization": "jarayacerda",
       "stackexchange": "2656934"
     },
     "rafaelperez": {
-      "groupon": "rafael.perez"
+      "organization": "rafael.perez"
     },
     "abloom": {
-      "groupon": "abloom"
+      "organization": "abloom"
     },
     "gfredericks": {
-      "groupon": "garyf"
+      "organization": "garyf"
     },
     "zeitan": {
-      "groupon": "abastardosalas"
+      "organization": "abastardosalas"
     },
     "trevorsheridan": {
-      "groupon": "tsheridan",
+      "organization": "tsheridan",
       "stackexchange": "3386107"
     },
     "daniel-beard": {
-      "groupon": "dbeard",
+      "organization": "dbeard",
       "stackexchange": "1144632"
     },
     "ehyche": {
-      "groupon": "ehyche"
+      "organization": "ehyche"
     },
     "dustyburwell": {
-      "groupon": "dburwell",
+      "organization": "dburwell",
       "stackexchange": "77040",
       "lanyrd": "dustyburwell",
       "speakerdeck": "dustyburwell"
     },
     "iaman": {
-      "groupon": "iodea",
+      "organization": "iodea",
       "stackexchange": "",
       "lanyrd": "",
       "speakerdeck": "iaman"
     },
     "gmassanek": {
-      "groupon": "geoff"
+      "organization": "geoff"
     },
     "avivey": {
-      "groupon": "aeyal",
+      "organization": "aeyal",
       "stackexchange": "2253659"
     },
     "rykann": {
-      "groupon": "ryank"
+      "organization": "ryank"
     },
     "pbergstr": {
-      "groupon": "pbergstrom",
+      "organization": "pbergstrom",
       "stackexchange": "2065787"
     },
     "twebb": {
-      "groupon": "twebb",
+      "organization": "twebb",
       "stackexchange": "",
       "lanyrd": "twebb"
     },
     "jcfrancisco": {
-      "groupon": "carlo"
+      "organization": "carlo"
     },
     "hobodave": {
-      "groupon": "davida",
+      "organization": "davida",
       "stackexchange": "105662"
     },
     "williamsmatt": {
-      "groupon": "mawilliams",
+      "organization": "mawilliams",
       "stackexchange": "1493113"
     },
     "jonhoman": {
-      "groupon": "jhoman"
+      "organization": "jhoman"
     },
     "docondev": {
-      "groupon": "doc",
+      "organization": "doc",
       "stackexchange": "1406332",
       "lanyrd": "docondev",
       "speakerdeck": "docondev"
     },
     "deanmarano": {
-      "groupon": "dmarano",
+      "organization": "dmarano",
       "stackexchange": "1427403"
     },
     "yonpols": {
-      "groupon": "jmarzetti"
+      "organization": "jmarzetti"
     },
     "dbushong": {
-      "groupon": "dbushong"
+      "organization": "dbushong"
     },
     "bkochendorfer": {
-      "groupon": "brettk"
+      "organization": "brettk"
     },
     "miccrun": {
-      "groupon": "qzhang"
+      "organization": "qzhang"
     },
     "hhua": {
-      "groupon": "ahua"
+      "organization": "ahua"
     },
     "christopher-gordon": {
-      "groupon": "chrisg"
+      "organization": "chrisg"
     },
     "emmby": {
-      "groupon": "mburton",
+      "organization": "mburton",
       "stackexchange": "82156"
     },
     "jesstelford": {
-      "groupon": "jtelford",
+      "organization": "jtelford",
       "stackexchange": "473961"
     },
     "partriv": {
-      "groupon": "atrivedi",
+      "organization": "atrivedi",
       "stackexchange": "555306"
     },
     "mooremo": {
-      "groupon": "mmoore"
+      "organization": "mmoore"
     },
     "ingoclaro": {
-      "groupon": "ingo"
+      "organization": "ingo"
     },
     "felipebrahm": {
-      "groupon": "fbrahm",
+      "organization": "fbrahm",
       "stackexchange": "694086"
     },
     "jkrems": {
-      "groupon": "jankrems",
+      "organization": "jankrems",
       "stackexchange": "916619"
     },
     "carlthuringer": {
-      "groupon": "carl",
+      "organization": "carl",
       "stackexchange": "722320"
     },
     "koppenheim": {
-      "groupon": "kyleo"
+      "organization": "kyleo"
     },
     "ebenoist": {
-      "groupon": "ebenoist",
+      "organization": "ebenoist",
       "stackexchange": "1593474"
     },
     "raykrueger": {
-      "groupon": "rkrueger"
+      "organization": "rkrueger"
     },
     "andrewgho": {
-      "groupon": "ho"
+      "organization": "ho"
     },
     "cchacin": {
-      "groupon": "cchacin",
+      "organization": "cchacin",
       "stackexchange": "877429"
     },
     "jayrobinson": {
-      "groupon": "jrobinson",
+      "organization": "jrobinson",
       "stackexchange": "686665",
       "lanyrd": "jayrobinson"
     },
     "nrafique": {
-      "groupon": "nrafique"
+      "organization": "nrafique"
     },
     "chang-liu": {
-      "groupon": "cliu"
+      "organization": "cliu"
     },
     "xonev": {
-      "groupon": "soxley",
+      "organization": "soxley",
       "stackexchange": "3831",
       "lanyrd": "xonev"
     },
     "choang": {
-      "groupon": "chi"
+      "organization": "chi"
     },
     "misradeepika": {
-      "groupon": "deepika"
+      "organization": "deepika"
     },
     "karsep5": {
-      "groupon": "karp"
+      "organization": "karp"
     },
     "tisho": {
-      "groupon": "tisho"
+      "organization": "tisho"
     },
     "tmack8001": {
-      "groupon": "tmack",
+      "organization": "tmack",
       "stackexchange": "244397"
     },
     "maxpresman": {
-      "groupon": "mpresman"
+      "organization": "mpresman"
     },
     "ltangati": {
-      "groupon": "ltangati"
+      "organization": "ltangati"
     },
     "wafiq": {
-      "groupon": "mrodzuan",
+      "organization": "mrodzuan",
       "stackexchange": "405956"
     },
     "mlutton": {
-      "groupon": "mlutton"
+      "organization": "mlutton"
     },
     "danmconrad": {
-      "groupon": "dconrad"
+      "organization": "dconrad"
     },
     "dlchet": {
-      "groupon": "dchetlin",
+      "organization": "dchetlin",
       "stackexchange": "927639"
     },
     "2016bmw": {
-      "groupon": "brwilliams"
+      "organization": "brwilliams"
     },
     "zocoi": {
-      "groupon": "hung"
+      "organization": "hung"
     },
     "dinoboy197": {
-      "groupon": "traack",
+      "organization": "traack",
       "stackexchange": "474043"
     },
     "malloc47": {
-      "groupon": "jwaggoner",
+      "organization": "jwaggoner",
       "stackexchange": "",
       "lanyrd": "malloc47"
     },
     "reacuna": {
-      "groupon": "reacuna",
+      "organization": "reacuna",
       "stackexchange": "239790"
     },
     "preethinarayan": {
-      "groupon": "preethi"
+      "organization": "preethi"
     },
     "matoikar": {
-      "groupon": "moikarinen"
+      "organization": "moikarinen"
     },
     "prerna": {
-      "groupon": "prerna"
+      "organization": "prerna"
     },
     "p1nox": {
-      "groupon": "p1nox",
+      "organization": "p1nox",
       "stackexchange": "1053067"
     },
     "jiaqi": {
-      "groupon": "jguo"
+      "organization": "jguo"
     },
     "hbarney": {
-      "groupon": "hbarney"
+      "organization": "hbarney"
     },
     "ledwards": {
-      "groupon": "leedwards",
+      "organization": "leedwards",
       "stackexchange": "360999",
       "lanyrd": "",
       "speakerdeck": "ledwards"
     },
     "emdagon": {
-      "groupon": "egonzalez",
+      "organization": "egonzalez",
       "stackexchange": "1454739"
     },
     "brianm": {
-      "groupon": "bmccallister",
+      "organization": "bmccallister",
       "stackexchange": "499395"
     },
     "vivinjoy": {
-      "groupon": "vjoy",
+      "organization": "vjoy",
       "stackexchange": "1002588"
     },
     "grahammkelly": {
-      "groupon": "graham-kelly",
+      "organization": "graham-kelly",
       "stackexchange": "18744"
     },
     "rahimsiz": {
-      "groupon": "ramil"
+      "organization": "ramil"
     },
     "whatstin": {
-      "groupon": "danderson"
+      "organization": "danderson"
     },
     "abedra": {
-      "groupon": "abedra",
+      "organization": "abedra",
       "stackexchange": "676025",
       "lanyrd": "abedra"
     },
     "tjennings": {
-      "groupon": "tyler",
+      "organization": "tyler",
       "stackexchange": "",
       "lanyrd": "",
       "speakerdeck": ""
     },
     "undefined": {
-      "groupon": ""
+      "organization": ""
     }
   }
 }

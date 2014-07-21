@@ -53,24 +53,26 @@ module.exports = {
 
     _.each(usersData, function(userData){
       var userUsage = userData.usage;
-      usage.total += userUsage.total;
-      addArrays(usage.day, userUsage.day);
-      addArrays(usage.week, userUsage.week);
+      if (userUsage) {
+        usage.total += userUsage.total;
+        addArrays(usage.day, userUsage.day);
+        addArrays(usage.week, userUsage.week);
 
-      _.each(userData.usage.events, function(event){
-        if(event.type === "IssueCommentEvent" || event.type === "CommitCommentEvent" || event.type === "PullRequestReviewCommentEvent")
-          event.type = "CommentEvent"
+        _.each(userData.usage.events, function(event){
+          if(event.type === "IssueCommentEvent" || event.type === "CommitCommentEvent" || event.type === "PullRequestReviewCommentEvent")
+            event.type = "CommentEvent"
 
-        var foundEvent = _.find(usage.events, function(currentEvent){
-          return currentEvent.type == event.type;
-        });
+          var foundEvent = _.find(usage.events, function(currentEvent){
+            return currentEvent.type == event.type;
+          });
 
-        if(foundEvent) {
-          foundEvent.total += event.total;
-          addArrays(foundEvent.day, event.day);
-          addArrays(foundEvent.week, event.week);
-        }
-      });
+          if(foundEvent) {
+            foundEvent.total += event.total;
+            addArrays(foundEvent.day, event.day);
+            addArrays(foundEvent.week, event.week);
+          }
+	});
+      }
     });
 
     var langaugeStatistics = languages.all(usersData);
