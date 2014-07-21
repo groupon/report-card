@@ -32,6 +32,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 var Handlebars = require('handlebars');
 var fs = require('fs');
+var config = require('config');
 function helper(name){
  return require('./render/helpers/'+ name);
 }
@@ -109,6 +110,8 @@ data.answerCount = data.answers.total;
 
 data.badgeCount = data.badges.badgeCount;
 data.topBadgesEarners = data.badges.profiles.sort(rsortBy('badgeCount')).slice(0, 12);
+
+data.organization = config.organization.name;
 
 // remove lanyrders who didn't give talks, turn it into an array
 var _talks = data.talks;

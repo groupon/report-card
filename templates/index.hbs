@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Community | {{ name }}</title>
+    <title>Community | {{ organization }}</title>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/foundation.css" />
@@ -12,24 +12,24 @@
   </head>
   <body>
     <div class="backstretch">
-      <h1>Community | {{ name }}</h1>
+      <h1>Community | {{ organization }}</h1>
     </div>
 
     <div class="row">
       <div class="large-12 columns">
         <h4><span>Open Sourcerers</span></h4>
         <p>
-          {{name}} has {{members.length}} active contributors to open source.
+          {{organization}} has {{members.length}} active contributors to open source.
           They spend a lot of time {{topActivity}} and {{secondTopActivity}}.
-          {{ name }} employees are serious open source contributors
+          {{ organization }} employees are serious open source contributors
           who do a bunch in the morning and evening.
 
           We're pretty geeked about that! Here they are:
         </p>
 
         {{#each members}}
-          <span data-tooltip data-options="disable_for_touch:true" class="has-tip tip-top" title="{{name}}">
-            <a href="http://github.com/{{name}}">
+          <span data-tooltip data-options="disable_for_touch:true" class="has-tip tip-top" title="{{organization}}">
+            <a href="http://github.com/{{organization}}">
               <img src="{{avatar name 45}}" height="45" width="45">
             </a>
           </span>
@@ -78,7 +78,7 @@
 
         <h4><span>Collaboration</span></h4>
         <p>
-          {{name}} engineers often collaborate with people outside {{name}},
+          {{organization}} engineers often collaborate with people outside {{organization}},
           the most frequent {{connected_users.length}} collaborators are:
           <div>
             {{#each connected_users}}
@@ -93,9 +93,9 @@
 
         <h4><span>Let's be Friends</span></h4>
         <p>
-          Although they don't currently work at {{ name }},
+          Although they don't currently work at {{ organization }},
           it looks like the following {{similar_users.length}} people
-          are very simlar to {{name}} engineers.
+          are very simlar to {{organization}} engineers.
           We think they'd feel right at home here:
           <div>
             {{#each similar_users}}
@@ -110,7 +110,7 @@
 
         <h4><span>Projects</span></h4>
         <p>
-          These days, {{ name }} engineers are most actively contributing to
+          These days, {{ organization }} engineers are most actively contributing to
           {{repositories.length}} repositories.
           Here are some of the more popular ones:
         </p>
@@ -127,13 +127,13 @@
       <div class="large-12 columns">
         <h4><span>By the Numbers</span></h4>
         <p>
-        We already know that {{ name }} engineers love {{secondTopActivity}}
+        We already know that {{ organization }} engineers love {{secondTopActivity}}
         whenever we're not {{topActivity}}
         but the following data sheds some light onto
         what we do with our open source time.
         In the full event stream analyzed for this report,
         there are a total of {{sumProperty usage.events 'total'}}
-        events recorded for {{ name }}, divided by type below:
+        events recorded for {{ organization }}, divided by type below:
         </p>
 
         <div id="d3-activity-diagram-outlet" class="chart-outlet"></div>
@@ -152,11 +152,11 @@
 
         <h4><span>Languages</span></h4>
         <p>
-        {{ name }} engineers have contributed to repositories
+        {{ organization }} engineers have contributed to repositories
         in {{usage.allLanguages.length}} languages.
         In particular, we are pretty serious {{topLanguage}} experts.
         The following chart shows the number of contributions
-        {{ name }} engineers made to repositories
+        {{ organization }} engineers made to repositories
         mainly written in {{{languagesToSentence mostUsedLanguages}}}.
         </p>
 
@@ -206,7 +206,7 @@
             <div>
               <a href="http://stackoverflow.com/users/{{userId}}">
                 <img src="{{profileImage}}" height="45" width="45">
-                {{name}}
+                {{organization}}
               </a>
               <span class="badge1"></span><span class="badgecount">{{badge_counts.gold}}</span>
               <span class="badge2"></span><span class="badgecount">{{badge_counts.silver}}</span>
@@ -222,7 +222,7 @@
       <div class="large-12 columns">
         <h4><span>Talks</span></h4>
         <p>
-          {{name}} engineers love sharing their knowledge
+          {{organization}} engineers love sharing their knowledge
           and sparkling with the larger world.
           You can find many of us at your favorite conferences and meetups.
           These {{talks.length}} speakers from Groupon have delivered
