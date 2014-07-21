@@ -33,21 +33,13 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 var async = require('async');
 var fs = require('fs');
 var _ = require('underscore');
+var config = require('config');
 var argv = require('minimist')(process.argv.slice(2));
-
-var organization = function() {
-  var org = argv["_"][0];
-  if(!org){
-    throw new Error("First arg must be an org name.")
-  } else {
-    console.log('Pulling users from the ' + org + ' organization on Github.')
-  }
-  return org;
-}
+var organization = config.organization.name;
 
 var github = require('octonode');
-var client = github.client(process.env.GROUPONTHECAT_TOKEN);
-var org = client.org(organization());
+var client = github.client(process.env.GITHUB_TOKEN);
+var org = client.org(organization);
 
 var getUsers = function(callback){
   org.members(1, 300, function(error, members) {

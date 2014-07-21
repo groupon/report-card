@@ -32,7 +32,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 var request = require('request');
 var github = require('octonode');
-var client = github.client(process.env.GROUPONTHECAT_TOKEN);
+var client = github.client(process.env.GITHUB_TOKEN);
 
 var parse = function(string){
   try {
