@@ -33,9 +33,9 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 var _ = require('underscore');
 
 module.exports = {
-  similarUsers: function(usersData, grouponUsers) {
+  similarUsers: function(usersData, users) {
     var similarUsers = [];
-    var grouponUserNames = _.map(grouponUsers, function(user) {
+    var userNames = _.map(users, function(user) {
       return user.name;
     });
 
@@ -45,7 +45,7 @@ module.exports = {
           return user.name == similarUser.name;
         });
 
-        if(!(foundUser || (_.contains(grouponUserNames, similarUser.username)))) {
+        if(!(foundUser || (_.contains(userNames, similarUser.username)))) {
             similarUsers.push(similarUser);
         }
 

@@ -44,14 +44,14 @@ var userMapping = {};
 lines.forEach(function(line){
   var cells = line.split('\t');
 
-  var groupon = cells[0];
+  var organization = cells[0];
   var github = cells[1];
   var stack = cells[2];
   var lanyrd = cells[3];
   var speakerdeck = cells[4];
 
   userMapping[github] = {
-    groupon: groupon,
+    organization: organization,
     stackexchange: stack,
     lanyrd: lanyrd,
     speakerdeck: speakerdeck

@@ -84,6 +84,7 @@ function rsortByLength(propertyName){
   }
 }
 
+// TODO: remove?
 function compact (argument) {
   // body...
 }
@@ -96,6 +97,7 @@ data.similar_users = data.similar_users.sort(rsortByLength('who'));
 
 data.topRepositories = data.repositories.filter(function(repo) {
   org = repo.repo.split('/')[0];
+  // TODO: remove hardcoded value and replace with config value
   return ((org === 'groupon' && repo.stargazersCount > 0) || repo.stargazersCount >= 20);
 });
 
