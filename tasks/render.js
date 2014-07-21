@@ -84,10 +84,7 @@ function rsortByLength(propertyName){
   }
 }
 
-// TODO: remove?
-function compact (argument) {
-  // body...
-}
+data.organization = config.organization.name;
 
 data.usage.topLanguages = data.usage.topLanguages.sort(rsortBy('count'));
 data.usage.allLanguages = data.usage.allLanguages.sort(rsortBy('count'));
@@ -97,8 +94,7 @@ data.similar_users = data.similar_users.sort(rsortByLength('who'));
 
 data.topRepositories = data.repositories.filter(function(repo) {
   org = repo.repo.split('/')[0];
-  // TODO: remove hardcoded value and replace with config value
-  return ((org === 'groupon' && repo.stargazersCount > 0) || repo.stargazersCount >= 20);
+  return ((org === data.organization && repo.stargazersCount > 0) || repo.stargazersCount >= 20);
 });
 
 data.topLanguage = data.usage.allLanguages[0].language;
@@ -113,7 +109,7 @@ data.answerCount = data.answers.total;
 data.badgeCount = data.badges.badgeCount;
 data.topBadgesEarners = data.badges.profiles.sort(rsortBy('badgeCount')).slice(0, 12);
 
-data.organization = config.organization.name;
+
 
 // remove lanyrders who didn't give talks, turn it into an array
 var _talks = data.talks;
