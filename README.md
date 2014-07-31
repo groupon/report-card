@@ -13,12 +13,19 @@ runnning you need to have node and npm installed. Once you do you can
 fetch the dependencies using npm.
 
 You may run into API limiting if your organization is large. If you do
-you can supply a Github access token via the `GITHUB_TOKEN`
-environment variable.
+you can supply a Github access token in the configuration.
 
 ```
 npm install
 ```
+
+## Configuration
+
+Since the project pulls from a lot of data sources, a little
+configuration is required to get the most out of it. The example
+configuration file, `config/default.json` demonstrates the complete
+list of configuration options that you can provide before running the
+tasks below.
 
 ## Tasks
 
