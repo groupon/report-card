@@ -34,6 +34,7 @@ var request = require('request');
 var _ = require('underscore');
 var zlib = require('zlib');
 var concat = require('concat-stream');
+var config = require('config')
 
 var processAnswers = require('./answers');
 var processBadges = require('./badges');
@@ -80,19 +81,12 @@ var getAnswers = function(userIds, callback){
     page: 1,
     pagesize: 100,
     site: 'stackoverflow',
-    filter: '!bJDus)chijNCh3'
+    filter: config.stack_overflow.answers_filter
   };
   stackRequest(path, qs, [], processAnswers(callback));
 };
 
 var getBadges = function(userIds, callback){
-  /*
-  var now = new Date;
-  var yearAgo = new Date(now.setFullYear(now.getFullYear() - 1));
-  var yearAgoMs = Math.round(yearAgo.getTime() / 1000);
-  // 'fromdate='+yearAgoMs
-  */
-
   // Try It: http://api.stackexchange.com/docs/users-by-ids#order=desc&sort=reputation&ids=106%3B999&filter=!Ln3laVm*nneRQDAXXp0nfS&site=stackoverflow
   // /users/106%3B999?order=desc&sort=reputation&site=stackoverflow&filter=!Ln3laVm*nneRQDAXXp0nfS
   var path = '/users/'+userIds;
@@ -102,7 +96,7 @@ var getBadges = function(userIds, callback){
     page: 1,
     pagesize: 100,
     site: 'stackoverflow',
-    filter: '!Ln3laVm*nneRQDAXXp0nfS'
+    filter: config.stack_overflow.badges_filter
   };
   stackRequest(path, qs, [], processBadges(callback));
 };

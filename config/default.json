@@ -1,5 +1,13 @@
 {
   "organization": {
-    "name": "ACME"
+    "name": "Groupon"
+  },
+  "github_token": "",
+  "stack_overflow": {
+    // These are filters specific to Groupon. You can use them for
+    // testing but ideally you will need to update them to fit your
+    // organization.
+    "answers_filter": "!bJDus)chijNCh3",
+    "badges_filter": "!Ln3laVm*nneRQDAXXp0nfS"
   }
 }

@@ -34,11 +34,10 @@ var async = require('async');
 var fs = require('fs');
 var _ = require('underscore');
 var config = require('config');
-var argv = require('minimist')(process.argv.slice(2));
 var organization = config.organization.name;
 
 var github = require('octonode');
-var client = github.client(process.env.GITHUB_TOKEN);
+var client = github.client(config.github_token);
 var org = client.org(organization);
 
 var getUsers = function(callback){
