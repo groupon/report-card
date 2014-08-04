@@ -1,10 +1,11 @@
 {
   "name": "osrc-for-orgs",
   "version": "0.0.0",
-  "description": "## resources",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node tasks/github.js && node tasks/aggregate && node tasks/render.js && node server.js"
+    "start": "node tasks/github.js && node tasks/aggregate && node tasks/render.js && node server.js",
+    "test": "mocha --recursive tests"
   },
   "repository": {
     "type": "git",
@@ -19,10 +20,13 @@
     "octonode": "pksunkara/octonode#a4b2b030ba77437255b6b8c6f47771ce6a4bc448",
     "request": "^2.36.0",
     "underscore": "^1.6.0",
-    "mocha": "~1.20.1",
     "jsdom": "~0.11.0",
     "d3": "~3.4.8",
     "cheerio": "^0.17.0",
     "config": "~0.4.36"
+  },
+  "devDependencies": {
+    "mocha": "~1.20.1",
+    "assertive": "^1.4.0"
   }
 }

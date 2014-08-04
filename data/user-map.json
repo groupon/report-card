@@ -1,372 +1,1298 @@
 {
   "mapping": {
-    "endangeredmassa": {
-      "organization": "smassa",
-      "stackexchange": "106",
-      "lanyrd": "endangeredmassa"
-    },
-    "tundal45": {
-      "organization": "ashish",
-      "stackexchange": "59968",
-      "lanyrd": "tundal45",
-      "speakerdeck": "tundal45"
-    },
-    "trek": {
-      "organization": "trek",
-      "stackexchange": "1584375",
-      "lanyrd": "trek",
-      "speakerdeck": "trek"
-    },
-    "banterability": {
-      "organization": "jlong",
-      "stackexchange": "5319",
-      "lanyrd": "banterability",
-      "speakerdeck": "banterability"
-    },
-    "tsmacdonald": {
-      "organization": "tmacdonald",
-      "stackexchange": "220529"
-    },
-    "chrisjpowers": {
-      "organization": "cpowers",
-      "stackexchange": "",
-      "lanyrd": "",
-      "speakerdeck": "chrisjpowers"
-    },
-    "thestevemitchell": {
-      "organization": "smitchell",
-      "stackexchange": "1486754"
-    },
-    "dlangdon": {
-      "organization": "dlangdon",
-      "stackexchange": "1766382"
-    },
-    "artman": {
-      "organization": "tuomas",
-      "stackexchange": "454972"
-    },
-    "crandrad": {
-      "organization": "carlos",
-      "stackexchange": "395925"
-    },
-    "satanas": {
-      "organization": "wilalvarez",
-      "stackexchange": "1172219"
-    },
-    "betacar": {
-      "organization": "betacar",
-      "stackexchange": "315748",
-      "lanyrd": "",
-      "speakerdeck": "betacar"
-    },
-    "dennyabraham": {
-      "organization": "denny",
-      "stackexchange": "77970",
-      "lanyrd": "dennyabraham",
-      "speakerdeck": "dennyabraham"
-    },
-    "shivanathd": {
-      "organization": "sdevinarayanan",
-      "stackexchange": "582605"
-    },
-    "deivinsontejeda": {
-      "organization": "deivinsontejeda",
-      "stackexchange": "1135241"
-    },
-    "scottrogers": {
-      "organization": "srogers"
-    },
-    "jpodlech": {
-      "organization": "jpodlech"
-    },
-    "renatomoya": {
-      "organization": "renatomoya",
-      "stackexchange": "1563374"
-    },
-    "aotarola": {
-      "organization": "aotarola"
-    },
-    "rmatusiewicz": {
-      "organization": "rmatusiewicz"
-    },
-    "delpho": {
-      "organization": "jarayacerda",
-      "stackexchange": "2656934"
-    },
-    "rafaelperez": {
-      "organization": "rafael.perez"
-    },
-    "abloom": {
-      "organization": "abloom"
-    },
-    "gfredericks": {
-      "organization": "garyf"
-    },
     "zeitan": {
-      "organization": "abastardosalas"
-    },
-    "trevorsheridan": {
-      "organization": "tsheridan",
-      "stackexchange": "3386107"
-    },
-    "daniel-beard": {
-      "organization": "dbeard",
-      "stackexchange": "1144632"
-    },
-    "ehyche": {
-      "organization": "ehyche"
-    },
-    "dustyburwell": {
-      "organization": "dburwell",
-      "stackexchange": "77040",
-      "lanyrd": "dustyburwell",
-      "speakerdeck": "dustyburwell"
-    },
-    "iaman": {
-      "organization": "iodea",
+      "organization": "abastardosalas",
+      "github": "zeitan",
       "stackexchange": "",
+      "twitter": "",
       "lanyrd": "",
-      "speakerdeck": "iaman"
-    },
-    "gmassanek": {
-      "organization": "geoff"
-    },
-    "avivey": {
-      "organization": "aeyal",
-      "stackexchange": "2253659"
-    },
-    "rykann": {
-      "organization": "ryank"
-    },
-    "pbergstr": {
-      "organization": "pbergstrom",
-      "stackexchange": "2065787"
-    },
-    "twebb": {
-      "organization": "twebb",
-      "stackexchange": "",
-      "lanyrd": "twebb"
-    },
-    "jcfrancisco": {
-      "organization": "carlo"
-    },
-    "hobodave": {
-      "organization": "davida",
-      "stackexchange": "105662"
-    },
-    "williamsmatt": {
-      "organization": "mawilliams",
-      "stackexchange": "1493113"
-    },
-    "jonhoman": {
-      "organization": "jhoman"
-    },
-    "docondev": {
-      "organization": "doc",
-      "stackexchange": "1406332",
-      "lanyrd": "docondev",
-      "speakerdeck": "docondev"
-    },
-    "deanmarano": {
-      "organization": "dmarano",
-      "stackexchange": "1427403"
-    },
-    "yonpols": {
-      "organization": "jmarzetti"
-    },
-    "dbushong": {
-      "organization": "dbushong"
-    },
-    "bkochendorfer": {
-      "organization": "brettk"
-    },
-    "miccrun": {
-      "organization": "qzhang"
-    },
-    "hhua": {
-      "organization": "ahua"
-    },
-    "christopher-gordon": {
-      "organization": "chrisg"
-    },
-    "emmby": {
-      "organization": "mburton",
-      "stackexchange": "82156"
-    },
-    "jesstelford": {
-      "organization": "jtelford",
-      "stackexchange": "473961"
-    },
-    "partriv": {
-      "organization": "atrivedi",
-      "stackexchange": "555306"
-    },
-    "mooremo": {
-      "organization": "mmoore"
-    },
-    "ingoclaro": {
-      "organization": "ingo"
-    },
-    "felipebrahm": {
-      "organization": "fbrahm",
-      "stackexchange": "694086"
-    },
-    "jkrems": {
-      "organization": "jankrems",
-      "stackexchange": "916619"
-    },
-    "carlthuringer": {
-      "organization": "carl",
-      "stackexchange": "722320"
-    },
-    "koppenheim": {
-      "organization": "kyleo"
-    },
-    "ebenoist": {
-      "organization": "ebenoist",
-      "stackexchange": "1593474"
-    },
-    "raykrueger": {
-      "organization": "rkrueger"
-    },
-    "andrewgho": {
-      "organization": "ho"
-    },
-    "cchacin": {
-      "organization": "cchacin",
-      "stackexchange": "877429"
-    },
-    "jayrobinson": {
-      "organization": "jrobinson",
-      "stackexchange": "686665",
-      "lanyrd": "jayrobinson"
-    },
-    "nrafique": {
-      "organization": "nrafique"
-    },
-    "chang-liu": {
-      "organization": "cliu"
-    },
-    "xonev": {
-      "organization": "soxley",
-      "stackexchange": "3831",
-      "lanyrd": "xonev"
-    },
-    "choang": {
-      "organization": "chi"
-    },
-    "misradeepika": {
-      "organization": "deepika"
-    },
-    "karsep5": {
-      "organization": "karp"
-    },
-    "tisho": {
-      "organization": "tisho"
-    },
-    "tmack8001": {
-      "organization": "tmack",
-      "stackexchange": "244397"
-    },
-    "maxpresman": {
-      "organization": "mpresman"
-    },
-    "ltangati": {
-      "organization": "ltangati"
-    },
-    "wafiq": {
-      "organization": "mrodzuan",
-      "stackexchange": "405956"
-    },
-    "mlutton": {
-      "organization": "mlutton"
-    },
-    "danmconrad": {
-      "organization": "dconrad"
-    },
-    "dlchet": {
-      "organization": "dchetlin",
-      "stackexchange": "927639"
-    },
-    "2016bmw": {
-      "organization": "brwilliams"
-    },
-    "zocoi": {
-      "organization": "hung"
-    },
-    "dinoboy197": {
-      "organization": "traack",
-      "stackexchange": "474043"
-    },
-    "malloc47": {
-      "organization": "jwaggoner",
-      "stackexchange": "",
-      "lanyrd": "malloc47"
-    },
-    "reacuna": {
-      "organization": "reacuna",
-      "stackexchange": "239790"
-    },
-    "preethinarayan": {
-      "organization": "preethi"
-    },
-    "matoikar": {
-      "organization": "moikarinen"
-    },
-    "prerna": {
-      "organization": "prerna"
-    },
-    "p1nox": {
-      "organization": "p1nox",
-      "stackexchange": "1053067"
-    },
-    "jiaqi": {
-      "organization": "jguo"
-    },
-    "hbarney": {
-      "organization": "hbarney"
-    },
-    "ledwards": {
-      "organization": "leedwards",
-      "stackexchange": "360999",
-      "lanyrd": "",
-      "speakerdeck": "ledwards"
-    },
-    "emdagon": {
-      "organization": "egonzalez",
-      "stackexchange": "1454739"
-    },
-    "brianm": {
-      "organization": "bmccallister",
-      "stackexchange": "499395"
-    },
-    "vivinjoy": {
-      "organization": "vjoy",
-      "stackexchange": "1002588"
-    },
-    "grahammkelly": {
-      "organization": "graham-kelly",
-      "stackexchange": "18744"
-    },
-    "rahimsiz": {
-      "organization": "ramil"
-    },
-    "whatstin": {
-      "organization": "danderson"
+      "speakerdeck": "",
+      "booksWritten": ""
     },
     "abedra": {
       "organization": "abedra",
+      "github": "abedra",
       "stackexchange": "676025",
-      "lanyrd": "abedra"
+      "twitter": "abedra",
+      "lanyrd": "abedra",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "abloom": {
+      "organization": "abloom",
+      "github": "abloom",
+      "stackexchange": "",
+      "twitter": "andrewbloom",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "avivey": {
+      "organization": "aeyal",
+      "github": "avivey",
+      "stackexchange": "2253659",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "hhua": {
+      "organization": "ahua",
+      "github": "hhua",
+      "stackexchange": "",
+      "twitter": "hhua_",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "aotarola": {
+      "organization": "aotarola",
+      "github": "aotarola",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "tundal45": {
+      "organization": "ashish",
+      "github": "tundal45",
+      "stackexchange": "59968",
+      "twitter": "tundal45",
+      "lanyrd": "tundal45",
+      "speakerdeck": "tundal45",
+      "booksWritten": ""
+    },
+    "partriv": {
+      "organization": "atrivedi",
+      "github": "partriv",
+      "stackexchange": "555306",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "brandonarp": {
+      "organization": "barp",
+      "github": "brandonarp",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "betacar": {
+      "organization": "betacar",
+      "github": "betacar",
+      "stackexchange": "315748",
+      "twitter": "betacar",
+      "lanyrd": "",
+      "speakerdeck": "betacar",
+      "booksWritten": ""
+    },
+    "brianm": {
+      "organization": "bmccallister",
+      "github": "brianm",
+      "stackexchange": "499395",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "bkochendorfer": {
+      "organization": "brettk",
+      "github": "bkochendorfer",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "2016bmw": {
+      "organization": "brwilliams",
+      "github": "2016bmw",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "carlthuringer": {
+      "organization": "carl",
+      "github": "carlthuringer",
+      "stackexchange": "722320",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "jcfrancisco": {
+      "organization": "carlo",
+      "github": "jcfrancisco",
+      "stackexchange": "",
+      "twitter": "jcfrancisco",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "crandrad": {
+      "organization": "carlos",
+      "github": "crandrad",
+      "stackexchange": "395925",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "cchacin": {
+      "organization": "cchacin",
+      "github": "cchacin",
+      "stackexchange": "877429",
+      "twitter": "carloschacin",
+      "lanyrd": "cchacin",
+      "speakerdeck": "cchacin",
+      "booksWritten": ""
+    },
+    "choang": {
+      "organization": "chi",
+      "github": "choang",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "christopher-gordon": {
+      "organization": "chrisg",
+      "github": "christopher-gordon",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "buy": {
+      "organization": "cliu",
+      "github": "buy",
+      "stackexchange": "2953524",
+      "twitter": "cliu70",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "chrisjpowers": {
+      "organization": "cpowers",
+      "github": "chrisjpowers",
+      "stackexchange": "",
+      "twitter": "chrisjpowers",
+      "lanyrd": "",
+      "speakerdeck": "chrisjpowers",
+      "booksWritten": ""
+    },
+    "whatstin": {
+      "organization": "danderson",
+      "github": "whatstin",
+      "stackexchange": "",
+      "twitter": "whatstin",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "hobodave": {
+      "organization": "davida",
+      "github": "hobodave",
+      "stackexchange": "105662",
+      "twitter": "hobodave",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "daniel-beard": {
+      "organization": "dbeard",
+      "github": "daniel-beard",
+      "stackexchange": "1144632",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "ometa": {
+      "organization": "ehyche",
+      "github": "ometa",
+      "stackexchange": "3888396",
+      "twitter": "ehyche",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "dustyburwell": {
+      "organization": "dburwell",
+      "github": "dustyburwell",
+      "stackexchange": "77040",
+      "twitter": "dustyburwell",
+      "lanyrd": "dustyburwell",
+      "speakerdeck": "dustyburwell",
+      "booksWritten": ""
+    },
+    "dbushong": {
+      "organization": "dbushong",
+      "github": "dbushong",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "dlchet": {
+      "organization": "dchetlin",
+      "github": "dlchet",
+      "stackexchange": "927639",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "danmconrad": {
+      "organization": "dconrad",
+      "github": "danmconrad",
+      "stackexchange": "",
+      "twitter": "danmconrad",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "misradeepika": {
+      "organization": "deepika",
+      "github": "misradeepika",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "davidhanley": {
+      "organization": "dhanley",
+      "github": "davidhanley",
+      "stackexchange": "",
+      "twitter": "yoga_dave",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "deivinsontejeda": {
+      "organization": "deivinsontejeda",
+      "github": "deivinsontejeda",
+      "stackexchange": "1135241",
+      "twitter": "deivinsontejeda",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "dennyabraham": {
+      "organization": "denny",
+      "github": "dennyabraham",
+      "stackexchange": "77970",
+      "twitter": "",
+      "lanyrd": "dennyabraham",
+      "speakerdeck": "dennyabraham",
+      "booksWritten": ""
+    },
+    "dlangdon": {
+      "organization": "dlangdon",
+      "github": "dlangdon",
+      "stackexchange": "1766382",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "deanmarano": {
+      "organization": "dmarano",
+      "github": "deanmarano",
+      "stackexchange": "1427403",
+      "twitter": "pleiadeez",
+      "lanyrd": "deanmarano",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "docondev": {
+      "organization": "doc",
+      "github": "docondev",
+      "stackexchange": "1406332",
+      "twitter": "docondev",
+      "lanyrd": "docondev",
+      "speakerdeck": "docondev",
+      "booksWritten": ""
+    },
+    "seifertd": {
+      "organization": "dseifert",
+      "github": "seifertd",
+      "stackexchange": "888782",
+      "twitter": "dougseifert",
+      "lanyrd": "seifertd",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "ebenoist": {
+      "organization": "ebenoist",
+      "github": "ebenoist",
+      "stackexchange": "1593474",
+      "twitter": "erikbenoist",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "emdagon": {
+      "organization": "egonzalez",
+      "github": "emdagon",
+      "stackexchange": "1454739",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "felipebrahm": {
+      "organization": "fbrahm",
+      "github": "felipebrahm",
+      "stackexchange": "694086",
+      "twitter": "felipebrahm",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "flochtililoch": {
+      "organization": "florent",
+      "github": "flochtililoch",
+      "stackexchange": "237637",
+      "twitter": "flochtililoch",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "frojasg": {
+      "organization": "frojas",
+      "github": "frojasg",
+      "stackexchange": "1822270",
+      "twitter": "frojasg",
+      "lanyrd": "frojasg",
+      "speakerdeck": "frojasg",
+      "booksWritten": ""
+    },
+    "gfredericks": {
+      "organization": "garyf",
+      "github": "gfredericks",
+      "stackexchange": "",
+      "twitter": "gfredericks_",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "gmassanek": {
+      "organization": "geoff",
+      "github": "gmassanek",
+      "stackexchange": "",
+      "twitter": "gmassanek",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "goyox86": {
+      "organization": "goyox86",
+      "github": "goyox86",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "goyox86",
+      "booksWritten": ""
+    },
+    "": {
+      "organization": "tarakawairie",
+      "github": "",
+      "stackexchange": "",
+      "twitter": "tulio_irie",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "hbarney": {
+      "organization": "hbarney",
+      "github": "hbarney",
+      "stackexchange": "",
+      "twitter": "hamishbarney",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "andrewgho": {
+      "organization": "ho",
+      "github": "andrewgho",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "hgschmie": {
+      "organization": "hschmiedehausen",
+      "github": "hgschmie",
+      "stackexchange": "",
+      "twitter": "hgschmie",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "zocoi": {
+      "organization": "hung",
+      "github": "zocoi",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "ingoclaro": {
+      "organization": "ingo",
+      "github": "ingoclaro",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "iaman": {
+      "organization": "iodea",
+      "github": "iaman",
+      "stackexchange": "",
+      "twitter": "iaman",
+      "lanyrd": "",
+      "speakerdeck": "iaman",
+      "booksWritten": ""
+    },
+    "jkrems": {
+      "organization": "jankrems",
+      "github": "jkrems",
+      "stackexchange": "916619",
+      "twitter": "jankrems",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "delpho": {
+      "organization": "jarayacerda",
+      "github": "delpho",
+      "stackexchange": "2656934",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "eraserhd": {
+      "organization": "jfelice",
+      "github": "eraserhd",
+      "stackexchange": "",
+      "twitter": "eraserhd",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "jiaqi": {
+      "organization": "jguo",
+      "github": "jiaqi",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "jonhoman": {
+      "organization": "jhoman",
+      "github": "jonhoman",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "banterability": {
+      "organization": "jlong",
+      "github": "banterability",
+      "stackexchange": "5319",
+      "twitter": "",
+      "lanyrd": "banterability",
+      "speakerdeck": "banterability",
+      "booksWritten": ""
+    },
+    "yonpols": {
+      "organization": "jmarzetti",
+      "github": "yonpols",
+      "stackexchange": "",
+      "twitter": "yonpols",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "jpodlech": {
+      "organization": "jpodlech",
+      "github": "jpodlech",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "jayrobinson": {
+      "organization": "jrobinson",
+      "github": "jayrobinson",
+      "stackexchange": "686665",
+      "twitter": "",
+      "lanyrd": "jayrobinson",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "joanneliyeng": {
+      "organization": "jsoo",
+      "github": "joanneliyeng",
+      "stackexchange": "3766956",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "jesstelford": {
+      "organization": "jtelford",
+      "github": "jesstelford",
+      "stackexchange": "473961",
+      "twitter": "jesstelford",
+      "lanyrd": "jesstelford",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "malloc47": {
+      "organization": "jwaggoner",
+      "github": "malloc47",
+      "stackexchange": "1078605",
+      "twitter": "malloc47",
+      "lanyrd": "malloc47",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "kkaushik": {
+      "organization": "karan",
+      "github": "kkaushik",
+      "stackexchange": "",
+      "twitter": "kasquared",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "karsep5": {
+      "organization": "karp",
+      "github": "karsep5",
+      "stackexchange": "1863414",
+      "twitter": "karsep5",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "koppenheim": {
+      "organization": "kyleo",
+      "github": "koppenheim",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "ledwards": {
+      "organization": "leedwards",
+      "github": "ledwards",
+      "stackexchange": "360999",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "ledwards",
+      "booksWritten": ""
+    },
+    "ltangati": {
+      "organization": "ltangati",
+      "github": "ltangati",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "peruvianidol": {
+      "organization": "maparicio",
+      "github": "peruvianidol",
+      "stackexchange": "",
+      "twitter": "peruvianidol",
+      "lanyrd": "",
+      "speakerdeck": "peruvianidol",
+      "booksWritten": ""
+    },
+    "martinparedes": {
+      "organization": "martin",
+      "github": "martinparedes",
+      "stackexchange": "",
+      "twitter": "martin_paredes",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "williamsmatt": {
+      "organization": "mawilliams",
+      "github": "williamsmatt",
+      "stackexchange": "1493113",
+      "twitter": "m_ttw",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "emmby": {
+      "organization": "mburton",
+      "github": "emmby",
+      "stackexchange": "82156",
+      "twitter": "roboguice",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": "http://www.amazon.com/Android-Application-Development-For-Dummies/dp/1118387104"
+    },
+    "michael0x2a": {
+      "organization": "michlee",
+      "github": "michael0x2a",
+      "stackexchange": "646543",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "michaelphines": {
+      "organization": "mhines",
+      "github": "michaelphines",
+      "stackexchange": "2517798",
+      "twitter": "michaelphines",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "mlutton": {
+      "organization": "mlutton",
+      "github": "mlutton",
+      "stackexchange": "",
+      "twitter": "mlutton",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "mooremo": {
+      "organization": "mmoore",
+      "github": "mooremo",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "matoikar": {
+      "organization": "moikarinen",
+      "github": "matoikar",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "maxpresman": {
+      "organization": "mpresman",
+      "github": "maxpresman",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "knoma": {
+      "organization": "msaidi",
+      "github": "knoma",
+      "stackexchange": "755706",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "wafiq": {
+      "organization": "mrodzuan",
+      "github": "wafiq",
+      "stackexchange": "405956",
+      "twitter": "wfxyz",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "nchainani": {
+      "organization": "naren",
+      "github": "nchainani",
+      "stackexchange": "756598",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "nrafique": {
+      "organization": "nrafique",
+      "github": "nrafique",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "p1nox": {
+      "organization": "p1nox",
+      "github": "p1nox",
+      "stackexchange": "1053067",
+      "twitter": "p1nox",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "pbergstr": {
+      "organization": "pbergstrom",
+      "github": "pbergstr",
+      "stackexchange": "2065787",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "pedrofuentes": {
+      "organization": "pfuentes",
+      "github": "pedrofuentes",
+      "stackexchange": "1236983",
+      "twitter": "",
+      "lanyrd": "pedrofuentes",
+      "speakerdeck": "pedro",
+      "booksWritten": ""
+    },
+    "pecorrea": {
+      "organization": "plinio",
+      "github": "pecorrea",
+      "stackexchange": "",
+      "twitter": "plinium",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "preethinarayan": {
+      "organization": "preethi",
+      "github": "preethinarayan",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "prerna": {
+      "organization": "prerna",
+      "github": "prerna",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "miccrun": {
+      "organization": "qzhang",
+      "github": "miccrun",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "rafaelperez": {
+      "organization": "rafael.perez",
+      "github": "rafaelperez",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "rahimsiz": {
+      "organization": "ramil",
+      "github": "rahimsiz",
+      "stackexchange": "",
+      "twitter": "rahimsiz",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "reacuna": {
+      "organization": "reacuna",
+      "github": "reacuna",
+      "stackexchange": "239790",
+      "twitter": "reacuna",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "renatomoya": {
+      "organization": "renatomoya",
+      "github": "renatomoya",
+      "stackexchange": "1563374",
+      "twitter": "renatomoya",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "raykrueger": {
+      "organization": "rkrueger",
+      "github": "raykrueger",
+      "stackexchange": "",
+      "twitter": "raykrueger",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "rmatusiewicz": {
+      "organization": "rmatusiewicz",
+      "github": "rmatusiewicz",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "seato": {
+      "organization": "rthai",
+      "github": "seato",
+      "stackexchange": "1666688",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "rykann": {
+      "organization": "ryank",
+      "github": "rykann",
+      "stackexchange": "",
+      "twitter": "rykann",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "shivanathd": {
+      "organization": "sdevinarayanan",
+      "github": "shivanathd",
+      "stackexchange": "582605",
+      "twitter": "shivanathd",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "teleolurian": {
+      "organization": "sekkim",
+      "github": "teleolurian",
+      "stackexchange": "",
+      "twitter": "teleolurian",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "nvts8a": {
+      "organization": "sjustin",
+      "github": "nvts8a",
+      "stackexchange": "1922380",
+      "twitter": "nvts8a",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "endangeredmassa": {
+      "organization": "smassa",
+      "github": "endangeredmassa",
+      "stackexchange": "106",
+      "twitter": "endangeredmassa",
+      "lanyrd": "endangeredmassa",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "thestevemitchell": {
+      "organization": "smitchell",
+      "github": "thestevemitchell",
+      "stackexchange": "1486754",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "xonev": {
+      "organization": "soxley",
+      "github": "xonev",
+      "stackexchange": "3831",
+      "twitter": "xonev",
+      "lanyrd": "xonev",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "scottrogers": {
+      "organization": "srogers",
+      "github": "scottrogers",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "thetristan": {
+      "organization": "tblease",
+      "github": "thetristan",
+      "stackexchange": "",
+      "twitter": "thetristan",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "tisho": {
+      "organization": "tisho",
+      "github": "tisho",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "tsmacdonald": {
+      "organization": "tmacdonald",
+      "github": "tsmacdonald",
+      "stackexchange": "220529",
+      "twitter": "tsmacdonald",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "tmack8001": {
+      "organization": "tmack",
+      "github": "tmack8001",
+      "stackexchange": "244397",
+      "twitter": "tmack8001",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "dinoboy197": {
+      "organization": "traack",
+      "github": "dinoboy197",
+      "stackexchange": "474043",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "trek": {
+      "organization": "trek",
+      "github": "trek",
+      "stackexchange": "1584375",
+      "twitter": "trek",
+      "lanyrd": "trek",
+      "speakerdeck": "trek",
+      "booksWritten": ""
+    },
+    "trevorsheridan": {
+      "organization": "tsheridan",
+      "github": "trevorsheridan",
+      "stackexchange": "3386107",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "artman": {
+      "organization": "tuomas",
+      "github": "artman",
+      "stackexchange": "454972",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "twebb": {
+      "organization": "twebb",
+      "github": "twebb",
+      "stackexchange": "",
+      "twitter": "twebb",
+      "lanyrd": "twebb",
+      "speakerdeck": "",
+      "booksWritten": ""
     },
     "tjennings": {
       "organization": "tyler",
+      "github": "tjennings",
       "stackexchange": "",
+      "twitter": "",
       "lanyrd": "",
-      "speakerdeck": ""
+      "speakerdeck": "",
+      "booksWritten": ""
     },
-    "undefined": {
-      "organization": ""
+    "vivinjoy": {
+      "organization": "vjoy",
+      "github": "vivinjoy",
+      "stackexchange": "1002588",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "satanas": {
+      "organization": "wilalvarez",
+      "github": "satanas",
+      "stackexchange": "1172219",
+      "twitter": "satanas82",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "challeng": {
+      "organization": "jchallenger",
+      "github": "challeng",
+      "stackexchange": "1252633",
+      "twitter": "jim_challenger",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "ageitgey": {
+      "organization": "ageitgey",
+      "github": "ageitgey",
+      "stackexchange": "",
+      "twitter": "ageitgey",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "agkogkakis": {
+      "organization": "agkogkakis",
+      "github": "agkogkakis",
+      "stackexchange": "",
+      "twitter": "antonios_gk",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "jonpliske": {
+      "organization": "jpliske",
+      "github": "jonpliske",
+      "stackexchange": "",
+      "twitter": "jonpliske",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "dpreussler": {
+      "organization": "dpreussler",
+      "github": "dpreussler",
+      "stackexchange": "",
+      "twitter": "PreusslerBerlin",
+      "lanyrd": "preusslerberlin",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "abhishekpillai": {
+      "organization": "abhi",
+      "github": "abhishekpillai",
+      "stackexchange": "",
+      "twitter": "abhiondemand",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "macarse": {
+      "organization": "csessa",
+      "github": "macarse",
+      "stackexchange": "119895",
+      "twitter": "macarse",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": "http://manning.com/sessa/"
+    },
+    "ccmtaylor": {
+      "organization": "ctaylor",
+      "github": "ccmtaylor",
+      "stackexchange": "",
+      "twitter": "ccmtaylor",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "tangzero": {
+      "organization": "jadasilvapereir",
+      "github": "tangzero",
+      "stackexchange": "1209378",
+      "twitter": "tangzero",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "shinjikuwayama": {
+      "organization": "shinji",
+      "github": "shinjikuwayama",
+      "stackexchange": "1102503",
+      "twitter": "shinjikuwayama",
+      "lanyrd": "shinjikuwayama",
+      "speakerdeck": "shinjikuwayama",
+      "booksWritten": ""
+    },
+    "kgoudeaux": {
+      "organization": "kgoudeaux",
+      "github": "kgoudeaux",
+      "stackexchange": "",
+      "twitter": "kgoudeaux",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "tgentet-obrien": {
+      "organization": "tgentet-obrien",
+      "github": "tgentet-obrien",
+      "stackexchange": "2301825",
+      "twitter": "Mr_Gentet",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "stephanenicolas": {
+      "organization": "snicolas",
+      "github": "stephanenicolas",
+      "stackexchange": "693752",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "stephanenicolas",
+      "booksWritten": ""
+    },
+    "kevinpostlewaite": {
+      "organization": "kpostlewaite",
+      "github": "kevinpostlewaite",
+      "stackexchange": "1839849",
+      "twitter": "kpost",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "shubhitms": {
+      "organization": "shusingh",
+      "github": "shubhitms",
+      "stackexchange": "",
+      "twitter": "shubhitms",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "mcculloughsean": {
+      "organization": "mccullough",
+      "github": "mcculloughsean",
+      "stackexchange": "",
+      "twitter": "mcculloughsean",
+      "lanyrd": "",
+      "speakerdeck": "mcculloughsean",
+      "booksWritten": ""
+    },
+    "ajma": {
+      "organization": "anma",
+      "github": "ajma",
+      "stackexchange": "60117",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "swerner": {
+      "organization": "swerner",
+      "github": "swerner",
+      "stackexchange": "505299",
+      "twitter": "scottwisme",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "aswani521": {
+      "organization": "anerella",
+      "github": "aswani521",
+      "stackexchange": "",
+      "twitter": "aswani521",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "stevenweber": {
+      "organization": "sweber",
+      "github": "stevenweber",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "udondan": {
+      "organization": "dschroeder",
+      "github": "udondan",
+      "stackexchange": "2753241",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "nextorlg": {
+      "organization": "nlafongracia",
+      "github": "nextorlg",
+      "stackexchange": "110624",
+      "twitter": "nestorlafon",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "timgaleckas": {
+      "organization": "tgaleckas",
+      "github": "timgaleckas",
+      "stackexchange": "",
+      "twitter": "timgaleckas",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "mig-foxbat": {
+      "organization": "chlr",
+      "github": "mig-foxbat",
+      "stackexchange": "647129",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "jraman": {
+      "organization": "jraman",
+      "github": "jraman",
+      "stackexchange": "",
+      "twitter": "jayanth",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "hyades": {
+      "organization": "aahuja",
+      "github": "hyades",
+      "stackexchange": "",
+      "twitter": "",
+      "lanyrd": "",
+      "speakerdeck": "",
+      "booksWritten": ""
+    },
+    "yanowitz": {
+      "organization": "jyanowitz",
+      "github": "yanowitz",
+      "stackexchange": "159400",
+      "twitter": "yanowitz",
+      "lanyrd": "yanowitz"
     }
   }
 }

@@ -31,34 +31,16 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
 var fs = require('fs');
+var parseUsers = require('./parse-users');
 var argv = require('minimist')(process.argv.slice(2));
 
-var rawUserCsvPath = argv._[0] || (__dirname + '/../data/stub/user-map-raw.csv');
+var rawUserCsvPath = argv._[0] || (__dirname + '/../../data/stub/user-map-raw.csv');
 
 var csv = fs.readFileSync(rawUserCsvPath).toString();
 
-var lines = csv.split('\n');
+var userMapping = parseUsers(csv);
 
-var userMapping = {};
-
-lines.forEach(function(line){
-  var cells = line.split('\t');
-
-  var organization = cells[0];
-  var github = cells[1];
-  var stack = cells[2];
-  var lanyrd = cells[3];
-  var speakerdeck = cells[4];
-
-  userMapping[github] = {
-    organization: organization,
-    stackexchange: stack,
-    lanyrd: lanyrd,
-    speakerdeck: speakerdeck
-  };
-});
-
-var writePath = __dirname + '/../data/user-map.json'
+var writePath = __dirname + '/../../data/user-map.json'
 var writeData = {
   mapping: userMapping
 }
