@@ -1,0 +1,23 @@
+{
+  "login": "groupon",
+  "id": 206233,
+  "url": "https://api.github.com/orgs/groupon",
+  "repos_url": "https://api.github.com/orgs/groupon/repos",
+  "events_url": "https://api.github.com/orgs/groupon/events",
+  "members_url": "https://api.github.com/orgs/groupon/members{/member}",
+  "public_members_url": "https://api.github.com/orgs/groupon/public_members{/member}",
+  "avatar_url": "https://avatars.githubusercontent.com/u/206233?v=2",
+  "name": "Groupon",
+  "company": null,
+  "blog": "https://engineering.groupon.com",
+  "location": "Chicago, IL, USA",
+  "email": "",
+  "public_repos": 28,
+  "public_gists": 0,
+  "followers": 0,
+  "following": 0,
+  "html_url": "https://github.com/groupon",
+  "created_at": "2010-02-18T19:24:47Z",
+  "updated_at": "2014-08-04T19:32:45Z",
+  "type": "Organization"
+}

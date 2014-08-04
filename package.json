@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "mocha": "~1.20.1",
-    "assertive": "^1.4.0"
+    "assertive": "^1.4.0",
+    "nock": "^0.43.0"
   }
 }

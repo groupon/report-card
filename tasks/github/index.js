@@ -30,72 +30,24 @@ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-var async = require('async');
 var fs = require('fs');
-var _ = require('underscore');
-var config = require('config');
-var organization = config.organization.name;
-
-var github = require('octonode');
-var client = github.client(config.github_token);
-var org = client.org(organization);
-
-var getUsers = function(callback){
-  org.members(1, 300, function(error, members) {
-    if (error) {
-      return callback(error);
-    }
-
-    var users = [];
-
-    _.each(members, function(member) {
-      var user = {
-        name: member.login,
-        avatar_url: member.avatar_url
-      };
-      users.push(user);
-    });
-
-    callback(null, users);
-  });
-};
-
-var getInfo = function(callback){
-  org.info(function(error, info){
-    if (error) {
-      return callback(error);
-    }
-
-    var orgInfo = {
-      name: info.name,
-      username: info.login,
-      avatar_url: info.avatar_url
-    };
-
-    callback(null, orgInfo);
-  });
-};
+var fetch = require('./fetch-info');
 
 var writeData = function(data){
-  fs.writeFile(__dirname + "/../data/users.json", JSON.stringify(data, null, 2), function(error) {
+  fs.writeFile(__dirname + "/../../data/users.json", JSON.stringify(data, null, 2), function(error) {
     if (error) {
-      console.log("Error writing users: " + err);
+      console.log("Error writing users: " + error);
     } else {
       console.log("Saved users to users.json");
     }
   });
 };
 
-async.parallel([getUsers, getInfo], function(error, results){
-  if(error) return console.error(error);
-
-  var users = results[0];
-  var info = results[1];
-
-  var data = {
-    users: users,
-    org: info
-  };
+fetch(function(error, data){
+  if (error) {
+    return console.error(error);
+  }
 
   writeData(data);
 });
+
