@@ -37,7 +37,15 @@ function span(language){
 }
 
 module.exports = function(languages) {
-  return languages.slice(0,languages.length-1).map(function(l){
-    return span(l.language);
-  }).join(", ") + ", and " + span(languages[languages.length-1].language);
+  var length = languages.length;
+
+  if (length === 1) {
+    return span(languages[0].language);
+  } else if (length === 2) {
+    return span(languages[0].language) + " and " + span(languages[1].language);
+  } else {
+    return languages.slice(0,languages.length-1).map(function(l){
+      return span(l.language);
+    }).join(", ") + ", and " + span(languages[languages.length-1].language);
+  }
 }
