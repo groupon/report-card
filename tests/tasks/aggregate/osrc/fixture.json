@@ -1,0 +1,334 @@
+{
+  "connected_users": [
+    {
+      "name": "xtian",
+      "username": "xtian"
+    },
+    {
+      "name": "rjackson",
+      "username": "rjackson"
+    },
+    {
+      "name": "knownasilya",
+      "username": "knownasilya"
+    },
+    {
+      "name": "Johan Sundstr\u00f6m",
+      "username": "johan"
+    },
+    {
+      "name": "Jan Krems",
+      "username": "jkrems"
+    }
+  ],
+  "gravatar": "caaaf05cd3770dd82548cf3ada462bf9",
+  "name": "Sean Massa",
+  "repositories": [
+    {
+      "count": 119,
+      "repo": "groupon-testium/testium"
+    },
+    {
+      "count": 26,
+      "repo": "groupon-testium/selenium-download"
+    },
+    {
+      "count": 19,
+      "repo": "EndangeredMassa/npub"
+    },
+    {
+      "count": 18,
+      "repo": "EndangeredMassa/endangeredmassa.github.com"
+    },
+    {
+      "count": 12,
+      "repo": "stefanpenner/ember-cli"
+    }
+  ],
+  "similar_users": [
+    {
+      "name": "matthewhudson",
+      "username": "matthewhudson"
+    },
+    {
+      "name": "xta",
+      "username": "xta"
+    },
+    {
+      "name": "talos",
+      "username": "talos"
+    },
+    {
+      "name": "imcnally",
+      "username": "imcnally"
+    },
+    {
+      "name": "liaa",
+      "username": "liaa"
+    }
+  ],
+  "timezone": -6,
+  "usage": {
+    "day": [
+      51,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      2,
+      10,
+      18,
+      27,
+      2,
+      2,
+      19,
+      17,
+      14,
+      3,
+      23,
+      9,
+      31,
+      12,
+      17,
+      18,
+      10
+    ],
+    "events": [
+      {
+        "day": [
+          49,
+          2,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          3,
+          9,
+          0,
+          1,
+          5,
+          2,
+          3,
+          0,
+          7,
+          5,
+          11,
+          6,
+          3,
+          3,
+          3
+        ],
+        "total": 117,
+        "type": "PushEvent",
+        "week": [
+          19,
+          6,
+          5,
+          1,
+          3,
+          9,
+          74
+        ]
+      },
+      {
+        "day": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          3,
+          5,
+          5,
+          2,
+          1,
+          5,
+          3,
+          2,
+          1,
+          4,
+          2,
+          6,
+          1,
+          4,
+          2,
+          2
+        ],
+        "total": 51,
+        "type": "IssueCommentEvent",
+        "week": [
+          9,
+          5,
+          5,
+          1,
+          8,
+          3,
+          20
+        ]
+      },
+      {
+        "day": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          4,
+          0,
+          0,
+          3,
+          4,
+          3,
+          0,
+          4,
+          1,
+          5,
+          2,
+          1,
+          5,
+          1
+        ],
+        "total": 37,
+        "type": "PullRequestEvent",
+        "week": [
+          10,
+          0,
+          0,
+          3,
+          2,
+          2,
+          20
+        ]
+      },
+      {
+        "day": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          3,
+          3,
+          0,
+          0,
+          2,
+          2,
+          1,
+          0,
+          4,
+          1,
+          4,
+          1,
+          2,
+          2,
+          1
+        ],
+        "total": 27,
+        "type": "CreateEvent",
+        "week": [
+          7,
+          0,
+          0,
+          1,
+          2,
+          4,
+          13
+        ]
+      },
+      {
+        "day": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          3,
+          0,
+          0,
+          0,
+          1,
+          2,
+          3,
+          1,
+          2,
+          0,
+          0,
+          0,
+          6,
+          2,
+          0
+        ],
+        "total": 23,
+        "type": "IssuesEvent",
+        "week": [
+          3,
+          8,
+          2,
+          0,
+          4,
+          0,
+          6
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "count": 175,
+        "language": "CoffeeScript",
+        "quantile": 11
+      },
+      {
+        "count": 79,
+        "language": "JavaScript",
+        "quantile": 27
+      },
+      {
+        "count": 24,
+        "language": "CSS",
+        "quantile": 9
+      },
+      {
+        "count": 4,
+        "language": "Shell",
+        "quantile": 100
+      },
+      {
+        "count": 1,
+        "language": "C++",
+        "quantile": 100
+      }
+    ],
+    "total": 2204,
+    "week": [
+      54,
+      20,
+      14,
+      9,
+      22,
+      24,
+      149
+    ]
+  },
+  "username": "endangeredmassa"
+}
