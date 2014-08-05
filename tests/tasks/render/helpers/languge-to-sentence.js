@@ -1,7 +1,7 @@
 var languageToSentence = require('../../../../tasks/render/helpers/language-to-sentence');
 var assert = require('assertive');
 
-describe("event-to-name helper", function(){
+describe("language-to-sentence helper", function(){
   it('shows only one language if passed only one language', function(){
     var sentence = languageToSentence([{language:'Ruby'}])
     assert.equal(sentence, "<span style='color:#701516'>Ruby</span>")
