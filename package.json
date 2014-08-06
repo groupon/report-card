@@ -1,33 +1,34 @@
 {
   "name": "osrc-for-orgs",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "Generate a report of an organization's open source efforts",
+  "license": "BSD-3-Clause"
   "scripts": {
     "start": "node tasks/github.js && node tasks/aggregate && node tasks/render.js && node server.js",
     "test": "mocha --recursive tests"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.groupondev.com:smassa/osrc-for-orgs.git"
+    "url": "git@github.groupondev.com:groupon/report-card.git"
   },
   "dependencies": {
-    "async": "^0.9.0",
+    "async": "~0.9.0",
     "concat-stream": "^1.4.6",
     "handlebars": "^2.0.0-alpha.4",
-    "minimist": "^0.1.0",
+    "minimist": "~0.1.0",
     "node-static": "~0.7.3",
     "octonode": "pksunkara/octonode#a4b2b030ba77437255b6b8c6f47771ce6a4bc448",
     "request": "^2.36.0",
     "underscore": "^1.6.0",
     "jsdom": "~0.11.0",
-    "d3": "~3.4.8",
-    "cheerio": "^0.17.0",
+    "d3": "^3.4.8",
+    "cheerio": "~0.17.0",
     "config": "~0.4.36"
   },
   "devDependencies": {
-    "mocha": "~1.20.1",
+    "mocha": "^1.20.1",
     "assertive": "^1.4.0",
-    "nock": "^0.43.0"
+    "nock": "~0.43.0"
   }
 }
