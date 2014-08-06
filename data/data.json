@@ -7080,20 +7080,20 @@
     }
   ],
   "answers": {
-    "total": 1146,
+    "total": 1126,
     "inTags": [
       {
-        "scoreTotal": 129,
+        "scoreTotal": 131,
         "acceptedCount": 11,
         "answerTotal": 41,
         "users": {
           "106": 87,
           "3831": 2,
           "77040": 2,
-          "82156": 15,
+          "82156": 16,
           "105662": 17,
           "220529": 0,
-          "473961": 4,
+          "473961": 5,
           "694086": 1,
           "1563374": 0,
           "1584375": 1
@@ -7186,33 +7186,32 @@
         "acceptedPercent": 56
       },
       {
-        "scoreTotal": 211,
+        "scoreTotal": 213,
         "acceptedCount": 3,
-        "answerTotal": 8,
+        "answerTotal": 7,
         "users": {
-          "18744": 2,
-          "82156": 209
+          "82156": 213
         },
         "tag": "maven",
-        "acceptedPercent": 38
+        "acceptedPercent": 43
       },
       {
-        "scoreTotal": 211,
+        "scoreTotal": 215,
         "acceptedCount": 3,
         "answerTotal": 6,
         "users": {
-          "82156": 191,
+          "82156": 195,
           "694086": 20
         },
         "tag": "github",
         "acceptedPercent": 50
       },
       {
-        "scoreTotal": 187,
+        "scoreTotal": 191,
         "acceptedCount": 1,
         "answerTotal": 1,
         "users": {
-          "82156": 187
+          "82156": 191
         },
         "tag": "gh-pages",
         "acceptedPercent": 100
@@ -7229,14 +7228,13 @@
         "acceptedPercent": 11
       },
       {
-        "scoreTotal": 857,
-        "acceptedCount": 24,
-        "answerTotal": 82,
+        "scoreTotal": 817,
+        "acceptedCount": 22,
+        "answerTotal": 71,
         "users": {
           "106": 7,
-          "18744": 42,
           "77040": 6,
-          "82156": 694,
+          "82156": 696,
           "220529": 40,
           "239790": 4,
           "244397": 0,
@@ -7246,14 +7244,14 @@
           "1766382": 5
         },
         "tag": "java",
-        "acceptedPercent": 29
+        "acceptedPercent": 31
       },
       {
-        "scoreTotal": 1980,
+        "scoreTotal": 1987,
         "acceptedCount": 59,
-        "answerTotal": 118,
+        "answerTotal": 117,
         "users": {
-          "82156": 1965,
+          "82156": 1972,
           "694086": 9,
           "916619": 0,
           "1144632": 6
@@ -7262,11 +7260,11 @@
         "acceptedPercent": 50
       },
       {
-        "scoreTotal": 12,
+        "scoreTotal": 13,
         "acceptedCount": 3,
         "answerTotal": 4,
         "users": {
-          "82156": 12
+          "82156": 13
         },
         "tag": "dependency-injection",
         "acceptedPercent": 75
@@ -7293,11 +7291,11 @@
         "acceptedPercent": 100
       },
       {
-        "scoreTotal": 41,
+        "scoreTotal": 43,
         "acceptedCount": 11,
         "answerTotal": 14,
         "users": {
-          "82156": 41
+          "82156": 43
         },
         "tag": "roboguice",
         "acceptedPercent": 79
@@ -7357,13 +7355,12 @@
         "acceptedPercent": 100
       },
       {
-        "scoreTotal": 457,
-        "acceptedCount": 38,
-        "answerTotal": 130,
+        "scoreTotal": 458,
+        "acceptedCount": 37,
+        "answerTotal": 129,
         "users": {
-          "106": 341,
+          "106": 343,
           "3831": 19,
-          "18744": 1,
           "77040": 1,
           "77970": 3,
           "105662": 33,
@@ -7389,27 +7386,25 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 5,
-        "acceptedCount": 1,
-        "answerTotal": 3,
+        "scoreTotal": 3,
+        "acceptedCount": 0,
+        "answerTotal": 2,
         "users": {
-          "18744": 2,
           "82156": 3
         },
         "tag": "build",
-        "acceptedPercent": 33
+        "acceptedPercent": 0
       },
       {
-        "scoreTotal": 3,
-        "acceptedCount": 2,
-        "answerTotal": 5,
+        "scoreTotal": 2,
+        "acceptedCount": 1,
+        "answerTotal": 4,
         "users": {
-          "18744": 1,
           "82156": 1,
           "1766382": 1
         },
         "tag": "intellij-idea",
-        "acceptedPercent": 40
+        "acceptedPercent": 25
       },
       {
         "scoreTotal": 27,
@@ -7553,11 +7548,11 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 12,
+        "scoreTotal": 13,
         "acceptedCount": 1,
         "answerTotal": 1,
         "users": {
-          "82156": 12
+          "82156": 13
         },
         "tag": "gestures",
         "acceptedPercent": 100
@@ -7728,7 +7723,7 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 684,
+        "scoreTotal": 686,
         "acceptedCount": 69,
         "answerTotal": 138,
         "users": {
@@ -7736,7 +7731,7 @@
           "3831": 45,
           "77040": 4,
           "77970": 1,
-          "105662": 571,
+          "105662": 573,
           "473961": 55,
           "694086": 2,
           "916619": 5
@@ -7937,15 +7932,16 @@
       {
         "scoreTotal": 7,
         "acceptedCount": 1,
-        "answerTotal": 5,
+        "answerTotal": 6,
         "users": {
           "106": 4,
           "3831": 1,
           "694086": 2,
-          "1584375": 0
+          "1584375": 0,
+          "1822270": 0
         },
         "tag": "node.js",
-        "acceptedPercent": 20
+        "acceptedPercent": 17
       },
       {
         "scoreTotal": 0,
@@ -7978,14 +7974,14 @@
         "acceptedPercent": 100
       },
       {
-        "scoreTotal": 159,
+        "scoreTotal": 160,
         "acceptedCount": 8,
         "answerTotal": 33,
         "users": {
           "106": 32,
           "3831": 4,
           "59968": 1,
-          "77040": 122
+          "77040": 123
         },
         "tag": ".net",
         "acceptedPercent": 24
@@ -8126,19 +8122,20 @@
         "acceptedPercent": 100
       },
       {
-        "scoreTotal": 28,
-        "acceptedCount": 3,
-        "answerTotal": 22,
+        "scoreTotal": 41,
+        "acceptedCount": 6,
+        "answerTotal": 26,
         "users": {
           "106": 0,
           "3831": 4,
           "82156": 1,
           "105662": 7,
           "220529": 14,
+          "1078605": 13,
           "1144632": 2
         },
         "tag": "python",
-        "acceptedPercent": 14
+        "acceptedPercent": 23
       },
       {
         "scoreTotal": 2,
@@ -8151,13 +8148,13 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 331,
+        "scoreTotal": 333,
         "acceptedCount": 1,
         "answerTotal": 4,
         "users": {
           "3831": 6,
-          "82156": 301,
-          "105662": 24
+          "82156": 302,
+          "105662": 25
         },
         "tag": "https",
         "acceptedPercent": 25
@@ -8218,14 +8215,14 @@
         "acceptedPercent": 33
       },
       {
-        "scoreTotal": 266,
+        "scoreTotal": 267,
         "acceptedCount": 15,
         "answerTotal": 75,
         "users": {
           "106": 74,
           "3831": 28,
           "59968": 1,
-          "77040": 159,
+          "77040": 160,
           "105662": 3,
           "582605": 1
         },
@@ -8233,11 +8230,11 @@
         "acceptedPercent": 20
       },
       {
-        "scoreTotal": 65,
+        "scoreTotal": 66,
         "acceptedCount": 1,
         "answerTotal": 4,
         "users": {
-          "77040": 65
+          "77040": 66
         },
         "tag": "lucene",
         "acceptedPercent": 25
@@ -8267,17 +8264,16 @@
       },
       {
         "scoreTotal": 9,
-        "acceptedCount": 2,
-        "answerTotal": 5,
+        "acceptedCount": 1,
+        "answerTotal": 4,
         "users": {
           "106": 0,
           "3831": 3,
-          "18744": 0,
           "105662": 4,
           "1563374": 2
         },
         "tag": "web-services",
-        "acceptedPercent": 40
+        "acceptedPercent": 25
       },
       {
         "scoreTotal": 10,
@@ -8447,11 +8443,21 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 69,
+        "scoreTotal": 0,
+        "acceptedCount": 0,
+        "answerTotal": 1,
+        "users": {
+          "1822270": 0
+        },
+        "tag": "mocha",
+        "acceptedPercent": 0
+      },
+      {
+        "scoreTotal": 70,
         "acceptedCount": 3,
         "answerTotal": 5,
         "users": {
-          "105662": 68,
+          "105662": 69,
           "1144632": 1
         },
         "tag": "arrays",
@@ -8488,7 +8494,7 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 196,
+        "scoreTotal": 197,
         "acceptedCount": 8,
         "answerTotal": 27,
         "users": {
@@ -8497,7 +8503,7 @@
           "5319": 2,
           "77040": 12,
           "77970": 22,
-          "105662": 143,
+          "105662": 144,
           "220529": 12,
           "315748": 1,
           "694086": 1,
@@ -8759,14 +8765,14 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 330,
+        "scoreTotal": 332,
         "acceptedCount": 36,
         "answerTotal": 78,
         "users": {
           "106": 0,
           "3831": 2,
           "77040": 4,
-          "105662": 324,
+          "105662": 326,
           "1172219": 0
         },
         "tag": "mysql",
@@ -8797,23 +8803,22 @@
         "acceptedPercent": 17
       },
       {
-        "scoreTotal": 243,
-        "acceptedCount": 19,
-        "answerTotal": 61,
+        "scoreTotal": 244,
+        "acceptedCount": 18,
+        "answerTotal": 60,
         "users": {
-          "106": 164,
+          "106": 165,
           "3831": 5,
-          "18744": 1,
           "77040": 2,
           "105662": 17,
           "473961": 26,
           "694086": 15,
           "916619": 4,
-          "1053067": 5,
+          "1053067": 6,
           "1584375": 4
         },
         "tag": "jquery",
-        "acceptedPercent": 31
+        "acceptedPercent": 30
       },
       {
         "scoreTotal": 57,
@@ -8931,22 +8936,21 @@
         "acceptedPercent": 33
       },
       {
-        "scoreTotal": 16,
+        "scoreTotal": 14,
         "acceptedCount": 2,
-        "answerTotal": 6,
+        "answerTotal": 4,
         "users": {
-          "18744": 3,
-          "82156": 13
+          "82156": 14
         },
         "tag": "maven-2",
-        "acceptedPercent": 33
+        "acceptedPercent": 50
       },
       {
-        "scoreTotal": 3,
+        "scoreTotal": 4,
         "acceptedCount": 0,
         "answerTotal": 2,
         "users": {
-          "82156": 3
+          "82156": 4
         },
         "tag": "robolectric",
         "acceptedPercent": 0
@@ -9154,19 +9158,18 @@
         "acceptedPercent": 33
       },
       {
-        "scoreTotal": 19,
+        "scoreTotal": 15,
         "acceptedCount": 2,
-        "answerTotal": 10,
+        "answerTotal": 9,
         "users": {
           "106": 1,
           "3831": 7,
-          "18744": 4,
           "105662": 5,
           "916619": 0,
           "1144632": 2
         },
         "tag": "c++",
-        "acceptedPercent": 20
+        "acceptedPercent": 22
       },
       {
         "scoreTotal": 2,
@@ -9358,11 +9361,11 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 0,
+        "scoreTotal": 1,
         "acceptedCount": 1,
         "answerTotal": 3,
         "users": {
-          "1053067": 0
+          "1053067": 1
         },
         "tag": "ckeditor",
         "acceptedPercent": 33
@@ -9388,18 +9391,17 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 20,
+        "scoreTotal": 16,
         "acceptedCount": 1,
-        "answerTotal": 5,
+        "answerTotal": 4,
         "users": {
-          "18744": 4,
           "77040": 9,
           "220529": 1,
           "499395": 6,
           "694086": 0
         },
         "tag": "function",
-        "acceptedPercent": 20
+        "acceptedPercent": 25
       },
       {
         "scoreTotal": 1,
@@ -9422,11 +9424,10 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 2,
+        "scoreTotal": 0,
         "acceptedCount": 0,
-        "answerTotal": 2,
+        "answerTotal": 1,
         "users": {
-          "18744": 2,
           "82156": 0
         },
         "tag": "jar",
@@ -9493,36 +9494,6 @@
         "acceptedCount": 0,
         "answerTotal": 1,
         "users": {
-          "18744": 1
-        },
-        "tag": "tomcat",
-        "acceptedPercent": 0
-      },
-      {
-        "scoreTotal": 3,
-        "acceptedCount": 1,
-        "answerTotal": 2,
-        "users": {
-          "18744": 3
-        },
-        "tag": "jenkins",
-        "acceptedPercent": 50
-      },
-      {
-        "scoreTotal": 1,
-        "acceptedCount": 0,
-        "answerTotal": 1,
-        "users": {
-          "18744": 1
-        },
-        "tag": "sonar",
-        "acceptedPercent": 0
-      },
-      {
-        "scoreTotal": 1,
-        "acceptedCount": 0,
-        "answerTotal": 1,
-        "users": {
           "1172219": 1
         },
         "tag": "gtk",
@@ -9539,23 +9510,22 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 25,
+        "scoreTotal": 26,
         "acceptedCount": 2,
         "answerTotal": 5,
         "users": {
           "106": 11,
-          "105662": 9,
+          "105662": 10,
           "1584375": 5
         },
         "tag": "forms",
         "acceptedPercent": 40
       },
       {
-        "scoreTotal": 11,
-        "acceptedCount": 2,
-        "answerTotal": 4,
+        "scoreTotal": 6,
+        "acceptedCount": 1,
+        "answerTotal": 2,
         "users": {
-          "18744": 5,
           "82156": 6
         },
         "tag": "maven-3",
@@ -9572,12 +9542,12 @@
         "acceptedPercent": 100
       },
       {
-        "scoreTotal": 29,
+        "scoreTotal": 30,
         "acceptedCount": 1,
         "answerTotal": 7,
         "users": {
           "77040": 6,
-          "82156": 20,
+          "82156": 21,
           "1144632": 3
         },
         "tag": "listview",
@@ -9706,11 +9676,11 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 305,
+        "scoreTotal": 306,
         "acceptedCount": 1,
         "answerTotal": 5,
         "users": {
-          "82156": 302,
+          "82156": 303,
           "105662": 1,
           "1144632": 2
         },
@@ -9810,11 +9780,11 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 14,
+        "scoreTotal": 15,
         "acceptedCount": 4,
         "answerTotal": 6,
         "users": {
-          "82156": 14
+          "82156": 15
         },
         "tag": "guice",
         "acceptedPercent": 67
@@ -9871,18 +9841,17 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 30,
+        "scoreTotal": 4,
         "acceptedCount": 1,
-        "answerTotal": 5,
+        "answerTotal": 4,
         "users": {
-          "18744": 26,
           "82156": 1,
           "694086": 2,
           "1144632": 1,
           "1766382": 0
         },
         "tag": "eclipse",
-        "acceptedPercent": 20
+        "acceptedPercent": 25
       },
       {
         "scoreTotal": 2,
@@ -10339,11 +10308,10 @@
         "acceptedPercent": 100
       },
       {
-        "scoreTotal": 35,
+        "scoreTotal": 27,
         "acceptedCount": 0,
-        "answerTotal": 3,
+        "answerTotal": 2,
         "users": {
-          "18744": 8,
           "220529": 2,
           "473961": 25
         },
@@ -10351,18 +10319,17 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 74,
+        "scoreTotal": 66,
         "acceptedCount": 4,
-        "answerTotal": 11,
+        "answerTotal": 10,
         "users": {
           "106": 2,
           "3831": 2,
-          "18744": 8,
           "105662": 37,
           "473961": 25
         },
         "tag": "oop",
-        "acceptedPercent": 36
+        "acceptedPercent": 40
       },
       {
         "scoreTotal": 14,
@@ -11243,14 +11210,14 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 73,
+        "scoreTotal": 72,
         "acceptedCount": 1,
-        "answerTotal": 4,
+        "answerTotal": 3,
         "users": {
-          "82156": 73
+          "82156": 72
         },
         "tag": "google-analytics",
-        "acceptedPercent": 25
+        "acceptedPercent": 33
       },
       {
         "scoreTotal": 1,
@@ -11315,21 +11282,21 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 304,
+        "scoreTotal": 305,
         "acceptedCount": 0,
         "answerTotal": 4,
         "users": {
-          "82156": 304
+          "82156": 305
         },
         "tag": "ssl",
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 303,
+        "scoreTotal": 304,
         "acceptedCount": 0,
         "answerTotal": 3,
         "users": {
-          "82156": 303
+          "82156": 304
         },
         "tag": "httpclient",
         "acceptedPercent": 0
@@ -11366,20 +11333,19 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 29,
+        "scoreTotal": 25,
         "acceptedCount": 1,
-        "answerTotal": 8,
+        "answerTotal": 7,
         "users": {
           "106": 1,
           "3831": 2,
-          "18744": 4,
           "77970": 4,
           "105662": 18,
           "220529": 0,
           "1144632": 0
         },
         "tag": "class",
-        "acceptedPercent": 13
+        "acceptedPercent": 14
       },
       {
         "scoreTotal": 16,
@@ -11424,12 +11390,12 @@
         "acceptedPercent": 50
       },
       {
-        "scoreTotal": 106,
+        "scoreTotal": 107,
         "acceptedCount": 0,
         "answerTotal": 3,
         "users": {
           "77040": 2,
-          "82156": 104
+          "82156": 105
         },
         "tag": "user-interface",
         "acceptedPercent": 0
@@ -11697,6 +11663,67 @@
         "acceptedPercent": 100
       },
       {
+        "scoreTotal": 1,
+        "acceptedCount": 1,
+        "answerTotal": 1,
+        "users": {
+          "1078605": 1
+        },
+        "tag": "opencv",
+        "acceptedPercent": 100
+      },
+      {
+        "scoreTotal": 2,
+        "acceptedCount": 1,
+        "answerTotal": 1,
+        "users": {
+          "1078605": 2
+        },
+        "tag": "hdf5",
+        "acceptedPercent": 100
+      },
+      {
+        "scoreTotal": 2,
+        "acceptedCount": 1,
+        "answerTotal": 1,
+        "users": {
+          "1078605": 2
+        },
+        "tag": "spss",
+        "acceptedPercent": 100
+      },
+      {
+        "scoreTotal": 9,
+        "acceptedCount": 0,
+        "answerTotal": 2,
+        "users": {
+          "105662": 3,
+          "1078605": 6
+        },
+        "tag": "ssh",
+        "acceptedPercent": 0
+      },
+      {
+        "scoreTotal": 6,
+        "acceptedCount": 0,
+        "answerTotal": 1,
+        "users": {
+          "1078605": 6
+        },
+        "tag": "subprocess",
+        "acceptedPercent": 0
+      },
+      {
+        "scoreTotal": 6,
+        "acceptedCount": 0,
+        "answerTotal": 1,
+        "users": {
+          "1078605": 6
+        },
+        "tag": "python-subprocess-module",
+        "acceptedPercent": 0
+      },
+      {
         "scoreTotal": 2,
         "acceptedCount": 1,
         "answerTotal": 2,
@@ -11896,9 +11923,8 @@
       {
         "scoreTotal": 0,
         "acceptedCount": 0,
-        "answerTotal": 2,
+        "answerTotal": 1,
         "users": {
-          "18744": 0,
           "1144632": 0
         },
         "tag": "casting",
@@ -12050,21 +12076,21 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 2,
+        "scoreTotal": 3,
         "acceptedCount": 1,
         "answerTotal": 1,
         "users": {
-          "473961": 2
+          "473961": 3
         },
         "tag": "xhtml-1.0-strict",
         "acceptedPercent": 100
       },
       {
-        "scoreTotal": 2,
+        "scoreTotal": 3,
         "acceptedCount": 1,
         "answerTotal": 1,
         "users": {
-          "473961": 2
+          "473961": 3
         },
         "tag": "custom-data-attribute",
         "acceptedPercent": 100
@@ -12094,11 +12120,11 @@
         "acceptedPercent": 100
       },
       {
-        "scoreTotal": 11,
+        "scoreTotal": 12,
         "acceptedCount": 1,
         "answerTotal": 1,
         "users": {
-          "106": 11
+          "106": 12
         },
         "tag": "highcharts",
         "acceptedPercent": 100
@@ -12417,73 +12443,6 @@
         "acceptedPercent": 100
       },
       {
-        "scoreTotal": 18,
-        "acceptedCount": 1,
-        "answerTotal": 3,
-        "users": {
-          "18744": 8,
-          "82156": 0,
-          "105662": 10
-        },
-        "tag": "annotations",
-        "acceptedPercent": 33
-      },
-      {
-        "scoreTotal": 0,
-        "acceptedCount": 0,
-        "answerTotal": 1,
-        "users": {
-          "18744": 0
-        },
-        "tag": "nodes",
-        "acceptedPercent": 0
-      },
-      {
-        "scoreTotal": 19,
-        "acceptedCount": 3,
-        "answerTotal": 10,
-        "users": {
-          "106": 3,
-          "3831": 1,
-          "18744": 2,
-          "77040": 6,
-          "105662": 7
-        },
-        "tag": "design",
-        "acceptedPercent": 30
-      },
-      {
-        "scoreTotal": 8,
-        "acceptedCount": 1,
-        "answerTotal": 5,
-        "users": {
-          "18744": 6,
-          "77040": 2
-        },
-        "tag": "scala",
-        "acceptedPercent": 20
-      },
-      {
-        "scoreTotal": 2,
-        "acceptedCount": 1,
-        "answerTotal": 1,
-        "users": {
-          "18744": 2
-        },
-        "tag": "mixins",
-        "acceptedPercent": 100
-      },
-      {
-        "scoreTotal": 6,
-        "acceptedCount": 1,
-        "answerTotal": 2,
-        "users": {
-          "18744": 6
-        },
-        "tag": "maven-ant-tasks",
-        "acceptedPercent": 50
-      },
-      {
         "scoreTotal": 0,
         "acceptedCount": 0,
         "answerTotal": 1,
@@ -12492,6 +12451,17 @@
         },
         "tag": "jsf",
         "acceptedPercent": 0
+      },
+      {
+        "scoreTotal": 10,
+        "acceptedCount": 1,
+        "answerTotal": 2,
+        "users": {
+          "82156": 0,
+          "105662": 10
+        },
+        "tag": "annotations",
+        "acceptedPercent": 50
       },
       {
         "scoreTotal": 0,
@@ -12532,46 +12502,6 @@
         },
         "tag": "android-actionbar",
         "acceptedPercent": 100
-      },
-      {
-        "scoreTotal": 1,
-        "acceptedCount": 0,
-        "answerTotal": 1,
-        "users": {
-          "18744": 1
-        },
-        "tag": "static-analysis",
-        "acceptedPercent": 0
-      },
-      {
-        "scoreTotal": 1,
-        "acceptedCount": 0,
-        "answerTotal": 1,
-        "users": {
-          "18744": 1
-        },
-        "tag": "findbugs",
-        "acceptedPercent": 0
-      },
-      {
-        "scoreTotal": 1,
-        "acceptedCount": 0,
-        "answerTotal": 1,
-        "users": {
-          "18744": 1
-        },
-        "tag": "checkstyle",
-        "acceptedPercent": 0
-      },
-      {
-        "scoreTotal": 1,
-        "acceptedCount": 0,
-        "answerTotal": 1,
-        "users": {
-          "18744": 1
-        },
-        "tag": "pmd",
-        "acceptedPercent": 0
       },
       {
         "scoreTotal": 1,
@@ -12649,61 +12579,6 @@
           "82156": 0
         },
         "tag": "reflection",
-        "acceptedPercent": 100
-      },
-      {
-        "scoreTotal": 0,
-        "acceptedCount": 2,
-        "answerTotal": 2,
-        "users": {
-          "18744": 0
-        },
-        "tag": "websphere-6.1",
-        "acceptedPercent": 100
-      },
-      {
-        "scoreTotal": 6,
-        "acceptedCount": 1,
-        "answerTotal": 4,
-        "users": {
-          "3831": 3,
-          "18744": 0,
-          "77970": 0,
-          "105662": 3
-        },
-        "tag": "linux",
-        "acceptedPercent": 25
-      },
-      {
-        "scoreTotal": 0,
-        "acceptedCount": 1,
-        "answerTotal": 1,
-        "users": {
-          "18744": 0
-        },
-        "tag": "console",
-        "acceptedPercent": 100
-      },
-      {
-        "scoreTotal": 3,
-        "acceptedCount": 1,
-        "answerTotal": 3,
-        "users": {
-          "18744": 0,
-          "82156": 1,
-          "360999": 2
-        },
-        "tag": "installation",
-        "acceptedPercent": 33
-      },
-      {
-        "scoreTotal": 0,
-        "acceptedCount": 1,
-        "answerTotal": 1,
-        "users": {
-          "18744": 0
-        },
-        "tag": "websphere",
         "acceptedPercent": 100
       },
       {
@@ -13010,18 +12885,17 @@
         "acceptedPercent": 33
       },
       {
-        "scoreTotal": 17,
-        "acceptedCount": 2,
-        "answerTotal": 7,
+        "scoreTotal": 15,
+        "acceptedCount": 1,
+        "answerTotal": 6,
         "users": {
           "106": 6,
-          "18744": 2,
           "59968": 4,
           "77040": 3,
           "105662": 2
         },
         "tag": "version-control",
-        "acceptedPercent": 29
+        "acceptedPercent": 17
       },
       {
         "scoreTotal": 2,
@@ -13073,6 +12947,17 @@
           "82156": 2
         },
         "tag": "storage",
+        "acceptedPercent": 0
+      },
+      {
+        "scoreTotal": 3,
+        "acceptedCount": 0,
+        "answerTotal": 2,
+        "users": {
+          "82156": 1,
+          "360999": 2
+        },
+        "tag": "installation",
         "acceptedPercent": 0
       },
       {
@@ -13239,16 +13124,6 @@
         "acceptedPercent": 100
       },
       {
-        "scoreTotal": 2,
-        "acceptedCount": 0,
-        "answerTotal": 2,
-        "users": {
-          "18744": 2
-        },
-        "tag": "synchronization",
-        "acceptedPercent": 0
-      },
-      {
         "scoreTotal": 0,
         "acceptedCount": 0,
         "answerTotal": 1,
@@ -13267,28 +13142,6 @@
         },
         "tag": "pretty-print",
         "acceptedPercent": 0
-      },
-      {
-        "scoreTotal": 8,
-        "acceptedCount": 2,
-        "answerTotal": 4,
-        "users": {
-          "106": 4,
-          "18744": 2,
-          "105662": 2
-        },
-        "tag": "triggers",
-        "acceptedPercent": 50
-      },
-      {
-        "scoreTotal": 2,
-        "acceptedCount": 1,
-        "answerTotal": 1,
-        "users": {
-          "18744": 2
-        },
-        "tag": "hudson",
-        "acceptedPercent": 100
       },
       {
         "scoreTotal": -1,
@@ -13341,16 +13194,6 @@
         },
         "tag": "adt",
         "acceptedPercent": 0
-      },
-      {
-        "scoreTotal": 27,
-        "acceptedCount": 1,
-        "answerTotal": 2,
-        "users": {
-          "18744": 27
-        },
-        "tag": "ide",
-        "acceptedPercent": 50
       },
       {
         "scoreTotal": 37,
@@ -13476,15 +13319,14 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 12,
+        "scoreTotal": 10,
         "acceptedCount": 1,
-        "answerTotal": 2,
+        "answerTotal": 1,
         "users": {
-          "18744": 2,
           "676025": 10
         },
         "tag": "jvm",
-        "acceptedPercent": 50
+        "acceptedPercent": 100
       },
       {
         "scoreTotal": 10,
@@ -13507,57 +13349,6 @@
         "acceptedPercent": 100
       },
       {
-        "scoreTotal": 2,
-        "acceptedCount": 0,
-        "answerTotal": 1,
-        "users": {
-          "18744": 2
-        },
-        "tag": "dependency-management",
-        "acceptedPercent": 0
-      },
-      {
-        "scoreTotal": 5,
-        "acceptedCount": 0,
-        "answerTotal": 2,
-        "users": {
-          "18744": 1,
-          "239790": 4
-        },
-        "tag": "migration",
-        "acceptedPercent": 0
-      },
-      {
-        "scoreTotal": 0,
-        "acceptedCount": 1,
-        "answerTotal": 1,
-        "users": {
-          "18744": 0
-        },
-        "tag": "spring",
-        "acceptedPercent": 100
-      },
-      {
-        "scoreTotal": 0,
-        "acceptedCount": 1,
-        "answerTotal": 1,
-        "users": {
-          "18744": 0
-        },
-        "tag": "spring-mvc",
-        "acceptedPercent": 100
-      },
-      {
-        "scoreTotal": 0,
-        "acceptedCount": 1,
-        "answerTotal": 1,
-        "users": {
-          "18744": 0
-        },
-        "tag": "oc4j",
-        "acceptedPercent": 100
-      },
-      {
         "scoreTotal": 1,
         "acceptedCount": 0,
         "answerTotal": 1,
@@ -13575,27 +13366,6 @@
           "77970": 3
         },
         "tag": "face-detection",
-        "acceptedPercent": 0
-      },
-      {
-        "scoreTotal": 5,
-        "acceptedCount": 1,
-        "answerTotal": 3,
-        "users": {
-          "106": 4,
-          "18744": 1
-        },
-        "tag": "recursion",
-        "acceptedPercent": 33
-      },
-      {
-        "scoreTotal": 1,
-        "acceptedCount": 0,
-        "answerTotal": 1,
-        "users": {
-          "18744": 1
-        },
-        "tag": "tail-recursion",
         "acceptedPercent": 0
       },
       {
@@ -13683,16 +13453,6 @@
         "acceptedPercent": 100
       },
       {
-        "scoreTotal": 1,
-        "acceptedCount": 1,
-        "answerTotal": 1,
-        "users": {
-          "18744": 1
-        },
-        "tag": "equality",
-        "acceptedPercent": 100
-      },
-      {
         "scoreTotal": 10,
         "acceptedCount": 1,
         "answerTotal": 1,
@@ -13711,17 +13471,6 @@
         },
         "tag": "wagon",
         "acceptedPercent": 100
-      },
-      {
-        "scoreTotal": 18,
-        "acceptedCount": 1,
-        "answerTotal": 3,
-        "users": {
-          "18744": 2,
-          "82156": 16
-        },
-        "tag": "ant",
-        "acceptedPercent": 33
       },
       {
         "scoreTotal": 2,
@@ -13834,16 +13583,6 @@
           "105662": 3
         },
         "tag": "bash",
-        "acceptedPercent": 0
-      },
-      {
-        "scoreTotal": 3,
-        "acceptedCount": 0,
-        "answerTotal": 1,
-        "users": {
-          "105662": 3
-        },
-        "tag": "ssh",
         "acceptedPercent": 0
       },
       {
@@ -14243,21 +13982,21 @@
         "acceptedPercent": 50
       },
       {
-        "scoreTotal": 95,
+        "scoreTotal": 96,
         "acceptedCount": 0,
         "answerTotal": 1,
         "users": {
-          "82156": 95
+          "82156": 96
         },
         "tag": "hyperlink",
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 95,
+        "scoreTotal": 96,
         "acceptedCount": 0,
         "answerTotal": 1,
         "users": {
-          "82156": 95
+          "82156": 96
         },
         "tag": "custom-controls",
         "acceptedPercent": 0
@@ -14303,22 +14042,22 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 484,
+        "scoreTotal": 486,
         "acceptedCount": 2,
         "answerTotal": 2,
         "users": {
           "77040": 2,
-          "82156": 482
+          "82156": 484
         },
         "tag": "layout",
         "acceptedPercent": 100
       },
       {
-        "scoreTotal": 483,
+        "scoreTotal": 485,
         "acceptedCount": 2,
         "answerTotal": 2,
         "users": {
-          "82156": 483
+          "82156": 485
         },
         "tag": "drawable",
         "acceptedPercent": 100
@@ -14377,15 +14116,45 @@
         "acceptedPercent": 50
       },
       {
-        "scoreTotal": 29,
-        "acceptedCount": 0,
+        "scoreTotal": 4,
+        "acceptedCount": 1,
         "answerTotal": 2,
         "users": {
-          "18744": 26,
+          "106": 4
+        },
+        "tag": "recursion",
+        "acceptedPercent": 50
+      },
+      {
+        "scoreTotal": 6,
+        "acceptedCount": 1,
+        "answerTotal": 3,
+        "users": {
+          "106": 4,
+          "105662": 2
+        },
+        "tag": "triggers",
+        "acceptedPercent": 33
+      },
+      {
+        "scoreTotal": 3,
+        "acceptedCount": 0,
+        "answerTotal": 1,
+        "users": {
           "82156": 3
         },
         "tag": "memory",
         "acceptedPercent": 0
+      },
+      {
+        "scoreTotal": 16,
+        "acceptedCount": 1,
+        "answerTotal": 2,
+        "users": {
+          "82156": 16
+        },
+        "tag": "ant",
+        "acceptedPercent": 50
       },
       {
         "scoreTotal": 3,
@@ -14532,6 +14301,19 @@
         "acceptedPercent": 100
       },
       {
+        "scoreTotal": 17,
+        "acceptedCount": 2,
+        "answerTotal": 9,
+        "users": {
+          "106": 3,
+          "3831": 1,
+          "77040": 6,
+          "105662": 7
+        },
+        "tag": "design",
+        "acceptedPercent": 22
+      },
+      {
         "scoreTotal": 4,
         "acceptedCount": 1,
         "answerTotal": 1,
@@ -14643,13 +14425,25 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 13,
+        "scoreTotal": 14,
         "acceptedCount": 0,
         "answerTotal": 1,
         "users": {
-          "82156": 13
+          "82156": 14
         },
         "tag": "links",
+        "acceptedPercent": 0
+      },
+      {
+        "scoreTotal": 6,
+        "acceptedCount": 0,
+        "answerTotal": 3,
+        "users": {
+          "3831": 3,
+          "77970": 0,
+          "105662": 3
+        },
+        "tag": "linux",
         "acceptedPercent": 0
       },
       {
@@ -15563,21 +15357,21 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 6,
+        "scoreTotal": 7,
         "acceptedCount": 1,
         "answerTotal": 1,
         "users": {
-          "105662": 6
+          "105662": 7
         },
         "tag": "login",
         "acceptedPercent": 100
       },
       {
-        "scoreTotal": 6,
+        "scoreTotal": 7,
         "acceptedCount": 1,
         "answerTotal": 1,
         "users": {
-          "105662": 6
+          "105662": 7
         },
         "tag": "token",
         "acceptedPercent": 100
@@ -15620,6 +15414,16 @@
           "105662": 5
         },
         "tag": "scanf",
+        "acceptedPercent": 0
+      },
+      {
+        "scoreTotal": 4,
+        "acceptedCount": 0,
+        "answerTotal": 1,
+        "users": {
+          "239790": 4
+        },
+        "tag": "migration",
         "acceptedPercent": 0
       },
       {
@@ -16122,46 +15926,6 @@
         "acceptedCount": 0,
         "answerTotal": 1,
         "users": {
-          "18744": 0
-        },
-        "tag": "msbuild",
-        "acceptedPercent": 0
-      },
-      {
-        "scoreTotal": 0,
-        "acceptedCount": 0,
-        "answerTotal": 1,
-        "users": {
-          "18744": 0
-        },
-        "tag": "wix",
-        "acceptedPercent": 0
-      },
-      {
-        "scoreTotal": 0,
-        "acceptedCount": 0,
-        "answerTotal": 1,
-        "users": {
-          "18744": 0
-        },
-        "tag": "build-automation",
-        "acceptedPercent": 0
-      },
-      {
-        "scoreTotal": 0,
-        "acceptedCount": 0,
-        "answerTotal": 1,
-        "users": {
-          "18744": 0
-        },
-        "tag": "votive",
-        "acceptedPercent": 0
-      },
-      {
-        "scoreTotal": 0,
-        "acceptedCount": 0,
-        "answerTotal": 1,
-        "users": {
           "82156": 0
         },
         "tag": "android-mms",
@@ -16225,16 +15989,6 @@
           "105662": 2
         },
         "tag": "goto",
-        "acceptedPercent": 0
-      },
-      {
-        "scoreTotal": 4,
-        "acceptedCount": 0,
-        "answerTotal": 1,
-        "users": {
-          "18744": 4
-        },
-        "tag": "d",
         "acceptedPercent": 0
       },
       {
@@ -16491,11 +16245,11 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 59,
+        "scoreTotal": 60,
         "acceptedCount": 1,
         "answerTotal": 1,
         "users": {
-          "105662": 59
+          "105662": 60
         },
         "tag": "array-difference",
         "acceptedPercent": 100
@@ -17196,6 +16950,16 @@
         "users": {
           "77040": 2
         },
+        "tag": "scala",
+        "acceptedPercent": 0
+      },
+      {
+        "scoreTotal": 2,
+        "acceptedCount": 0,
+        "answerTotal": 1,
+        "users": {
+          "77040": 2
+        },
         "tag": "haskell",
         "acceptedPercent": 0
       },
@@ -17611,12 +17375,11 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 6,
+        "scoreTotal": 2,
         "acceptedCount": 0,
-        "answerTotal": 2,
+        "answerTotal": 1,
         "users": {
-          "3831": 2,
-          "18744": 4
+          "3831": 2
         },
         "tag": "pointers",
         "acceptedPercent": 0
@@ -18414,16 +18177,6 @@
         "acceptedPercent": 0
       },
       {
-        "scoreTotal": 4,
-        "acceptedCount": 0,
-        "answerTotal": 1,
-        "users": {
-          "18744": 4
-        },
-        "tag": "member",
-        "acceptedPercent": 0
-      },
-      {
         "scoreTotal": 0,
         "acceptedCount": 0,
         "answerTotal": 1,
@@ -18726,7 +18479,7 @@
     ]
   },
   "badges": {
-    "badgeCount": 987,
+    "badgeCount": 957,
     "profiles": [
       {
         "profileImage": "https://www.gravatar.com/avatar/5b800d2444930f6f465fb284647b5204?s=128&d=identicon&r=PG",
@@ -18735,9 +18488,9 @@
         "badge_counts": {
           "bronze": 163,
           "silver": 104,
-          "gold": 33
+          "gold": 35
         },
-        "badgeCount": 503
+        "badgeCount": 511
       },
       {
         "profileImage": "https://www.gravatar.com/avatar/f0965aae8a531d1f3599ac46d13f8f66?s=128&d=identicon&r=PG",
@@ -18745,10 +18498,10 @@
         "name": "hobodave",
         "badge_counts": {
           "bronze": 61,
-          "silver": 40,
+          "silver": 42,
           "gold": 0
         },
-        "badgeCount": 141
+        "badgeCount": 145
       },
       {
         "profileImage": "https://www.gravatar.com/avatar/caaaf05cd3770dd82548cf3ada462bf9?s=128&d=identicon&r=PG",
@@ -18756,10 +18509,10 @@
         "name": "EndangeredMassa",
         "badge_counts": {
           "bronze": 56,
-          "silver": 31,
+          "silver": 32,
           "gold": 4
         },
-        "badgeCount": 134
+        "badgeCount": 136
       },
       {
         "profileImage": "https://www.gravatar.com/avatar/008380b8eab5df4a15de69741d59a825?s=128&d=identicon&r=PG",
@@ -18828,17 +18581,6 @@
         "badgeCount": 31
       },
       {
-        "profileImage": "https://www.gravatar.com/avatar/f4436108804c24970f09f69b43d30136?s=128&d=identicon&r=PG",
-        "userId": 18744,
-        "name": "GKelly",
-        "badge_counts": {
-          "bronze": 30,
-          "silver": 11,
-          "gold": 1
-        },
-        "badgeCount": 56
-      },
-      {
         "profileImage": "https://www.gravatar.com/avatar/0a8cb1216c18f8c6f4c0e8aee4e4dc0f?s=128&d=identicon&r=PG",
         "userId": 694086,
         "name": "Felipe Brahm",
@@ -18894,6 +18636,17 @@
         "badgeCount": 6
       },
       {
+        "profileImage": "https://www.gravatar.com/avatar/72f7007c4f3226af16201f2b9249508a?s=128&d=identicon&r=PG",
+        "userId": 1078605,
+        "name": "malloc47",
+        "badge_counts": {
+          "bronze": 3,
+          "silver": 0,
+          "gold": 0
+        },
+        "badgeCount": 3
+      },
+      {
         "profileImage": "https://www.gravatar.com/avatar/6a611623fed9edb3b95a002e873ee4b3?s=128&d=identicon&r=PG",
         "userId": 1766382,
         "name": "Daniel",
@@ -18905,23 +18658,23 @@
         "badgeCount": 10
       },
       {
-        "profileImage": "https://www.gravatar.com/avatar/bbc9cfdcd4029e43a3bd9be98eea6469?s=128&d=identicon&r=PG",
-        "userId": 239790,
-        "name": "reacuna",
-        "badge_counts": {
-          "bronze": 6,
-          "silver": 1,
-          "gold": 0
-        },
-        "badgeCount": 8
-      },
-      {
         "profileImage": "https://www.gravatar.com/avatar/55d5c4d817dd59b15708a0a831fd10ce?s=128&d=identicon&r=PG",
         "userId": 1053067,
         "name": "p1nox",
         "badge_counts": {
           "bronze": 8,
           "silver": 0,
+          "gold": 0
+        },
+        "badgeCount": 8
+      },
+      {
+        "profileImage": "https://www.gravatar.com/avatar/bbc9cfdcd4029e43a3bd9be98eea6469?s=128&d=identicon&r=PG",
+        "userId": 239790,
+        "name": "reacuna",
+        "badge_counts": {
+          "bronze": 6,
+          "silver": 1,
           "gold": 0
         },
         "badgeCount": 8
@@ -19026,6 +18779,17 @@
         "badgeCount": 7
       },
       {
+        "profileImage": "https://www.gravatar.com/avatar/4b2b432b4135da4cb0cc3c4eb1e08ba0?s=128&d=identicon&r=PG",
+        "userId": 1863414,
+        "name": "Karthik Paul",
+        "badge_counts": {
+          "bronze": 3,
+          "silver": 0,
+          "gold": 0
+        },
+        "badgeCount": 3
+      },
+      {
         "profileImage": "https://www.gravatar.com/avatar/bec3e044acfbcf10b1ce44af33ca2424?s=128&d=identicon&r=PG",
         "userId": 360999,
         "name": "terronk",
@@ -19059,6 +18823,17 @@
         "badgeCount": 1
       },
       {
+        "profileImage": "https://www.gravatar.com/avatar/8644d60164617640fd8b4ed1e3bf6ed9?s=128&d=identicon&r=PG",
+        "userId": 1822270,
+        "name": "Francisco Rojas",
+        "badge_counts": {
+          "bronze": 1,
+          "silver": 0,
+          "gold": 0
+        },
+        "badgeCount": 1
+      },
+      {
         "profileImage": "https://www.gravatar.com/avatar/1d97958bf7c1bf35956ab225f5f4827a?s=128&d=identicon&r=PG",
         "userId": 244397,
         "name": "Trevor Mack",
@@ -19084,6 +18859,17 @@
         "profileImage": "https://www.gravatar.com/avatar/66059d4f17b6b7a6888d62caa736a663?s=128&d=identicon&r=PG",
         "userId": 877429,
         "name": "cchacin",
+        "badge_counts": {
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0
+        },
+        "badgeCount": 0
+      },
+      {
+        "profileImage": "https://www.gravatar.com/avatar/5ffb83ed73fdf466a0ee032431c24b9e?s=128&d=identicon&r=PG",
+        "userId": 1102503,
+        "name": "user1102503",
         "badge_counts": {
           "bronze": 0,
           "silver": 0,
@@ -19128,6 +18914,17 @@
         "profileImage": "https://www.gravatar.com/avatar/e80cfdbdd0fbb0550d3adad8d580ef87?s=128&d=identicon&r=PG",
         "userId": 2065787,
         "name": "Peter Bergstrom",
+        "badge_counts": {
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0
+        },
+        "badgeCount": 0
+      },
+      {
+        "profileImage": "https://www.gravatar.com/avatar/4acafdb76133484efe5884b7da56e23b?s=128&d=identicon&r=PG",
+        "userId": 2517798,
+        "name": "Michael Hines",
         "badge_counts": {
           "bronze": 0,
           "silver": 0,
