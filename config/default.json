@@ -2,7 +2,7 @@
   "organization": {
     "name": "Groupon"
   },
-  "github_token": "",
+  "github_token": "9ab64ffe2f5675a6f81331c99ca9ed403104aca7",
   "stack_overflow": {
     // These are filters specific to Groupon. You can use them for
     // testing but ideally you will need to update them to fit your

@@ -72,25 +72,31 @@ async.parallel(tasks, function(error, results){
 
   var data = fs.read('data/data.json');
 
-  if (results.osrc.connected_users.length > 0)
-    data.connected_users = results.osrc.connected_users;
-  if (results.osrc.similar_users.length > 0)
-    data.similar_users = results.osrc.similar_users;
-  if (results.osrc.repositories.length > 0)
-    data.repositories = results.osrc.repositories;
-  if (results.osrc.members.length > 0)
-    data.members = results.osrc.members;
+  if (results.osrc) {
+    if (results.osrc.connected_users.length > 0)
+      data.connected_users = results.osrc.connected_users;
+    if (results.osrc.similar_users.length > 0)
+      data.similar_users = results.osrc.similar_users;
+    if (results.osrc.repositories.length > 0)
+      data.repositories = results.osrc.repositories;
+    if (results.osrc.members.length > 0)
+      data.members = results.osrc.members;
 
-  data.usage = results.osrc.usage;
-  data.username = results.osrc.username;
-  data.avatar_url = results.osrc.avatar_url;
+    data.usage = results.osrc.usage;
+    data.username = results.osrc.username;
+    data.avatar_url = results.osrc.avatar_url;
+  }
 
-  data.answers = results.stackExchange.answers;
+  if (results.stackExchange) {
+    data.answers = results.stackExchange.answers;
 
-  if (results.stackExchange.badges.profiles.length > 0)
-    data.badges = results.stackExchange.badges;
-  if (results.lanyrd.length > 0)
+    if (results.stackExchange.badges.profiles.length > 0)
+      data.badges = results.stackExchange.badges;
+  }
+
+  if (results.lanyrd) {
     data.talks = results.lanyrd;
+  }
 
   pollGithub(data, function(error, data){
     if (error) throw error;

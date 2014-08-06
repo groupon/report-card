@@ -3991,7 +3991,7 @@
       "activeUsers": [
         "ageitgey"
       ],
-      "stargazersCount": 685
+      "stargazersCount": 694
     },
     {
       "count": 9,
@@ -4089,7 +4089,7 @@
         "suryagaddipati",
         "vvitayau"
       ],
-      "stargazersCount": 237
+      "stargazersCount": 239
     },
     {
       "count": 8,
@@ -4182,7 +4182,7 @@
       "activeUsers": [
         "deanmarano"
       ],
-      "stargazersCount": 1
+      "stargazersCount": 3
     },
     {
       "count": 12,
@@ -4214,7 +4214,7 @@
       "activeUsers": [
         "dimacus"
       ],
-      "stargazersCount": 384
+      "stargazersCount": 388
     },
     {
       "count": 25,
@@ -4230,7 +4230,7 @@
       "activeUsers": [
         "dimacus"
       ],
-      "stargazersCount": 608
+      "stargazersCount": 611
     },
     {
       "count": 7,
@@ -4319,7 +4319,7 @@
       "activeUsers": [
         "emmby"
       ],
-      "stargazersCount": 2022
+      "stargazersCount": 2040
     },
     {
       "count": 159,
@@ -4390,7 +4390,7 @@
       "activeUsers": [
         "EndangeredMassa"
       ],
-      "stargazersCount": 869
+      "stargazersCount": 904
     },
     {
       "count": 7,
@@ -4414,7 +4414,7 @@
       "activeUsers": [
         "gfredericks"
       ],
-      "stargazersCount": 3348
+      "stargazersCount": 3355
     },
     {
       "count": 11,
@@ -4422,7 +4422,7 @@
       "activeUsers": [
         "gfredericks"
       ],
-      "stargazersCount": 301
+      "stargazersCount": 307
     },
     {
       "count": 10,
@@ -4470,7 +4470,7 @@
       "activeUsers": [
         "hgschmie"
       ],
-      "stargazersCount": 2490
+      "stargazersCount": 2500
     },
     {
       "count": 11,
@@ -4566,7 +4566,7 @@
       "activeUsers": [
         "jkrems"
       ],
-      "stargazersCount": 74
+      "stargazersCount": 75
     },
     {
       "count": 61,
@@ -4668,7 +4668,7 @@
       "activeUsers": [
         "renatomoya"
       ],
-      "stargazersCount": 1418
+      "stargazersCount": 1425
     },
     {
       "count": 996,
@@ -4731,7 +4731,7 @@
       "activeUsers": [
         "suryagaddipati"
       ],
-      "stargazersCount": 27
+      "stargazersCount": 26
     },
     {
       "count": 25,
@@ -4771,7 +4771,7 @@
       "activeUsers": [
         "tisho"
       ],
-      "stargazersCount": 647
+      "stargazersCount": 649
     },
     {
       "count": 44,
@@ -4779,7 +4779,7 @@
       "activeUsers": [
         "tisho"
       ],
-      "stargazersCount": 107
+      "stargazersCount": 113
     },
     {
       "count": 15,
@@ -4795,7 +4795,7 @@
       "activeUsers": [
         "tisho"
       ],
-      "stargazersCount": 1990
+      "stargazersCount": 2003
     },
     {
       "count": 9,
@@ -4811,7 +4811,7 @@
       "activeUsers": [
         "trek"
       ],
-      "stargazersCount": 10890
+      "stargazersCount": 10928
     },
     {
       "count": 279,
@@ -4835,7 +4835,7 @@
       "activeUsers": [
         "trek"
       ],
-      "stargazersCount": 147
+      "stargazersCount": 156
     },
     {
       "count": 101,
@@ -19160,13 +19160,18 @@
     ]
   },
   "talks": {
-    "abedra": "30",
+    "abedra": "31",
     "banterability": "",
+    "cchacin": "",
+    "deanmarano": "",
     "dennyabraham": "",
-    "docondev": "11",
+    "docondev": "23",
     "dustyburwell": "5",
-    "endangeredmassa": "1",
+    "endangeredmassa": "11",
+    "frojasg": "",
+    "jesstelford": "",
     "malloc47": "2",
+    "shinjikuwayama": "1",
     "trek": "6",
     "tundal45": "3",
     "twebb": "",
