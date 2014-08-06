@@ -55,7 +55,7 @@ that you can provide.
 
 ## Tasks
 
-### User Mapping
+#### User Mapping
 
 In order to collect data about
 the members of an organization,
@@ -67,7 +67,7 @@ following example:
 $ node tasks/generate-user-mapping
 ```
 
-### Retrieve users from Github
+#### Retrieve users from Github
 
 You can pull the members of an organization
 straight from Github to make user population
@@ -86,7 +86,7 @@ so that the render task can complete properly.
 $ node tasks/aggregate
 ```
 
-### Rendering the html
+#### Rendering the html
 
 Finally, in order to render the html,
 you can use the render task:
