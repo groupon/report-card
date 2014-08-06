@@ -49,14 +49,14 @@
 
         <ul class="large-block-grid-4 heavy-hitter-by-language">
           {{#each usage.topLanguages}}
-            <li>
-              <div class="heavy-hitter">
-                <i class="fa fa-star-o"></i>
-                <div class="language-to-person">
-                  {{language}}
-                </div>
-                <div class="members">
-                  {{#each who}}
+            {{#each who}}
+              <li>
+                <div class="heavy-hitter">
+                  <i class="fa fa-star-o"></i>
+                  <div class="language-to-person">
+                    {{../language}}
+                  </div>
+                  <div class="members">
                     <div class="avatar">
                       <img src="{{avatar username 80}}" height="80" width="80">
                     </div>
@@ -65,14 +65,14 @@
                         {{username}}
                       </a>
                     </div>
-                  {{/each}}
+                  </div>
+                  <div class="language-percentage">
+                    Top <strong>{{percent}}%</strong> of active developers
+                  <div>
+                  </div>
                 </div>
-                <div class="language-percentage">
-                  Top <strong>{{ceilingPercent who}}%</strong> of active developers
-                <div>
-                </div>
-              </div>
-            </li>
+              </li>
+            {{/each}}
           {{/each}}
         </ul>
 
@@ -206,7 +206,7 @@
             <div>
               <a href="http://stackoverflow.com/users/{{userId}}">
                 <img src="{{profileImage}}" height="45" width="45">
-                {{organization}}
+                {{name}}
               </a>
               <span class="badge1"></span><span class="badgecount">{{badge_counts.gold}}</span>
               <span class="badge2"></span><span class="badgecount">{{badge_counts.silver}}</span>

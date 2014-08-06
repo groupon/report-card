@@ -34,7 +34,7 @@ var Handlebars = require('handlebars');
 var fs = require('fs');
 var config = require('config');
 function helper(name){
- return require('./render/helpers/'+ name);
+  return require('./render/helpers/'+ name);
 }
 
 
@@ -43,7 +43,6 @@ var repoTemplate = fs.readFileSync(__dirname + '/../templates/github-repo-card.h
 Handlebars.registerPartial('github-repo-card', repoTemplate);
 Handlebars.registerHelper('languagesToSentence', helper('language-to-sentence'));
 Handlebars.registerHelper('avatar', helper('avatar'));
-Handlebars.registerHelper('ceilingPercent', helper('ceiling-percent'));
 Handlebars.registerHelper('inflectCountable', helper('inflect-countable'));
 Handlebars.registerHelper('sumProperty', helper('sum-property'));
 Handlebars.registerHelper('languageToPerson', helper('language-to-person'));
@@ -65,7 +64,7 @@ var EVENT_TYPE_TO_ACTION_PHRASE = {
 var data = JSON.parse(fs.readFileSync(__dirname + '/../data/data.json').toString());
 
 function rsortBy(properyName){
-  return  function(a,b){
+  return function(a,b){
     if (a[properyName] > b[properyName])
       return -1;
     if (a[properyName] < b[properyName])

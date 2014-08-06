@@ -33,7 +33,6 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 var _ = require('underscore');
 
 /*
-  For a single object in usersData see ./data/stub/*.json
   usersData would be array of those [trekObj, seanObj];
 */
 module.exports = {
@@ -46,6 +45,9 @@ module.exports = {
         var userLanguages = userData.usage.languages;
 
         _.each(userLanguages, function(userLanguage){
+          if(userLanguage.language === 'CSS') {
+            return;
+          }
 
           var userLanguageDatum = {
             username: userData.username,
@@ -74,7 +76,7 @@ module.exports = {
             topLanguages[userLanguage.language].count += userLanguage.count;
             topLanguages[userLanguage.language].who.push(userLanguageDatum);
           }
-	});
+        });
       }
     });
 
