@@ -15,14 +15,11 @@ describe('aggregate:lanyrd', function(){
 
     var context = this;
     getSpeakerCounts(['tundal45'], function(error, data){
-      context.error = error;
+      assert.falsey(error);
+
       context.data = data;
       done()
     })
-  });
-
-  it('does not error', function(){
-    assert.falsey(this.error);
   });
 
   it('grabs speaker count', function(){

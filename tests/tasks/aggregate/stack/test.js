@@ -41,8 +41,9 @@ xdescribe('aggregate:stack', function(){
 
     var context = this;
     fetch([106], function(error, data){
+      assert.falsey(error);
+
       data = data || {};
-      context.error = error;
       context.answers = data.answers;
       context.badges = data.badges;
       done()
@@ -50,7 +51,8 @@ xdescribe('aggregate:stack', function(){
   });
 
   it('works', function(){
-    assert.falsey(this.error);
+    assert.truthy(this.answers);
+    assert.truthy(this.badges);
   });
 });
 

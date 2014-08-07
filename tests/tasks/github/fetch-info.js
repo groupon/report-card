@@ -7,16 +7,19 @@ nock.disableNetConnect();
 describe('github fetch', function(){
   beforeEach(function(done){
     nock('https://api.github.com')
-      .get('/orgs/Groupon')
+      .filteringPath(/access_token=[^&]*/g, 'access_token=XXX')
+      .get('/orgs/Groupon?access_token=XXX')
       .reply(200, require('../../../data/stub/org-info.json'));
 
     nock('https://api.github.com')
-      .get('/orgs/Groupon/members?page=1&per_page=300')
+      .filteringPath(/access_token=[^&]*/g, 'access_token=XXX')
+      .get('/orgs/Groupon/members?page=1&per_page=300&access_token=XXX')
       .reply(200, require('../../../data/stub/org-members.json'));
 
     var context = this;
     fetch(function(error, data){
-      context.error = error;
+      assert.falsey(error);
+
       context.data = data;
       done()
     })

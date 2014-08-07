@@ -5,7 +5,7 @@ var nock = require('nock');
 nock.disableNetConnect();
 
 describe('aggregate:osrc', function(){
-  beforeEach(function(done){
+  before(function(done){
     nock('http://osrc.dfm.io')
       .get('/endangeredmassa.json')
       .reply(200, require('./fixture.json'));
@@ -23,14 +23,11 @@ describe('aggregate:osrc', function(){
 
     var context = this;
     fetch(github, ['endangeredmassa'], function(error, data){
-      context.error = error;
+      assert.falsey(error);
+
       context.data = data;
       done()
     })
-  });
-
-  it('works', function(){
-    assert.falsey(this.error);
   });
 
   describe('pulls osrc data', function(){
