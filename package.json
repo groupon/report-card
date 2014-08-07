@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": "true",
   "description": "Generate a report of an organization's open source efforts",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
   "scripts": {
     "start": "node tasks/github.js && node tasks/aggregate && node tasks/render.js && node server.js",
     "test": "mocha --recursive tests"
@@ -29,6 +29,6 @@
   "devDependencies": {
     "mocha": "^1.20.1",
     "assertive": "^1.4.0",
-    "nock": "~0.43.0"
+    "nock": "~0.44.0"
   }
 }
