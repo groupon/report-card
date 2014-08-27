@@ -5,7 +5,7 @@
   "description": "Generate a report of an organization's open source efforts",
   "license": "BSD-3-Clause",
   "scripts": {
-    "start": "node tasks/github.js && node tasks/aggregate && node tasks/render.js && node server.js",
+    "start": "node server.js",
     "test": "mocha --recursive tests"
   },
   "repository": {

@@ -114,8 +114,6 @@ module.exports = {
           .text(function(d) { return d.data.language + " (" + d.data.count + ")"; });
   },
   activity: function(parentEl, events) {
-    debugger;
-
     var width = 500,
         height = 300,
         radius = Math.min(width, height) / 2;

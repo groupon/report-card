@@ -1,12 +1,9 @@
 {
   "organization": {
-    "name": "Groupon"
+    "name": ""
   },
-  "github_token": "9ab64ffe2f5675a6f81331c99ca9ed403104aca7",
+  "github_token": "",
   "stack_overflow": {
-    // configure your filters using the api site
-    // and copy them here:
-    // http://api.stackexchange.com/docs/answers-on-users
     "answers_filter": "!bJDus)chijNCh3",
     "badges_filter": "!Ln3laVm*nneRQDAXXp0nfS"
   }

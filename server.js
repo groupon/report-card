@@ -35,11 +35,7 @@ var argv = require('minimist')(process.argv.slice(2));
 
 var port = function() {
   var fromCli = argv["_"][0];
-  if (fromCli < 1024 || fromCli == undefined) {
-    return 8080;
-  } else {
-    return fromCli;
-  }
+  return fromCli || 8080;
 }
 
 var file = new static.Server('./public');

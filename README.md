@@ -52,6 +52,9 @@ that you can provide.
 }
 ```
 
+You will also want to add a banner image
+at `public/img/banner.jpg`.
+
 
 ## Tasks
 
@@ -62,6 +65,17 @@ the members of an organization,
 the user mapping needs to be generated.
 This can be done using the
 following example:
+
+Set up a tab-delimited CSV
+in the following format:
+
+```
+Interal Username	Public Github	Stack Overflow ID	Twitter	Lanyrd	Speaker Deck
+```
+
+This could be a Google Sheet.
+Copy this data to `./data/stub/user-map-raw.csv`.
+Then run:
 
 ```
 $ node tasks/generate-user-mapping

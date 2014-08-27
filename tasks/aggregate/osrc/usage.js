@@ -71,7 +71,7 @@ module.exports = {
             addArrays(foundEvent.day, event.day);
             addArrays(foundEvent.week, event.week);
           }
-	});
+        });
       }
     });
 
